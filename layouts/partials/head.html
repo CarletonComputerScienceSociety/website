@@ -1,0 +1,11 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
+    {{- $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+    <link rel = 'stylesheet' href = '{{ $styles.Permalink }}' crossorigin="anonymous" integrity = '{{ $styles.Data.Integrity }}'>
+    <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>
