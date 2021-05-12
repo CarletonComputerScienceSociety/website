@@ -1,0 +1,63 @@
+- title: About
+  url: /about
+  sublinks:
+    - title: The Team
+      url: about/team/
+      image: images/orientation2018-min.jpeg
+    - title: Annoucements
+      url: about/annoucements/
+      image: images/orientation2018-min.jpeg
+    - title: Governance
+      url: about/governance/
+      image: images/orientation2018-min.jpeg
+    - title: Community
+      url: about/community/
+      image: images/orientation2018-min.jpeg
+
+- title: Events
+  url: /events
+  sublinks:
+    - title: Upcoming
+      url: events/upcoming/
+      image: images/orientation2018-min.jpeg
+    - title: Past
+      url: events/past/
+      image: images/orientation2018-min.jpeg
+    - title: Week of Awesome
+      url: events/weekofawesome/
+      image: images/orientation2018-min.jpeg
+    - title: Dev Club
+      url: about/devclub/
+      image: images/orientation2018-min.jpeg
+
+- title: Services
+  url: /services
+  sublinks:
+    - title: Lounge
+      url: services/lounge/
+      image: images/orientation2018-min.jpeg
+    - title: DiscreteMath.ca
+      url: discretemath.ca
+      image: images/orientation2018-min.jpeg
+    - title: Resources
+      url: services/resources
+      image: /images/orientation2018-min.jpeg
+    - title: TBD
+      url: services/tbd
+      image: images/orientation2018-min.jpeg
+
+- title: Blog
+  url: /blog
+  sublinks:
+    - title: Student Experience
+      url: blog/studentexperience/
+      image: images/orientation2018-min.jpeg
+    - title: Incoming Students
+      url: blog/incomingstudents/
+      image: images/orientation2018-min.jpeg
+    - title: The Society
+      url: blog/society
+      image: images/orientation2018-min.jpeg
+    - title: Development
+      url: blog/development
+      image: images/orientation2018-min.jpeg
