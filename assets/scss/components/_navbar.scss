@@ -131,10 +131,6 @@ li {
 }
 
 @for $i from 1 through 4{
-    #item#{i}{
-      display: inline;
-    }
-
     #item#{$i}:hover ~ {
     #actual_content#{$i} {
       z-index: 3 !important;
