@@ -1,3 +1,6 @@
+// Corresponds to the number of elements in /data/routes
+$navItemsLength: 4;
+
 .nav {
   color: white;
   position: fixed;
@@ -130,7 +133,7 @@ li {
   z-index: 2;
 }
 
-@for $i from 1 through 4{
+@for $i from 1 through $navItemsLength{
     #item#{$i}:hover ~ {
     #actual_content#{$i} {
       z-index: 3 !important;
@@ -174,8 +177,8 @@ li {
 }
 
 .right_image{
-  background-repeat: no-repeat; 
-  background-position: 50%; 
+  background-repeat: no-repeat;
+  background-position: 50%;
   background-size: cover;
 }
 
