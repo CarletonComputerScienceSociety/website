@@ -1,46 +1,177 @@
 .nav {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    transition: height 0.4s cubic-bezier(0.52, 0.16, 0.24, 1);
-    z-index: 999;
-    background: var(--dark);
-    border-bottom: 2px solid #C40729;
-    &-body {
-      box-shadow: 0 1.5rem 6rem rgba(0,0,0,0.17);
-      position: fixed;
-      right: 10px;
-      z-index: 1;
-      top: 100%;
-      opacity: 0;
-      overflow: hidden;
-      transition: top 0.33s linear;
-      background: transparent;
-      background-color: var(accent);
-      width: 16rem;
-      padding: 100px 0;
-      min-height: 100vh;
-      z-index: 1;
-    }
-    &-menu {
-        position: relative;
-        padding: 10px 25px 10px 0;
-        height: 100%;
-        max-width: 1024px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        a {
-          color: inherit;
-          display: block;
-          padding: 10px 25px;
-          font-size: 105%;
-          img {
-            width: 250px;
-            margin: 0rem; 
-            margin-top: -0.25rem;
-          }
-        }
-      }
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: height 0.4s cubic-bezier(0.52, 0.16, 0.24, 1);
+  z-index: 999;
+  background: var(--dark);
+  border-bottom: 2px solid #c40729;
+  &-body {
+    box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, 0.17);
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+    top: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: top 0.33s linear;
+    background: transparent;
+    background-color: var(accent);
+    width: 16rem;
+    padding: 100px 0;
+    min-height: 100vh;
+    z-index: 1;
   }
+  &-menu {
+    position: relative;
+    padding: 10px 25px 10px 0;
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      color: inherit;
+      display: block;
+      padding: 10px 25px;
+      font-size: 105%;
+      img {
+        width: 250px;
+        margin: 0rem;
+        margin-top: -0.25rem;
+      }
+    }
+  }
+}
+// ul {
+//   list-style-type: none;
+//   position: fixed;
+//   width: 100%;
+// }
+
+// li {
+//   display: inline-block;
+//   margin-right: 50px;
+// }
+
+.item {
+  display: inline;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.arrow {
+  animation-name: out;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  text-align: center;
+  display: inline-block;
+}
+
+.item:hover .arrow {
+  animation-name: in;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+.arrow:hover {
+  animation-name: in;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes in {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes out {
+  from {
+    transform: rotateX(180deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.spacer {
+  width: 100%;
+  height: 195px;
+}
+
+#item1,
+#item2,
+#item3 {
+  display: inline;
+}
+
+#actual_content1 {
+  color: black;
+  position: fixed;
+  -webkit-transition: all 600ms ease-out;
+  -moz-transition: all 600ms ease-out;
+  -o-transition: all 600ms ease-out;
+  -ms-transition: all 600ms ease-out;
+  transition: all 600ms ease-out;
+  margin-top: 275px;
+  opacity: 0;
+  z-index: 1;
+
+  &:hover {
+    z-index: 3 !important;
+    opacity: 1;
+  }
+
+}
+
+#dormant_content {
+  position: fixed;
+  width: 101%;
+  height: 200px;
+  margin-top: 275px;
+  margin-left: -450px;
+  z-index: 2;
+}
+
+#item1:hover ~ {
+  #actual_content1 {
+    z-index: 3 !important;
+    -webkit-transition: all 400ms ease-in;
+    -moz-transition: all 400ms ease-in;
+    -o-transition: all 400ms ease-in;
+    -ms-transition: all 400ms ease-in;
+    transition: all 400ms ease-in;
+    opacity: 1;
+    display: block;
+  }
+}
+
+.item_block {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  -ms-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  display: inline-block;
+  width: 150px !important;
+  height: 150px !important;
+  margin-right: 50px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 3px #515151;
+  }
+}
