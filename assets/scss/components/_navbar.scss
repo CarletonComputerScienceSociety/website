@@ -104,11 +104,12 @@ li {
 
 #item1,
 #item2,
-#item3 {
+#item3,
+#item4 {
   display: inline;
 }
 
-#actual_content1 {
+.actual_content{
   color: black;
   position: fixed;
   -webkit-transition: all 600ms ease-out;
@@ -117,45 +118,7 @@ li {
   -ms-transition: all 600ms ease-out;
   transition: all 600ms ease-out;
   margin-top: 275px;
-  margin-left: -200px;
-  opacity: 0;
-  z-index: 1;
-
-  &:hover {
-    z-index: 3 !important;
-    opacity: 1;
-  }
-}
-
-#actual_content2 {
-  color: black;
-  position: fixed;
-  -webkit-transition: all 600ms ease-out;
-  -moz-transition: all 600ms ease-out;
-  -o-transition: all 600ms ease-out;
-  -ms-transition: all 600ms ease-out;
-  transition: all 600ms ease-out;
-  margin-top: 275px;
-  margin-left: -200px;
-  opacity: 0;
-  z-index: 1;
-
-  &:hover {
-    z-index: 3 !important;
-    opacity: 1;
-  }
-}
-
-#actual_content3 {
-  color: black;
-  position: fixed;
-  -webkit-transition: all 600ms ease-out;
-  -moz-transition: all 600ms ease-out;
-  -o-transition: all 600ms ease-out;
-  -ms-transition: all 600ms ease-out;
-  transition: all 600ms ease-out;
-  margin-top: 275px;
-  margin-left: -200px;
+  margin-left: -325px;
   opacity: 0;
   z-index: 1;
 
@@ -174,44 +137,25 @@ li {
   z-index: 2;
 }
 
-#item1:hover ~ {
-  #actual_content1 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
+@for $i from 1 through 4{
+    #item#{i}{
+      display: inline;
+    }
+
+    #item#{$i}:hover ~ {
+    #actual_content#{$i} {
+      z-index: 3 !important;
+      -webkit-transition: all 400ms ease-in;
+      -moz-transition: all 400ms ease-in;
+      -o-transition: all 400ms ease-in;
+      -ms-transition: all 400ms ease-in;
+      transition: all 400ms ease-in;
+      opacity: 1;
+      display: block;
+    }
   }
 }
 
-#item2:hover ~ {
-  #actual_content2 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
-  }
-}
-
-#item3:hover ~ {
-  #actual_content3 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
-  }
-}
 
 .item_block {
   -webkit-transition: all 500ms ease-out;
