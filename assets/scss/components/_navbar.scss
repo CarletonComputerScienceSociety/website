@@ -1,3 +1,6 @@
+// Corresponds to the number of elements in /data/routes
+$navItemsLength: 4;
+
 .nav {
   color: white;
   position: fixed;
@@ -102,13 +105,7 @@ li {
   height: 195px;
 }
 
-#item1,
-#item2,
-#item3 {
-  display: inline;
-}
-
-#actual_content1 {
+.actual_content{
   color: black;
   position: fixed;
   -webkit-transition: all 600ms ease-out;
@@ -117,45 +114,7 @@ li {
   -ms-transition: all 600ms ease-out;
   transition: all 600ms ease-out;
   margin-top: 275px;
-  margin-left: -200px;
-  opacity: 0;
-  z-index: 1;
-
-  &:hover {
-    z-index: 3 !important;
-    opacity: 1;
-  }
-}
-
-#actual_content2 {
-  color: black;
-  position: fixed;
-  -webkit-transition: all 600ms ease-out;
-  -moz-transition: all 600ms ease-out;
-  -o-transition: all 600ms ease-out;
-  -ms-transition: all 600ms ease-out;
-  transition: all 600ms ease-out;
-  margin-top: 275px;
-  margin-left: -200px;
-  opacity: 0;
-  z-index: 1;
-
-  &:hover {
-    z-index: 3 !important;
-    opacity: 1;
-  }
-}
-
-#actual_content3 {
-  color: black;
-  position: fixed;
-  -webkit-transition: all 600ms ease-out;
-  -moz-transition: all 600ms ease-out;
-  -o-transition: all 600ms ease-out;
-  -ms-transition: all 600ms ease-out;
-  transition: all 600ms ease-out;
-  margin-top: 275px;
-  margin-left: -200px;
+  margin-left: -325px;
   opacity: 0;
   z-index: 1;
 
@@ -174,44 +133,21 @@ li {
   z-index: 2;
 }
 
-#item1:hover ~ {
-  #actual_content1 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
+@for $i from 1 through $navItemsLength{
+    #item#{$i}:hover ~ {
+    #actual_content#{$i} {
+      z-index: 3 !important;
+      -webkit-transition: all 400ms ease-in;
+      -moz-transition: all 400ms ease-in;
+      -o-transition: all 400ms ease-in;
+      -ms-transition: all 400ms ease-in;
+      transition: all 400ms ease-in;
+      opacity: 1;
+      display: block;
+    }
   }
 }
 
-#item2:hover ~ {
-  #actual_content2 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
-  }
-}
-
-#item3:hover ~ {
-  #actual_content3 {
-    z-index: 3 !important;
-    -webkit-transition: all 400ms ease-in;
-    -moz-transition: all 400ms ease-in;
-    -o-transition: all 400ms ease-in;
-    -ms-transition: all 400ms ease-in;
-    transition: all 400ms ease-in;
-    opacity: 1;
-    display: block;
-  }
-}
 
 .item_block {
   -webkit-transition: all 500ms ease-out;
@@ -220,8 +156,9 @@ li {
   -ms-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
   display: grid;
-  width: 300px !important;
-  height: 150px !important;
+  grid-template-columns: 150px 150px;
+  width: 300px;
+  height: 150px;
   margin-right: 50px;
   border-color: black;
   border-width: 2px;
@@ -233,10 +170,16 @@ li {
   }
 }
 
-.left-item {
+.left_item {
   width: 150px;
   height: 150px;
   border-right: 2px solid black;
+}
+
+.right_image{
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
 //Possible arrow?
