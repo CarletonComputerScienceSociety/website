@@ -14,7 +14,7 @@
                 <li>
                     <div class="item_block">
                         <div class="left_item">{{ .title }}</div>
-                        <div class="right_image" style="background-image: url( {{ .image }} );"></div>
+                        <div class="right_image" style="background-image: url( {{ absURL .image }} );"></div>
                     </div>
                 </li>
             </a>
