@@ -1,5 +1,6 @@
 // Corresponds to the number of elements in /data/routes
 $navItemsLength: 4;
+$navNumOfItemBlocks: 4;
 
 .nav {
   color: white;
@@ -33,6 +34,7 @@ $navItemsLength: 4;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: space-between;
     a {
@@ -48,12 +50,10 @@ $navItemsLength: 4;
     }
   }
 }
-li {
-  display: inline-block !important;
-}
 
 .item {
   display: inline;
+  height: 30px;
   &:hover {
     cursor: pointer;
   }
@@ -63,22 +63,16 @@ li {
   animation-name: out;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
+  user-select: none;
   text-align: center;
   display: inline-block;
 }
 
-.item:hover .arrow {
+.item:hover + .arrow {
   animation-name: in;
-  animation-duration: 500ms;
+  animation-duration: 500ms; 
   animation-fill-mode: forwards;
-}
-
-.arrow:hover {
-  animation-name: in;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-  cursor: pointer;
-}
+} 
 
 @keyframes in {
   from {
@@ -100,86 +94,92 @@ li {
   }
 }
 
-.spacer {
-  width: 100%;
-  height: 195px;
-}
-
 .actual_content{
-  color: black;
+  color: white;
   position: fixed;
-  -webkit-transition: all 600ms ease-out;
-  -moz-transition: all 600ms ease-out;
-  -o-transition: all 600ms ease-out;
-  -ms-transition: all 600ms ease-out;
-  transition: all 600ms ease-out;
-  margin-top: 275px;
-  margin-left: -325px;
+  margin-left: -275px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+  flex-shrink: 2;
+  margin-top: -300px;
   opacity: 0;
   z-index: 1;
 
   &:hover {
     z-index: 3 !important;
     opacity: 1;
+    margin-top: 0px;
   }
 }
 
-#dormant_content {
-  position: fixed;
-  width: 101%;
-  height: 200px;
-  margin-top: 275px;
-  margin-left: -450px;
-  z-index: 2;
-}
+@for $i from 1 through $navNumOfItemBlocks{
+    .item_block#{$i} {
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    width: 300px;
+    height: 1px;
+    margin-right: 50px;
+    border-color: #921c06;
+    border-width: 2px;
+    border-style: solid;
 
-@for $i from 1 through $navItemsLength{
-    #item#{$i}:hover ~ {
-    #actual_content#{$i} {
-      z-index: 3 !important;
-      -webkit-transition: all 400ms ease-in;
-      -moz-transition: all 400ms ease-in;
-      -o-transition: all 400ms ease-in;
-      -ms-transition: all 400ms ease-in;
-      transition: all 400ms ease-in;
-      opacity: 1;
-      display: block;
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0 3px #515151;
     }
   }
 }
 
-
-.item_block {
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -o-transition: all 500ms ease-out;
-  -ms-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-  display: grid;
-  grid-template-columns: 150px 150px;
-  width: 300px;
-  height: 150px;
-  margin-right: 50px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-
-  &:hover {
-    transform: scale(1.01);
-    box-shadow: 0 0 3px #515151;
+@for $i from 1 through $navNumOfItemBlocks{
+    .left_item#{$i} {
+    width: 150px;
+    height: 1px;
+    z-index: 5;
+    border-right: 2px solid #921c06;
   }
 }
 
-.left_item {
-  width: 150px;
-  height: 150px;
-  border-right: 2px solid black;
+@for $i from 1 through $navNumOfItemBlocks{
+    .right_image#{$i}{
+    width: 150px;
+    height: 1px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+  }
 }
 
-.right_image{
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
+
+@keyframes fadein {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout{
+  0%{
+    opacity: 1
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes goUp{
+  0%{
+    margin-top: 0px;
+  }100%{
+    margin-top: -500px;
+  }
 }
 
 //Possible arrow?
