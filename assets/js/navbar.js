@@ -1,17 +1,5 @@
 globalTimeout = null;
 
-/*TODO
-- Before anything starts, make sure that any item boxes are fully collapsed
-- On hover:
-  - set display of accContent from none to flex
-  - change dimensions of item boxes
-  - set opacity to 1
-- On release
-  - set opacity to 0
-  - change dimensions of item boxes
-  - set display to none
-*/
-
 //When hovered over calls this function
 function showContent(container, blocks, lefts, rights){
   // console.log(`Showing content ${container}`)
