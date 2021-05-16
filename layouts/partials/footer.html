@@ -1,0 +1,18 @@
+<div class="footer">Footer</div>
+
+
+<!--JS Bundle-->
+
+{{- $mainScriptPath := "js/index.js" }}
+{{- $main := resources.Get $mainScriptPath | resources.ExecuteAsTemplate $mainScriptPath . }}
+
+{{- $navbarScriptPath := "js/navbar.js" }}
+{{- $navbar := resources.Get $navbarScriptPath | resources.ExecuteAsTemplate $navbarScriptPath . }}
+
+{{- $bundle := slice $main $navbar}}
+{{- if site.Params.Staticman }}
+    {{- $bundle = slice $main $navbar}}
+{{- end }}
+{{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
+
+<script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
