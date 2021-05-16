@@ -1,15 +1,18 @@
 {{ define "main" }}
-    {{- partial "navbar.html" . -}}
+  {{- partial "navbar.html" . -}}
 
-    <!--Header-->
-    {{- if ne .Params.hideBanner true }}
-        <section class = 'post_header' style = 'background-image:url({{ absURL .Params.background }});'></section>
-    {{- end }}
+  <!--Header-->
+  {{- if ne .Params.hideBanner true }}
+    <section
+      class="post_header"
+      style="background-image:url({{ absURL .Params.background }});"
+    ></section>
+  {{- end }}
 
-    <!--Content-->
-    <div class = '{{ if .Params.full }}wrap post{{ else }}post{{ end }}'>
-        <article class='post_content'>
-          {{- .Content }}
-        </article>
-    </div>
+  <!--Content-->
+  <div class="{{ if .Params.full }}wrap post{{ else }}post{{ end }}">
+    <article class="post_content">
+      {{- .Content }}
+    </article>
+  </div>
 {{ end }}
