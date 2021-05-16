@@ -1,5 +1,5 @@
-function fileClosure(){
-    console.log("Hello World")
+function fileClosure() {
+  console.log("Hello World");
 }
 
-window.addEventListener('load', fileClosure());
+window.addEventListener("load", fileClosure());

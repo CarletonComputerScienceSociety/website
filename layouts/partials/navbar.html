@@ -1,28 +1,34 @@
-<header class='nav'>
-    <nav class = 'nav-menu'>
-        <a href='{{ absURL "" }}' class = 'nav-brand nav_item'>
-          <img src="https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png">
-        </a>
-        {{ $index := 1 }}
-        {{ range $.Site.Data.routes }}
-        <div id=item{{$index}} class="item">{{ .title }}
-            <div class="arrow">▲</div>
-        </div>
-        <ul id="actual_content{{$index}}" class="actual_content">
-            {{ range .sublinks }}
-            <a href={{ .url }} style="display: inline; text-decoration: none;">
-                <li>
-                    <div class="item_block">
-                        <div class="left_item">{{ .title }}</div>
-                        <div class="right_image" style="background-image: url( {{ .image }} );"></div>
-                    </div>
-                </li>
-            </a>
-            {{ end }}
-        </ul>
-        {{ $index = add $index 1}}
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="{{ absURL "" }}" class="nav-brand nav_item">
+      <img
+        src="https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png"
+      />
+    </a>
+    {{ $index := 1 }}
+    {{ range $.Site.Data.routes }}
+      <div id="item{{ $index }}" class="item">
+        {{ .title }}
+        <div class="arrow">▲</div>
+      </div>
+      <ul id="actual_content{{ $index }}" class="actual_content">
+        {{ range .sublinks }}
+          <a href="{{ .url }}" style="display: inline; text-decoration: none;">
+            <li>
+              <div class="item_block">
+                <div class="left_item">{{ .title }}</div>
+                <div
+                  class="right_image"
+                  style="background-image: url( {{ .image }} );"
+                ></div>
+              </div>
+            </li>
+          </a>
         {{ end }}
-    
-        <div id="dormant_content"></div>
-    </nav>
+      </ul>
+      {{ $index = add $index 1 }}
+    {{ end }}
+
+    <div id="dormant_content"></div>
+  </nav>
 </header>

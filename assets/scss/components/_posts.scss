@@ -1,31 +1,31 @@
 .post_header {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 40vh;
-    background-color: var(--bg);
-    margin-top: 3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+  background-color: var(--bg);
+  margin-top: 3rem;
 }
 
 .post_header::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background: rgba(10,15,30,0.72);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(10, 15, 30, 0.72);
 }
 
 .post {
-    padding: 1rem 1.5rem;
-    margin-top: 1.5rem;
-    max-width: 45rem;
-    margin: 0 auto;
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+  max-width: 45rem;
+  margin: 0 auto;
 
-    h2 {
-        margin-top: 2rem;
-    }
+  h2 {
+    margin-top: 2rem;
+  }
 }

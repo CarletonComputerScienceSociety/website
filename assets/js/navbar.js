@@ -1,5 +1,5 @@
-function loadNavbar(){
-    console.log("Loaded Navbar")
+function loadNavbar() {
+  console.log("Loaded Navbar");
 }
 
-window.addEventListener('load', loadNavbar());
+window.addEventListener("load", loadNavbar());
