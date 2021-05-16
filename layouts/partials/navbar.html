@@ -7,7 +7,7 @@
         {{ range $.Site.Data.routes }}
         <div>
             <div id=item{{$index}} class="item" onmouseover="resizeContent('actual_content{{$index}}', 'item_block{{$index}}', 'left_item{{$index}}', 'right_image{{$index}}')"
-                    >{{ .title }}
+                    onmouseout="hideContent('actual_content{{$index}}', 'item_block{{$index}}', 'left_item{{$index}}', 'right_image{{$index}}')">{{ .title }}
             </div><div class="arrow">▲</div>  
         </div>
         
@@ -16,7 +16,7 @@
         {{ $index := 1}}
         {{ range $.Site.Data.routes}}
         <div id="actual_content{{$index}}" class="actual_content" onmouseover="keepContent('actual_content{{$index}}', 'item_block{{$index}}', 'left_item{{$index}}', 'right_image{{$index}}')"
-        >
+        onmouseout="hideContent('actual_content{{$index}}', 'item_block{{$index}}', 'left_item{{$index}}', 'right_image{{$index}}')">
         {{ range .sublinks}}
             <a href = {{ .url }} style="text-decoration: none;">
                 <div class="item_block{{$index}}">
