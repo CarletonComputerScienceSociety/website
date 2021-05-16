@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{- partial "navbar.html" . -}}
+
+  <!--Background-->
+  {{- if ne .Params.hideBanner true }}
+    <section
+      class="event_header"
+      style="background-image:url({{ absURL .Params.background }});"
+    ></section>
+    <section
+      class="event_header event_blur"
+      style="background-image:url({{ absURL .Params.background }});"
+    ></section>
+  {{- end }}
+
+  <!--Content-->
+  <div class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}">
+    <div class="event_container">
+      <div
+        class="event_container_poster"
+        style="background-image:url({{ absURL .Params.poster }}); background-size: {{ .Params.poster_cover }}; background-position: {{ .Params.poster_position }}"
+      ></div>
+      <div class="event_container_content">
+        <h2>{{ .Params.title }}</h2>
+        <p>{{ .Params.short_description }}</p>
+        <h4>START TIME</h4>
+        <h3>{{ .Params.start_time }}</h3>
+        <h4>LOCATION</h4>
+        <h3>{{ .Params.location }}</h3>
+      </div>
+    </div>
+    <hr />
+    <p>{{- .Content }}</p>
+  </div>
+{{ end }}
