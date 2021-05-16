@@ -1,18 +1,24 @@
 {{ define "main" }}
-    {{- partial "navbar.html" . -}}
+  {{- partial "navbar.html" . -}}
 
-    <!--Header-->
-    {{- if ne .Params.hideBanner true }}
-        <section class = 'overlaypost_header' style = 'background-image:url({{ absURL .Params.background }});'></section>
-        <section class = 'overlaypost_header overlaypost_blur' style = 'background-image:url({{ absURL .Params.background }});'></section>
-    {{- end }}
+  <!--Header-->
+  {{- if ne .Params.hideBanner true }}
+    <section
+      class="overlaypost_header"
+      style="background-image:url({{ absURL .Params.background }});"
+    ></section>
+    <section
+      class="overlaypost_header overlaypost_blur"
+      style="background-image:url({{ absURL .Params.background }});"
+    ></section>
+  {{- end }}
 
-    <!--Content-->
-    <div class = '{{ if .Params.full }}wrap post{{ else }}overlaypost{{ end }}'>
-        <article class='overlaypost_content'>
-          <!--Temp-->
-          <h1 style="font-size: 3rem">{{- .Params.title }}</h1>
-          {{- .Content }}
-        </article>
-    </div>
+  <!--Content-->
+  <div class="{{ if .Params.full }}wrap post{{ else }}overlaypost{{ end }}">
+    <article class="overlaypost_content">
+      <!--Temp-->
+      <h1 style="font-size: 3rem">{{- .Params.title }}</h1>
+      {{- .Content }}
+    </article>
+  </div>
 {{ end }}

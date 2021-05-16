@@ -34,7 +34,7 @@ $navNumOfItemBlocks: 4;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     a {
@@ -70,9 +70,9 @@ $navNumOfItemBlocks: 4;
 
 .item:hover + .arrow {
   animation-name: in;
-  animation-duration: 500ms; 
+  animation-duration: 500ms;
   animation-fill-mode: forwards;
-} 
+}
 
 @keyframes in {
   from {
@@ -94,7 +94,7 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-.actual_content{
+.actual_content {
   color: white;
   position: fixed;
   margin-left: -275px;
@@ -113,8 +113,8 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@for $i from 1 through $navNumOfItemBlocks{
-    .item_block#{$i} {
+@for $i from 1 through $navNumOfItemBlocks {
+  .item_block#{$i} {
     -webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
@@ -136,8 +136,8 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@for $i from 1 through $navNumOfItemBlocks{
-    .left_item#{$i} {
+@for $i from 1 through $navNumOfItemBlocks {
+  .left_item#{$i} {
     width: 150px;
     height: 1px;
     z-index: 5;
@@ -145,8 +145,8 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@for $i from 1 through $navNumOfItemBlocks{
-    .right_image#{$i}{
+@for $i from 1 through $navNumOfItemBlocks {
+  .right_image#{$i} {
     width: 150px;
     height: 1px;
     background-repeat: no-repeat;
@@ -155,29 +155,29 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-
 @keyframes fadein {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
 
-@keyframes fadeout{
-  0%{
-    opacity: 1
+@keyframes fadeout {
+  0% {
+    opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
 
-@keyframes goUp{
-  0%{
+@keyframes goUp {
+  0% {
     margin-top: 0px;
-  }100%{
+  }
+  100% {
     margin-top: -500px;
   }
 }
