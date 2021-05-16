@@ -1,0 +1,24 @@
+{
+  "name": "ccss-website",
+  "version": "1.0.0",
+  "description": "```bash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '{layouts,assets}/**/*.{css,html,js}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarletonComputerScienceSociety/ccss-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarletonComputerScienceSociety/ccss-website/issues"
+  },
+  "homepage": "https://github.com/CarletonComputerScienceSociety/ccss-website#readme",
+  "devDependencies": {
+    "prettier": "2.1.1",
+    "prettier-plugin-go-template": "0.0.10"
+  }
+}
