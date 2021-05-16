@@ -53,7 +53,9 @@ function shrinkContent(container, blocks, lefts, rights) {
   accContent.style.position = "fixed";
 }
 
-function keepContent(container) {
+function keepContent(container, blocks) {
   clearTimeout(globalTimeout);
   document.getElementById(container).style.animationPlayState = "paused";
+  document.getElementById(container).style.animation = "none";
+  document.getElementById(container).style.opacity = "1";
 }
