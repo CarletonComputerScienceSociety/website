@@ -1,7 +1,26 @@
 ---
-title: "Event"
+title: "Blockchain + Crypto Q&A Session"
 date: 2020-01-25T23:11:13Z
 draft: false
 url : "/events/test"
+layout: event
+poster: "images/poster2.jpeg"
+poster_cover: "contain"
+poster_position: "center"
+short_description: "A short talk followed by Q&A on what it means to be a Senior Engineer and what you can do now to prepare."
+start_time: "7:00 - 8:00 PM EST"
+location: "Loeb Building"
+background: "images/orientation2018-min.jpeg"
 ---
-Event
+
+## Description
+
+Many of you expressed interest in having Jeremy back, and we're happy to announce that next Wednesday we will be having him hold a dedicated Q&A session all about blockchain!
+
+## Schedule
+
+Many of you expressed interest in having Jeremy back, and we're happy to announce that next Wednesday we will be having him hold a dedicated Q&A session all about blockchain!
+
+## Resources
+
+Many of you expressed interest in having Jeremy back, and we're happy to announce that next Wednesday we will be having him hold a dedicated Q&A session all about blockchain!

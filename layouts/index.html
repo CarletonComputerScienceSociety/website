@@ -2,4 +2,11 @@
   {{- partial "navbar.html" . -}}
   <h1>Site</h1>
   {{ .Content }}
+  <div style="margin-top: 12rem"></div>
+  <h3>Events:</h3>
+  {{ range (where .Site.RegularPages "Section" "events") }}
+    <a class="title" href="{{ .RelPermalink }}"
+      >{{- partial "event_card.html" . -}}</a
+    >
+  {{ end }}
 {{ end }}
