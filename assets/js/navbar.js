@@ -17,9 +17,9 @@ function resizeContent(container, blocks, lefts, rights) {
   block = document.getElementsByClassName(blocks);
   accContent = document.getElementById(container);
   for (var i = 0; i < block.length; i++) {
-    block[i].style.height = "150px";
-    left[i].style.height = "150px";
-    right[i].style.height = "150px";
+    block[i].style.height = "10rem";
+    left[i].style.height = "10rem";
+    right[i].style.height = "10rem";
   }
   accContent.style.marginTop = "-10px";
   accContent.style.position = "relative";

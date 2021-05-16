@@ -37,10 +37,37 @@ $navNumOfItemBlocks: 4;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
+    &-items {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 33vw;
+      }
+    }
+
+    &-item {
+      height: 100%;
+    }
+
+    &-dropdowns {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     a {
       color: inherit;
       display: block;
       padding: 10px 25px;
+      padding-right: 0;
       font-size: 105%;
       img {
         width: 250px;
@@ -97,14 +124,16 @@ $navNumOfItemBlocks: 4;
 .actual_content {
   color: white;
   position: fixed;
-  margin-left: -275px;
   display: flex;
-  flex-wrap: nowrap;
-  flex-basis: auto;
-  flex-shrink: 2;
-  margin-top: -300px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5rem;
   opacity: 0;
   z-index: 1;
+
+  a {
+    margin-top: 0.7rem;
+  }
 
   &:hover {
     z-index: 3 !important;
@@ -121,10 +150,9 @@ $navNumOfItemBlocks: 4;
     -ms-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
     display: grid;
-    grid-template-columns: 150px 150px;
-    width: 300px;
+    grid-template-columns: 1fr 1fr;
+    min-width: 15vw;
     height: 1px;
-    margin-right: 50px;
     border-color: #921c06;
     border-width: 2px;
     border-style: solid;
@@ -138,7 +166,6 @@ $navNumOfItemBlocks: 4;
 
 @for $i from 1 through $navNumOfItemBlocks {
   .left_item#{$i} {
-    width: 150px;
     height: 1px;
     z-index: 5;
     border-right: 2px solid #921c06;
@@ -147,7 +174,6 @@ $navNumOfItemBlocks: 4;
 
 @for $i from 1 through $navNumOfItemBlocks {
   .right_image#{$i} {
-    width: 150px;
     height: 1px;
     background-repeat: no-repeat;
     background-position: 50%;
