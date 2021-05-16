@@ -1,0 +1,8 @@
+.faq {
+  min-height: 60vh;
+  max-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: $page-width;
+}
