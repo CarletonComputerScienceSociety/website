@@ -1,12 +1,76 @@
 {{ define "main" }}
   {{- partial "navbar.html" . -}}
-  <h1>Site</h1>
-  {{ .Content }}
-  <div style="margin-top: 12rem"></div>
-  <h3>Events:</h3>
-  {{ range (where .Site.RegularPages "Section" "events") }}
-    <a class="title" href="{{ .RelPermalink }}"
-      >{{- partial "event_card.html" . -}}</a
-    >
-  {{ end }}
+  {{- partial "header.html" . -}}
+  <div class="home-section-grid home-section-light">
+    <div class="home-events">
+      {{ range (where .Site.RegularPages "Section" "events") }}
+        <a class="title" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+  </div>
+  <div class="home-section-grid home-section-dark">
+    <div class="home-section">
+      <div class="home-section-text">
+        <h1>About Us</h1>
+        <p>
+          The Carleton Computer Science Society is an academic society that
+          represents undergraduate computer science students at Carleton
+          University.
+        </p>
+        <a href="{{ absURL "" }}/about"
+          >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+        >
+      </div>
+      <div class="home-section-content">
+        <img
+          class="home-section-content-image"
+          src="http://localhost:1313/images/orientation2018-min.jpeg"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="home-section-grid home-section-light">
+    <div class="home-section">
+      <div class="home-section-content">
+        <img
+          class="home-section-content-image"
+          src="http://localhost:1313/images/orientation2018-min.jpeg"
+        />
+      </div>
+      <div class="home-section-text">
+        <h1>What we do</h1>
+        <p>
+          The CCSS aims to create academic, social, and industry-related
+          opportunities and resources for computer science students.
+        </p>
+        <a href="{{ absURL "" }}/services"
+          >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="home-section-grid home-section-dark">
+    <div class="home-section">
+      <div class="home-section-text">
+        <h1>About Us</h1>
+        <p>
+          The Carleton Computer Science Society (CCSS) is an academic society
+          that represents undergraduate computer science students at Carleton
+          University. The CCSS aims to create academic, social, and
+          industry-related opportunities and resources for computer science
+          students.
+        </p>
+        {{- partial "button.html" (dict "label" "Learn More") -}}
+      </div>
+      <div class="home-section-content">
+        <img
+          class="home-section-content-image"
+          src="http://localhost:1313/images/orientation2018-min.jpeg"
+        />
+      </div>
+    </div>
+  </div>
+  {{- partial "faq.html" . -}}
 {{ end }}
