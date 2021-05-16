@@ -124,10 +124,10 @@ $navNumOfItemBlocks: 4;
 .actual_content {
   color: white;
   position: fixed;
-  display: flex;
+  display: none;
   justify-content: space-between;
   width: 100%;
-  margin-top: 5rem;
+  // margin-top: 5rem;
   opacity: 0;
   z-index: 1;
 
@@ -181,6 +181,15 @@ $navNumOfItemBlocks: 4;
   }
 }
 
+@keyframes grow{
+  from{
+    height: 0px;
+  }
+  to{
+    height: 10rem;
+  }
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -191,20 +200,20 @@ $navNumOfItemBlocks: 4;
 }
 
 @keyframes fadeout {
-  0% {
+  from {
     opacity: 1;
   }
-  100% {
+  to {
     opacity: 0;
   }
 }
 
-@keyframes goUp {
-  0% {
-    margin-top: 0px;
+@keyframes shrink{
+  from{
+    height: 10rem;
   }
-  100% {
-    margin-top: -500px;
+  to{
+    height: 0px;
   }
 }
 

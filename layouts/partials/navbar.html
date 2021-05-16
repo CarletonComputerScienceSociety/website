@@ -14,7 +14,7 @@
             <div
               id="item{{ $index }}"
               class="item"
-              onmouseover="resizeContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
+              onmouseover="showContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
               onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
             >
               {{ .title }}
