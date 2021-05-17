@@ -19,10 +19,6 @@
   align-items: center;
   width: $page-width;
 
-  @media only screen and (max-width: 600px) {
-    flex-direction: column;
-  }
-
   &-grid {
     display: flex;
     justify-content: center;
@@ -31,6 +27,7 @@
 
   &-content {
     padding: 2rem;
+    width: 40%;
 
     &-image {
       max-width: 678px;
@@ -42,7 +39,7 @@
 
   &-text {
     padding: 2rem;
-    width: 65%;
+    width: 40%;
 
     p {
       margin-bottom: 2rem;
@@ -55,5 +52,15 @@
 
   &-light {
     background-color: #fff;
+  }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    &-text {
+      width: 100%;
+    }
+    &-content {
+      width: 100%;
+    }
   }
 }
