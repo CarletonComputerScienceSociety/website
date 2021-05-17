@@ -133,6 +133,7 @@ $navNumOfItemBlocks: 4;
 
   a {
     margin-top: 0.7rem;
+    width: 100%;
   }
 
   &:hover {
@@ -151,17 +152,19 @@ $navNumOfItemBlocks: 4;
     transition: all 500ms ease-out;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-width: 15vw;
     height: 1px;
     border-color: #921c06;
     border-width: 2px;
     border-style: solid;
-
     &:hover {
       transform: scale(1.01);
       box-shadow: 0 0 3px #515151;
     }
   }
+}
+
+.item_block_container {
+  width: 22%;
 }
 
 @for $i from 1 through $navNumOfItemBlocks {

@@ -37,7 +37,7 @@
           onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
         >
           {{ range .sublinks }}
-            <div>
+            <div class="item_block_container">
               <a href="{{ .url }}" style="text-decoration: none;">
                 <div class="item_block{{ $index }}">
                   <div class="left_item{{ $index }}">{{ .title }}</div>
