@@ -1,46 +1,57 @@
 <header class="nav">
   <nav class="nav-menu">
-    <a href="{{ absURL "" }}" class="nav-brand nav_item">
-      <img
-        src="https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png"
-      />
-    </a>
-    {{ $index := 1 }}
-    {{ range $.Site.Data.routes }}
-      <div>
-        <div
-          id="item{{ $index }}"
-          class="item"
-          onmouseover="resizeContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
-          onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
-        >
-          {{ .title }}
-        </div>
-        <div class="arrow">▲</div>
-      </div>
-      {{ $index = add $index 1 }}
-    {{ end }}
-    {{ $index := 1 }}
-    {{ range $.Site.Data.routes }}
-      <div
-        id="actual_content{{ $index }}"
-        class="actual_content"
-        onmouseover="keepContent('actual_content{{ $index }}', 'item_block{{ $index }}')"
-        onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
-      >
-        {{ range .sublinks }}
-          <a href="{{ .url }}" style="text-decoration: none;">
-            <div class="item_block{{ $index }}">
-              <div class="left_item{{ $index }}">{{ .title }}</div>
-              <div
-                class="right_image{{ $index }}"
-                style="background-image: url( {{ absURL .image }} );"
-              ></div>
+    <!--initial nav bar elements-->
+    <div class="nav-menu-items">
+      <a href="{{ absURL "" }}" class="nav-brand nav_item">
+        <img
+          src="https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png"
+        />
+      </a>
+      <div class="nav-menu-items-container">
+        {{ $index := 1 }}
+        {{ range $.Site.Data.routes }}
+          <div class="nav-menu-item">
+            <div
+              id="item{{ $index }}"
+              class="item"
+              onmouseover="showContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
+              onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
+            >
+              {{ .title }}
             </div>
-          </a>
+            <div class="arrow">▲</div>
+          </div>
+          {{ $index = add $index 1 }}
         {{ end }}
       </div>
-      {{ $index = add $index 1 }}
-    {{ end }}
+    </div>
+
+    <!--navbar drop down menus-->
+    <div class="nav-menu-dropdowns">
+      {{ $index := 1 }}
+      {{ range $.Site.Data.routes }}
+        <div
+          id="actual_content{{ $index }}"
+          class="actual_content"
+          onmouseover="keepContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
+          onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
+        >
+          {{ range .sublinks }}
+            <div class="item_block_container">
+              <a href="{{ .url }}" style="text-decoration: none;">
+                <div class="item_block{{ $index }}">
+                  <div class="left_item{{ $index }}">{{ .title }}</div>
+                  <div
+                    class="right_image{{ $index }}"
+                    style="background-image: url( {{ absURL .image }} );"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          {{ end }}
+        </div>
+        {{ $index = add $index 1 }}
+      {{ end }}
+    </div>
   </nav>
 </header>
