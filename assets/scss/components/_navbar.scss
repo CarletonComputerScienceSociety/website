@@ -181,11 +181,11 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@keyframes grow{
-  from{
+@keyframes grow {
+  from {
     height: 0px;
   }
-  to{
+  to {
     height: 10rem;
   }
 }
@@ -208,11 +208,11 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@keyframes shrink{
-  from{
+@keyframes shrink {
+  from {
     height: 10rem;
   }
-  to{
+  to {
     height: 0px;
   }
 }
