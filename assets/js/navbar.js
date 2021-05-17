@@ -51,6 +51,9 @@ function growItemBoxes(container, blocks, lefts, rights) {
 //makes everything in actual_content opaque
 function makeContentOpaque(container) {
   // console.log(`Making ${container} opaque`)
+  document.getElementById(container).style.animation = "none";
+  clearTimeout(globalTimeout);
+  document.getElementById(container).style.opacity = "0";
   document.getElementById(container).style.animation = "fadein 600ms forwards";
 }
 
@@ -64,14 +67,17 @@ function hideContent(container, blocks, lefts, rights) {
 function makeContentTransparent(container, blocks, lefts, rights) {
   // console.log(`Making ${container} transparent`)
   document.getElementById(container).style.animation = "fadeout 300ms forwards";
+  document.getElementById(container).style.opacity = "0"
   globalTimeout = setTimeout(function () {
     shrinkItemBoxes(container, blocks, lefts, rights);
-  }, 100);
+  }, 200);
 }
 
 //shrinks hovered out content
 function shrinkItemBoxes(container, blocks, lefts, rights) {
   // console.log(`Shrinking item boxes ${blocks}`)
+  document.getElementById(container).style.animation = "none";
+  clearTimeout(globalTimeout);
   left = document.getElementsByClassName(lefts);
   right = document.getElementsByClassName(rights);
   block = document.getElementsByClassName(blocks);
