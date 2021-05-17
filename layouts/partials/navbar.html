@@ -36,11 +36,12 @@
           onmouseover="keepContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
           onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
         >
+        {{ if eq .layout  "cards" }}
           {{ range .sublinks }}
             <div class="item_block_container">
               <a href="{{ .url }}" style="text-decoration: none;">
                 <div class="item_block{{ $index }}">
-                  <div class="left_item{{ $index }}">{{ .title }}</div>
+                  <div class="left_item{{ $index }}">{{ .title }} </div>
                   <div
                     class="right_image{{ $index }}"
                     style="background-image: url( {{ absURL .image }} );"
@@ -49,6 +50,13 @@
               </a>
             </div>
           {{ end }}
+        {{ else if eq .layout "text"}}
+          <div class="text_box_container">
+            {{ range .sublinks }}
+            <a href="{{ .url }}" style="text-decoration: none; border: 2px solid #921c06;">{{ .title }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
         </div>
         {{ $index = add $index 1 }}
       {{ end }}
