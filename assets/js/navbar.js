@@ -81,7 +81,7 @@ function changeDisplayToNone(container){
   document.getElementById(container).style.position = "fixed";
 }
 
-function keepContent(container, blocks, lefts, rights) {
+function keepContent(container) {
   clearTimeout(globalTimeout);
   document.getElementById(container).style.animation = "none";
 }
