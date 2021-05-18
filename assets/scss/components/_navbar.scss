@@ -173,6 +173,13 @@ $navNumOfItemBlocks: 4;
   display: flex;
   align-items: baseline !important;
   justify-content: space-evenly !important;
+
+  a{
+    text-decoration: none; 
+    border: 2px solid #921c06; 
+    width: 15rem;
+    padding: 10px 25px;
+  }
 }
 
 @for $i from 1 through $navNumOfItemBlocks {

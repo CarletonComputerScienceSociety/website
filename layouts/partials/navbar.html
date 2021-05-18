@@ -53,7 +53,7 @@
         {{ else if eq .layout "text"}}
           <div class="text_box_container">
             {{ range .sublinks }}
-            <a href="{{ .url }}" style="text-decoration: none; border: 2px solid #921c06;">{{ .title }}</a>
+            <a href="{{ .url }}">{{ .title }}</a>
             {{ end }}
           </div>
         {{ end }}
