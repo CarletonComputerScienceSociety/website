@@ -67,7 +67,7 @@ function hideContent(container, blocks, lefts, rights) {
 function makeContentTransparent(container, blocks, lefts, rights) {
   // console.log(`Making ${container} transparent`)
   document.getElementById(container).style.animation = "fadeout 300ms forwards";
-  document.getElementById(container).style.opacity = "0"
+  document.getElementById(container).style.opacity = "0";
   globalTimeout = setTimeout(function () {
     shrinkItemBoxes(container, blocks, lefts, rights);
   }, 200);
