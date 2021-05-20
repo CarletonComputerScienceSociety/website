@@ -1,5 +1,6 @@
 - title: About
   url: /about
+  layout: "cards"
   sublinks:
     - title: The Team
       url: about/team/
@@ -16,6 +17,7 @@
 
 - title: Events
   url: /events
+  layout: text
   sublinks:
     - title: Upcoming
       url: events/upcoming/
@@ -32,6 +34,7 @@
 
 - title: Services
   url: /services
+  layout: cards
   sublinks:
     - title: Lounge
       url: services/lounge/
@@ -48,6 +51,7 @@
 
 - title: Blog
   url: /blog
+  layout: text
   sublinks:
     - title: Student Experience
       url: blog/studentexperience/
