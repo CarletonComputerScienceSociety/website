@@ -1,4 +1,10 @@
-<div class="footer">Footer</div>
+<div class="footer">
+  <h1>Carleton Computer Science Society</h1>
+  <p>4135 HERZBERG LABORATORIES</p>
+  <p>1125 COLONEL BY DRIVE,</p>
+  <p>OTTAWA, ON K1S 5B6</p>
+  <p>Email: info@ccss.carleton.ca</p>
+</div>
 
 <!--JS Bundle-->
 
@@ -15,3 +21,4 @@
 {{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 
 <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
+
