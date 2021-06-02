@@ -1,10 +1,12 @@
 .footer {
   background-color: black;
-  height: 20vh;
+  height: 25vh;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
   border-top: 2px solid #c40729;
+  line-height:0cm;
 }
