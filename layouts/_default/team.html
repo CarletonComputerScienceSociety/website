@@ -5,7 +5,7 @@
   <h2 style="text-align: center;">The Carleton Computer Science Society (CCSS) is an academic society that represents undergraduate computer science students at Carleton University. The CCSS aims to create academic, social, and industry-related opportunities and resources for computer science students.</h2>
 
   <div id="team_flex_box">
-    {{ range $.Site.Data.team_members }}
+    {{ range $.Site.Data.past_team }}
       {{- partial "team_card.html" (dict "name" .name "role" .role "email" .email "intro" .intro "image" .image ) -}}
     {{ end }}
   </div>
