@@ -1,0 +1,21 @@
+<div class="team-member">
+  <div class="team-img">
+    <img class="img-responsive" src="{{ absURL .image }}" />
+  </div>
+  <div class="team-hover">
+    <div class="desk">
+      <h4>Hi there!</h4>
+      <p>{{ .intro }}</p>
+    </div>
+  </div>
+  <div class="team-title">
+    <h5>{{ .name }}</h5>
+    <span
+      >{{ .role }}<span>
+        <a href="mailto:{{ .email }}" style="font-size: 11px;"
+          >{{ .email }}</a
+        ></span
+      ></span
+    >
+  </div>
+</div>

@@ -68,7 +68,7 @@ $navNumOfItemBlocks: 4;
       display: block;
       padding: 10px 25px;
       padding-right: 0;
-      font-size: 105%;
+      font-size: 100%;
       img {
         width: 250px;
         margin: 0rem;
@@ -168,7 +168,7 @@ $navNumOfItemBlocks: 4;
 }
 
 .text_box_container {
-  width: 100%;
+  width: 99%;
   text-align: center !important;
   display: flex;
   align-items: baseline !important;
@@ -194,7 +194,7 @@ $navNumOfItemBlocks: 4;
   .right_image#{$i} {
     height: 1px;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 49%;
     background-size: cover;
   }
 }

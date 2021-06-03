@@ -1,0 +1,15 @@
+#intro {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+#team_flex_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  max-width: 85rem;
+  margin: auto;
+  width: 100%;
+}

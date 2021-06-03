@@ -39,7 +39,7 @@
           {{ if eq .layout  "cards" }}
             {{ range .sublinks }}
               <div class="item_block_container">
-                <a href="{{ .url }}" style="text-decoration: none;">
+                <a href="{{ absURL .url }}" style="text-decoration: none;">
                   <div class="item_block{{ $index }}">
                     <div class="left_item{{ $index }}">{{ .title }}</div>
                     <div
@@ -53,7 +53,7 @@
             {{ else if eq .layout "text" }}
             <div class="text_box_container">
               {{ range .sublinks }}
-                <a href="{{ .url }}">{{ .title }}</a>
+                <a href="{{ absURL .url }}">{{ .title }}</a>
               {{ end }}
             </div>
           {{ end }}
