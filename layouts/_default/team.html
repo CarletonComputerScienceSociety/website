@@ -1,7 +1,13 @@
 {{ define "main" }}
   {{- partial "navbar.html" . -}}
 
-  <!-- YOUR HTML HERE -->
-  <div style="margin-top: 7rem">Team Page</div>
-  <h1>hi</h1>
+  <h1 style="margin-top: 7rem; text-align: center;">Meet the team!</h1>
+  <h2 style="text-align: center;">The Carleton Computer Science Society (CCSS) is an academic society that represents undergraduate computer science students at Carleton University. The CCSS aims to create academic, social, and industry-related opportunities and resources for computer science students.</h2>
+
+  <div id="team_flex_box">
+    {{ range $.Site.Data.team_members }}
+      {{- partial "team_card.html" (dict "name" .name "role" .role "email" .email "intro" .intro "image" .image ) -}}
+    {{ end }}
+  </div>
+
 {{ end }}
