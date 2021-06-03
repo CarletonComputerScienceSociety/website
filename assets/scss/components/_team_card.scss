@@ -1,15 +1,4 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 body {
   margin: 0;
 }
@@ -54,12 +43,6 @@ h5 {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-img {
-  height: initial;
-}
-body {
-  font-family: "Source Sans Pro", sans-serif;
-}
 .img-responsive {
   display: block;
   margin-left: auto;
@@ -99,6 +82,9 @@ body {
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .team-member:hover .team-hover .desk {
   top: 35%;
@@ -120,15 +106,13 @@ body {
   -webkit-transition: all 0.3s 0.2s;
   transition: all 0.3s 0.2s;
   padding: 0 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .team-hover .desk p {
   margin-top: -20px;
-}
-.desk,
-.desk h4,
-.team-hover .s-link a {
-  text-align: center;
-  color: #222;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .desk,
 .desk h4,
@@ -159,4 +143,5 @@ body {
   display: block;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
 }
