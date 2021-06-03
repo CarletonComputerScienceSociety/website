@@ -13,6 +13,7 @@ function hideUnneededContent(container, blocks, lefts, rights, hoverOver) {
   for (var i = 0; i < accContents.length; i++) {
     if (accContents[i].id !== container) {
       accContents[i].style.display = "none";
+      accContents[i].style.animation = "none";
     }
   }
   hoverOver
@@ -55,6 +56,7 @@ function makeContentOpaque(container) {
   clearTimeout(globalTimeout);
   document.getElementById(container).style.opacity = "0";
   document.getElementById(container).style.animation = "fadein 600ms forwards";
+  document.getElementById(container).style.opacity = "1";
 }
 
 //This function is called on hover out
@@ -66,7 +68,7 @@ function hideContent(container, blocks, lefts, rights) {
 //Makes hovered out content transparent
 function makeContentTransparent(container, blocks, lefts, rights) {
   // console.log(`Making ${container} transparent`)
-  document.getElementById(container).style.animation = "fadeout 300ms forwards";
+  document.getElementById(container).style.animation = "fadeout 200ms forwards";
   document.getElementById(container).style.opacity = "0";
   globalTimeout = setTimeout(function () {
     shrinkItemBoxes(container, blocks, lefts, rights);
