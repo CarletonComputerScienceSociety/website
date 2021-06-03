@@ -9,6 +9,7 @@ function showContent(container, blocks, lefts, rights) {
 //hides everything that shouldn't be seen
 function hideUnneededContent(container, blocks, lefts, rights, hoverOver) {
   // console.log(`Hiding content on ${hoverOver ? 'hover over' : 'hover out'}`)
+  clearTimeout(globalTimeout)
   accContents = document.getElementsByClassName("actual_content");
   for (var i = 0; i < accContents.length; i++) {
     if (accContents[i].id !== container) {
@@ -68,7 +69,7 @@ function hideContent(container, blocks, lefts, rights) {
 //Makes hovered out content transparent
 function makeContentTransparent(container, blocks, lefts, rights) {
   // console.log(`Making ${container} transparent`)
-  document.getElementById(container).style.animation = "fadeout 200ms forwards";
+  document.getElementById(container).style.animation = "fadeout 150ms forwards";
   document.getElementById(container).style.opacity = "0";
   globalTimeout = setTimeout(function () {
     shrinkItemBoxes(container, blocks, lefts, rights);
