@@ -9,7 +9,7 @@ function showContent(container, blocks, lefts, rights) {
 //hides everything that shouldn't be seen
 function hideUnneededContent(container, blocks, lefts, rights, hoverOver) {
   // console.log(`Hiding content on ${hoverOver ? 'hover over' : 'hover out'}`)
-  clearTimeout(globalTimeout)
+  clearTimeout(globalTimeout);
   accContents = document.getElementsByClassName("actual_content");
   for (var i = 0; i < accContents.length; i++) {
     if (accContents[i].id !== container) {
