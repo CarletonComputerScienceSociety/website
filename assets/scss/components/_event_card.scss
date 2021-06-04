@@ -1,0 +1,68 @@
+.outer_card {
+  margin-top: 50px;
+  margin-left: 50px;
+  max-width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.event_card {
+  display: grid;
+  grid-template-rows: 14.5rem 7.7rem;
+  grid-template-columns: 14.5rem;
+  grid-template-areas:
+    "picture"
+    "description";
+  width: 14.5rem;
+  height: 22.2rem;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date_card {
+  background-color: #bf112b;
+  color: white;
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  margin-top: -25px;
+  margin-left: 180px;
+  border-radius: 5%;
+  line-height: 5px;
+}
+
+.upper_picture {
+  grid-area: picture;
+  background-repeat: no-repeat;
+  background-position: 49%;
+  background-size: cover;
+  border-bottom: 1px solid grey;
+}
+
+.lower_info {
+  display: block;
+  grid-area: description;
+}
+
+.time_text {
+  color: #bf112b;
+  padding-left: 0.80rem;
+  margin-top: 15px;
+}
+
+.title_text {
+  padding-left: 0.75rem;
+  margin-top: -1.2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.truncated_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 20px;
+  padding-left: 0.75rem;
+  margin-top: -1.2rem;
+}
