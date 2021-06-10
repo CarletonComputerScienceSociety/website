@@ -7,7 +7,7 @@
 
 .event_card {
   display: grid;
-  grid-template-rows: 14.5rem 7.7rem;
+  grid-template-rows: 13.1rem 8.1rem;
   grid-template-columns: 14.5rem;
   grid-template-areas:
     "picture"
@@ -32,9 +32,9 @@
 
 .upper_picture {
   grid-area: picture;
-  background-repeat: no-repeat;
-  background-position: 49%;
-  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
   border-bottom: 1px solid grey;
 }
 
@@ -46,7 +46,7 @@
 .time_text {
   color: #bf112b;
   padding-left: 0.8rem;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 .title_text {
