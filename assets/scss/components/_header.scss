@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family:  Verdana, sans-serif;
 }
 
 .mySlides {
@@ -37,7 +37,7 @@ img {
   top: 25%;
 }
 
-.condition {
+.condition{
   display: None;
 }
 
@@ -64,27 +64,38 @@ img {
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+      opacity: .4;
   }
   to {
-    opacity: 1;
+      opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: 0.4;
+      opacity: 0.4;
   }
   to {
-    opacity: 1;
+      opacity: 1;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .caption {
-    font-size: 12px;
+@media screen and (max-width: 770px) {
+  .dots {
+      display: None;
   }
-  .condition {
-    display: Flex;
+
+  .caption {
+      display: None;
+  }
+  
+  .condition{
+      display: flex;
+      background-color: red;
+      color: #f2f2f2;
+      font-size: 3.3vw;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
