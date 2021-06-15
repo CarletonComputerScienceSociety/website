@@ -73,14 +73,14 @@
   font-size: 14px;
 }
 
-.red_line{
+.red_line {
   border: 1px solid #bf112b;
   margin: 11px 175px 0 13px;
 }
 
 /* Good for tablets */
 @media only screen and (min-width: 415px) and (max-width: 660px) {
-  .event_card{
+  .event_card {
     grid-template-columns: 30vw 48vw;
     grid-template-rows: 12.5rem;
     grid-template-areas: "picture description";
@@ -88,14 +88,14 @@
     height: 12.5rem;
   }
 
-  .date_card{
+  .date_card {
     margin-left: 70vw;
     margin-top: -30px;
   }
 }
 
 @media only screen and (max-width: 414px) {
-  .event_card{
+  .event_card {
     grid-template-columns: 42vw 48vw;
     grid-template-rows: 12.5rem;
     grid-template-areas: "picture description";
@@ -103,23 +103,22 @@
     height: 12.5rem;
   }
 
-  .date_card{
+  .date_card {
     margin-left: 36vw;
     margin-top: 110px;
     width: 60vw;
     transform: scale(0.7);
   }
 
-  .title_text{
+  .title_text {
     font-size: 20px;
   }
 
-  .upper_picture{
+  .upper_picture {
     background-position: 1%;
   }
 
-  .red_line{
+  .red_line {
     display: none;
   }
 }
-
