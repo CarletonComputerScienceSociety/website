@@ -1,4 +1,5 @@
 ---
+display-title: "This title will be shown in the display card" 
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true

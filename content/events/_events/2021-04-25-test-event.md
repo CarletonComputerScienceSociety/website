@@ -1,4 +1,5 @@
 ---
+display-title: "TT - Jeremy Clark"
 title: "Blockchain + Crypto Q&A Session"
 date: 2020-01-25T23:11:13Z
 draft: false
