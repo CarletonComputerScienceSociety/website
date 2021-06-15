@@ -1,27 +1,29 @@
-<link rel="stylesheet" href="../../assets/scss/components/_event_card.scss">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="../../assets/scss/components/_event_card.scss" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+  rel="stylesheet"
+/>
 
 <div class="outer_card">
   <div class="date_card">
-    <h3 style="text-align: center;">JUN</h3>
-    <h2 style="text-align: center;">11</h2>
-    <h3 style="text-align: center;">2021</h3>
+    <h3 style="text-align: center;">{{ .Params.date.Format "Jan" | upper }}</h3>
+    <h2 style="text-align: center;">{{ .Params.date.Format "2" }}</h2>
+    <h3 style="text-align: center;">{{ .Params.date.Format "2006" }}</h3>
   </div>
   <div class="event_card">
     <div
       class="upper_picture"
-      style="background-image: url(../../static/images/poster2.jpeg); "
+      style="background-image: url({{ .Params.poster }}); "
     ></div>
     <div class="lower_info">
-      <h1 class="title_text">Sci Soc Social</h1>
-      <h5 class="time_text">7:00PM - 8:00PM</h5>
+      <h1 class="title_text">{{ .Params.display_title }}</h1>
+      <h5 class="time_text">{{ .Params.start_time }}</h5>
       <div style="height: 7px;"></div>
       <div class="truncated_text">
-        Consectetur pariatur est ut enim duis fugiat deserunt commodo marlingrer
-        ewjf eowef
+        {{ .Params.short_description }}
       </div>
-      <div style="border: 1px solid #bf112b; margin-top: 11px; margin-left: 13px; margin-right: 175px;"></div>
+      <div class="red_line"></div>
     </div>
   </div>
 </div>

@@ -1,10 +1,8 @@
 .outer_card {
-  margin-top: 50px;
-  margin-left: 50px;
+  margin: 25px;
   max-width: 100%;
   font-family: "Nunito", sans-serif;
 }
-
 .event_card {
   display: grid;
   grid-template-rows: 13.1rem 8.1rem;
@@ -32,9 +30,11 @@
 
 .upper_picture {
   grid-area: picture;
-  // background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
   background-position: 50%;
-  background-size: contain;
+  background-size: cover;
   border-bottom: 1px solid grey;
 }
 
@@ -53,7 +53,7 @@
   padding-left: 0.75rem;
   padding-right: 0.45rem;
   margin-top: 0.3rem;
-  margin-bottom: -1.0rem;
+  margin-bottom: -1rem;
   // margin-top: 2px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -68,6 +68,58 @@
   overflow: hidden;
   line-height: 20px;
   padding-left: 0.75rem;
+  padding-right: 0.75rem;
   margin-top: -1.7rem;
   font-size: 14px;
 }
+
+.red_line{
+  border: 1px solid #bf112b;
+  margin: 11px 175px 0 13px;
+}
+
+/* Good for tablets */
+@media only screen and (min-width: 415px) and (max-width: 660px) {
+  .event_card{
+    grid-template-columns: 30vw 48vw;
+    grid-template-rows: 12.5rem;
+    grid-template-areas: "picture description";
+    width: 78vw;
+    height: 12.5rem;
+  }
+
+  .date_card{
+    margin-left: 70vw;
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .event_card{
+    grid-template-columns: 42vw 48vw;
+    grid-template-rows: 12.5rem;
+    grid-template-areas: "picture description";
+    width: 90vw;
+    height: 12.5rem;
+  }
+
+  .date_card{
+    margin-left: 36vw;
+    margin-top: 110px;
+    width: 60vw;
+    transform: scale(0.7);
+  }
+
+  .title_text{
+    font-size: 20px;
+  }
+
+  .upper_picture{
+    background-position: 1%;
+  }
+
+  .red_line{
+    display: none;
+  }
+}
+
