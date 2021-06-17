@@ -1,0 +1,123 @@
+.outer_card {
+  margin: 25px;
+  max-width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+.event_card {
+  display: grid;
+  grid-template-rows: 13.1rem 8.1rem;
+  grid-template-columns: 14.5rem;
+  grid-template-areas:
+    "picture"
+    "description";
+  width: 14.5rem;
+  height: 22.3rem;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date_card {
+  background-color: #bf112b;
+  color: white;
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  margin-top: -25px;
+  margin-left: 180px;
+  border-radius: 5%;
+  line-height: 5px;
+}
+
+.upper_picture {
+  grid-area: picture;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-bottom: 1px solid grey;
+}
+
+.lower_info {
+  display: block;
+  grid-area: description;
+}
+
+.time_text {
+  color: #bf112b;
+  padding-left: 0.8rem;
+  margin-top: 16px;
+}
+
+.title_text {
+  padding-left: 0.75rem;
+  padding-right: 0.45rem;
+  margin-top: 0.3rem;
+  margin-bottom: -1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 26px;
+}
+
+.truncated_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 20px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-top: -1.7rem;
+  font-size: 14px;
+}
+
+.red_line {
+  border: 1px solid #bf112b;
+  margin: 11px 175px 0 13px;
+}
+
+/* Good for tablets */
+@media only screen and (min-width: 415px) and (max-width: 660px) {
+  .event_card {
+    grid-template-columns: 30vw 48vw;
+    grid-template-rows: 12.5rem;
+    grid-template-areas: "picture description";
+    width: 78vw;
+    height: 12.5rem;
+  }
+
+  .date_card {
+    margin-left: 70vw;
+    margin-top: -35px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .event_card {
+    grid-template-columns: 42vw 48vw;
+    grid-template-rows: 12.5rem;
+    grid-template-areas: "picture description";
+    width: 90vw;
+    height: 12.5rem;
+  }
+
+  .date_card {
+    margin-left: 36vw;
+    margin-top: 115px;
+    width: 60vw;
+    transform: scale(0.7);
+  }
+
+  .title_text {
+    font-size: 20px;
+  }
+
+  .upper_picture {
+    background-position: 1%;
+  }
+
+  .red_line {
+    display: none;
+  }
+}

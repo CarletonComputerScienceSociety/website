@@ -4,7 +4,10 @@
   <div class="home-section-grid home-section-light">
     <div class="home-events">
       {{ range (where .Site.RegularPages "Section" "events") }}
-        <a class="title" href="{{ .RelPermalink }}"
+        <a
+          style="text-decoration: none; color: inherit"
+          class="title"
+          href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
       {{ end }}
