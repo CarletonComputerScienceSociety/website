@@ -29,6 +29,7 @@ function hideUnneededContent(container, blocks, lefts, rights, hoverOver) {
 //changes the display of actual_content from none to flex
 function changeDisplayToFlex(container, blocks, lefts, rights) {
   // console.log(`Changing display of ${container} to flex`)
+  document.getElementById(container).style.pointerEvents = "auto"
   document.getElementById(container).style.display = "flex";
   document.getElementById(container).style.position = "relative";
   growItemBoxes(container, blocks, lefts, rights);
@@ -89,6 +90,7 @@ function shrinkItemBoxes(container, blocks, lefts, rights) {
     left[i].style.animation = "shrink 400ms forwards";
     right[i].style.animation = "shrink 400ms forwards";
   }
+  document.getElementById(container).style.pointerEvents = "none";
   globalTimeout = setTimeout(function () {
     changeDisplayToNone(container);
   }, 300);
