@@ -21,9 +21,7 @@
   align-items: center;
 
   &_poster {
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
     width: 50%;
     height: 20rem;
   }
@@ -58,5 +56,19 @@
 
   hr {
     margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .event_container{
+    flex-direction: column;
+
+    &_poster{
+      width: 100%;
+    }
+
+    &_content{
+      width: 100%;
+    }
   }
 }
