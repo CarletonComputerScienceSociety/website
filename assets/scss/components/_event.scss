@@ -71,68 +71,66 @@
   line-height: 5px;
 }
 
-@media only screen and (min-width: 415px) and (max-width: 770px){
-  .date_card_about{
+@media only screen and (min-width: 415px) and (max-width: 770px) {
+  .date_card_about {
     margin-top: -100px;
     margin-left: 600px;
   }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 414px) {
-  .event_container{
+  .event_container {
     flex-direction: column;
 
-    &_poster{
+    &_poster {
       width: 100%;
     }
 
-    &_content{
+    &_content {
       width: 100%;
     }
   }
 
-  .date_card_about{
+  .date_card_about {
     margin-top: -100px;
     margin-left: 270px;
   }
 }
 
-@media only screen and (min-width: 365px) and (max-width: 375px){
-  .event_container{
+@media only screen and (min-width: 365px) and (max-width: 375px) {
+  .event_container {
     flex-direction: column;
 
-    &_poster{
+    &_poster {
       width: 100%;
     }
 
-    &_content{
+    &_content {
       width: 100%;
     }
   }
 
-  .date_card_about{
+  .date_card_about {
     margin-top: -100px;
     margin-left: 240px;
   }
 }
 
-
-@media only screen and (max-width: 360px){
-  .event_container{
+@media only screen and (max-width: 360px) {
+  .event_container {
     flex-direction: column;
 
-    &_poster{
+    &_poster {
       width: 100%;
     }
 
-    &_content{
+    &_content {
       width: 100%;
     }
   }
 
-  .date_card_about{
+  .date_card_about {
     margin-top: -100px;
     margin-left: 225px;
   }
 }
-
