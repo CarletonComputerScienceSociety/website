@@ -59,6 +59,18 @@
   }
 }
 
+.date_card_about {
+  background-color: #bf112b;
+  color: white;
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  margin-top: -85px;
+  margin-left: 875px;
+  border-radius: 5%;
+  line-height: 5px;
+}
+
 @media only screen and (max-width: 414px) {
   .event_container{
     flex-direction: column;
