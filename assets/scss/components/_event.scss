@@ -16,14 +16,13 @@
 }
 
 .event_container {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   &_poster {
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
     width: 50%;
     height: 20rem;
   }
@@ -58,5 +57,81 @@
 
   hr {
     margin-top: 3rem;
+  }
+}
+
+.date_card_about {
+  background-color: #bf112b;
+  color: white;
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  margin-top: -85px;
+  margin-left: 805px;
+  border-radius: 5%;
+  line-height: 5px;
+}
+
+@media only screen and (min-width: 415px) and (max-width: 770px) {
+  .date_card_about {
+    margin-top: -100px;
+    margin-left: 600px;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 414px) {
+  .event_container {
+    flex-direction: column;
+
+    &_poster {
+      width: 100%;
+    }
+
+    &_content {
+      width: 100%;
+    }
+  }
+
+  .date_card_about {
+    margin-top: -100px;
+    margin-left: 270px;
+  }
+}
+
+@media only screen and (min-width: 365px) and (max-width: 375px) {
+  .event_container {
+    flex-direction: column;
+
+    &_poster {
+      width: 100%;
+    }
+
+    &_content {
+      width: 100%;
+    }
+  }
+
+  .date_card_about {
+    margin-top: -100px;
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .event_container {
+    flex-direction: column;
+
+    &_poster {
+      width: 100%;
+    }
+
+    &_content {
+      width: 100%;
+    }
+  }
+
+  .date_card_about {
+    margin-top: -100px;
+    margin-left: 225px;
   }
 }

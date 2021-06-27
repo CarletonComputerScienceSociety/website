@@ -13,8 +13,17 @@
     ></section>
   {{- end }}
 
+  <!-- Date card -->
+
   <!--Content-->
   <div class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}">
+    <div class="date_card_about">
+      <h3 style="text-align: center;">
+        {{ .Params.date.Format "Jan" | upper }}
+      </h3>
+      <h2 style="text-align: center;">{{ .Params.date.Format "2" }}</h2>
+      <h3 style="text-align: center;">{{ .Params.date.Format "2006" }}</h3>
+    </div>
     <div class="event_container">
       <div
         class="event_container_poster"
