@@ -37,6 +37,7 @@
           onmouseout="hideContent('actual_content{{ $index }}', 'item_block{{ $index }}', 'left_item{{ $index }}', 'right_image{{ $index }}')"
         >
           {{ if eq .layout  "cards" }}
+          {{ $index2 := 1 }}
             {{ range .sublinks }}
               <div class="item_block_container">
                 <a href="{{ absURL .url }}" style="text-decoration: none;">
@@ -49,6 +50,10 @@
                   </div>
                 </a>
               </div>
+              {{ if ne $index2 4 }}
+              <div class="long_arrow"></div>
+              {{ end }}
+            {{ $index2 = add $index2 1}}
             {{ end }}
             {{ else if eq .layout "text" }}
             <div class="text_box_container">
