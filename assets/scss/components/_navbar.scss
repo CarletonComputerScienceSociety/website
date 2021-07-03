@@ -285,3 +285,44 @@ $navNumOfItemBlocks: 4;
     transform: rotate(33deg);
   }
 }
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #c40729;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 60px;
+  color: white;
+  background-color: black;
+  padding-left: calc(5% + 9px);
+  padding-right: calc(5% + 9px);
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-item {
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item:hover {
+  background: #c40729;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-items {
+    display: none;
+  }
+}

@@ -1,16 +1,19 @@
 .button {
   border-radius: 0.3rem;
   border-width: 0px;
-  min-width: 6rem;
-  background-color: var(--theme);
-  padding: 1rem 2rem;
+  min-width: 7rem;
+  background-color: #c40729;
+  padding: 0.75rem 1.5rem;
   color: white;
+  font-weight: bold;
+  font-size: 1rem;
   transition: all 0.15s;
   .button_label {
-    padding: 0.75rem 1.5rem;
+    padding: 0.7rem 1rem;
   }
 }
 
 .button:hover {
+  cursor: pointer;
   background-color: rgb(0, 0, 0);
 }

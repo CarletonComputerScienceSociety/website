@@ -1,4 +1,4 @@
-<div class="footer">Footer</div>
+<div class="footer">© 2021 Carleton Computer Science Society</div>
 
 <!--JS Bundle-->
 
@@ -8,9 +8,12 @@
 {{- $navbarScriptPath := "js/navbar.js" }}
 {{- $navbar := resources.Get $navbarScriptPath | resources.ExecuteAsTemplate $navbarScriptPath . }}
 
-{{- $bundle := slice $main $navbar }}
+{{- $faqScriptPath := "js/faq.js" }}
+{{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
+
+{{- $bundle := slice $main $navbar $faq }}
 {{- if site.Params.Staticman }}
-  {{- $bundle = slice $main $navbar }}
+  {{- $bundle = slice $main $navbar $faq }}
 {{- end }}
 {{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 

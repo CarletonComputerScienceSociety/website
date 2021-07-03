@@ -10,9 +10,8 @@
       style="background-image: url({{ .Params.poster }}); "
     ></div>
     <div class="lower_info">
-      <h1 class="title_text">{{ .Params.display_title }}</h1>
-      <h5 class="time_text">{{ .Params.start_time }}</h5>
-      <div style="height: 7px;"></div>
+      <div class="time_text">{{ .Params.start_time }}</div>
+      <div class="title_text">{{ .Params.display_title }}</div>
       <div class="truncated_text">
         {{ .Params.short_description }}
       </div>
