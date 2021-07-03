@@ -1,79 +1,48 @@
 {{ define "main" }}
-  {{- partial "navbar.html" . -}}
+  {{- partial "navbar_temp.html" . -}}
   {{- partial "header.html" . -}}
-  <div class="home-section-grid home-section-light">
-    <div class="home-events">
-      {{ range (where .Site.RegularPages "Section" "events") }}
-        <a
-          style="text-decoration: none; color: inherit"
-          class="title"
-          href="{{ .RelPermalink }}"
-          >{{- partial "event_card.html" . -}}</a
-        >
-      {{ end }}
+  <div class="home-section-grid home-section-red">
+    <div class="home-section-notice">
+      <p style="color: white">
+        <i class="fas fa-info-circle"></i>In light of recent developments due to
+        the spread of COVID-19, the CCSS lounge & all in-person services will be
+        put on hold until further notice.
+      </p>
     </div>
   </div>
   <div class="home-section-grid home-section-dark">
     <div class="home-section">
-      <div class="home-section-text">
-        <h1>About Us</h1>
-        <p>
-          The Carleton Computer Science Society is an academic society that
-          represents undergraduate computer science students at Carleton
-          University.
-        </p>
-        <a href="{{ absURL "" }}/about"
-          >{{- partial "button.html" (dict "label" "Learn More") -}}</a
-        >
-      </div>
-      <div class="home-section-content">
-        <img
-          class="home-section-content-image"
-          src="http://localhost:1313/images/orientation2018-min.jpeg"
-        />
-      </div>
-    </div>
-  </div>
-  <div class="home-section-grid home-section-light">
-    <div class="home-section">
-      <div class="home-section-content">
-        <img
-          class="home-section-content-image"
-          src="http://localhost:1313/images/orientation2018-min.jpeg"
-        />
-      </div>
-      <div class="home-section-text">
-        <h1>What we do</h1>
-        <p>
-          The CCSS aims to create academic, social, and industry-related
-          opportunities and resources for computer science students.
-        </p>
-        <a href="{{ absURL "" }}/services"
-          >{{- partial "button.html" (dict "label" "Learn More") -}}</a
-        >
+      <h1 class="home-section-heading">Spotlight</h1>
+      <div class="home-news">
+        <div class="home-news-articles">
+          {{ range (where .Site.RegularPages "Section" "news") }}
+            <a class="article-link" href="{{ .RelPermalink }}"
+              >{{- partial "article.html" . -}}</a
+            >
+          {{ end }}
+        </div>
+        <div class="home-news-featured">
+          {{- partial "featured-article.html" . -}}
+        </div>
       </div>
     </div>
   </div>
   <div class="home-section-grid home-section-dark">
     <div class="home-section">
-      <div class="home-section-text">
-        <h1>About Us</h1>
-        <p>
-          The Carleton Computer Science Society (CCSS) is an academic society
-          that represents undergraduate computer science students at Carleton
-          University. The CCSS aims to create academic, social, and
-          industry-related opportunities and resources for computer science
-          students.
-        </p>
-        {{- partial "button.html" (dict "label" "Learn More") -}}
-      </div>
-      <div class="home-section-content">
-        <img
-          class="home-section-content-image"
-          src="http://localhost:1313/images/orientation2018-min.jpeg"
-        />
+      <h1 class="home-section-heading">Featured Events</h1>
+      <div class="home-events">
+        {{ range (where .Site.RegularPages "Section" "events") }}
+          <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+            >{{- partial "event_card.html" . -}}</a
+          >
+        {{ end }}
       </div>
     </div>
   </div>
-  {{- partial "faq.html" . -}}
+  <div class="home-section-grid home-section-light">
+    <div class="home-section">
+      <h1>Frequently Asked Questions</h1>
+      {{- partial "faq.html" . -}}
+    </div>
+  </div>
 {{ end }}

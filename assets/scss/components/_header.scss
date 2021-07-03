@@ -1,0 +1,158 @@
+.home-header {
+  height: 85vh;
+  padding-bottom: 4rem;
+  display: flex;
+  background-image: url("https://cdn.discordapp.com/attachments/422419584893845534/852700077675380756/geometry2.png");
+  animation: slide 40s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+.home-header-space {
+  width: 35vw;
+}
+
+.home-header-image {
+  width: 65vw;
+  height: 100%;
+  transition: background-image 1s ease-in-out;
+  background-image: url("/images/orientation2018-min.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 0 0 0 1rem;
+}
+
+.home-header-card-container {
+  max-width: 1164px;
+  padding: 3.75em 5em 3.75em 3.75em;
+}
+
+.home-header-card {
+  position: absolute;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  min-height: 20rem;
+  width: 32%;
+  min-width: 30rem;
+  top: 18.5vh;
+  left: 8%;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.04);
+}
+
+.home-header-card-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.home-header-card-heading {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.home-header-card-body {
+  color: #42474c;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin-bottom: 3rem;
+}
+
+.home-header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.home-header-discord {
+  margin-top: 0.1rem;
+  margin-left: 2.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #c40729;
+}
+
+.home-header-discord-arrow {
+  font-size: 15px;
+  margin-left: 0.25rem;
+}
+
+.home-header-discord:hover {
+  text-decoration: underline;
+  color: #ff1f48;
+}
+
+.home-header-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-header {
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    div {
+      display: none;
+    }
+  }
+
+  .home-header-card-wrap {
+    display: none;
+    div {
+      display: none;
+    }
+  }
+
+  .home-header-mobile {
+    display: block;
+    height: fit-content;
+    //background-image: url("https://cdn.discordapp.com/attachments/422419584893845534/852700077675380756/geometry2.png");
+    //animation: slide 40s linear infinite;
+  }
+
+  .home-header-image {
+    position: absolute;
+    width: 100%;
+    height: 42vh;
+    border-radius: 0 0 0 0;
+    z-index: -1;
+    top: 0;
+  }
+
+  .home-header-card {
+    position: static;
+    width: 70vw;
+    max-width: 100vw;
+    min-width: 70vw;
+    z-index: 1000;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 8vh;
+  }
+
+  .home-header-card-heading {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-header-card-title {
+    font-size: 11px;
+  }
+
+  .home-header-card {
+    padding: 2rem;
+  }
+
+  .home-header-card-body {
+    font-size: 1em;
+  }
+}

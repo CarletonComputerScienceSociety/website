@@ -1,8 +1,100 @@
+.faq-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  .faq-container {
+    width: $page-width;
+    margin: 0.5rem;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #b62a2a;
+  }
+
+  a:hover {
+    color: #ff0000;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .faq-section {
+    align-items: center;
+    margin: auto;
+
+    .faq-container {
+      width: 600px;
+    }
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .faq-section {
+    align-items: center;
+    margin: auto;
+
+    .faq-container {
+      width: 600px;
+    }
+  }
+}
+
 .faq {
-  min-height: 60vh;
-  max-height: fit-content;
+  margin: 1rem 0;
+  border-radius: 0.1rem;
+  background: #f0efef;
+  transition: all linear 0.1s;
+  border-left: 4px solid #f0efef;
+  cursor: pointer;
+}
+
+.faq-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: $page-width;
+}
+
+.faq-chevron {
+  margin: 1rem;
+  margin-right: 1.5rem;
+}
+
+.accordion {
+  overflow: hidden;
+  border-radius: 4px;
+  width: 100%;
+}
+.accordion-section-title {
+  width: 100%;
+  padding: 15px;
+}
+.accordion-section-title {
+  width: 100%;
+  display: inline-block;
+  transition: all linear 0.1s;
+  padding: 1.3rem 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.faq.active {
+  border-left: 4px solid #e62828;
+  text-decoration: none;
+}
+.faq:hover {
+  border-left: 4px solid #e62828;
+  text-decoration: none;
+}
+.accordion-section:last-child .accordion-section-title {
+  border-bottom: none;
+}
+.accordion-section-content {
+  padding: 15px;
+  padding-top: 0;
+  display: none;
 }
