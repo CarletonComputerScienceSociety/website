@@ -1,8 +1,17 @@
 .outer_card {
-  margin: 25px;
+  width: 100%;
   max-width: 100%;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  background-color: white;
+  color: black;
 }
+
+.event_card_link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .event_card {
   display: grid;
   grid-template-rows: 13.1rem 8.1rem;
@@ -11,21 +20,38 @@
     "picture"
     "description";
   width: 14.5rem;
-  height: 22.3rem;
+  height: 24rem;
   border-radius: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: all 0.15s;
+  color: #42474c;
+}
+
+.event_card:hover {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.15s;
+  color: #c40729;
 }
 
 .date_card {
   background-color: #bf112b;
   color: white;
   position: absolute;
-  width: 70px;
-  height: 90px;
-  margin-top: -25px;
-  margin-left: 180px;
+  width: 60px;
+  height: 80px;
+  right: 0;
+
+  margin-top: -30px;
   border-radius: 5%;
   line-height: 5px;
+
+  h3 {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
 
 .upper_picture {
@@ -41,23 +67,23 @@
 .lower_info {
   display: block;
   grid-area: description;
+  margin: 1rem;
 }
 
 .time_text {
-  color: #bf112b;
-  padding-left: 0.8rem;
-  margin-top: 16px;
+  color: #c40729;
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .title_text {
-  padding-left: 0.75rem;
-  padding-right: 0.45rem;
-  margin-top: 0.3rem;
-  margin-bottom: -1rem;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 26px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .truncated_text {
@@ -65,44 +91,54 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  line-height: 20px;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  margin-top: -1.7rem;
   font-size: 14px;
+  margin-bottom: 2rem;
+  color: #42474c;
 }
 
 .red_line {
   border: 1px solid #bf112b;
-  margin: 11px 175px 0 13px;
+  width: 3rem;
 }
 
 /* Good for tablets */
-@media only screen and (min-width: 415px) and (max-width: 660px) {
-  .event_card {
-    grid-template-columns: 30vw 48vw;
-    grid-template-rows: 12.5rem;
-    grid-template-areas: "picture description";
-    width: 78vw;
-    height: 12.5rem;
+@media only screen and (min-width: 415px) and (max-width: 1120px) {
+  .event_card_link {
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 3rem;
   }
 
-  .date_card {
-    margin-left: 70vw;
-    margin-top: -35px;
+  .event_card {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 10rem;
+    grid-template-areas: "picture description";
+    width: 100%;
+    height: fit-content;
+  }
+
+  .lower_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 @media only screen and (max-width: 414px) {
+  .event_card_link {
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+  }
+
   .event_card {
-    grid-template-columns: 42vw 48vw;
-    grid-template-rows: 12.5rem;
-    grid-template-areas: "picture description";
+    display: flex;
     width: 90vw;
-    height: 12.5rem;
+    height: fit-content;
   }
 
   .date_card {
+    display: none;
     margin-left: 36vw;
     margin-top: 115px;
     width: 60vw;
@@ -110,14 +146,22 @@
   }
 
   .title_text {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .upper_picture {
+    width: 50%;
     background-position: 1%;
   }
 
   .red_line {
     display: none;
+  }
+
+  .lower_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

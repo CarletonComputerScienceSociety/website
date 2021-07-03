@@ -1,13 +1,12 @@
 ---
-display_title: "A Chat with Ross Video"
-title: "Blockchain + Crypto Q&A Session 3"
+title: "Blockchain + Crypto Q&A Session"
 date: 2020-01-25T23:11:13Z
 draft: false
-url : "/events/test3"
+url : "/events/test"
 layout: event
 poster: "images/poster2.jpeg"
-poster_cover: "contain"
-poster_position: "center"
+poster_cover: "cover"
+poster_position: "top"
 short_description: "A short talk followed by Q&A on what it means to be a Senior Engineer and what you can do now to prepare."
 start_time: "7:00 - 8:00 PM EDT"
 location: "Loeb Building"
