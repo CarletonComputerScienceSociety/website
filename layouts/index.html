@@ -31,7 +31,7 @@
     <div class="home-section">
       <h1 class="home-section-heading">Featured Events</h1>
       <div class="home-events">
-        {{ range (where .Site.RegularPages "Section" "events") }}
+        {{ range first 4 (where .Site.RegularPages "Section" "events").ByDate.Reverse }}
           <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
             >{{- partial "event_card.html" . -}}</a
           >
