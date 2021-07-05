@@ -90,7 +90,27 @@
   border-radius: 1rem;
 }
 
-@media only screen and (max-width: 800px) {
+.page {
+  @media only screen and (min-width: 900px) {
+    .page-heading {
+      padding-left: 0;
+      padding-right: 0;
+      height: 90vh;
+      justify-content: center;
+      align-items: center;
+
+      .page-section-image {
+        height: 70vh;
+      }
+
+      .home-section {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .page-header {
     flex-direction: column-reverse;
   }
