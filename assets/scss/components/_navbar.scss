@@ -66,7 +66,7 @@ $navNumOfItemBlocks: 4;
     a {
       color: inherit;
       display: block;
-      padding: 10px 25px;
+      padding: 10px 0px;
       padding-right: 0;
       font-size: 100%;
       img {
@@ -255,6 +255,36 @@ $navNumOfItemBlocks: 4;
 //   margin-top:-47px;
 
 // }
+
+.long_arrow {
+  background: #921c06;
+  height: 3px;
+  width: 60px;
+  margin-left: -3px;
+  margin-top: calc(6rem + 5px);
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    background: #921c06;
+    position: absolute;
+    height: 3px;
+    width: 15px;
+  }
+
+  &:before {
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-33deg);
+  }
+
+  &:after {
+    right: -3px;
+    top: -4px;
+    transform: rotate(33deg);
+  }
+}
 
 .navbar-container {
   position: sticky;
