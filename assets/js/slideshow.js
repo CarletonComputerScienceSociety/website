@@ -1,22 +1,28 @@
-// const path = require('path');
 
-var imageUrls = [
+
+var urls = [
   "/images/orientation2018-min.jpeg",
   "/images/poster.jpeg",
   "/images/poster2.jpeg",
 ];
 
-var imageHeader = document.getElementsByClassName("home-header-image")
+var header = document.getElementsByClassName("home-header-image")
 
-var imageIndex = 0;
+var index = 0;
 
 function startSlideshow(){
-    imageIndex = (imageIndex + 1) % imageUrls.length;
-    for (let i = 0; i < imageHeader.length; i++){
-        imageHeader[i].style.backgroundImage = "url('/ccss-website" + imageUrls[imageIndex] + "')"; //temp file path
+    index = (index + 1) % urls.length;
+    for (let i = 0; i < header.length; i++){
+        header[i].style.animation = "fadeout 500ms forwards"
+        setTimeout(function(){ changeImage(header[i], urls[index])}, 500)
     }
-    console.log(imageHeader[0].style.backgroundImage);
     setTimeout(startSlideshow, 2000);
+}
+
+function changeImage(header, imagePath){
+    header.style.backgroundImage = `url('/ccss-website${imagePath}')`
+    header.style.animation = "fadein 500ms forwards"
+    
 }
 
 startSlideshow()
