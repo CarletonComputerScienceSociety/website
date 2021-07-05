@@ -25,12 +25,19 @@ function startSlideshow() {
     changeImage(frontHeaderMobile, urls[index]);
   }, 500);
 
+  if (navigator.userAgent.indexOf("Chrome") != -1) {
+    frontHeader.style.animation = "fadein 500ms forwards";
+    frontHeaderMobile.style.animation = "fadein 500ms forwards";
+  }
+
   setTimeout(startSlideshow, 2000);
 }
 
 function changeImage(header, imagePath) {
   header.style.backgroundImage = `url('/ccss-website${imagePath}')`;
-  header.style.animation = "fadein 500ms forwards";
+  if (navigator.userAgent.indexOf("Firefox") != -1) {
+    header.style.animation = "fadein 500ms forwards";
+  }
 }
 
 startSlideshow();
