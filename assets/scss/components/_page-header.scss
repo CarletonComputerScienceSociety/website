@@ -1,0 +1,122 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 85vh;
+  background-color: #faf9f8;
+}
+
+.page-header-image {
+  width: 50vw;
+  height: 60vh;
+  transition: background-image 1s ease-in-out;
+  background-image: url("/ccss-website/images/lounge.png"); // TEMP FOR DEMO ... images/orientation2018-min.jpeg
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.page-header-content {
+  width: 47vw;
+  margin-left: 4rem;
+}
+
+.page-header-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.page-header-text {
+  max-width: 65%;
+  font-size: 47px;
+  line-height: 1.125;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.page-header-body {
+  max-width: 65%;
+  color: #42474c;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin-bottom: 3rem;
+}
+
+.page-section {
+  min-height: fit-content;
+  display: grid;
+  grid-column-gap: 6rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 0;
+}
+
+.page-section-reverse {
+  flex-direction: row-reverse;
+}
+
+.page-section-content {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-section-body {
+  color: #42474c;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin-bottom: 3rem;
+}
+
+.page-section-text {
+  font-size: 47px;
+  line-height: 1.125;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.page-section-image {
+  border-radius: 10px;
+  min-height: 50vh;
+  width: 100%;
+  transition: background-image 1s ease-in-out;
+  background-image: url("/ccss-website/images/workshops.png"); // TEMP FOR DEMO ... images/orientation2018-min.jpeg
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .page-header {
+    flex-direction: column-reverse;
+  }
+
+  .page-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .page-section-content {
+    width: 100%;
+  }
+
+  .page-section-grid-priority {
+    order: 1;
+  }
+
+  .page-section-grid-secondary {
+    order: 2;
+  }
+
+  .page-section-image {
+    min-height: 15rem;
+  }
+
+  .page-section-content {
+    margin-bottom: 3rem;
+  }
+}
