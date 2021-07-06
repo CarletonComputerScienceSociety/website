@@ -1,5 +1,4 @@
 var urls = [
-  "/images/academics.png",
   "/images/v0saWei.jpg",
   "/images/orientation2018-min.jpeg",
 ];
