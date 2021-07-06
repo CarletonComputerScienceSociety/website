@@ -1,0 +1,89 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="home-section-grid home-section-dark page-heading">
+      <div class="home-section">
+        <div class="page-section page-section-grid-priority">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/ccss-website/images/volunteer.png")'
+          ></div>
+          <div class="page-section-content">
+            <div class="page-header-title">VOLUNTEER</div>
+            <div class="page-section-text">Make an Impact.</div>
+            <div class="page-section-body">
+              The Carleton Computer Science Society is a student led
+              organization that represents all computer science students
+              attending Carleton University.
+            </div>
+            <a href="#positions"
+              >{{- partial "button.html" (dict "label" "Positions") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-section-grid home-section-light">
+      <div class="home-section">
+        <div class="page-section page-section-grid-priority">
+          <div class="page-section-content">
+            <div class="page-header-title">SOCIAL</div>
+            <div class="page-section-text">Social Committee</div>
+            <div class="page-section-body">
+              The Carleton Computer Science Society is a student led
+              organization that represents all computer science students
+              attending Carleton University.
+            </div>
+            <a href="/ccss-website/about/team"
+              >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+            >
+          </div>
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/ccss-website/images/boardgame.png")'
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div class="home-section-grid home-section-dark">
+      <div class="home-section">
+        <div class="page-section">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/ccss-website/images/academics.png")'
+          ></div>
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-header-title">ACADEMICS</div>
+            <div class="page-section-text">Academics Group</div>
+            <div class="page-section-body">
+              The board of directors is a group of both elected and appointed
+              individuals in charge of managing the organization.
+            </div>
+            <a href="/ccss-website/about/team"
+              >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-section-grid home-section-light">
+      <div class="home-section">
+        <div class="page-section page-section-grid-priority">
+          <div class="page-section-content">
+            <div class="page-header-title">DEVELOPMENT</div>
+            <div class="page-section-text">Development Group</div>
+            <div class="page-section-body">
+              The CCSS strives to be a transparent and accessible organization
+              for all Carleton University computer science students and
+              community members.
+            </div>
+            <a href="/ccss-website/about/team"
+              >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+            >
+          </div>
+          <div class="page-section-image page-section-grid-secondary"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
