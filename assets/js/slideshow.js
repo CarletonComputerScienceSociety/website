@@ -1,42 +1,45 @@
 var urls = [
+  "/images/academics.png",
+  "/images/v0saWei.jpg",
   "/images/orientation2018-min.jpeg",
-  "/images/poster.jpeg",
-  "/images/poster2.jpeg",
 ];
+
+const fadeDuration = 500; //in milliseconds
+const imageTransitionDuration = 10000;
 
 var frontHeader = document.getElementById("front");
 var backHeader = document.getElementById("back");
 var frontHeaderMobile = document.getElementById("front-mobile");
 var backHeaderMobile = document.getElementById("back-mobile");
 
-var index = 0;
+var slideshowIndex = 0;
 
 function startSlideshow() {
-  index = (index + 1) % urls.length;
-  backHeader.style.backgroundImage = `url('/ccss-website${urls[index]}')`;
-  frontHeader.style.animation = "fadeout 500ms forwards";
+  slideshowIndex = (slideshowIndex + 1) % urls.length;
+  backHeader.style.backgroundImage = `url('/ccss-website${urls[slideshowIndex]}')`;
+  frontHeader.style.animation = `fadeout ${fadeDuration}ms forwards`;
   setTimeout(function () {
-    changeImage(frontHeader, urls[index]);
-  }, 500);
+    changeImage(frontHeader, urls[slideshowIndex]);
+  }, fadeDuration);
 
-  backHeaderMobile.style.backgroundImage = `url('/ccss-website${urls[index]}')`;
-  frontHeaderMobile.style.animation = "fadeout 500ms forwards";
+  backHeaderMobile.style.backgroundImage = `url('/ccss-website${urls[slideshowIndex]}')`;
+  frontHeaderMobile.style.animation = `fadeout ${fadeDuration}ms forwards`;
   setTimeout(function () {
-    changeImage(frontHeaderMobile, urls[index]);
-  }, 500);
+    changeImage(frontHeaderMobile, urls[slideshowIndex]);
+  }, fadeDuration);
 
   if (navigator.userAgent.indexOf("Chrome") != -1) {
-    frontHeader.style.animation = "fadein 500ms forwards";
-    frontHeaderMobile.style.animation = "fadein 500ms forwards";
+    frontHeader.style.animation = `fadein ${fadeDuration}ms forwards`;
+    frontHeaderMobile.style.animation = `fadein ${fadeDuration}ms forwards`;
   }
 
-  setTimeout(startSlideshow, 2000);
+  setTimeout(startSlideshow, imageTransitionDuration); //in milliseconds how long each image is visible for
 }
 
 function changeImage(header, imagePath) {
   header.style.backgroundImage = `url('/ccss-website${imagePath}')`;
   if (navigator.userAgent.indexOf("Firefox") != -1) {
-    header.style.animation = "fadein 500ms forwards";
+    header.style.animation = `fadein ${fadeDuration}ms forwards`;
   }
 }
 
