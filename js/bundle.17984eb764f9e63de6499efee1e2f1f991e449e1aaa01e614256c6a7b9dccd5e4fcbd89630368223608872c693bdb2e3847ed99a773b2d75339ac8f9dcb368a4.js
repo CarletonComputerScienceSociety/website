@@ -144,8 +144,8 @@ $(document).ready(function () {
 ;
 var urls = ["/images/v0saWei.jpg", "/images/orientation2018-min.jpeg"];
 
-const fadeDuration = 500; //in milliseconds
-const imageTransitionDuration = 10000;
+const fadeDuration = 500; //in milliseconds how long the fade animation lasts
+const imageTransitionDuration = 10000; //in milliseconds how long each image is visible for
 
 var frontHeader = document.getElementById("front");
 var backHeader = document.getElementById("back");
@@ -173,7 +173,7 @@ function startSlideshow() {
     frontHeaderMobile.style.animation = `fadein ${fadeDuration}ms forwards`;
   }
 
-  setTimeout(startSlideshow, imageTransitionDuration); //in milliseconds how long each image is visible for
+  setTimeout(startSlideshow, imageTransitionDuration);
 }
 
 function changeImage(header, imagePath) {
