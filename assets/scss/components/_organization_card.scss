@@ -1,13 +1,27 @@
 .organization_card {
-  border: 2px solid black;
   display: grid;
   grid-template-rows: 56% 44%;
-  grid-template-columns: 210px;
+  background-color: white;
+  grid-template-columns: 1fr;
+  border-radius: 2%;
   grid-template-areas:
     "picture"
     "description";
   height: 350px;
-  width: 210px;
+  width: 14.5rem;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.15s;
+  margin-bottom: 4rem;
+
+  a {
+    color: #c40729;
+  }
+}
+
+.organization_card:hover {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.15s;
+  color: #c40729;
 }
 
 .upper_organization_picture {
