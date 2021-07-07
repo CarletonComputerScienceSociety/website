@@ -28,8 +28,6 @@ html {
 .hvr-float-org {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: none;
-  transform: none;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -41,7 +39,10 @@ html {
 
 .hvr-float:hover,
 .hvr-float:focus,
-.hvr-float:active {
+.hvr-float:active,
+.hvr-float-org:hover,
+.hvr-float-org:focus,
+.hvr-float-org:active {
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
