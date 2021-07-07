@@ -12,7 +12,13 @@
   </div>
   <div class="home-section-grid home-section-dark">
     <div class="home-section">
-      <h1 class="home-section-heading">Spotlight</h1>
+      <h1 class="home-section-heading">
+        <span>
+          <a href="/ccss-website/news">
+            Spotlight
+            <i class="fa fa-external-link-alt home-header-discord-arrow"></i></a
+        ></span>
+      </h1>
       <div class="home-news">
         <div class="home-news-articles">
           {{ range (where .Site.RegularPages "Section" "news") }}
@@ -29,7 +35,13 @@
   </div>
   <div class="home-section-grid home-section-dark">
     <div class="home-section">
-      <h1 class="home-section-heading">Featured Events</h1>
+      <h1 class="home-section-heading">
+        <span>
+          <a href="/ccss-website/events"
+            >Featured Events
+            <i class="fa fa-external-link-alt home-header-discord-arrow"></i></a
+        ></span>
+      </h1>
       <div class="home-events">
         {{ range first 4 (where .Site.RegularPages "Section" "events").ByDate.Reverse }}
           <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
