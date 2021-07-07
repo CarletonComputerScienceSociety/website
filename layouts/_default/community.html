@@ -4,9 +4,7 @@
     <div class="home-section-grid home-section-light page-heading">
       <div class="home-section">
         <div class="page-section page-section-grid-priority">
-          <div
-            class="page-section-image page-section-grid-secondary"
-          ></div>
+          <div class="page-section-image page-section-grid-secondary"></div>
           <div class="page-section-content">
             <div class="page-header-title">COMMUNITY</div>
             <div class="page-section-text">Your Student Body.</div>
@@ -23,16 +21,15 @@
       </div>
     </div>
     <div id="content" class="home-section-grid home-section-dark">
-        <div class="home-section">
-          <h1 class="home-section-heading">Organizations</h1>
-          <div class="home-events">
-            {{ range $.Site.Data.organizations }}
-              <div class="event_card_link hvr-float-org">
-                {{- partial "organization_card.html" . -}}
-              </div>
-            {{ end }}
-          </div>
+      <div class="home-section">
+        <div class="home-events">
+          {{ range $.Site.Data.organizations }}
+            <div class="event_card_link hvr-float-org">
+              {{- partial "organization_card.html" . -}}
+            </div>
+          {{ end }}
         </div>
       </div>
+    </div>
   </div>
 {{ end }}
