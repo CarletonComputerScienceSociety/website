@@ -7,10 +7,11 @@
     <div class="lower_organization_info">
       <!-- Link to organization website in name -->
       <div class="organization_name_text">
-        {{ .name }}
-        {{ with .website }}
-          <a href="{{ . }}" target="”_blank”"><i class="fas fa-link"></i></a>
-        {{ end }}
+        <a href="{{ . }}" target="”_blank”"
+          >{{ .name }}
+          {{ with .website }}
+            <i class="fas fa-link"></i> {{ end }}
+        </a>
       </div>
       <div class="organization_description_text">
         {{ .description }}
