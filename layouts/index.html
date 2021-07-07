@@ -51,6 +51,18 @@
       </div>
     </div>
   </div>
+  <div class="home-section-grid home-section-dark">
+    <div class="home-section">
+      <h1 class="home-section-heading">Organizations</h1>
+      <div class="home-events">
+        {{ range $.Site.Data.organizations }}
+          <div class="event_card_link hvr-float-org">
+            {{- partial "organization_card.html" . -}}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
   <div class="home-section-grid home-section-light">
     <div class="home-section">
       <h1>Frequently Asked Questions</h1>
