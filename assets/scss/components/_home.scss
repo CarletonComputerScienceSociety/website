@@ -24,7 +24,12 @@
   padding-bottom: 2.5rem;
 
   .home-section-heading {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
     &:hover {
       font-weight: bold;
