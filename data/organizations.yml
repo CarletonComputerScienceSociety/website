@@ -1,12 +1,29 @@
 - name: cuHacking
   description: "Students, just like you! We come from various disciplines and backgrounds, and we aim to help foster the skills and crafts of all those involved in our community. We do this through evolving challenges and events which bring out the hidden talents of everyone around us."
-  website_link: https://cuhacking.com/
-  sublinks:  
-    - discord_link: https://discord.com/invite/TGvYPnD
-    - github_link: https://github.com/cuhacking
-    - instagram_link: https://www.instagram.com/cuHacking/
-    - twitter_link: https://twitter.com/cuhacking
-    - linkedin_link: https://www.linkedin.com/company/cuhacking/
-    - slack_link:
-    - facebook_link: https://www.facebook.com/cuhacking/
-  image: cuHacking.jpg
+  website: https://cuhacking.com/ 
+  discord: https://discord.com/invite/TGvYPnD
+  github: https://github.com/cuhacking
+  instagram: https://www.instagram.com/cuHacking/
+  twitter: https://twitter.com/cuhacking
+  linkedin: https://www.linkedin.com/company/cuhacking/
+  facebook: https://www.facebook.com/cuhacking/
+  image: images/goodcuHacking.png
+
+- name: CU Blueprint
+  description: "We're a team of students at Carleton University that develops pro-bono apps for nonprofits and promotes tech for social good."
+  website: https://cublueprint.org/
+  instagram: https://www.instagram.com/cublueprint/
+  twitter: https://twitter.com/cublueprint?lang=en
+  linkedin: https://www.linkedin.com/company/cublueprint/
+  facebook: https://www.facebook.com/cublueprint/
+  image: images/blueprint.jpg
+
+- name: Carleton AI Society
+  description: "CAIS is a cross-disciplinary student organisation that aims to provide individuals with the necessary skills and knowledge to succeed in their professional, personal, or academic journey into data science, artificial intelligence, and machine learning."
+  website: https://carletonai.com/
+  instagram: https://www.instagram.com/carletonaisociety/?hl=en
+  twitter: https://twitter.com/aicarleton?lang=en
+  linkedin: https://www.linkedin.com/company/carleton-ai/
+  facebook: https://www.facebook.com/carletonaisociety/
+  image: images/carletonai.png
+
