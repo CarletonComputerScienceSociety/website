@@ -140,3 +140,35 @@
     margin-bottom: 3rem;
   }
 }
+
+.page-info-grid {
+  display: grid;
+  grid-column-gap: 6rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 3rem;
+
+  a {
+    color: #c40729;
+  }
+
+  a:hover {
+    color: #ff1f48;
+  }
+
+  .read-more {
+    margin-top: 2rem;
+  }
+
+  .read-more-arrow {
+    font-size: 14px;
+    margin-left: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .page-info-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
