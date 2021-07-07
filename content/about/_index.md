@@ -5,4 +5,3 @@ draft: false
 
 layout: about
 ---
-About

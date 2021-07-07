@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="home-section-grid home-section-light">
+      {{ range (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
+        <div>article</div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
