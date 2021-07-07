@@ -1,0 +1,67 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="home-section-grid home-section-light page-heading">
+      <div class="home-section">
+        <div class="page-section page-section-grid-priority">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/ccss-website/images/board.webp")'
+          ></div>
+          <div class="page-section-content">
+            <div class="page-header-title">ADMINISTRATION</div>
+            <div class="page-section-text">Gouvernance</div>
+            <div class="page-section-body">
+              The CCSS strives to be a transparent and accessible organization
+              for all Carleton University computer science students and
+              community members.
+            </div>
+            <a href="#content"
+              >{{- partial "button.html" (dict "label" "Learn More") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-section-grid home-section-light">
+      <div id="content" class="home-section page-info-grid">
+        <div>
+          <h2>Our Constitution</h2>
+          <p>
+            The CCSS Constitution defines the basic rules that the Society must
+            abide by to remain in control of its assets, dissolution and
+            operation procedures for the Society. We are required to hold a
+            general meeting to change this document.
+          </p>
+          {{- partial "read-more.html" (dict "label" "Read More" "link" "https://docs.google.com/document/d/1qjUtn-7BfmmLniZZDFm3mfygoKr1cPsf8yWleRk_baU/edit?usp=sharing") -}}
+        </div>
+        <div>
+          <h2>Code of Conduct</h2>
+          <p>
+            The CCSS aims to foster an inclusive and welcoming environment in
+            our lounge space and at our events. Individuals participating in any
+            CCSS event, activity or service are all expected to follow the
+            outlined document.
+          </p>
+          {{- partial "read-more.html" (dict "label" "Read More" "link" "https://docs.google.com/document/d/1TTkDQtwMI3NfYDknUdlibpJzmvClc06_CTa8eaGDSIc/edit?fbclid=IwAR2S1xOydGXNGuUk5_KTodh0aljQl3Q1JVpsiMpkEyYn8TiZS2Qb8deZpZs") -}}
+        </div>
+        <div>
+          <h2>Our Electoral Code</h2>
+          <p>
+            The CCSS Electoral Code outlines the timeline, structure, and rules
+            of a Carleton Computer Science Society (“CCSS”) election.
+          </p>
+          {{- partial "read-more.html" (dict "label" "Read More" "link" "https://docs.google.com/document/d/1v66nTxoRgAYNnXLr3ZIAhjkyiHMRGUoK3rH9rmLL478/edit?usp=sharing") -}}
+        </div>
+        <div>
+          <h2>Our Rules of Operation</h2>
+          <p>
+            The rules of operation are rules that the board of directors can
+            change during a meeting as long as the society members are notified.
+          </p>
+          {{- partial "read-more.html" (dict "label" "Read More" "link" "https://docs.google.com/document/d/1GdX5OPCI5gdbViDAfCIbFto6tgNxH-gwHzLy9e2S3o8/edit?usp=sharing") -}}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
