@@ -84,9 +84,9 @@
 
 .organization_links {
   display: flex;
+  justify-content: space-evenly;
   width: 100%;
   max-width: 100%;
-  margin-left: 4px;
   flex-shrink: 1;
   gap: 20px;
   margin-bottom: 15px;
@@ -101,7 +101,7 @@
 .fa-slack,
 .fa-facebook-square {
   color: #3b3b3b;
-  left: 0;
+  -webkit-transform: scale(1.45);
   transform: scale(1.45);
 }
 

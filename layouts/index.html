@@ -44,7 +44,7 @@
       <h1 class="home-section-heading">Organizations</h1>
       <div class="home-events">
         {{ range $.Site.Data.organizations }}
-          <div class="event_card_link hvr-float">
+          <div class="event_card_link hvr-float-org">
             {{- partial "organization_card.html" . -}}
           </div>
         {{ end }}

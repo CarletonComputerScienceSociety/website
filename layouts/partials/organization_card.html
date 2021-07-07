@@ -9,7 +9,7 @@
       <div class="organization_name_text">
         {{ .name }}
         {{ with .website }}
-          <a href="{{ . }}"><i class="fas fa-link"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fas fa-link"></i></a>
         {{ end }}
       </div>
       <div class="organization_description_text">
@@ -17,25 +17,25 @@
       </div>
       <div class="organization_links">
         {{ with .discord }}
-          <a href="{{ . }}"><i class="fab fa-discord"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-discord"></i></a>
         {{ end }}
         {{ with .github }}
-          <a href="{{ . }}"><i class="fab fa-github-square"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-github-square"></i></a>
         {{ end }}
         {{ with .instagram }}
-          <a href="{{ . }}"><i class="fab fa-instagram"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-instagram"></i></a>
         {{ end }}
         {{ with .twitter }}
-          <a href="{{ . }}"><i class="fab fa-twitter-square"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-twitter-square"></i></a>
         {{ end }}
         {{ with .linkedin }}
-          <a href="{{ . }}"><i class="fab fa-linkedin"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-linkedin"></i></a>
         {{ end }}
         {{ with .slack }}
-          <a href="{{ . }}"><i class="fab fa-slack"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-slack"></i></a>
         {{ end }}
         {{ with .facebook }}
-          <a href="{{ . }}"><i class="fab fa-facebook-square"></i></a>
+          <a href="{{ . }}" target=”_blank”><i class="fab fa-facebook-square"></i></a>
         {{ end }}
       </div>
       <div class="red_line"></div>
