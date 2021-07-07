@@ -1,6 +1,16 @@
 #team_flex_box {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
   body {
     margin: 0;
+  }
+  a {
+    text-decoration: underline;
+    color: #c40729;
+  }
+
+  a:hover {
+    color: #ff0000;
   }
   html {
     font-size: 100%;
@@ -24,10 +34,8 @@
   }
   h4,
   h5 {
-    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", "Arial",
-      sans-serif;
     text-rendering: optimizeLegibility;
-    font-weight: lighter;
+    font-weight: 500;
   }
   h4 {
     font-size: 24px;
@@ -59,6 +67,7 @@
   .team-member {
     overflow: hidden;
     padding-top: 20px;
+    margin-bottom: 3rem;
   }
   .team-member,
   .team-member .team-img {
