@@ -25,6 +25,13 @@
 
   .home-section-heading {
     margin-bottom: 2.5rem;
+
+    &:hover {
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+      color: #ff1f48;
+    }
   }
 
   &-grid {
