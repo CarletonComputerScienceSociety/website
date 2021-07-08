@@ -1,0 +1,13 @@
+.news-wrapper {
+  padding: 0 451px;
+}
+
+.news-flex-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}

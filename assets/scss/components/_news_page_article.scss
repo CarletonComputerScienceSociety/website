@@ -20,11 +20,13 @@
 
   &:hover .article_excerpt {
     opacity: 1;
+    height: 90px;
+    user-select: auto;
   }
 }
 
-//For testing, remove when finished
-.outer_news_page_article_card:hover {
+/* For testing, remove when finished */
+/*.outer_news_page_article_card:hover {
   cursor: pointer;
 }
 
@@ -34,29 +36,31 @@
 }
 
 .outer_news_page_article_card:hover .article_info {
-  height: 60%;
+  height: calc(60% - 40px);
 }
 
 .outer_news_page_article_card:hover .article_excerpt {
   opacity: 1;
+  height: 90px;
   user-select: auto;
 }
-
+*/
+/**/
 .news_page_article_picture {
   transition: height 500ms, opacity 500ms;
   height: 67%;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  background-image: url("orientation2018-min.jpeg"); /* change */
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
 }
 
 .article_info {
   transition: height 500ms;
-  height: 33%;
-  padding: 20px 20px;
+  height: calc(33% - 40px);
+  padding: 20px;
+  z-index: 2;
 }
 
 .article_date {
@@ -69,11 +73,12 @@
 }
 
 .article_excerpt {
-  transition: opacity 200ms;
+  transition: opacity 200ms, height 200ms;
   user-select: none;
   opacity: 0;
+  height: 0;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -87,9 +92,18 @@
   border-radius: 1rem;
   font-family: sans-serif;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  border: 2px solid black;
+
+  &:hover {
+    cursor: pointer;
+    grid-template-columns: 65% 35%;
+  }
+
+  &:hover .news_page_featured_article_picture {
+    opacity: 0.5;
+  }
 }
 
+/* For testing, remove when finished */
 .outer_news_page_featured_article_card:hover {
   cursor: pointer;
   grid-template-columns: 65% 35%;
@@ -99,6 +113,7 @@
   .news_page_featured_article_picture {
   opacity: 0.5;
 }
+/**/
 
 .news_page_featured_article_picture {
   transition: opacity 500ms;
@@ -107,7 +122,6 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  background-image: url("orientation2018-min.jpeg"); /* change */
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -122,7 +136,7 @@
 
 .featured_article_excerpt {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

@@ -1,10 +1,18 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
   <div class="about-page page">
-    <div class="home-section-grid home-section-light">
-      {{ range (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
-        <div>article</div>
-      {{ end }}
+    <div class="news-wrapper">
+      <div class="news-flex-display">
+        {{ $first_post := true }}
+        {{ range (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
+          {{ if eq $first_post true }}
+            {{ $first_post = false }}
+            {{- partial "news_page_featured_article.html" . -}}
+            {{ else }}
+            {{- partial "news_page_article.html" . -}}
+          {{ end }}
+        {{ end }}
+      </div>
     </div>
   </div>
 {{ end }}
