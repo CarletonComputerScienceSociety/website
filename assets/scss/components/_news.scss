@@ -10,3 +10,8 @@
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 415px) and (max-width: 1120px) {
+  .news-flex-wrapper{
+    justify-content: space-evenly;
+  }
+}
