@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 40px;
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
@@ -123,5 +124,23 @@
     width: 100%;
     margin-right: 0rem;
     margin-bottom: 1.7rem;
+  }
+}
+
+.see-more {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ff1f48;
   }
 }

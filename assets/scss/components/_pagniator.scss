@@ -1,0 +1,17 @@
+.pagination {
+  text-align: center;
+  font-size: bold;
+
+  li {
+    display: inline;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: auto;
+  }
+
+  .pagination__item--current {
+    color: red;
+  }
+}

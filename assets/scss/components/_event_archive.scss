@@ -1,0 +1,29 @@
+.archived-event-wrapper {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.archived-event {
+  margin-bottom: 50px;
+
+  h2 {
+    margin-bottom: 4px;
+  }
+
+  &:hover h2 {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ff1f48;
+  }
+
+  .archived-event-date {
+    margin-bottom: 10px;
+  }
+}

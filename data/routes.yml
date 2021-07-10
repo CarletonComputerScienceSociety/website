@@ -31,6 +31,9 @@
     - title: Dev Club
       url: about/devclub/
       image: images/orientation2018-min.jpeg
+    - title: Archive
+      url: events/archive
+      image: images/orientation2018-min.jpeg
 
 - title: Services
   url: /services
