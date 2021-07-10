@@ -29,7 +29,11 @@
 
   &_content {
     width: 45%;
-    height: 20rem;
+    min-height: 15rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
@@ -41,7 +45,8 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: rgba(10, 15, 30, 0.72);
+  background: rgba(0, 0, 0, 0.6);
+  //background: rgba(10, 15, 30, 0.72);
 }
 
 .event {
@@ -50,7 +55,7 @@
   min-height: 30rem;
   max-height: fit-content;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
   background-color: var(--bg);
   box-shadow: 0px 0.5rem 1rem -0.5rem rgba(19, 17, 16, 0.384);
@@ -59,6 +64,19 @@
   hr {
     margin-top: 3rem;
   }
+}
+
+.event-time {
+  color: #c40629;
+  font-weight: 700;
+}
+
+.event-subtitle {
+  color: #42474c;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .date_card_about {
@@ -89,6 +107,7 @@
     }
 
     &_content {
+      margin-top: 1.5rem;
       width: 100%;
     }
   }
