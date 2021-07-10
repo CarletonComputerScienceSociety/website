@@ -1,0 +1,16 @@
+<link
+  rel="stylesheet"
+  href="../../assets/scss/components/_event_archive.scss "
+/>
+
+<a href="/ccss-website/{{ .Params.url }}"
+  ><div class="archived-event">
+    <h2 class="archived-event-title">
+      {{ .Params.title }}
+    </h2>
+    <div class="archived-event-date">
+      {{ .Params.date.Format "Monday, Jan 2, 2006" }}
+    </div>
+    <div>{{ .Params.short_description }}</div>
+  </div></a
+>

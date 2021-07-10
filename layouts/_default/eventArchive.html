@@ -1,4 +1,9 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
-  <h1>hi</h1>
+  <div class="archived-event-wrapper">
+      <h1>Events Archive</h1>
+    {{ range (where .Site.RegularPages "Section" "events").ByDate.Reverse }}
+      {{- partial "archived-event.html" . -}}
+    {{ end }}
+  </div>
 {{ end }}
