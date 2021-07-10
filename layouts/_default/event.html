@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- partial "navbar.html" . -}}
+  {{- partial "navbar_temp.html" . -}}
 
   <!--Background-->
   {{- if ne .Params.hideBanner true }}
@@ -16,7 +16,9 @@
   <!-- Date card -->
 
   <!--Content-->
-  <div class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}">
+  <div
+    class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}"
+  >
     <div class="date_card_about">
       <h3 style="text-align: center;">
         {{ .Params.date.Format "Jan" | upper }}
@@ -30,15 +32,25 @@
         style="background-image:url({{ absURL .Params.poster }}); background-size: {{ .Params.poster_cover }}; background-position: {{ .Params.poster_position }}"
       ></div>
       <div class="event_container_content">
-        <h2>{{ .Params.title }}</h2>
-        <p>{{ .Params.short_description }}</p>
-        <h4>START TIME</h4>
-        <h3>{{ .Params.start_time }}</h3>
-        <h4>LOCATION</h4>
-        <h3>{{ .Params.location }}</h3>
+        <div>
+          <h2>{{ .Params.title }}</h2>
+          <p>{{ .Params.short_description }}</p>
+        </div>
+        <div>
+          <div class="event-subtitle">START TIME</div>
+          <div class="event-time">{{ .Params.start_time }}</div>
+        </div>
+        <div>
+          <div class="event-subtitle">LOCATION</div>
+          <a href="{{ .Params.location_link }}"
+              >{{- partial "button.html" (dict "label" .Params.location) -}}</a
+            >
+        </div>
       </div>
     </div>
     <hr />
-    <p>{{- .Content }}</p>
+    <div class="markdown-content">
+      {{- .Content }}
+  </div>
   </div>
 {{ end }}
