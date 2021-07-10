@@ -1,11 +1,11 @@
 ---
-display_title: "A Chat with Ross Video"
-title: "Blockchain + Crypto Q&A Session 3"
-date: 2020-01-26T23:11:13Z
+display_title: "Blockchain and Cryptocurrency Landscape"
+title: "Blockchain + Crypto Q&A Session"
+date: 2020-01-25T23:11:13Z
 draft: false
-url : "/events/test3"
+url : "/events/test"
 layout: event
-poster: "images/poster2.jpeg"
+poster: "https://scontent.fymy1-2.fna.fbcdn.net/v/t1.6435-9/162696204_4402910139736607_5285953870092712801_n.png?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=IzH4EXGiUUcAX9kC3Un&_nc_ht=scontent.fymy1-2.fna&oh=049be3915b677b9e278cbc8d5e04293b&oe=60E3BC54"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "A short talk followed by Q&A on what it means to be a Senior Engineer and what you can do now to prepare."

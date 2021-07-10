@@ -1,11 +1,11 @@
 ---
-display_title: "A Chat with Ross Video"
-title: "Blockchain + Crypto Q&A Session 3"
-date: 2020-01-26T23:11:13Z
+display_title: "Science Society Super Social"
+title: "Blockchain + Crypto Q&A Session 2"
+date: 2020-01-25T23:11:13Z
 draft: false
-url : "/events/test3"
+url : "/events/test2"
 layout: event
-poster: "images/poster2.jpeg"
+poster: "https://scontent.fymy1-1.fna.fbcdn.net/v/t1.6435-9/157547321_4365494690144819_9108691569817208054_n.png?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_ohc=dFv76GK5iJ4AX_VuUJX&_nc_ht=scontent.fymy1-1.fna&oh=3a0e98e29c5164bf8aa692100811c6de&oe=60E48A0F"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "A short talk followed by Q&A on what it means to be a Senior Engineer and what you can do now to prepare."
