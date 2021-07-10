@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="links-page">
+    <div class="links-main">
+      <div class="links-header">
+        <img
+          class="links-header-image"
+          src="https://d1fdloi71mui9q.cloudfront.net/z6N6fyThSxDYhA0ElhGQ_aYJ140jIo0VRt84w"
+        />
+        <div>@ccss</div>
+        <div>Carleton Computer Science Society</div>
+      </div>
+      {{ range $.Site.Data.links }}
+        {{- partial "link.html" (dict "label" .label "link" .link) -}}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

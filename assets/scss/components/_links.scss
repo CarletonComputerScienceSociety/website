@@ -1,0 +1,62 @@
+.links-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  color: white;
+  background: #c40729;
+}
+
+.links-main {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.links-header {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-header-image {
+  border-radius: 50%;
+  width: 7rem;
+}
+
+.link-anchor {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+}
+
+.link {
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  margin-bottom: 16px;
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 59, 60);
+  border-radius: 0px;
+  height: auto;
+  padding: 1.2rem 0;
+}
+
+.link:hover {
+  color: white;
+  background: #c40729;
+}
