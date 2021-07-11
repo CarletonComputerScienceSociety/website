@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- partial "navbar.html" . -}}
+  {{- partial "navbar_temp.html" . -}}
 
   <!--Header-->
   {{- if ne .Params.hideBanner true }}
@@ -15,7 +15,7 @@
 
   <!--Content-->
   <div class="{{ if .Params.full }}wrap post{{ else }}overlaypost{{ end }}">
-    <article class="overlaypost_content">
+    <article class="overlaypost_content markdown-content">
       <!--Temp-->
       <h1 style="font-size: 3rem">{{- .Params.title }}</h1>
       {{- .Content }}

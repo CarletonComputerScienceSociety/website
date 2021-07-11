@@ -1,5 +1,16 @@
 {{ define "main" }}
-  <h1>List</h1>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  {{- partial "navbar_temp.html" . -}}
+  {{- $filteredPosts := .Site.Params.blogDir }}
+  {{- $pages := .Pages }}
+  {{- if .IsHome }}
+    {{- $pages = .Site.RegularPages }}
+    {{- if $filteredPosts }}
+      {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
+    {{- end }}
+  {{- end }}
+  <ul class="posts wrap" id="posts">
+    {{- range (.Paginate $pages).Pages }}
+      {{ . }}
+    {{- end }}
+  </ul>
 {{ end }}

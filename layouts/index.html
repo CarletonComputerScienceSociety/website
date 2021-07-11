@@ -21,14 +21,18 @@
       </h1>
       <div class="home-news">
         <div class="home-news-articles">
-          {{ range first 4 (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
+          {{ range first 4 (where (where .Site.RegularPages "Section" "news") ".Params.featured" false).ByDate.Reverse }}
             <a class="article-link" href="{{ .RelPermalink }}"
               >{{- partial "article.html" . -}}</a
             >
           {{ end }}
         </div>
         <div class="home-news-featured">
-          {{- partial "featured-article.html" . -}}
+          {{ range first 1 (where (where .Site.RegularPages "Section" "news") ".Params.featured" true).ByDate.Reverse }}
+            <a class="article-link" href="{{ .RelPermalink }}"
+              >{{- partial "featured-article.html" . -}}</a
+            >
+          {{ end }}
         </div>
       </div>
     </div>
@@ -43,7 +47,7 @@
         ></span>
       </h1>
       <div class="home-events">
-        {{ range first 4 (where .Site.RegularPages "Section" "events").ByDate.Reverse }}
+        {{ range first 4 (where .Site.RegularPages "Section" "events" ).ByDate.Reverse }}
           <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
             >{{- partial "event_card.html" . -}}</a
           >
