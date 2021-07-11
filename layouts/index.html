@@ -21,7 +21,7 @@
       </h1>
       <div class="home-news">
         <div class="home-news-articles">
-          {{ range (where .Site.RegularPages "Section" "news") }}
+          {{ range first 4 (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
             <a class="article-link" href="{{ .RelPermalink }}"
               >{{- partial "article.html" . -}}</a
             >
