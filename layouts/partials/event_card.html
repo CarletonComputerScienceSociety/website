@@ -7,7 +7,7 @@
   <div class="event_card">
     <div
       class="upper_picture"
-      style="background-image: url({{ .Params.poster }}); "
+      style="background-image: url({{ absURL .Params.poster }}); "
     ></div>
     <div class="lower_info">
       <div class="time_text">{{ .Params.start_time }}</div>
