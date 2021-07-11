@@ -1,5 +1,8 @@
 <div class="article-featured hvr-float">
-  <div class="article-featured-image"></div>
+  <div
+    class="article-featured-image"
+    style="background-image: url({{ absURL .Params.preview }}); "
+  ></div>
   <div class="article-featured-body">
     <div class="article-featured-date">
       {{ .Params.date.Format "January 2, 2006" }}

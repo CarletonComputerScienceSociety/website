@@ -22,4 +22,4 @@ At the meeting, we will discuss the goals of the society, report on this year's 
 
 ## Slides
 
-Click [here](https://ccss.carleton.ca/slides/2020-2021/winter_general_meeting.pdf) to view the meeting slides.
+Click [here](https://ccss.carleton.ca/pdfs/2020-2021/winter_general_meeting.pdf) to view the meeting slides.

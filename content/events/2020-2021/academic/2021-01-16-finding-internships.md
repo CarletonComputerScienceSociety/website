@@ -16,4 +16,4 @@ background: "images/orientation2018-min.jpeg"
 
 ## Description
 
-Trying to find your first internship during this pandemic and feel like giving up? Don’t throw in the towel just yet! On Saturday, January 16th from 12 - 1 PM on our Discord, the CCSS is going to give you a quick crash course on how to land your first CS gig, even if you’re in your first year. The presentation slides can be viewed [here!](https://ccss.carleton.ca/slides/2020-2021/finding_internships.pdf)
+Trying to find your first internship during this pandemic and feel like giving up? Don’t throw in the towel just yet! On Saturday, January 16th from 12 - 1 PM on our Discord, the CCSS is going to give you a quick crash course on how to land your first CS gig, even if you’re in your first year. The presentation slides can be viewed [here!](https://ccss.carleton.ca/pdfs/2020-2021/finding_internships.pdf)
