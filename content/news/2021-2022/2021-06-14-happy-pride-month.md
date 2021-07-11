@@ -7,7 +7,7 @@ preview: "images/news/2021-2022/happy_pride_month.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "From all of us at the CCSS, happy pride month!"
 hideBanner: false
-featured: true
+featured: false
 author: Aaditya Chopra
 categories:
 - annoucement
