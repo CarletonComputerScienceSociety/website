@@ -7,6 +7,7 @@ layout: overlaypost
 background: "images/orientation2018-min.jpeg"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 hideBanner: false
+featured: false
 ---
 
 ## Step 1. Install Hugo

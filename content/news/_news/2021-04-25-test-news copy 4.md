@@ -1,12 +1,13 @@
 ---
-title: "Happy Pride Month!"
+title: "Very Epic Test!"
 date: 2020-01-25T23:11:13Z
 draft: false
-url : "/news/overlay"
+url : "/news/overlay2"
 layout: overlaypost
 background: "images/orientation2018-min.jpeg"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 hideBanner: false
+featured: false
 ---
 
 ## Step 1. Install Hugo

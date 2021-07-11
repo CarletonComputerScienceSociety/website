@@ -6,9 +6,13 @@
       {{ range (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
         {{ if eq $first_post true }}
           {{ $first_post = false }}
-          {{- partial "news_page_featured_article.html" . -}}
+          <a class="news-link" href="{{ .RelPermalink }}"
+            >{{- partial "news_page_featured_article.html" . -}}</a
+          >
           {{ else }}
-          {{- partial "news_page_article.html" . -}}
+          <a class="news-link" href="{{ .RelPermalink }}"
+            >{{- partial "news_page_article.html" . -}}</a
+          >
         {{ end }}
       {{ end }}
     </div>
