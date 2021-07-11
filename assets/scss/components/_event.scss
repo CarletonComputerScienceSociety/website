@@ -37,6 +37,11 @@
   }
 }
 
+.event-page {
+  min-height: 100vh;
+  width: 100%;
+}
+
 .event_header::after {
   content: "";
   position: absolute;

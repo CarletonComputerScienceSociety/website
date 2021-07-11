@@ -1,56 +1,57 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
+  <div class="event-page">
+    <!--Background-->
+    {{- if ne .Params.hideBanner true }}
+      <section
+        class="event_header"
+        style="background-image:url({{ absURL .Params.background }});"
+      ></section>
+      <section
+        class="event_header event_blur"
+        style="background-image:url({{ absURL .Params.background }});"
+      ></section>
+    {{- end }}
 
-  <!--Background-->
-  {{- if ne .Params.hideBanner true }}
-    <section
-      class="event_header"
-      style="background-image:url({{ absURL .Params.background }});"
-    ></section>
-    <section
-      class="event_header event_blur"
-      style="background-image:url({{ absURL .Params.background }});"
-    ></section>
-  {{- end }}
+    <!-- Date card -->
 
-  <!-- Date card -->
-
-  <!--Content-->
-  <div class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}">
-    <div class="date_card_about">
-      <h3 style="text-align: center;">
-        {{ .Params.date.Format "Jan" | upper }}
-      </h3>
-      <h2 style="text-align: center;">{{ .Params.date.Format "2" }}</h2>
-      <h3 style="text-align: center;">{{ .Params.date.Format "2006" }}</h3>
-    </div>
-    <div class="event_container">
-      <div
-        class="event_container_poster"
-        style="background-image:url({{ absURL .Params.poster }}); background-size: {{ .Params.poster_cover }}; background-position: {{ .Params.poster_position }}"
-      ></div>
-      <div class="event_container_content">
-        <div>
-          <h2>{{ .Params.title }}</h2>
-          <p>{{ .Params.short_description }}</p>
-        </div>
-        <div>
-          <div class="event-subtitle">START TIME</div>
-          <div class="event-time">{{ .Params.start_time }}</div>
-        </div>
-        <div>
-          <div class="event-subtitle">LOCATION</div>
-          <a href="{{ .Params.location_link }}"
-            >{{- partial "button.html" (dict "label" .Params.location) -}}</a
-          >
+    <!--Content-->
+    <div class="{{ if .Params.full }}wrap post{{ else }}event{{ end }}">
+      <div class="date_card_about">
+        <h3 style="text-align: center;">
+          {{ .Params.date.Format "Jan" | upper }}
+        </h3>
+        <h2 style="text-align: center;">{{ .Params.date.Format "2" }}</h2>
+        <h3 style="text-align: center;">{{ .Params.date.Format "2006" }}</h3>
+      </div>
+      <div class="event_container">
+        <div
+          class="event_container_poster"
+          style="background-image:url({{ absURL .Params.poster }}); background-size: {{ .Params.poster_cover }}; background-position: {{ .Params.poster_position }}"
+        ></div>
+        <div class="event_container_content">
+          <div>
+            <h2>{{ .Params.title }}</h2>
+            <p>{{ .Params.short_description }}</p>
+          </div>
+          <div>
+            <div class="event-subtitle">START TIME</div>
+            <div class="event-time">{{ .Params.start_time }}</div>
+          </div>
+          <div>
+            <div class="event-subtitle">LOCATION</div>
+            <a href="{{ .Params.location_link }}"
+              >{{- partial "button.html" (dict "label" .Params.location) -}}</a
+            >
+          </div>
         </div>
       </div>
+      {{ if ne (len .Content) 0 }}
+        <hr />
+        <div class="markdown-content">
+          {{ .Content }}
+        </div>
+      {{ end }}
     </div>
-    {{ if ne (len .Content) 0 }}
-      <hr />
-      <div class="markdown-content">
-        {{ .Content }}
-      </div>
-    {{ end }}
   </div>
 {{ end }}
