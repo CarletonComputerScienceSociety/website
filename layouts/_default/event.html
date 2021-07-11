@@ -46,9 +46,11 @@
         </div>
       </div>
     </div>
-    <hr />
-    <div class="markdown-content">
-      {{- .Content }}
-    </div>
+    {{ if ne (len .Content) 0 }}
+      <hr />
+      <div class="markdown-content">
+        {{ .Content }}
+      </div>
+    {{ end }}
   </div>
 {{ end }}
