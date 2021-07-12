@@ -3,7 +3,7 @@ title: "Happy Pride Month!"
 date: 2021-06-14T23:11:13Z
 draft: false
 layout: overlaypost
-preview: "images/news/2021-2022/happy_pride_month.jpg"
+preview: "images/news/2021-2022/rainbow_carleton.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "From all of us at the CCSS, happy pride month!"
 hideBanner: false
