@@ -57,7 +57,7 @@
 }
 
 .article_date {
-  color: #e62828;
+  color: #c40729;
   padding-bottom: 15px;
 }
 
@@ -70,6 +70,8 @@
 
 .article_title {
   padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .article_excerpt {
@@ -86,7 +88,7 @@
 .outer_news_page_featured_article_card {
   transition: grid-template-columns 500ms;
   display: grid;
-  grid-template-columns: 73% 27%;
+  grid-template-columns: 70% 30%;
   width: 977px;
   height: 361px;
   border-radius: 1rem;
@@ -128,6 +130,7 @@
 
 .featured_article_info {
   padding: 0 20px;
+  padding-left: 2.5rem;
   display: flex;
   width: 225px;
   flex-direction: column;
@@ -140,6 +143,15 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.featured_article_title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.featured_article_date {
+  color: #c40729;
 }
 
 /* Good for tablets */
