@@ -111,6 +111,10 @@
     text-decoration: none;
   }
 
+  .date_card{
+    margin-top: -40px;
+  }
+
   .event_card {
     grid-template-columns: 22vw 66vw;
     grid-template-rows: 10rem;
@@ -124,6 +128,10 @@
     flex-direction: column;
     justify-content: center;
   } 
+
+  .truncated_text{
+    margin-bottom: 1rem;
+  }
   
 }
 
