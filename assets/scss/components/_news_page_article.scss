@@ -77,13 +77,7 @@
 }
 
 .outer_news_page_featured_article_card {
-  -webkit-transition: grid-template-columns 500ms;
-  -moz-transition: grid-template-columns 500ms;
-  -ms-transition: grid-template-columns 500ms;
-  -o-transition: grid-template-columns 500ms;
-  transition: grid-template-columns 500ms;
-  display: grid;
-  grid-template-columns: 70% 30%;
+  display: inline-flex;
   width: 977px;
   height: 361px;
   border-radius: 1rem;
@@ -91,22 +85,22 @@
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
   &:hover {
-    grid-template-columns: 65% 35%;
     cursor: pointer;
   }
 
   &:hover .news_page_featured_article_picture {
+    width: 65%;
     opacity: 0.5;
   }
 }
 
 .news_page_featured_article_picture {
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -ms-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-  width: 100%;
+  -webkit-transition: opacity 500ms, width 500ms;
+  -moz-transition: opacity 500ms, width 500ms;
+  -ms-transition: opacity 500ms, width 500ms;
+  -o-transition: opacity 500ms, width 500ms;
+  transition: opacity 500ms, width 500ms;
+  width: 70%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -158,11 +152,11 @@
 
 @media only screen and (max-width: 414px) {
   .outer_news_page_featured_article_card {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
     display: block;
     width: 472px;
     height: 354px;
@@ -175,6 +169,7 @@
     }
 
     &:hover .news_page_featured_article_picture {
+      width: inherit;
       height: 40%;
       opacity: 0.5;
     }
@@ -196,6 +191,7 @@
     -ms-transition: height 500ms, opacity 500ms;
     -o-transition: height 500ms, opacity 500ms;
     transition: height 500ms, opacity 500ms;
+    width: 100%;
     height: 67%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -241,10 +237,10 @@
   }
 
   .outer_news_page_article_card {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
   }
 }
