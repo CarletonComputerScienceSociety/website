@@ -30,19 +30,19 @@ hugo server
 
 ## Events
 
-* display_title: The event's name as it will be shown on the home and events pages
-* title: The event's name as it will be shown on an event's individual page
-* date: The date the event took place
-* draft: Boolean representing whether the event should be publicly viewable
-* layout: (event) Represents that this page should follow the event page layout
-* poster: ("images/event_posters/20**-20**/**.jpg") The location of the event's poster
-* poster_cover:("contain") Represents the background-size css property
-* poster_position: ("center") Represents the background-position css property
-* short_description: Represents the description used otuside an event's individual page
-* start_time: Represents an event's start time
-* location: Represents the text that will appear on the red event page button
-* location_link: The link used when you click on the event page "red button"
-* background: ("images/orientation2018-min.jpeg") image used as the background of the upper part of the page
+* **display_title:** The event's name as it will be shown on the home and events pages
+* **title:** The event's name as it will be shown on an event's individual page
+* **date:** The date the event took place
+* **draft:** Boolean representing whether the event should be publicly viewable
+* **layout:** (event) Represents that this page should follow the event page layout
+* **poster: ("images/event_posters/20XX-20XX/NAME.jpg")** The location of the event's poster
+* **poster_cover:** ("contain") Represents the background-size css property
+* **poster_position:** ("center") Represents the background-position css property
+* **short_description:** Represents the description used otuside an event's individual page
+* **start_time:** Represents an event's start time
+* **location:** Represents the text that will appear on the red event page button
+* **location_link:** The link used when you click on the event page "red button"
+* **background:** ("images/orientation2018-min.jpeg") Image used as the background of the upper part of the page
 
 
 ## Content Generators
