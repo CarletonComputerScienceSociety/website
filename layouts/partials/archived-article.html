@@ -1,0 +1,11 @@
+<a href="{{ .RelPermalink }}"
+  ><div class="archived-event">
+    <h2 class="archived-event-title">
+      {{ .Params.title }}
+    </h2>
+    <div class="archived-event-date">
+      {{ .Params.date.Format "Monday, Jan 2, 2006" }}
+    </div>
+    <div>{{ .Params.excerpt }}</div>
+  </div></a
+>

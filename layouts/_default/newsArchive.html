@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="archived-event-wrapper">
+    <h1>Events Archive</h1>
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "news") }}
+    {{ range $paginator.Pages }}
+      {{- partial "archived-article.html" . -}}
+    {{ end }}
+    {{- partial "paginator.html" . -}}
+  </div>
+{{ end }}
