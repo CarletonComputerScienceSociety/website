@@ -35,7 +35,7 @@ hugo server
 * **date:** The date the event took place
 * **draft:** Boolean representing whether the event should be publicly viewable
 * **layout:** (event) Represents that this page should follow the event page layout
-* **poster: ("images/event_posters/20XX-20XX/NAME.jpg")** The location of the event's poster
+* **poster:** ("images/event_posters/20XX-20XX/NAME.jpg") The location of the event's poster
 * **poster_cover:** ("contain") Represents the background-size css property
 * **poster_position:** ("center") Represents the background-position css property
 * **short_description:** Represents the description used otuside an event's individual page
