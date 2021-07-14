@@ -16,6 +16,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .news-link{
+    transform: scale(0.75);
+  }
+}
+
 .news-link {
   text-decoration: none;
   color: inherit;
