@@ -1,7 +1,6 @@
 .news-flex-wrapper {
   max-width: 1024px;
   padding-bottom: 3rem;
-  padding-top: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -17,7 +16,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .news-link{
+  .news-link {
     transform: scale(0.75);
   }
 }

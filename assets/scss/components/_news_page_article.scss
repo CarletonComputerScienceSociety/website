@@ -1,3 +1,12 @@
+.featured-news-desktop {
+  display: block;
+}
+
+.featured-news-mobile {
+  display: none;
+  transform: scale(0.75);
+}
+
 .outer_news_page_article_card {
   width: 472px;
   height: 354px;
@@ -151,84 +160,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .outer_news_page_featured_article_card {
+  .featured-news-desktop {
+    display: none;
+  }
+
+  .featured-news-mobile {
     display: block;
-    width: 472px;
-    height: 354px;
-    border-radius: 2%;
-    font-family: sans-serif;
-    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-    &:hover {
-      cursor: pointer;
-    }
-
-    &:hover .news_page_featured_article_picture {
-      width: inherit;
-      height: 40%;
-      opacity: 0.5;
-    }
-
-    &:hover .featured_article_info {
-      height: 60%;
-    }
-
-    &:hover .featured_article_excerpt {
-      opacity: 1;
-      height: 90px;
-      user-select: auto;
-    }
   }
 
-  .news_page_featured_article_picture {
-    -webkit-transition: height 500ms, opacity 500ms;
-    -moz-transition: height 500ms, opacity 500ms;
-    -ms-transition: height 500ms, opacity 500ms;
-    -o-transition: height 500ms, opacity 500ms;
-    transition: height 500ms, opacity 500ms;
-    width: 100%;
-    height: 67%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    border-top-left-radius: 2%;
-    border-top-right-radius: 2%;
-    border-bottom-left-radius: 0;
-  }
-
-  .feature_article_date {
-    color: #e62828;
-    padding-bottom: 15px;
-  }
-
-  .featured_article_info {
-    -webkit-transition: height 500ms;
-    -moz-transition: height 500ms;
-    -ms-transition: height 500ms;
-    -o-transition: height 500ms;
-    transition: height 500ms;
-    width: 335px;
-    height: calc(33% - 40px);
-    padding: 20px;
-    z-index: 2;
-  }
-
-  .feature_article_title {
-    padding-bottom: 15px;
-  }
-
-  .featured_article_excerpt {
-    -webkit-transition: opacity 200ms, height 200ms;
-    -moz-transition: opacity 200ms, height 200ms;
-    -ms-transition: opacity 200ms, height 200ms;
-    -o-transition: opacity 200ms, height 200ms;
-    transition: opacity 200ms, height 200ms;
-    user-select: none;
-    opacity: 0;
-    height: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  .outer_news_page_article_card {
+    margin-bottom: -50px;
   }
 }
