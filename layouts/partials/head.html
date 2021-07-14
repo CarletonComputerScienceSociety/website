@@ -22,23 +22,57 @@
     rel="stylesheet"
   />
 
-  <link
-    href="//db.onlinewebfonts.com/c/12dae16edcf385e3fcc78ecc87e3a45a?family=GenerisSansW01-Heavy"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <link
-    href="//db.onlinewebfonts.com/c/10e09daee0a60677b555581654b44612?family=Generis+Sans"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <link
-    href="//db.onlinewebfonts.com/c/d3ff12e8327c32ad79e2e1b003448c27?family=Generis+Sans"
-    rel="stylesheet"
-    type="text/css"
-  />
+  <!-- seo -->
 
   {{ $title := print .Site.Title " | " .Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+
   <title>{{ $title }}</title>
+
+  {{ $description := "CCSS" }}
+  {{ if eq .Params.layout "event" }}
+    {{ $description = print .Params.short_description }}{{ end }}
+
+
+  {{ if eq .Params.layout "annoucement" }}
+    {{ $description = print .Params.excerpt }}{{ end }}
+
+
+  {{ if eq .Params.layout "overlaypost" }}
+    {{ $description = print .Params.excerpt }}{{ end }}
+
+
+  <meta name="description" content="{{ $description }}" />
+
+  {{ $url := "https://ccss.carleton.ca" }}
+
+  {{ $image := "https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png" }}
+  {{ if eq .Params.layout "event" }}
+    {{ $image = print .Params.poster }}{{ end }}
+
+
+  {{ if eq .Params.layout "annoucement" }}
+    {{ $image = print .Params.preview }}{{ end }}
+
+
+  {{ if eq .Params.layout "overlaypost" }}
+    {{ $image = print .Params.preview }}{{ end }}
+
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ $url }}" />
+  <meta property="og:title" content="{{ $title }}" />
+  <meta property="og:description" content="{{ $description }}" />
+  <meta property="og:image" content="{{ $url }}/ccss-website/{{ $image }}" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="{{ $url }}" />
+  <meta property="twitter:title" content="{{ $title }}" />
+  <meta property="twitter:description" content="{{ $description }}" />
+  <meta
+    property="twitter:image"
+    content="{{ $url }}/ccss-website/{{ $image }}"
+  />
 </head>
