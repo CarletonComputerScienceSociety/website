@@ -1,23 +1,33 @@
 <div class="navbar-container">
   <div class="navbar-wrapper">
-    <div class="navbar">
+    <div class="navbar" id="primary_nav_wrap">
       <a href="{{ absURL "" }}" class="nav-brand nav_item">
         <img
           width="225px"
           src="https://cdn.discordapp.com/attachments/490220076163792896/835612220364292136/oktestuyi.png"
         />
       </a>
-      <div class="navbar-items">
-        <a href="/ccss-website/about"><div class="navbar-item">ABOUT</div></a>
-        <a href="/ccss-website/events"><div class="navbar-item">EVENTS</div></a>
-        <a href="/ccss-website/news"><div class="navbar-item">NEWS</div></a>
-        <a href="/ccss-website/community"
-          ><div class="navbar-item">COMMUNITY</div></a
-        >
-        <a href="/ccss-website/volunteer"
-          ><div class="navbar-item">VOLUNTEER</div></a
-        >
-      </div>
+      <ul class="navbar-items">
+        <li>
+          <a href="/ccss-website/about">ABOUT</a>
+          <ul>
+            <li><a href="/ccss-website/about/team">THE TEAM</a></li>
+            <li><a href="/ccss-website/about/governance">GOVERNANCE</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/ccss-website/events">EVENTS</a>
+        </li>
+        <li>
+          <a href="/ccss-website/news">NEWS</a>
+        </li>
+        <li>
+          <a href="/ccss-website/community">COMMUNITY</a>
+        </li>
+        <li>
+          <a href="/ccss-website/volunteer">VOLUNTEER</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
