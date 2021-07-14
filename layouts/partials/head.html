@@ -33,8 +33,10 @@
   {{ if eq .Params.layout "event" }}
     {{ $description = print .Params.short_description }}{{ end }}
 
+
   {{ if eq .Params.layout "annoucement" }}
     {{ $description = print .Params.excerpt }}{{ end }}
+
 
   {{ if eq .Params.layout "overlaypost" }}
     {{ $description = print .Params.excerpt }}{{ end }}
@@ -48,8 +50,10 @@
   {{ if eq .Params.layout "event" }}
     {{ $image = print .Params.poster }}{{ end }}
 
+
   {{ if eq .Params.layout "annoucement" }}
     {{ $image = print .Params.preview }}{{ end }}
+
 
   {{ if eq .Params.layout "overlaypost" }}
     {{ $image = print .Params.preview }}{{ end }}
