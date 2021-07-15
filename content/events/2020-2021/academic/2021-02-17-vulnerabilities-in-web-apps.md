@@ -8,10 +8,12 @@ poster: "images/event_posters/2020-2021/vulnerabilities_in_web_apps.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "You'll learn all about how to keep your website safe from SQL vulnerabilities, sensitive data exposure, and cross-site scripting."
-start_time: "12:00 - 2:00 PM EDT"
+start_time: "6:00 - 7:00 PM EDT"
 location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Description

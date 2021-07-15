@@ -12,6 +12,8 @@ start_time: "3:00 - 4:00 PM EST"
 location: "Zoom"
 location_link: "https://us02web.zoom.us/j/86086560129"
 background: "images/orientation2018-min.jpeg"
+tags:
+- community
 ---
 
 ## Description

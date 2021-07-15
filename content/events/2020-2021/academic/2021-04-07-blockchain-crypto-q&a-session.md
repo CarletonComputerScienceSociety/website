@@ -12,6 +12,8 @@ start_time: "6:00 - 7:00 PM EDT"
 location: "Zoom"
 location_link: "https://us02web.zoom.us/j/84380477439?pwd=TGNEbHc2Q3dSK3ZIUDJpemNDOUl5dz09"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Description

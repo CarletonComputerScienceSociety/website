@@ -12,4 +12,6 @@ start_time: "7:30 - 8:30 PM EST"
 location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
+tags:
+- community
 ---

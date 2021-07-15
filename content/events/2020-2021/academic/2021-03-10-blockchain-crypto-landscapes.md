@@ -12,6 +12,8 @@ start_time: "7:00 - 8:00 PM EDT"
 location: "Zoom"
 location_link: "https://zoom.us/webinar/register/WN_cFJRJLViQ1SwBrEbK10RhA"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Recording

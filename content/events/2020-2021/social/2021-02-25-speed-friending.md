@@ -12,4 +12,6 @@ start_time: "4:00 - 5:00 PM EDT"
 location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
+tags:
+- social
 ---
