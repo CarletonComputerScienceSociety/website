@@ -1,4 +1,7 @@
-var urls = ["/images/v0saWei.jpg", "/images/orientation2018-min.jpeg"];
+var urls = [
+  "/images/slideshow/lounge.jpeg",
+  "/images/slideshow/orientation.jpeg",
+];
 
 const fadeDuration = 500; //in milliseconds how long the fade animation lasts
 const imageTransitionDuration = 10000; //in milliseconds how long each image is visible for
