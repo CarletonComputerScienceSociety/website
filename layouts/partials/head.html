@@ -29,9 +29,10 @@
 
   <title>{{ $title }}</title>
 
-  {{ $description := "CCSS" }}
+  {{ $description := "The Carleton Computer Science Society is a student led organization that represents all computer science students attending Carleton University." }}
   {{ if eq .Params.layout "event" }}
-    {{ $description = print .Params.short_description }}{{ end }}
+    {{ $date := .Params.date.Format "January 2, 2006" }}
+    {{ $description = printf "%s | %s | %s"  $date .Params.start_time .Params.short_description }}{{ end }}
 
 
   {{ if eq .Params.layout "annoucement" }}
