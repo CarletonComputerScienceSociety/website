@@ -12,6 +12,8 @@ start_time: "12:00 AM EST"
 location: "Advent of Code"
 location_link: "https://adventofcode.com/"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Description

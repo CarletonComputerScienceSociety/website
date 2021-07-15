@@ -12,6 +12,8 @@ start_time: "5:00 - 7:00 PM EDT"
 location: "Gather Town"
 location_link: "https://forms.gle/EU5K6kwyaxoMAao86"
 background: "images/orientation2018-min.jpeg"
+tags:
+- social
 ---
 
 ## Description

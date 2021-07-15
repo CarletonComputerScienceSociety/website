@@ -12,6 +12,8 @@ start_time: "7:00 - 8:00 PM EDT"
 location: "Microsoft Teams"
 location_link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2QwMDU4NmUtNzJlMy00ZDQ0LThhMGMtYmE4ZDkzOGIyOWFm%40thread.v2/0?context=%7b%22Tid%22%3a%226ad91895-de06-485e-bc51-fce126cc8530%22%2c%22Oid%22%3a%228f673cc7-c6a0-4fba-abe4-237b3a53eb2f%22%7d"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Description

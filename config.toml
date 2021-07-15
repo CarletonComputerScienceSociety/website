@@ -2,4 +2,5 @@ baseURL = "https://ccss.carleton.ca/ccss-website/"
 languageCode = "en-us"
 title = "Carleton Computer Science Society"
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+uglyurls = true

@@ -1,6 +1,6 @@
 ---
-display_title: "Finding Internships"
-title: "Finding your First Internship"
+display_title: "Figma Workshop"
+title: "Figma Workshop"
 date: 2021-01-13T00:00:00Z
 draft: false
 layout: event
@@ -12,6 +12,8 @@ start_time: "6:00 - 8:00 PM EST"
 location: "Microsoft Teams"
 location_link: " http://bit.ly/ccss-figma-workshop-link"
 background: "images/orientation2018-min.jpeg"
+tags:
+- academics
 ---
 
 ## Description
