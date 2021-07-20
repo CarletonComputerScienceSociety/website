@@ -11,7 +11,9 @@
         <div>Carleton Computer Science Society</div>
       </div>
       {{ range $.Site.Data.links }}
-        {{- partial "link.html" (dict "label" .label "link" .link) -}}
+        {{ if and ((time .release_date).Before now) ((time .expiration_date).After now) }}
+          {{- partial "link.html" (dict "label" .label "link" .link) -}}
+        {{ end }}
       {{ end }}
     </div>
   </div>

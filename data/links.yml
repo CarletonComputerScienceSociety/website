@@ -1,6 +1,12 @@
 - label: "Website"
   link: "https://ccss.carleton.ca/"
+  expiration_date: 2022-04-20T00:00:00Z
+  release_date: 2021-03-20T00:00:00Z
 - label: "Discord"
   link: "https://ccss.carleton.ca/"
+  expiration_date: 2020-04-20T00:00:00Z
+  release_date: 2021-03-20T00:00:00Z
 - label: "Instagram"
   link: "https://ccss.carleton.ca/"
+  expiration_date: 2022-04-20T00:00:00Z
+  release_date: 2022-03-20T00:00:00Z
