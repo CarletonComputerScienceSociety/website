@@ -6,6 +6,17 @@
 
   color: white;
   background: #c40729;
+
+  .fab {
+    color: white !important;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: None;
+  }
+
+  .fab:hover {
+    color: black !important;
+  }
 }
 
 .links-main {
@@ -59,15 +70,4 @@
 .link:hover {
   color: white;
   background: #c40729;
-}
-
-.fab {
-  color: white !important;
-  padding: 20px;
-  font-size: 30px;
-  text-decoration: None;
-}
-
-.fab:hover {
-  color: black !important;
 }
