@@ -39,7 +39,11 @@
       </div>
       {{ range $.Site.Data.links }}
         {{ if and ((time .release_date).Before now) ((time .expiration_date).After now) }}
-          {{- partial "link.html" (dict "label" .label "link" .link) -}}
+          {{ if not (isset . "sublinks") }}
+            {{- partial "link.html" (dict "label" .label "link" .link ) -}}
+          {{ else }}
+            {{- partial "dropdown.html" (dict "label" .label "link" .link "sublinks" .sublinks ) -}}
+          {{ end }}
         {{ end }}
       {{ end }}
     </div>

@@ -1,0 +1,27 @@
+<div class="link-anchor" href="{{ .link }}">
+    <button class="accordion link">{{ .label }}</button>
+    {{ range .sublinks }}
+        <div class="panel">
+            {{- partial "link.html" (dict "label" .label "link" .link) -}}
+        </div>
+    {{ end }}
+</div>
+
+<script>
+    let acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for(let i of acc){
+        i.addEventListener("click", () => {
+            i.classList.toggle("active");
+            let panel = i.nextElementSibling;
+            if(panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else{
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        })
+    }
+
+</script>
+    
