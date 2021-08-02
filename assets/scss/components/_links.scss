@@ -71,3 +71,17 @@
   color: white;
   background: #c40729;
 }
+
+.icon{
+  width: 40px;
+  padding: 20px;
+  transition: transform 500ms;
+}
+
+.links{
+  text-decoration: None;
+}
+
+.icon:hover{
+  transform: translateY(-10px);
+}
