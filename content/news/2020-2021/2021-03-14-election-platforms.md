@@ -2,17 +2,20 @@
 title: "Election Candidate Platforms"
 date: 2021-03-14T00:00:00Z
 draft: false
-layout: announcement
+layout: overlaypost
 preview: "images/news/2020-2021/outside_hp.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "The CCSS Elections for 2021-2022 have begun! We're excited to announce that we have 15 candidates running for positions on the board of directors."
-hideBanner: true
+hideBanner: false
 featured: false
 author: Adam Payzant
 categories:
 - annoucement
 
 ---
+
+![election](/ccss-website/images/news/2020-2021/vote.jpg)
+
 # Election Candidate Platforms
 
 The CCSS Elections for 2021-2022 have begun! We're excited to announce that we have 15 candidates running for positions on the board of directors.

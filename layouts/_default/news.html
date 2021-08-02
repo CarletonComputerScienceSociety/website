@@ -3,7 +3,7 @@
   <div class="about-page page">
     <div class="news-flex-wrapper">
       {{ $first_post := true }}
-      {{ range first 7 (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
+      {{ range first 5 (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
         {{ if eq $first_post true }}
           {{ $first_post = false }}
           <div class="featured-news-desktop">
