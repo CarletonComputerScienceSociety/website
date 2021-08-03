@@ -2,7 +2,7 @@
 display_title: "Christmas Party"
 title: "Christmas Party"
 date: 2016-12-01T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "ADD"
 poster_cover: "contain"
