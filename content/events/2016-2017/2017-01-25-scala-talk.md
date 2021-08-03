@@ -2,7 +2,7 @@
 display_title: "Course Selection Webinar"
 title: "Course Selection Webinar"
 date: 2017-01-25T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "IDK IF THIS EXISTS"
 poster_cover: "contain"
