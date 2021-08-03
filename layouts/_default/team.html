@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
   <div id="team_flex_box">
-    {{ range $.Site.Data.past_team }}
+    {{ range $.Site.Data.current_team }}
       {{- partial "team_card.html" (dict "name" .name "role" .role "email" .email "intro" .intro "image" .image ) -}}
     {{ end }}
   </div>

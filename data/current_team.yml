@@ -1,5 +1,40 @@
-- name: William So
+- name: Sarah Ali
   role: President
-  email: william.so@ccss.carleton.ca
-  intro: "I am a fourth-year student majoring in Computer Science: Algorithms and minoring in Mathematics. I write code, music, and insane plot twists. Focused on growing the society to meet student needs. Reach out anytime!"
-  image: images/rick.jpg
+  email: sarah.ali@ccss.carleton.ca
+  intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
+  image: images/executives/sarah.jpg
+- name: Erica Li
+  role: Vice-President
+  email: erica.li@ccss.carleton.ca
+  intro: "I'm Erica, and I'm in my second year of BCS. I like going on bike rides, discovering new music, and im always down for a hackathon. If you have any questions, don't hesitate to reach out!"
+  image: images/executives/erica.jpg
+- name: Veronica Smiles
+  role: Director of Social
+  email: malcolm.smith@ccss.carleton.ca
+  intro: "I'm a first year IMD student and I have a BIG passion for Burger King and game design. In my free time I absolutely love playing Ultimate Frisbee and taking care of my speedy turtle."
+  image: images/executives/veronica.jpg
+- name: Matthew MacRae-Bovell
+  role: Director of Academics
+  email: matthew.macraebovell@ccss.carleton.ca
+  intro: "I’m a 4th year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
+  image: images/executives/matthew_macraebovell.jpg
+- name: Tiffany Lau
+  role: Director of Community
+  email: zara.ali@ccss.carleton.ca
+  intro: "I'm Zara, a second year who still hasn't stepped foot on campus. I use way too many Discord Nitro emojis and spend most of the day listening to music of different languages. I'm famously nocturnal, so come find me on the CCSS Discord!"
+  image: images/executives/zara.jpg
+- name: Victor Li
+  role: Director of Finance
+  email: victor.li@ccss.carleton.ca
+  intro: "I'm a second-year student, majoring in Computer Science and minoring in Mathematics. I'm also an avid photographer and gamer. If you have any questions or want to reach out to me, email or DM me though discord!!!"
+  image: images/executives/victor.jpg
+- name: Aaditya Chopra
+  role: Communications
+  email: aaditya.chopra@ccss.carleton.ca
+  intro: "I’m Aaditya (you can just call me Adi), currently in my third year majoring in Computer Science. I love music, long walks, bike rides and coding! Got a question, comment, joke or anything? Feel free to reach out!"
+  image: images/executives/adi.jpg
+- name: Jake Diedrich
+  role: Communications
+  email: jake.diedrich@ccss.carleton.ca
+  intro: "Hey guys! I'm Jake a second year student in BCS in the Game Development Stream. I enjoy playing games, listening to music, and everything tech! Any questions? Feel free to reach out!"
+  image: images/executives/unknown_id.jpg
