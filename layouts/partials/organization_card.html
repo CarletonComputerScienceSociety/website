@@ -29,6 +29,11 @@
             ><i class="fab fa-instagram"></i
           ></a>
         {{ end }}
+        {{ with .youtube }}
+          <a href="{{ . }}" target="”_blank”">
+            <i class="fab fa-youtube"></i>
+          </a>
+        {{ end }}
         {{ with .twitter }}
           <a href="{{ . }}" target="”_blank”"
             ><i class="fab fa-twitter-square"></i
