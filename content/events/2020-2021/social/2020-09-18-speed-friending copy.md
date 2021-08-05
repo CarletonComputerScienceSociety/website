@@ -7,7 +7,7 @@ layout: event
 poster: "images/event_posters/2020-2021/speed_friending.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Join this event on our Discord server and you'll be randomly shuffled into a new group conversation every few minutes."
+short_description: "Join this Week of Awesome event on our Discord and you'll be randomly shuffled into a new group conversation every few minutes."
 start_time: "1:00 - 2:00 PM EDT"
 location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"

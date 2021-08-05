@@ -7,7 +7,7 @@ layout: event
 poster: "images/event_posters/2020-2021/project_show_and_tell.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Do you have a cool project that you wish you could present but haven't gotten the chance yet? This is the showcase for you! We're so excited to see what you've created."
+short_description: "First-Year Takeover Week: Do you have a cool project that you wish you could present but haven't gotten the chance yet? This is the showcase for you! We're so excited to see what you've created."
 start_time: "12:00 - 2:00 PM EDT"
 location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"
@@ -15,3 +15,9 @@ background: "images/orientation2018-min.jpeg"
 tags:
 - academics
 ---
+
+## Description
+
+Do you have a cool project that you wish you could present but haven't gotten the chance yet? This is the showcase for you! We're so excited to see what you've created :sunglasses:
+
+Part of First-Year Takeover Week!

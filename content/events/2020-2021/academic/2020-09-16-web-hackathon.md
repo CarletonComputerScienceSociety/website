@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Have you ever wanted to create a portfolio website to show off projects, but weren’t sure where to start? The Carleton Web Dev Club has the hackathon for you!"
 start_time: "Oct. 3rd 11:45 AM EST - Oct. 4th 3:00 PM EST"
 location: "Carleton Web Dev Club Discord"
-location_link: " https://discord.gg/HjCReUR"
+location_link: "https://discord.gg/HjCReUR"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
