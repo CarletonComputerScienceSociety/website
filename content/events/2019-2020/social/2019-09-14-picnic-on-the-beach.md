@@ -7,7 +7,7 @@ layout: event
 poster: "images/event_posters/2019-2020/picnic-on-the-beach.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Were ending off Week of Awesome with an outdoor picnic at Mooney's Bay!"
+short_description: "We're ending off Week of Awesome with an outdoor picnic at Mooney's Bay!"
 start_time: "1:00 - 5:00 PM EDT"
 location: "Mooneys Bay Beach"
 location_link: "https://www.facebook.com/events/2415528192100639/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
