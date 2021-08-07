@@ -76,7 +76,7 @@
 - name: Carleton Cyber Security club
   description: "If you're interested in learning more about Cyber Security and getting hands-on experience come and join the Carleton Cyber Security Club! We host weekly sessions that involved workshops, hacking activities and tech talks from guest speakers with industry or academic experience."
   website: "#"
-  discord: discord.gg/ADV5Zvn
+  discord: https://discord.gg/ADV5Zvn
   instagram: https://www.instagram.com/carletoncybersecurityclub/?hl=en
   image: images/organizations/carletoncybersecurity.jpg
 
