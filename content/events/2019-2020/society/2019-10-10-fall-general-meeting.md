@@ -4,7 +4,7 @@ title: "Fall General Meeting 2019"
 date: 2019-10-10T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "The CCSS Fall General Meeting will be taking place this Thursday, October 10, 2019 at 6:00 PM EST."

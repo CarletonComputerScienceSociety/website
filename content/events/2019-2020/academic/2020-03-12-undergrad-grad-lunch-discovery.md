@@ -4,7 +4,7 @@ title: "Undergrad-Grad Lunch Discovery"
 date: 2020-03-12T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Chat with some of our grad students in various departments, such as Data Science, Machine Learning, Network Security, and more!"
