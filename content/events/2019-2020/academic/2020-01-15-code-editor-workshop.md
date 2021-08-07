@@ -4,7 +4,7 @@ title: "Code Editor Workshop"
 date: 2020-01-15T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2019-2020/first-year-take-over.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "A workshop on numerous code editors/IDE's and the cool features that each provide!"
@@ -18,4 +18,4 @@ tags:
 
 ## Description
 
-With so many code editors out there, it can be very hard to choose which is best for the job. At this workshop, we will be going over numerous code editors/IDE's and the cool features that each provide! This would include extensions, linters, and much, much more! 
+With so many code editors out there, it can be very hard to choose which is best for the job. At this workshop, we will be going over numerous code editors/IDE's and the cool features that each provide! This would include extensions, linters, and much, much more!
