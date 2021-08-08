@@ -19,6 +19,8 @@ tags:
 ## Description
 The CCSS Fall General Meeting will take place on Tuesday, November 10 at 7:30 PM EST. At the meeting, we will discuss the goal of the society and its operations, vote on any proposed changes to the Constitution, and allow members to ask society-related questions directly to the Board of Directors.
 
+The CCSS Fall General Meeting will take place on Tuesday, November 10 at 7:30 PM EST. At the meeting, we will discuss the goal of the society and its operations, vote on any proposed changes to the Constitution, and allow members to ask society-related questions directly to the Board of Directors.
+
 All CCSS members (that's you!) are encouraged to attend the general meeting to be well-informed about the activities of the society. To sweeten the deal, all attendees will be entered into a raffle for a chance to win one of five tickets to CUSEC 2021!
 
 The meeting will take place virtually on Microsoft Teams.
