@@ -5,7 +5,6 @@
   width: 100%;
 
   color: white;
-  background: #c40729;
 
   .fab {
     color: white !important;
@@ -17,6 +16,8 @@
   .fab:hover {
     color: black !important;
   }
+  // background: #c40729;
+  background: pink;
 }
 
 .links-main {
@@ -74,6 +75,7 @@
 
 .icon {
   width: 40px;
+  height: 40px;
   padding: 20px;
   transition: transform 500ms;
 }
