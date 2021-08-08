@@ -1,7 +1,7 @@
 ---
 display_title: "Building a Hello World Web App"
 title: "Building a Hello World Web App"
-date: 2020-02-02T00:00:00Z
+date: 2020-12-02T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2020-2021/hello_world_web_app.jpg"
