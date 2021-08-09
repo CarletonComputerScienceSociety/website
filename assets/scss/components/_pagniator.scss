@@ -1,6 +1,10 @@
 .pagination {
   text-align: center;
   font-size: bold;
+  display: flex;
+  justify-content: space-between;
+  max-width: 10rem;
+  margin: auto;
 
   li {
     display: inline;
