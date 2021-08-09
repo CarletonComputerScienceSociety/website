@@ -399,8 +399,26 @@ $navNumOfItemBlocks: 4;
   }
 }
 
+.mobile-hamburger {
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 900px) {
   .navbar-items {
+    display: none;
+  }
+
+  .mobile-hamburger {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar-items {
+    display: flex;
+  }
+
+  .mobile-hamburger {
     display: none;
   }
 }
