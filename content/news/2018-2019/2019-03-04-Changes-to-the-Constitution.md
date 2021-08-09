@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 The notable changes are:
 1. The addition of a new elected position entitled "Director of Inclusion", whose mandate is to promote and represent diversity initiatives within the society

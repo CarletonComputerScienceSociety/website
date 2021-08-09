@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![survey!](/ccss-website/images/news/2020-2021/survey.jpg)
+![survey!](/images/news/2020-2021/survey.jpg)
 
 As we’re nearing the end of the Winter term, how was this term compared to the Fall term? Was it better, worse, or the same? What did you find challenging?
 

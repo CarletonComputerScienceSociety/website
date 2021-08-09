@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 We have scheduled a meeting with the School of Computer Science on January 3rd, 2017 where we plan to bring up all of your comments.
 To ensure we don't forget anything, please

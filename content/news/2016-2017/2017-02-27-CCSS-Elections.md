@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 <p>If you are looking for an opportunity to have a leadership role in the Computer Science Society, you should think about running as a director. There are four positions that you can run for:
   <ul>

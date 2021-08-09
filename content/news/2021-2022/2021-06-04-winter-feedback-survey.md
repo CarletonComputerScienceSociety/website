@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![survey!](/ccss-website/images/news/2020-2021/academics.jpg)
+![survey!](/images/news/2020-2021/academics.jpg)
 
 As [elected student representatives](/about/team/) of the Carleton Computer Science Society (CCSS), it is important that undergraduate computer science students under the School of Computer Science (SCS), studying at Carleton University, have their voices heard through channels that they can trust.
 

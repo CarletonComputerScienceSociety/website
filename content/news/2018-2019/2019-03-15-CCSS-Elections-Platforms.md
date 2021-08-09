@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 ## The Candidates are:
 

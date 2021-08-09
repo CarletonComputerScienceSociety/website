@@ -13,7 +13,7 @@ categories:
 - annoucement
 
 ---
-![happy pride month!](/ccss-website/images/news/2021-2022/happy_pride_month.jpg)
+![happy pride month!](/images/news/2021-2022/happy_pride_month.jpg)
 
 From all of us at the CCSS, **happy pride month!**
 

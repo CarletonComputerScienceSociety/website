@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 # [CS Clubs and Societies Info Sessions](https://www.facebook.com/events/3268190949931309)
 

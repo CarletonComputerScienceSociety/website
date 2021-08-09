@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![survey](/ccss-website/images/news/2020-2021/vote.jpg)
+![survey](/images/news/2020-2021/vote.jpg)
 
 As elected student representatives of the Carleton Computer Science Society (CCSS), it is important that undergraduate computer science students under the School of Computer Science (SCS), studying at Carleton University, have their voices heard through channels that they can trust.
 
@@ -26,4 +26,4 @@ The password for this PDF will be sent out to all undergraduate CS students stud
 
 If you have any questions or concerns, please do not hesitate to reach out to us via email at info@ccss.carleton.ca.
 
-View the attached survey [here](/ccss-website/pdfs/2020-2021/fall_feedback_survey.pdf).
+View the attached survey [here](/pdfs/2020-2021/fall_feedback_survey.pdf).

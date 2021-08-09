@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 Election Calendar:
 
@@ -27,7 +27,7 @@ The following are the representatives who are running for your first year repres
 
 **Matthew MacRae-Bovell:**
 
-<img width="50%" src='/ccss-website/images/first_year_reps/2018/matthewmac.jpg' />
+<img width="50%" src='/images/first_year_reps/2018/matthewmac.jpg' />
 
 Hello,  my name is Matthew MacRae - Bovell, and I'm a first year computer science student currently running for the position of CCSS first year representative. If elected, my main goal as representative would be to facilitate the creation of new CCSS events that would cater to first year students of all levels of programming experience.
 
@@ -41,7 +41,7 @@ and open to meeting new people. If you’d like to contact me or learn more abou
 
 **Sybe Jellema:**
 
-<img width="50%" src='/ccss-website/images/first_year_reps/2018/sybejellema.jpg' />
+<img width="50%" src='/images/first_year_reps/2018/sybejellema.jpg' />
 
 I’m always ready to roll up my sleeves and do the work that is necessary to get events up and running. I’m a very experienced listener and will never dismay anyone from sharing any ideas or suggestions with me. I will always try to keep all the first years in mind with many of the decisions I’ll be making. One of the things I will do as a first-year representative will be to have more academically oriented demonstrations of the Computer Science program. I want to make sure that students will know all about the Computer Science program and what the program can teach them and where it could take them. I also want to have some social events made for the first year Computer Science students so that they can get to know each other and this should help them meet people with interests that are similar to theirs.
 
@@ -57,7 +57,7 @@ Since 1958
 
 **Lucas Colwell:**
 
-<img width="50%" src='/ccss-website/images/first_year_reps/2018/lucas.jpg' />
+<img width="50%" src='/images/first_year_reps/2018/lucas.jpg' />
 
 I'm Lucas, and I'm running for FYR! I think I would be a good rep because I have experience, I like being involved with the society, and I have good ideas to bring to the table.
 So, a little background about me. I was the head of Tech Crew (TC) in high-school, and really enjoyed it! I got to vote on school issues regarding tech, meaning I had to act with the interests of the TC in mind, and represent them on the council. I think this would be useful to experience for a FYR to have.

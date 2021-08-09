@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 The first-year rep positions are a chance for first-year students to take part in the governance of the CCSS. This means participating in internal meetings, being involved in the creation and planning of our events and initiatives, and having voting power in all important decisions for the year. If you would like to be a First-Year Representative, fill out [the nomination form](https://docs.google.com/forms/d/e/1FAIpQLSf9Bn_syVZkLXQ6LDwwQw2Th7zdcSRq9RxiYjFEM4BL7CD1SA/viewform) by Monday, September 21!
 

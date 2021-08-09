@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 # Election Candidate Platforms
 
@@ -56,7 +56,7 @@ $(document).ready(function(){
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/1.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/1.jpg' width="200px"/>
 
 <p>Hey y'all, my name is Abdelrahim (call me abdel) and I'm a first computer science student in the software engineering stream! This is a really weird year for us all so I'd like to make it a bit easier and more fun for us. As first year rep I want to make sure that you get ample opportunities to meet new people and make the best of your first year! I also want to make sure that your voice is heard and input is passed on to the CCSS, and I'm hoping to hold more events for us to help figure out what we want to do in the future (I know it can be confusing and scary, so I'd love to reduce that stress!). If that sounds like something you're interested in, vote Abdelrahim Karaja (I won't let you down) I'm hoping to meet a lot of you this year, so HMU either way!</p>
 
@@ -68,7 +68,7 @@ $(document).ready(function(){
 <b>Abhijeet Abhijeet:</b>
 <br>
 <br>
-<img src='/ccss-website/images/first_year_reps/2020/2.jpeg' width="200px"/>
+<img src='/images/first_year_reps/2020/2.jpeg' width="200px"/>
 
 <p>Hi, my name is Abhijeet and I’m an international student from India. I, like you, am a first-year computer science student. I know the first year of university is energizing yet it can be unpleasant too. If you choose to vote for me as your first-year representative, I will endeavour to make more CCSS events where you can relax, enjoy, and discuss your questions regarding anything in which you are facing problems together virtually. Virtual is especially hard as we all span the globe and many time zones and I will try my best to have events that cater to multiple time zones. I also want to hold a first-year social to meet as many of you as possible so that I can accurately represent your needs at CCSS meetings. I’ve previously assumed a leadership role in school so I know the responsibilities that such a position demand. Thank you for your consideration, I hope you will choose me as your first-year representative!</p>
 
@@ -80,7 +80,7 @@ $(document).ready(function(){
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/3.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/3.jpg' width="200px"/>
 
 <p>Hello world! Wait no, Hello everyone! My name is Amelie Haefele and I’m running to be your first year CCSS representative. Just like slack overflow I’ll be there for you answering all your burning questions.</p>
 
@@ -98,7 +98,7 @@ $(document).ready(function(){
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/4.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/4.jpg' width="200px"/>
 
 <p>Hello everyone! I’m Anirudh. I’m a first-year incoming student from India. I’m
 going into Bachelor of Computer Science Honors Program, Software Engineering
@@ -129,7 +129,7 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/5.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/5.jpg' width="200px"/>
 
 <p>Hi there! I’m Connor Beleznay and I’m running for 1st year CCSS representative. I’m a 24 year old “mature” student, whose been working in tech adjacent fields since high school. Im a big fan of Will Ferrell movies, leather bound books, vapour/retro-wave aesthetic and all things tech.</p>
 <p>Please take a minute to read my platform, thank you for your consideration. My discord is connor beleznay#1735 and follow my instagram cbelezz </p>
@@ -159,7 +159,7 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/7.JPG' width="200px"/>
+<img src='/images/first_year_reps/2020/7.JPG' width="200px"/>
 
 <p>Hello, everyone. My name is Milo Goodfellow, and I'm a first-year computer science student at Carleton! I'd be super excited to be your first-year CCSS representative. Here are a few of the things I would look to achieve if I were elected:</p>
 <ul>
@@ -176,7 +176,7 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/8.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/8.jpg' width="200px"/>
 
 <p>Hi I’m Preethi Nagabandi and I’m running to be your First Year Representative! I’m a first year computer science student from Ottawa and super excited to get to know you all! I’m friendly, approachable, and a good listener who is always open to new ideas. I love getting involved in the community and have many ideas to improve CCSS and make the most of our online university experience! </p>
 <p>Some ideas I will implement if elected are:</p>
@@ -196,7 +196,7 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/9.JPG' width="200px"/>
+<img src='/images/first_year_reps/2020/9.JPG' width="200px"/>
 
 <p>Hey everyone!</p>
 <p>My name is Samarth Wachche, I am an international 1st year undergraduate BCS student from India. I am standing in front of you asking for your VOTES as the 1st year Representative candidate.</p>
@@ -215,7 +215,7 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/11-1.jpg' width="600px"/>
+<img src='/images/first_year_reps/2020/11-1.jpg' width="600px"/>
 
 </div>
 <div>
@@ -225,12 +225,12 @@ questions, you can ask me on the discord server or contact me on Instagram at
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/12.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/12.jpg' width="200px"/>
 
 <p><b>FUN FACT:</b> I have a whole wall of sticky notes in my room so I won’t forget any ideas to
 make your online year the best year ever!</p>
 <p>Event Ideas:</p>
-<img src='/ccss-website/images/first_year_reps/2020/12-1.jpg' width="600px"/>
+<img src='/images/first_year_reps/2020/12-1.jpg' width="600px"/>
 
 
 </div>
@@ -241,7 +241,7 @@ make your online year the best year ever!</p>
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/13.jpg' width="200px"/>
+<img src='/images/first_year_reps/2020/13.jpg' width="200px"/>
 
 <p>Hello everyone! My name is Vishal Parmar. One quote that could really define me and my life would be “A Monk In a Civil World” because this quote evokes the elements of simplicity and patience like a monk and the socialization and togetherness of the civil world. That’s why I love it!</p>
 <p>If elected as your first-year representative my primary goal will be to make each first-year voice heard! And it will be my responsibility to represent your voices to the CCSS and the computer science community.</p>
@@ -268,7 +268,7 @@ make your online year the best year ever!</p>
 <br>
 <br>
 
-<img src='/ccss-website/images/first_year_reps/2020/14.JPG' width="200px"/>
+<img src='/images/first_year_reps/2020/14.JPG' width="200px"/>
 
 <p>I’m Zara! You may have seen me around the CCSS Discord server, or just in one of the many first year classes we all share. Here’s what I’m planning as your first-year representative:</p>
 

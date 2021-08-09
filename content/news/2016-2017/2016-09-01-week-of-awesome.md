@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 The Carleton Computer Science Society (CCSS) will be running a week of
 awesome events for computer science students the second week of school.

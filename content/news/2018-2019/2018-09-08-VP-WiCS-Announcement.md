@@ -14,7 +14,7 @@ categories:
 
 ---
 
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
+![election](/images/news/2020-2021/vote.jpg)
 
 Over the past few months, the Board of Directors of the CCSS has been discussing the possibility of creating a new position to collaborate with the WiCS (Women in Computer Science) group on campus. We are pleased to announce that we will be welcoming a new position to the CCSS, VP WiCS!
 
