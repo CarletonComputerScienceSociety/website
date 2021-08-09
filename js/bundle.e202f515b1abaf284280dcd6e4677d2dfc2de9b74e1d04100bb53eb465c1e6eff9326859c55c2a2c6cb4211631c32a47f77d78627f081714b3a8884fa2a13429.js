@@ -159,13 +159,13 @@ var slideshowIndex = 0;
 
 function startSlideshow() {
   slideshowIndex = (slideshowIndex + 1) % urls.length;
-  backHeader.style.backgroundImage = `url('/${urls[slideshowIndex]}')`;
+  backHeader.style.backgroundImage = `url('${urls[slideshowIndex]}')`;
   frontHeader.style.animation = `fadeout ${fadeDuration}ms forwards`;
   setTimeout(function () {
     changeImage(frontHeader, urls[slideshowIndex]);
   }, fadeDuration);
 
-  backHeaderMobile.style.backgroundImage = `url('/${urls[slideshowIndex]}')`;
+  backHeaderMobile.style.backgroundImage = `url('${urls[slideshowIndex]}')`;
   frontHeaderMobile.style.animation = `fadeout ${fadeDuration}ms forwards`;
   setTimeout(function () {
     changeImage(frontHeaderMobile, urls[slideshowIndex]);
@@ -180,7 +180,7 @@ function startSlideshow() {
 }
 
 function changeImage(header, imagePath) {
-  header.style.backgroundImage = `url('/${imagePath}')`;
+  header.style.backgroundImage = `url('${imagePath}')`;
   if (navigator.userAgent.indexOf("Firefox") != -1) {
     header.style.animation = `fadein ${fadeDuration}ms forwards`;
   }
