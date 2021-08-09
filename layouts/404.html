@@ -1,7 +1,11 @@
 {{ define "main" }}
-  <main id="main">
-    <div>
-      <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
-    </div>
-  </main>
+  {{- partial "navbar_temp.html" . -}}
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://ccss.carleton.ca/";
+    }, 100);
+  </script>
+  <div class="not-found-page">
+    <h1 id="title"><a href="{{ "/" | relURL }}">404: Not Found</a></h1>
+  </div>
 {{ end }}
