@@ -1,4 +1,4 @@
-baseURL = "https://ccss.carleton.ca/ccss-website/"
+baseURL = "https://ccss.carleton.ca/"
 languageCode = "en-us"
 title = "Carleton Computer Science Society"
 [markup.goldmark.renderer]
