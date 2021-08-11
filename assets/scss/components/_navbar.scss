@@ -307,6 +307,10 @@ $navNumOfItemBlocks: 4;
   a {
     color: inherit;
     text-decoration: none;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -344,7 +348,7 @@ $navNumOfItemBlocks: 4;
     margin: 0;
 
     & > li > a {
-      display: block;
+      // display: block;
       text-decoration: none;
       padding: 0 15px;
     }
