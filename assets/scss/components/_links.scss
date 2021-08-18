@@ -5,17 +5,44 @@
   width: 100%;
 
   color: white;
-  background: #c40729;
+  // background: #c40729;
+  background: pink;
 
   .fab {
-    color: white !important;
     padding: 20px;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: None;
+    transition: transform 500ms;
   }
 
   .fab:hover {
-    color: black !important;
+    transform: translateY(-10px);
+  }
+
+  .fa-discord {
+    color: #7289da !important;
+  }
+
+  .fa-facebook {
+    color: #4267b2 !important;
+  }
+
+  .fa-twitter {
+    color: #1da1f2;
+  }
+
+  .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
