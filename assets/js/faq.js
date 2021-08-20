@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   $(".accordion-section-title").click(function (e) {
     var currentAttrvalue = $(this).attr("href");
     if ($(e.target).is(".active")) {
@@ -19,4 +19,4 @@ $(document).ready(function () {
   $(".rotate").click(function () {
     $(this).toggleClass("down");
   });
-});
+});*/
