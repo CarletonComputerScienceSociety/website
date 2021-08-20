@@ -14,6 +14,7 @@ location_link: "https://zoom.us/j/92182652410?pwd=SS9pNWxTcjFTdFE5blExRXN2ek1UZz
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description

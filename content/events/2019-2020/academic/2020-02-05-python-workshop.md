@@ -14,6 +14,7 @@ location_link: "https://www.facebook.com/events/863125827534209/?acontext=%7B%22
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description

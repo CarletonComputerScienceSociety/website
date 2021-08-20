@@ -14,10 +14,11 @@ location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description
 
-Don't miss our last Tech Talk of the Fall term! 
+Don't miss our last Tech Talk of the Fall term!
 
 Bundlers, Babel, polyfills, Node.js, NPM, Terser, TypeScript, JavaScript module formats, sourcemaps, and more. Learn about the different tools used in the modern web development ecosystem and how to string them all together in this presentation from Carleton Alumni Bailey D'Amour! This presentation should give you the knowledge of how to setup and structure your web projects for a smooth coding and debugging experience. The talk will be on Wednesday, December 2nd at 6 PM on our Discord server - see you there!

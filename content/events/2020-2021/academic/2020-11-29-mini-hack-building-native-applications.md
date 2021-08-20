@@ -14,8 +14,9 @@ location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description
 
-Are you a first-year student looking to expand your technical knowledge and learn to build native applications? CCSS First Year Rep, Milo, will be hosting the first themed mini hackathon of the year on November 29 from 11 - 1 pm EST! Students will learn how to write an application that opens a window and displays graphics on the screen using a graphical user interface toolkit. Don't worry if you have no prior experience - we'll be teaching you from scratch and introducing you to the tools!  Bring your own team or join one day of. See you there! 
+Are you a first-year student looking to expand your technical knowledge and learn to build native applications? CCSS First Year Rep, Milo, will be hosting the first themed mini hackathon of the year on November 29 from 11 - 1 pm EST! Students will learn how to write an application that opens a window and displays graphics on the screen using a graphical user interface toolkit. Don't worry if you have no prior experience - we'll be teaching you from scratch and introducing you to the tools!  Bring your own team or join one day of. See you there!

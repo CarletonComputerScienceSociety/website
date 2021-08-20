@@ -14,6 +14,7 @@ location_link: "https://www.airmeet.com/e/f92a1e00-86bd-11eb-949f-0770f2ad5daa"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description

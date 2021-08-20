@@ -14,11 +14,12 @@ location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description
 
-For this year's Week of Awesome Tech Talk, we've enlisted the help Forest, a beloved CCSS veteran, to give a talk on the information security industry. He'll be exploring the mindset behind solving problems in different domains such as cryptography, steganography, and web, leaving you with some resources at the end on how to learn more for yourself! 
+For this year's Week of Awesome Tech Talk, we've enlisted the help Forest, a beloved CCSS veteran, to give a talk on the information security industry. He'll be exploring the mindset behind solving problems in different domains such as cryptography, steganography, and web, leaving you with some resources at the end on how to learn more for yourself!
 
 This talk will be hosted on Wednesday, September 16 at 2:00 PM EDT, here on the CCSS Discord server.
 
