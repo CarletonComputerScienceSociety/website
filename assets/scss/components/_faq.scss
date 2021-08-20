@@ -96,5 +96,34 @@
 .accordion-section-content {
   padding: 15px;
   padding-top: 0;
-  /*display: none;*/
+}
+
+@keyframes accordion-expanding {
+	from {
+		max-height: 0px;
+	}
+	to {
+		max-height: 10000px;
+	}
+}
+
+@keyframes chevron-rotate {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(180deg);
+	}
+}
+
+.faq[open] > .accordion-section-content {
+	overflow: hidden;
+	animation-name: accordion-expanding;
+	animation-duration: 10s;
+}
+
+.faq[open] .fa-chevron-down {
+	animation-name: chevron-rotate;
+	animation-duration: .3s;
+	transform: rotate(180deg);
 }
