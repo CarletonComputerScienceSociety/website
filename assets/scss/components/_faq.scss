@@ -116,6 +116,15 @@
   }
 }
 
+@keyframes chevron-rotate-back {
+  from{
+    transform: rotate(180deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+
 .faq[open] > .accordion-section-content {
   overflow: hidden;
   animation-name: accordion-expanding;
