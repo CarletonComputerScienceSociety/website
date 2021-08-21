@@ -5,10 +5,7 @@
       {{ range $.Site.Data.faq }}
         <details class="faq">
           <summary class="faq-title" href="#accordion-{{ $faqIndex }}">
-            <div
-              class="accordion-section-title"
-              
-            >
+            <div class="accordion-section-title">
               {{ .question }}
             </div>
             <div class="faq-chevron">
