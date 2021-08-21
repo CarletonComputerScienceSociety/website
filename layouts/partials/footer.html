@@ -31,15 +31,15 @@
 {{- $navbarScriptPath := "js/navbar.js" }}
 {{- $navbar := resources.Get $navbarScriptPath | resources.ExecuteAsTemplate $navbarScriptPath . }}
 
-{{- $faqScriptPath := "js/faq.js" }}
-{{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
-
 {{- $slideshowScriptPath := "js/slideshow.js" }}
 {{- $slideshow := resources.Get $slideshowScriptPath | resources.ExecuteAsTemplate $slideshowScriptPath . }}
 
-{{- $bundle := slice $main $navbar $faq $slideshow }}
+{{- $faqScriptPath := "js/faq.js" }}
+{{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
+
+{{- $bundle := slice $main $navbar $slideshow $faq }}
 {{- if site.Params.Staticman }}
-  {{- $bundle = slice $main $navbar $faq $slideshow }}
+  {{- $bundle = slice $main $navbar $slideshow $faq }}
 {{- end }}
 {{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 
