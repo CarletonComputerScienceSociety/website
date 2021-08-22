@@ -7,7 +7,7 @@ preview: "images/news/2020-2021/academics.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "The Winter 2021 SCS Undergraduate Feedback & Suggestions Survey has been completed and we're here to share the results."
 hideBanner: false
-featured: true
+featured: false
 author: Tiffany Lau
 categories:
 - annoucement
