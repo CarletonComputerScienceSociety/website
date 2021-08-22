@@ -1,11 +1,19 @@
 ---
 title: "Studying From Home"
 date: 2021-01-28T00:00:00Z
-draft: true
+draft: false
 layout: overlaypost
+preview: "images/blog/2020-2021/workstation.jpg"
+background: "images/orientation2018-min.jpeg"
+excerpt: "Studying from home has its pros and cons."
+hideBanner: false
+featured: true
 author: Samarth Wachche
-
+categories:
+- blog
 ---
+
+![workstation!](/images/blog/2020-2021/workstation.jpg)
 
 Studying from home has its pros and cons. I made the decision to study abroad to get international exposure and experience the unique university life but due to the current situation, I have to accept the fact that I have to study online for one year, which has been the biggest con. I figured that pouting about it won’t work and that I just have to accept that fact and try and make the most of it so here is my experience so far with being an international online CS student.
 
@@ -25,7 +33,7 @@ Another thing I noticed during this pandemic situation is that taking care of yo
 
 ## Workspace
 
-<div class="center">![](/images/workspace.jpeg) ![](/images/workspace2.jpeg)</div>
+![workstation!](/images/blog/2020-2021/workstation.jpg)
 
 As I am studying from home, I feel that having a dedicated workspace is an important part of online school. I used to be the kind of guy who was waking up late in the morning and directly going to the laptop to work. But that wasn’t healthy! So instead I created my own workspace apart from my bedroom. I use the guest room as an office because it was just sitting there and no guests are going to come during the pandemic (LOL). I made sure that my desk setup is the way I like it. I connected my laptop to a monitor to avoid eye strain and use it as a dual monitor. I’ve also got a good ergonomic chair to prevent future back pain and all. Having a workspace also motivates you to work harder than just sitting on your bed all day. Always have a bottle of water on your desk to keep you hydrated! Sitting several hours on the chair is also not healthy, so I get up from the chair every hour or so just to stretch my legs and get my blood flowing.
 

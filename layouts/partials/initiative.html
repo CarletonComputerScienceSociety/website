@@ -1,0 +1,14 @@
+<div
+  class="initiative {{ if .active }}initiative-hover{{ else }} initiative-inactive{{ end }}"
+  style="border-color: {{ .color }};"
+>
+  <div class="initiative-inner">
+    <div class="initiative-title">{{ .title }}</div>
+    <div class="initiative-description">
+      {{ .description }}
+    </div>
+  </div>
+  <div class="initiative-arrow">
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</div>

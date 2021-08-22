@@ -1,0 +1,62 @@
+.initiative {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.15s;
+  color: #42474c;
+  border-left: 4px solid #e62828;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.initiative-hover:hover {
+  margin-left: 0.3rem;
+}
+
+.initiative-inactive {
+  opacity: 0.52;
+}
+
+.initiative-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+  .initiative {
+    margin-bottom: 1rem;
+  }
+}
+
+.initiative:hover {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.15s;
+}
+
+.initiative-inner {
+  padding: 1.3rem;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.initiative-title {
+  margin-bottom: 0.5rem;
+}
+
+.initiative-description {
+  color: #42474c;
+  font-weight: 100;
+  font-size: 0.85rem;
+}
+
+.initiative-arrow {
+  font-size: 0.6rem;
+  margin-right: 2rem;
+}
