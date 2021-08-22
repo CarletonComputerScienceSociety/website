@@ -20,16 +20,5 @@
         </div>
       </div>
     </div>
-    <div id="content" class="home-section-grid home-section-dark">
-      <div class="home-section">
-        <div class="home-events">
-          {{ range $.Site.Data.organizations }}
-            <div class="event_card_link hvr-float-org">
-              {{- partial "organization_card.html" . -}}
-            </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
   </div>
 {{ end }}
