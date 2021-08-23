@@ -10,16 +10,15 @@
   link: "https://ccss.carleton.ca/"
   expiration_date: 2022-04-20T00:00:00Z
   release_date: 2022-03-20T00:00:00Z
-- label: "Test Accordion"
-  link: "https://ccss.carleton.ca/"
+- label: "Miscellaneous Links"
   sublinks: 
     - label: "Instagram"
+      link: "https://instagram.com/carletoncss"
+      expiration_date: 2022-04-20T00:00:00Z
+      release_date: 2021-03-20T00:00:00Z
+    - label: "Website"
       link: "https://ccss.carleton.ca/"
       expiration_date: 2022-04-20T00:00:00Z
-      release_date: 2022-03-20T00:00:00Z
-    - label: "Instagram"
-      link: "https://ccss.carleton.ca/"
-      expiration_date: 2022-04-20T00:00:00Z
-      release_date: 2022-03-20T00:00:00Z
+      release_date: 2021-03-20T00:00:00Z
   expiration_date: 2022-04-20T00:00:00Z
   release_date: 2021-03-20T00:00:00Z

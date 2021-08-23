@@ -7,14 +7,14 @@
   color: white;
   background: #c40729;
 
-  .fab {
+  .fab, .fas {
     color: white !important;
     padding: 20px;
     font-size: 30px;
     text-decoration: None;
   }
 
-  .fab:hover {
+  .fab:hover, .fas:hover {
     color: black !important;
   }
 }
@@ -74,16 +74,27 @@
 
 .panel {
   padding: 0 18px;
-  background-color: black;
   max-height: 0;
+  height: 100%;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
 .panel .link{
-  margin: 1rem 0 !important;
+  position: absolute;
+  top: -3rem;
+  z-index: 2;
 }
 
+.panel .link-anchor{
+  position: relative;
+  z-index: 2;
+  display:block;
+}
+
+button.link{
+  width: 100.6%;
+}
 
 .link-anchor {
   color: inherit;
@@ -111,7 +122,26 @@
   padding: 1.2rem 0;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
 .link:hover {
   color: white;
   background: #c40729;
+}
+
+.thread{
+  border-bottom: 5px solid lightgray;
+  border-left: 5px solid lightgray;
+  position:relative;
+  left: -13px;
+  top: -1rem;
+  height: 4rem;
+  z-index: 1;
 }

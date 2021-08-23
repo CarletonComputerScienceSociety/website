@@ -1,10 +1,13 @@
-<div class="link-anchor" href="{{ .link }}">
+<div class="link-anchor">
     <button class="accordion link">{{ .label }}</button>
+    <div class="panel">
     {{ range .sublinks }}
-        <div class="panel">
+        {{ if and ((time .release_date).Before now) ((time .expiration_date).After now) }}
+            <div class="thread"></div>
             {{- partial "link.html" (dict "label" .label "link" .link) -}}
-        </div>
+        {{ end }}
     {{ end }}
+    </div>
 </div>
 
 <script>
