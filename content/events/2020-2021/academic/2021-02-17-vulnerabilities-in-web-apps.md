@@ -14,6 +14,7 @@ location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description

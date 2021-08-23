@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="news-flex-wrapper">
+      {{ $first_post := true }}
+      {{ range first 5 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+        {{ if eq $first_post true }}
+          {{ $first_post = false }}
+          <div class="featured-news-desktop">
+            <a class="news-link" href="{{ .RelPermalink }}"
+              >{{- partial "news_page_featured_article.html" . -}}</a
+            >
+          </div>
+          <div class="featured-news-mobile">
+            <a class="news-link" href="{{ .RelPermalink }}"
+              >{{- partial "news_page_article.html" . -}}</a
+            >
+          </div>
+          {{ else }}
+          <a class="news-link" href="{{ .RelPermalink }}"
+            >{{- partial "news_page_article.html" . -}}</a
+          >
+        {{ end }}
+      {{ end }}
+    </div>
+    <!-- <div class="see-more"><a href="archive">See more...</a></div> -->
+  </div>
+{{ end }}

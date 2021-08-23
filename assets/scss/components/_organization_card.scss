@@ -22,6 +22,24 @@
     text-decoration: underline;
     color: #c40729;
   }
+
+  .fa-instagram,
+  .fa-discord,
+  .fa-github-square,
+  .fa-instagram,
+  .fa-twitter-square,
+  .fa-linkedin,
+  .fa-slack,
+  .fa-facebook-square,
+  .fa-youtube {
+    color: #3b3b3b;
+    -webkit-transform: scale(1.45);
+    transform: scale(1.45);
+  }
+
+  .fa-discord {
+    margin-top: 0.5px;
+  }
 }
 
 .organization_card:hover {
@@ -79,21 +97,4 @@
   flex-shrink: 1;
   gap: 20px;
   margin-bottom: 15px;
-}
-
-.fa-instagram,
-.fa-discord,
-.fa-github-square,
-.fa-instagram,
-.fa-twitter-square,
-.fa-linkedin,
-.fa-slack,
-.fa-facebook-square {
-  color: #3b3b3b;
-  -webkit-transform: scale(1.45);
-  transform: scale(1.45);
-}
-
-.fa-discord {
-  margin-top: 0.5px;
 }

@@ -1,4 +1,27 @@
-<div class="footer">© 2021 Carleton Computer Science Society</div>
+<div class="footer">
+  <div class="footer-socials">
+    <a href="http://discord.carletoncomputersciencesociety.ca"
+      ><i class="fab fa-discord"></i
+    ></a>
+    <a href="https://www.instagram.com/carletoncss/"
+      ><i class="fab fa-instagram"></i
+    ></a>
+    <a href="https://www.facebook.com/CarletonComputerScienceSociety"
+      ><i class="fab fa-facebook"></i
+    ></a>
+    <a href="https://twitter.com/carletoncss"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/CarletonComputerScienceSociety"
+      ><i class="fab fa-github"></i
+    ></a>
+  </div>
+  <div class="footer-copyright">© 2021 Carleton Computer Science Society</div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-1.9.1.min.js"
+  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+  crossorigin="anonymous"
+></script>
 
 <!--JS Bundle-->
 
@@ -8,15 +31,15 @@
 {{- $navbarScriptPath := "js/navbar.js" }}
 {{- $navbar := resources.Get $navbarScriptPath | resources.ExecuteAsTemplate $navbarScriptPath . }}
 
-{{- $faqScriptPath := "js/faq.js" }}
-{{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
-
 {{- $slideshowScriptPath := "js/slideshow.js" }}
 {{- $slideshow := resources.Get $slideshowScriptPath | resources.ExecuteAsTemplate $slideshowScriptPath . }}
 
-{{- $bundle := slice $main $navbar $faq $slideshow }}
+{{- $faqScriptPath := "js/faq.js" }}
+{{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
+
+{{- $bundle := slice $main $navbar $slideshow $faq }}
 {{- if site.Params.Staticman }}
-  {{- $bundle = slice $main $navbar $faq $slideshow }}
+  {{- $bundle = slice $main $navbar $slideshow $faq }}
 {{- end }}
 {{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 

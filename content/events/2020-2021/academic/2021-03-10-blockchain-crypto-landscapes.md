@@ -14,6 +14,7 @@ location_link: "https://zoom.us/webinar/register/WN_cFJRJLViQ1SwBrEbK10RhA"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Recording

@@ -15,3 +15,9 @@ background: "images/orientation2018-min.jpeg"
 tags:
 - social
 ---
+
+## Description
+
+Every second Friday at 4PM EST, the CCSS will be hosting a speed friending event! Using a Discord bot, you'll get shuffled into calls of 4-5 people every ten minutes on our server. This a great opportunity to talk to some new friends and end off an amazing Friday. 
+
+We look forward to seeing you all there!

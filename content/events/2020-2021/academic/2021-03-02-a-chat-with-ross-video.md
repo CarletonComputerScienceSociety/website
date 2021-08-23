@@ -14,6 +14,7 @@ location_link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2QwMDU4N
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description

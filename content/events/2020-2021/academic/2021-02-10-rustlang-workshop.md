@@ -14,4 +14,9 @@ location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
+
+## Description
+
+Have you wanted to learn the Rust language? The time is now! Come out to this week's dev club to learn it from your local Rustacean, @Forest for the trees. You'll learn the language basics, what the language's use cases are, and how you can keep learning it on your own!

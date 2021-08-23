@@ -13,9 +13,10 @@ categories:
 - annoucement
 
 ---
-![election](/ccss-website/images/news/2020-2021/vote.jpg)
 
-Congratulations to our upcoming Board of Director members, and thank you to all candidates for getting involved with the CCSS! A complete breakdown of the election results can be seen in the PDF [here!](/pdfs/2020-2021/general_election_results.pdf)
+![election](/images/news/2020-2021/vote.jpg)
+
+Congratulations to our upcoming Board of Director members, and thank you to all candidates for getting involved with the CCSS! A complete breakdown of the election results can be seen in the PDF [here!](/pdfs/2020-2021/election_results.pdf)
 
 **The 2021-2022 CCSS board will be as follows:**
 

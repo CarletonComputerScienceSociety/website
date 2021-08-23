@@ -1,32 +1,23 @@
-<script
-  src="https://code.jquery.com/jquery-1.9.1.min.js"
-  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
-  crossorigin="anonymous"
-></script>
-
 <div class="faq-section" id="faq">
   <div class="accordion">
     <div class="accordion-section">
       {{ $faqIndex := 0 }}
       {{ range $.Site.Data.faq }}
-        <div class="faq">
-          <div class="faq-title">
-            <div
-              class="accordion-section-title"
-              href="#accordion-{{ $faqIndex }}"
-            >
+        <details class="faq">
+          <summary class="faq-title" href="#accordion-{{ $faqIndex }}">
+            <div class="accordion-section-title">
               {{ .question }}
             </div>
             <div class="faq-chevron">
               <div class="fa fa-chevron-down rotate"></div>
             </div>
-          </div>
+          </summary>
           <div id="accordion-{{ $faqIndex }}" class="accordion-section-content">
             <p>
               {{ .answer }}
             </p>
           </div>
-        </div>
+        </details>
         {{ $faqIndex = add $faqIndex 1 }}
       {{ end }}
     </div>

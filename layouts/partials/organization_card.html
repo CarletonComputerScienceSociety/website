@@ -7,7 +7,7 @@
     <div class="lower_organization_info">
       <!-- Link to organization website in name -->
       <div class="organization_name_text">
-        <a href="{{ . }}" target="”_blank”"
+        <a href="{{ .website }}" target="”_blank”"
           >{{ .name }}
           {{ with .website }} <i class="fas fa-link"></i> {{ end }}
         </a>
@@ -15,6 +15,7 @@
       <div class="organization_description_text">
         {{ .description }}
       </div>
+      <!--
       <div class="organization_links">
         {{ with .discord }}
           <a href="{{ . }}" target="”_blank”"><i class="fab fa-discord"></i></a>
@@ -28,6 +29,11 @@
           <a href="{{ . }}" target="”_blank”"
             ><i class="fab fa-instagram"></i
           ></a>
+        {{ end }}
+        {{ with .youtube }}
+          <a href="{{ . }}" target="”_blank”">
+            <i class="fab fa-youtube"></i>
+          </a>
         {{ end }}
         {{ with .twitter }}
           <a href="{{ . }}" target="”_blank”"
@@ -48,7 +54,7 @@
           ></a>
         {{ end }}
       </div>
-      <div class="red_line"></div>
+      -->
     </div>
   </div>
 </div>

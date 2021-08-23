@@ -7,14 +7,14 @@ preview: "images/news/2020-2021/academics.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "The Winter 2021 SCS Undergraduate Feedback & Suggestions Survey has been completed and we're here to share the results."
 hideBanner: false
-featured: true
+featured: false
 author: Tiffany Lau
 categories:
 - annoucement
 
 ---
 
-![survey!](/ccss-website/images/news/2020-2021/academics.jpg)
+![survey!](/images/news/2020-2021/academics.jpg)
 
 As [elected student representatives](/about/team/) of the Carleton Computer Science Society (CCSS), it is important that undergraduate computer science students under the School of Computer Science (SCS), studying at Carleton University, have their voices heard through channels that they can trust.
 

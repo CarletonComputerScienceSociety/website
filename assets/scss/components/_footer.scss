@@ -3,7 +3,20 @@
   height: 15vh;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top: 2px solid #c40729;
+
+  a {
+    color: inherit;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 14rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
 }

@@ -14,6 +14,7 @@ location_link: " http://bit.ly/ccss-figma-workshop-link"
 background: "images/orientation2018-min.jpeg"
 tags:
 - academics
+- talks
 ---
 
 ## Description
