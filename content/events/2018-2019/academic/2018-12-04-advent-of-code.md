@@ -4,7 +4,7 @@ title: "Dev Club: Advent of Code"
 date: 2018-12-04T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/advent-of-code-2018-2019.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "The Advent of Code is a programming contest that releases a new challenge every day from Dec 1st to Dec 25th."

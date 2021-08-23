@@ -4,7 +4,7 @@ title: "Prof Night - School of Computer Science"
 date: 2018-02-27T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/prof-social-2017-2018.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Prof Night is an excellent opportunity to get to know your profs in a less formal setting. What are they like as people? What are they researching?"

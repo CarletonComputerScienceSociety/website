@@ -7,7 +7,7 @@ layout: event
 poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "his workshop help you build your first personal website from a template, and personalize it to your style!"
+short_description: "This workshop helps you build your first personal website from a template, and personalize it to your style!"
 start_time: "6:00 - 8:00 PM EST"
 location: "Herzberg 5345 (Seminar Room)"
 location_link: "https://www.facebook.com/events/147072965915101/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"

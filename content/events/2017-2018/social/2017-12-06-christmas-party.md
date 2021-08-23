@@ -4,7 +4,7 @@ title: "CCSS Annual Christmas Party"
 date: 2017-12-06T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/christmas-party-2017.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "oin us on December 6th for our Annual Christmas Party. There will be food, music and many games to play!"

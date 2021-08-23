@@ -4,7 +4,7 @@ title: "Dev Club: Text Editors Workshop"
 date: 2018-11-27T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "This week's workshop, Text Editors, will take a look at the different ways to write code."

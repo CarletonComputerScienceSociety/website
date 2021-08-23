@@ -4,7 +4,7 @@ title: "Theater Night; Sherlock Holmes & The West End Horror"
 date: 2017-02-11T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Let's go see Sock 'n' Buskin's Sherlock Holmes & The West End Horror together!"

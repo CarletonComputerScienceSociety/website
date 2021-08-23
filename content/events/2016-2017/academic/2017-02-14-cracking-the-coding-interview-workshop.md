@@ -4,7 +4,7 @@ title: "Cracking the Coding Interview Workshop"
 date: 2017-02-14T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "We are hosting a technical interview prep workshop!"

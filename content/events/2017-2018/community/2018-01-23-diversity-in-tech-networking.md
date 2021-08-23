@@ -4,10 +4,10 @@ title: "Diversity in Engineering and Technology Networking Evening"
 date: 2018-01-23T00:00:00Z
 draft: false
 layout: event
-poster: "This event will allow co-op students and new graduates from underrepresented groups to meet and mingle with employers from engineering and IT-related firms who are dedicated to creating a diverse workforce. "
+poster: "images/event_posters/2017-2018/diversity-in-tech-networking.jpeg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: ""
+short_description: "This event will allow co-op students and new graduates from underrepresented groups to meet and mingle with employers from engineering and IT-related firms who are dedicated to creating a diverse workforce."
 start_time: "6:00 - 8:00 PM EST"
 location: "Richcraft Hall Atrium"
 location_link: "https://www.facebook.com/events/385892268502591/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"

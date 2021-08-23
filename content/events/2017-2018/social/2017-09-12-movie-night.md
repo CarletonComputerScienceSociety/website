@@ -4,7 +4,7 @@ title: "Week of Awesome: Movie Night (Hackers)"
 date: 2017-09-12T00:00:00Z
 draft: false
 layout: event
-poster: "images/img-not-found.jpg"
+poster: "images/event_posters/2017-2018/movie-night-2017-2018.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Movie night, let's watch the 1995 film Hackers! We'll have free popcorn and pop, so make sure to bring your friends!"

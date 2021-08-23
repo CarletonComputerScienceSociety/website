@@ -4,7 +4,7 @@ title: "CCSS Coffee Social"
 date: 2019-03-27T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/coffee-social-2018-2019.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Get together and have a chat with fellow students and profs."

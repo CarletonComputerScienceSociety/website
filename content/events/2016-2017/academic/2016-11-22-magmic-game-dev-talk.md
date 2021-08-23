@@ -4,7 +4,7 @@ title: "Magmic Game Dev Talk"
 date: 2016-11-22T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Simon Vendette, Director at Magmic, will be walking through the mobile game industry."

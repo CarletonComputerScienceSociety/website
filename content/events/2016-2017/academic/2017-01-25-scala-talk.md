@@ -4,7 +4,7 @@ title: "Course Selection Webinar"
 date: 2017-01-25T00:00:00Z
 draft: true
 layout: event
-poster: "IDK IF THIS EXISTS"
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Scala is modern, strongly, statically typed, object-functional programming language."

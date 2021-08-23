@@ -4,7 +4,7 @@ title: "CCSS x WiCS Potluck"
 date: 2019-03-19T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/wics-potluck-2018.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "CCSS and WiCS are partnering up to organize a lunch potluck event!"

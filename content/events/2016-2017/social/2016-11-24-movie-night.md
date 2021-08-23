@@ -4,7 +4,7 @@ title: "Movie Night (Galaxy Quest)"
 date: 2016-11-24T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "We are going to be watching the 1999 film Galaxy Quest!"

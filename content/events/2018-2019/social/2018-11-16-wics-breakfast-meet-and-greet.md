@@ -4,7 +4,7 @@ title: "WiCS Breakfast Meet & Greet"
 date: 2018-11-16T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/wics-breakfast-meet-and-greet-2018-2019.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Hear about conferences, grab swag, and meet CCSS's WiCS Officer."

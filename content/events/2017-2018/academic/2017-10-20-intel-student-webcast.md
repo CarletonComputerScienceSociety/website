@@ -4,7 +4,7 @@ title: "Intel Nervana AI Academy Student Webcast"
 date: 2017-10-20T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/intel-nervana-2017.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "We've all recently been hearing about how AI is the bees knees. Intel is hosting an AI focused webcast this October 20th!"

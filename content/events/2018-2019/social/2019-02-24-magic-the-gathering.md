@@ -4,7 +4,7 @@ title: "Magic The Gathering Stream Day"
 date: 2019-02-24T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/mtg-stream-day.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Watch the 2019 Mythic Championship Cleveland on the big screen!"

@@ -4,10 +4,10 @@ title: "Week of Awesome: Tech Talk - Architecting Cloud Applications"
 date: 2017-09-14T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/architecting-cloud-applications-2017-2018.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "The talk by Dr. Ali Pourshahid focuses on challenges of building software in the cloud and at scale including performance, scalability, and resiliency."
+short_description: "This talk by Dr. Ali Pourshahid focuses on challenges of building software in the cloud and at scale including performance, scalability, and resiliency."
 start_time: "6:00 - 7:30 PM EST"
 location: "Herzberg 5345 (Seminar Room)"
 location_link: "https://www.facebook.com/events/711835149007458/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"

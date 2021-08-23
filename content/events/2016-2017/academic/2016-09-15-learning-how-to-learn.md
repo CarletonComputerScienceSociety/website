@@ -1,6 +1,6 @@
 ---
 display_title: "WoA: Learning How to Learn"
-title: "Week of Awesome: "Learning How to Learn""
+title: "Week of Awesome: Learning How to Learn"
 date: 2016-09-15T00:00:00Z
 draft: false
 layout: event

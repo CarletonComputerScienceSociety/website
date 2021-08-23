@@ -4,7 +4,7 @@ title: "CS Games 2019 Information Session"
 date: 2018-10-25T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/csgames-info-session-2019.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "CS Games is the place to sharpen up your hacking skills, make friends, and have oodles of fun."

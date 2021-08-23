@@ -4,7 +4,7 @@ title: "CCSS Halloween Party"
 date: 2018-11-13T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/halloween-party-2018.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join your CS friends this Halloween for a frightful night of amusement!"

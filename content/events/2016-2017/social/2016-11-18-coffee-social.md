@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Come out to hang out and chat with friends and profs! Coffee and cookies will be provided."
 start_time: "2:30 - 4:30 PM EST"
 location: "Herzberg 5345 (Seminar Room)"
-location_link: "s/219189211845431/?acontext=%7B"event_action_history"%3A[%7B"surface"%3A"page"%7D]%7D"
+location_link: "https://www.facebook.com/events/219189211845431/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
 background: "images/orientation2018-min.jpeg"
 tags:
 - social

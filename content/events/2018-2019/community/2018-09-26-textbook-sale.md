@@ -4,7 +4,7 @@ title: "CCSS Textbook Sale"
 date: 2018-09-26T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/textbook-sale-2018.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Gather up your spare change, because the CCSS is having its textbook sale once again!"

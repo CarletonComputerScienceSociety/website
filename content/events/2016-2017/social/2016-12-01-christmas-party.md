@@ -4,7 +4,7 @@ title: "Christmas Party"
 date: 2016-12-01T00:00:00Z
 draft: true
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us on December 1st for our Annual Christmas Party."

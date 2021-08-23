@@ -7,7 +7,7 @@ layout: event
 poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: ""
+short_description: "This is the first Loft meetup of the year, so if you're in Ottawa before school starts, be sure to come!"
 start_time: "6:00 - 11:59 PM EST"
 location: "Level One Game Pub"
 location_link: "https://www.facebook.com/events/181067688965578/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"

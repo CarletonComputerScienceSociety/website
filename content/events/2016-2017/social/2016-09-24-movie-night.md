@@ -4,7 +4,7 @@ title: "Movie Night (Snowden)"
 date: 2016-09-24T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Let's go watch Snowden! The movie is playing at 7:00 at the Lansdowne Cineplex."

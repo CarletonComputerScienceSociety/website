@@ -4,7 +4,7 @@ title: "CCSS Christmas Party 2018"
 date: 2018-12-07T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2018-2019/christmas-party-2018.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Celebrate the festive season with the CCSS at our annual Christmas party!"

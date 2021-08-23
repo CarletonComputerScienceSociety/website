@@ -4,7 +4,7 @@ title: "Tech Talk: Application Security"
 date: 2018-02-05T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/application-security.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Jack McCracken talks application security, bug bounties and Shopify."

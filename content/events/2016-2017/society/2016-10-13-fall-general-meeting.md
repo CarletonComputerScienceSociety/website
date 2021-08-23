@@ -4,10 +4,10 @@ title: "Fall General Meeting 2016"
 date: 2016-10-13T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/img-not-found.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: ""
+short_description: "Come learn what the CCSS has been doing for the past couple of months."
 start_time: "6:00 - 8:00 PM EST"
 location: "Herzberg 5345 (Seminar Room)"
 location_link: "https://www.facebook.com/events/1794456137497135/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"

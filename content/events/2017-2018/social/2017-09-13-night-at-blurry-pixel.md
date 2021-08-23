@@ -4,7 +4,7 @@ title: "Week of Awesome: Night at the Blurry Pixel"
 date: 2017-09-13T00:00:00Z
 draft: false
 layout: event
-poster: ""
+poster: "images/event_posters/2017-2018/blurry-pixel-2017-2018.jpeg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "A night out at the Blurry Pixel! Video games, drinks, food and an all around good time."
