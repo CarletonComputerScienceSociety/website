@@ -7,14 +7,16 @@
   color: white;
   background: #c40729;
 
-  .fab, .fas {
+  .fab,
+  .fas {
     color: white !important;
     padding: 20px;
     font-size: 30px;
     text-decoration: None;
   }
 
-  .fab:hover, .fas:hover {
+  .fab:hover,
+  .fas:hover {
     color: black !important;
   }
 }
@@ -53,15 +55,16 @@
   font-size: 15px;
   transition: 0.4s;
   border-radius: 0px;
-  margin-bottom: 0px!important;
+  margin-bottom: 0px !important;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #ccc;
 }
 
 .accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: #777;
   font-weight: bold;
   float: right;
@@ -80,19 +83,19 @@
   transition: max-height 0.2s ease-out;
 }
 
-.panel .link{
+.panel .link {
   position: absolute;
   top: -3rem;
   z-index: 2;
 }
 
-.panel .link-anchor{
+.panel .link-anchor {
   position: relative;
   z-index: 2;
-  display:block;
+  display: block;
 }
 
-button.link{
+button.link {
   width: 100.6%;
 }
 
@@ -122,12 +125,12 @@ button.link{
   padding: 1.2rem 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
@@ -136,10 +139,10 @@ a:hover{
   background: #c40729;
 }
 
-.thread{
+.thread {
   border-bottom: 5px solid lightgray;
   border-left: 5px solid lightgray;
-  position:relative;
+  position: relative;
   left: -13px;
   top: -1rem;
   height: 4rem;
