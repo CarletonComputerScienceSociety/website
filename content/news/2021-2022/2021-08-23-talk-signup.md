@@ -16,7 +16,7 @@ categories:
 ---
 ![tech talk](/images/news/2021-2022/techtalks_poster.jpg)
 
-If you're interested in becoming a speaker, please fill out [this form](https://docs.google.com/forms/d/1H1s_0tMzakN2Dp34PSjJYDpYd2oVYrADLxpOI3mOzaE/edit). We'll be in touch with you soon!
+If you're interested in becoming a speaker, please fill out [this form](https://docs.google.com/forms/d/1H1s_0tMzakN2Dp34PSjJYDpYd2oVYrADLxpOI3mOzaE/edit).
 
 We are looking for students of all experience levels and year standings (including incoming first years)  who are interested in giving presentations. No prior presentation or tech talk experience is required.
 
