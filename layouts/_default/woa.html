@@ -1,31 +1,54 @@
 {{ define "main" }}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<div class="woa-background-wrap">
-    <lottie-player class="woa-background" src="/lottie/woa.json" background="transparent"  speed="1"  loop autoplay></lottie-player>
-</div>
-<div class="woa-page">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <div class="woa-background-wrap">
+    <lottie-player
+      class="woa-background"
+      src="/lottie/woa.json"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay
+    ></lottie-player>
+  </div>
+  <div class="woa-page">
     <div class="woa-header">
-        <div class="woa-header-logo">
-            <a href="/"><img class="woa-header-logo-image" src="https://cdn.discordapp.com/attachments/490220076163792896/884284272935075840/logowhite.png"></a>
-        </div>
-        <div class="woa-header-title">WEEK OF AWESOME</div>
-        <div class="woa-header-date">September 12th - September 18th</div>
+      <div class="woa-header-logo">
+        <a href="/"
+          ><img
+            class="woa-header-logo-image"
+            src="https://cdn.discordapp.com/attachments/490220076163792896/884284272935075840/logowhite.png"
+        /></a>
+      </div>
+      <div class="woa-header-title">WEEK OF AWESOME</div>
+      <div class="woa-header-date">September 12th - September 18th</div>
     </div>
-</div>
-<div class="woa-content">
+  </div>
+  <div class="woa-content">
     <div class="woa-description">
-        <h1>What is Week of Awesome?</h1>
-        <p style="font-size: 1.4rem"><i><b>It's kinda like a computer science frosh ... but 100% free and organized completely by students!</b></i></p>
-        <p style="font-size: 1.05rem">Established in 2014, Week of Awesome is an annual tradition organized by the Carleton Computer Science Society to welcome incoming and returning Computer science students to the upcoming academic year. Coming to Week of Awesome events is a great way to make new friends, learn something new, or find out how you get involved with Carleton's vibrant computer science community! Checkout our list of events below.</p>
+      <h1>What is Week of Awesome?</h1>
+      <p style="font-size: 1.4rem">
+        <i
+          ><b
+            >It's kinda like a computer science frosh ... but 100% free and
+            organized completely by students!</b
+          ></i
+        >
+      </p>
+      <p style="font-size: 1.05rem">
+        Established in 2014, Week of Awesome is an annual tradition organized by
+        the Carleton Computer Science Society to welcome incoming and returning
+        Computer science students to the upcoming academic year. Coming to Week
+        of Awesome events is a great way to make new friends, learn something
+        new, or find out how you get involved with Carleton's vibrant computer
+        science community! Checkout our list of events below.
+      </p>
     </div>
     <div class="woa-events">
-        {{- range .Pages.ByDate }}
-          <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
-            >{{- partial "event_card.html" . -}}</a
-          >
-        {{ end }}
-      </div>
-
-</div>
+      {{- range .Pages.ByDate }}
+        <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+  </div>
 {{ end }}
