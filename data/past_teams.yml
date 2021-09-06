@@ -45,112 +45,92 @@
     - name: William So
       role: President
       email: william.so@ccss.carleton.ca
-      intro: "I am a fourth-year student majoring in Computer Science: Algorithms and minoring in Mathematics. I write code, music, and insane plot twists. Focused on growing the society to meet student needs. Reach out anytime!"
+      intro: "I am a third year computer science student in the software engineering stream. Interests include pointless fun facts and bad puns. Don't hesitate to contact me if you want to chat!"
       image: images/executives/william_so_2019.jpg
-    - name: Jerry Liu
-      role: Vice-President
-      email: jerry.liu@ccss.carleton.ca
-      intro: "I'm a third year computer science student in the game dev stream. I love to chat with people, even though I have headphones on a lot. If you have any questions, let me know! "
-      image: images/executives/jerry.jpg
-    - name: Malcolm Smith
-      role: Director of Social
-      email: malcolm.smith@ccss.carleton.ca
-      intro: "Hey! I am a second year student deeply interested in all things computers. You can find me most of the time in the lounge, or at our events! Feel free to introduce yourself! I use arch btw."
-      image: images/executives/malcolm.jpg
-    - name: Alexa De Grandmont
-      role: Director of Academics
-      email: alexa.degrandmont@ccss.carleton.ca
-      intro: "I’m in my final year of Comp Sci honours, pursuing minors in math and linguistics. I love Python, Discrete Math, NLP, and everything Japanese. If you wanna talk courses, research, anime, or anything in between, hmu!"
-      image: images/executives/alexa.jpg
-    - name: Tiffany Lau
-      role: Director of Community
-      email: tiffany.lau@ccss.carleton.ca
-      intro: "I am a 3rd-year student in the software engineering stream! I love meeting people and making a positive social impact! If you ever want to get involved with CCSS activities, please feel free to reach out to me!"
-      image: images/executives/tiffany_lau.jpg
     - name: Matthew M-B
-      role: Director of Finance
+      role: Vice-President
       email: matthew.macraebovell@ccss.carleton.ca
-      intro: "I’m a 3rd year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
+      intro: "I’m a 2nd year student with an interest in web development, cloud infrastructure, and internet security. You'll often find me helping with events or trying to level up my programming skills. If you have any questions, I would love to talk!"
       image: images/executives/matthew_macraebovell.jpg
+    - name: Tiffany Lau
+      role: Director of Social
+      email: tiffany.lau@ccss.carleton.ca
+      intro: "I’m a 2nd year student in the software engineering stream. Music is my passion and I love meeting people. If you ever want to get involved with CCSS events, feel free to reach out to me!"
+      image: images/executives/tiffany_lau.jpg
+    - name: Adam Payzant
+      role: Director of Academics
+      email: adam.payzant@ccss.carleton.ca
+      intro: "I'm a third year in the general stream. Most people call me Tennessee. I have a deep love for anything open source as well as absurd and impractical solutions to dumb problems. i use arch btw."
+      image: images/executives/adam_payzant.jpg
+    - name: Faareha Khalid
+      role: Director of Inclusion
+      email: faareha.khalid@ccss.carleton.ca
+      intro: "I'm going into my third year but CS is my second undergraduate degree ! If you're a mature student, doing a 2nd+ degree, a woman in CS, or want me to address anything related to inclusivity, reach out ! I'm here to represent you."
+      image: images/executives/faareha_khalid.jpg
+    - name: Ben Karstad
+      role: Treasurer
+      email: benjamin.karstad@ccss.carleton.ca
+      intro: "Third year student and second time Treasurer. Fascinated with database and network infrastructure. If you see me in the lounge or at events, please come say hi."
+      image: images/executives/ben_karstad_2019.jpg
     - name: Chantal Brousseau
       role: Administrator
       email: chantal.brousseau@ccss.carleton.ca
-      intro: "Hello all! I’m a 4th-year student studying history and comp sci! I'm interested in data analysis and UI/UX Design, and beyond CS, I'm a passionate maker with a particular penchant for DIY keyboards and knitting-- you can usually find me in the CCSS Lounge with a project in hand!"
+      intro: "I’m a 3rd student studying history and comp sci! I’m most interested in database programming and UI/UX Design. Aside from that, I’m easy to find around campus; when not in class you can find me in the CCSS Lounge or gym."
       image: images/executives/chantal_brousseau.jpg
-    - name: Sarah Ali
-      role: Communications
-      email: sarah.ali@ccss.carleton.ca
-      intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
-      image: images/executives/sarah.jpg
 - year: 2018-2019
   members:
-    - name: William So
+    - name: Elisa Kazan
       role: President
-      email: william.so@ccss.carleton.ca
-      intro: "I am a fourth-year student majoring in Computer Science: Algorithms and minoring in Mathematics. I write code, music, and insane plot twists. Focused on growing the society to meet student needs. Reach out anytime!"
-      image: images/executives/william_so_2019.jpg
-    - name: Jerry Liu
+      email: elisa.kazan@ccss.carleton.ca
+      intro: "I’m a 4th year student in the mobile stream, focusing on iOS development. I’m always interested in chatting about conferences/events, CS education and improving the CS community. :sunflower: is my fav emoji"
+      image: images/executives/elisa_kazan.jpg
+    - name: Aidan Crowther
       role: Vice-President
-      email: jerry.liu@ccss.carleton.ca
-      intro: "I'm a third year computer science student in the game dev stream. I love to chat with people, even though I have headphones on a lot. If you have any questions, let me know! "
-      image: images/executives/jerry.jpg
-    - name: Malcolm Smith
-      role: Director of Social
-      email: malcolm.smith@ccss.carleton.ca
-      intro: "Hey! I am a second year student deeply interested in all things computers. You can find me most of the time in the lounge, or at our events! Feel free to introduce yourself! I use arch btw."
-      image: images/executives/malcolm.jpg
-    - name: Alexa De Grandmont
-      role: Director of Academics
-      email: alexa.degrandmont@ccss.carleton.ca
-      intro: "I’m in my final year of Comp Sci honours, pursuing minors in math and linguistics. I love Python, Discrete Math, NLP, and everything Japanese. If you wanna talk courses, research, anime, or anything in between, hmu!"
-      image: images/executives/alexa.jpg
-    - name: Tiffany Lau
-      role: Director of Community
-      email: tiffany.lau@ccss.carleton.ca
-      intro: "I am a 3rd-year student in the software engineering stream! I love meeting people and making a positive social impact! If you ever want to get involved with CCSS activities, please feel free to reach out to me!"
-      image: images/executives/tiffany_lau.jpg
-    - name: Matthew M-B
-      role: Director of Finance
-      email: matthew.macraebovell@ccss.carleton.ca
-      intro: "I’m a 3rd year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
-      image: images/executives/matthew_macraebovell.jpg
-    - name: Chantal Brousseau
-      role: Administrator
-      email: chantal.brousseau@ccss.carleton.ca
-      intro: "Hello all! I’m a 4th-year student studying history and comp sci! I'm interested in data analysis and UI/UX Design, and beyond CS, I'm a passionate maker with a particular penchant for DIY keyboards and knitting-- you can usually find me in the CCSS Lounge with a project in hand!"
-      image: images/executives/chantal_brousseau.jpg
-    - name: Sarah Ali
-      role: Communications
-      email: sarah.ali@ccss.carleton.ca
-      intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
-      image: images/executives/sarah.jpg
+      email: aidan.crowther@ccss.carleton.ca
+      intro: "I'm a fourth year computer science major, with a special focus on web and embedded programming. Feel free to talk to me about how Python isn't the best language."
+      image: images/executives/aidan_crowther.jpg
+    - name: William So
+      role: VP Social
+      email: william.so@ccss.carleton.ca
+      intro: "I am a 2nd-year computer science student in the software engineering stream. You will often find me in the CCSS lounge, either studying or debating about the most scintillating nothings of today"
+      image: images/executives/william_so.jpg
+    - name: Forest Anderson
+      role: VP Academics
+      email: forest.anderson@ccss.carleton.ca
+      intro: "I’m a 4th year boi in game dev. I like game jams, security CTFs, and running things. If you have any question, I would love to talk! :deciduous_tree::deciduous_tree::deciduous_tree:"
+      image: images/executives/forest_anderson.jpg
+    - name: Ben Karstad
+      role: Treasurer
+      email: benjamin.karstad@ccss.carleton.ca
+      intro: "Second year in the general stream. I enjoy the problem solving and procedural aspects of programming. If you see a 6ft tall 12 year-old, dressed fancier than he ought to, it's probably me."
+      image: images/executives/ben_karstad.jpg
 - year: 2017-2018
   members:
-    - name: William So
+    - name: Elisa Kazan
       role: President
-      email: william.so@ccss.carleton.ca
-      intro: "I am a fourth-year student majoring in Computer Science: Algorithms and minoring in Mathematics. I write code, music, and insane plot twists. Focused on growing the society to meet student needs. Reach out anytime!"
-      image: images/executives/william_so_2019.jpg
-    - name: Jerry Liu
+      email: elisa.kazan@ccss.carleton.ca
+      intro: "I am a 3rd year student in the mobile stream, co-lead for CUHacking and head delegate for CUSEC. I’m energetic, outgoing and love to get involved with events and CS outreach."
+      image: images/executives/elisa_kazan.jpg
+    - name: Tyler Fleming
       role: Vice-President
-      email: jerry.liu@ccss.carleton.ca
-      intro: "I'm a third year computer science student in the game dev stream. I love to chat with people, even though I have headphones on a lot. If you have any questions, let me know! "
-      image: images/executives/jerry.jpg
-    - name: Malcolm Smith
-      role: Director of Social
-      email: malcolm.smith@ccss.carleton.ca
-      intro: "Hey! I am a second year student deeply interested in all things computers. You can find me most of the time in the lounge, or at our events! Feel free to introduce yourself! I use arch btw."
-      image: images/executives/malcolm.jpg
-    - name: Alexa De Grandmont
-      role: Director of Academics
-      email: alexa.degrandmont@ccss.carleton.ca
-      intro: "I’m in my final year of Comp Sci honours, pursuing minors in math and linguistics. I love Python, Discrete Math, NLP, and everything Japanese. If you wanna talk courses, research, anime, or anything in between, hmu!"
-      image: images/executives/alexa.jpg
-    - name: Tiffany Lau
-      role: Director of Community
-      email: tiffany.lau@ccss.carleton.ca
-      intro: "I am a 3rd-year student in the software engineering stream! I love meeting people and making a positive social impact! If you ever want to get involved with CCSS activities, please feel free to reach out to me!"
-      image: images/executives/tiffany_lau.jpg
+      email: tyler.fleming@ccss.carleton.ca
+      intro: "I'm a 3rd year student in the Computer and Internet Security stream. I enjoy cooking and video games."
+      image: images/executives/tyler_fleming.jpg
+    - name: Richard Ositashvili
+      role: VP Social
+      email: richard.ositashvili@ccss.carleton.ca
+      intro: "I'm a second year comp sci student. I love going to hackathons and meeting wonderful people. I like programming and may occasionally engage in political discourse. TLDR; I'm just here for a good time."
+      image: images/executives/richard_ositashvili.jpg
+    - name: Bernard Laveaux
+      role: VP Academics Fall
+      email: bernard.laveaux@ccss.carleton.ca
+      intro: "I’m a 3rd year student in the computer and internet security stream. I’m a former Wealthsimple and Shopify intern interested in designing unique and useful software libraries and services, like Ruby gems and small projects."
+      image: images/executives/bernard_laveaux.jpg
+    - name: Liz Davies
+      role: VP Academics Winter
+      email: liz.davies@ccss.carleton.ca
+      intro: "I’m a 2nd/3rd year student in the Software Engineering Stream and a graduate of the BMus program at Mount Allison University. When not in class you’ll often see me trying to level up my skills in communicating, coding, or music."
+      image: images/executives/liz_davies.jpg
     - name: Matthew M-B
       role: Director of Finance
       email: matthew.macraebovell@ccss.carleton.ca
@@ -168,44 +148,28 @@
       image: images/executives/sarah.jpg
 - year: 2016-2017
   members:
-    - name: William So
+    - name: Elisa Kazan
       role: President
-      email: william.so@ccss.carleton.ca
-      intro: "I am a fourth-year student majoring in Computer Science: Algorithms and minoring in Mathematics. I write code, music, and insane plot twists. Focused on growing the society to meet student needs. Reach out anytime!"
-      image: images/executives/william_so_2019.jpg
-    - name: Jerry Liu
+      email: elisa.kazan@ccss.carleton.ca
+      intro: "I am a 3rd year student in the mobile stream and an LTE software developer intern at Ericsson. I’m energetic, outgoing and love to get involved with events and CS outreach. Tea > Coffee."
+      image: images/executives/elisa_kazan.jpg
+    - name: Jack Mccracken
       role: Vice-President
-      email: jerry.liu@ccss.carleton.ca
-      intro: "I'm a third year computer science student in the game dev stream. I love to chat with people, even though I have headphones on a lot. If you have any questions, let me know! "
-      image: images/executives/jerry.jpg
-    - name: Malcolm Smith
-      role: Director of Social
-      email: malcolm.smith@ccss.carleton.ca
-      intro: "Hey! I am a second year student deeply interested in all things computers. You can find me most of the time in the lounge, or at our events! Feel free to introduce yourself! I use arch btw."
-      image: images/executives/malcolm.jpg
-    - name: Alexa De Grandmont
-      role: Director of Academics
-      email: alexa.degrandmont@ccss.carleton.ca
-      intro: "I’m in my final year of Comp Sci honours, pursuing minors in math and linguistics. I love Python, Discrete Math, NLP, and everything Japanese. If you wanna talk courses, research, anime, or anything in between, hmu!"
-      image: images/executives/alexa.jpg
-    - name: Tiffany Lau
-      role: Director of Community
-      email: tiffany.lau@ccss.carleton.ca
-      intro: "I am a 3rd-year student in the software engineering stream! I love meeting people and making a positive social impact! If you ever want to get involved with CCSS activities, please feel free to reach out to me!"
-      image: images/executives/tiffany_lau.jpg
-    - name: Matthew M-B
-      role: Director of Finance
-      email: matthew.macraebovell@ccss.carleton.ca
-      intro: "I’m a 3rd year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
-      image: images/executives/matthew_macraebovell.jpg
-    - name: Chantal Brousseau
-      role: Administrator
-      email: chantal.brousseau@ccss.carleton.ca
-      intro: "Hello all! I’m a 4th-year student studying history and comp sci! I'm interested in data analysis and UI/UX Design, and beyond CS, I'm a passionate maker with a particular penchant for DIY keyboards and knitting-- you can usually find me in the CCSS Lounge with a project in hand!"
-      image: images/executives/chantal_brousseau.jpg
-    - name: Sarah Ali
-      role: Communications
-      email: sarah.ali@ccss.carleton.ca
-      intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
-      image: images/executives/sarah.jpg
-
+      email: jack.mccracken@ccss.carleton.ca
+      intro: "I’m a 3rd year student in the computer & internet security stream. I’m also a software developer intern at Shopify. All that to say, I love computer science and the computer science community."
+      image: images/executives/jack_mccracken.jpg
+    - name: Forest Anderson
+      role: VP Social
+      email: forest.anderson@ccss.carleton.ca
+      intro: "I’m a 2nd year student the game development stream. I like things such as video games and poutine. Over the summer, I worked at Carleton in the GIGL lab. I also like photography and VFX."
+      image: images/executives/forest_anderson.jpg
+    - name: Matt Diener
+      role: VP Academics
+      email: matt.diener@ccss.carleton.ca
+      intro: "I am a fourth year student in the algorithms stream (no longer offered :( ). I like making music and competing in programming competitions.This is going to be a great year so make sure to get involved and have lots of fun!"
+      image: images/executives/matt_diener.jpg
+    - name: Andrew Morris
+      role: Treasurer
+      email: andrew.morris@ccss.carleton.ca
+      intro: "I'm in the business systems stream. I’ve done a great deal of volunteer work pertaining to the lounge and technical resources. Coffee is what keeps me going."
+      image: images/executives/unknown_id.jpg
