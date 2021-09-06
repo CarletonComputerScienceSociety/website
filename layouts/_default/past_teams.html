@@ -3,7 +3,7 @@
   {{ range $.Site.Data.past_teams }}
     <h1 style="text-align: center;">{{ .year }} TEAM</h1>
     <hr />
-    <div id="team_flex_box">
+    <div id="team_flex_box" class="past">
       {{ range .members }}
         {{- partial "team_card.html" (dict "name" .name "role" .role "email" .email "intro" .intro "image" .image ) -}}
       {{ end }}

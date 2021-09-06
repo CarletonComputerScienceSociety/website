@@ -131,21 +131,11 @@
       email: liz.davies@ccss.carleton.ca
       intro: "I’m a 2nd/3rd year student in the Software Engineering Stream and a graduate of the BMus program at Mount Allison University. When not in class you’ll often see me trying to level up my skills in communicating, coding, or music."
       image: images/executives/liz_davies.jpg
-    - name: Matthew M-B
-      role: Director of Finance
+    - name: Forest Anderson
+      role: Treasurer
       email: matthew.macraebovell@ccss.carleton.ca
-      intro: "I’m a 3rd year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
-      image: images/executives/matthew_macraebovell.jpg
-    - name: Chantal Brousseau
-      role: Administrator
-      email: chantal.brousseau@ccss.carleton.ca
-      intro: "Hello all! I’m a 4th-year student studying history and comp sci! I'm interested in data analysis and UI/UX Design, and beyond CS, I'm a passionate maker with a particular penchant for DIY keyboards and knitting-- you can usually find me in the CCSS Lounge with a project in hand!"
-      image: images/executives/chantal_brousseau.jpg
-    - name: Sarah Ali
-      role: Communications
-      email: sarah.ali@ccss.carleton.ca
-      intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
-      image: images/executives/sarah.jpg
+      intro: "I’m a 3rd year student the game development stream. I like things such as video games and poutine. I have worked with in the GIGL lab with Dr. David Mould. I also do photography and VFX."
+      image: images/executives/forest_anderson.jpg
 - year: 2016-2017
   members:
     - name: Elisa Kazan
@@ -157,7 +147,7 @@
       role: Vice-President
       email: jack.mccracken@ccss.carleton.ca
       intro: "I’m a 3rd year student in the computer & internet security stream. I’m also a software developer intern at Shopify. All that to say, I love computer science and the computer science community."
-      image: images/executives/jack_mccracken.jpg
+      image: images/executives/jack_mccraken.jpg
     - name: Forest Anderson
       role: VP Social
       email: forest.anderson@ccss.carleton.ca
