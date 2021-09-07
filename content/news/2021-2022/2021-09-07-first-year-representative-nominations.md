@@ -5,7 +5,7 @@ draft: false
 layout: overlaypost
 preview: "images/general/orientation_2017.jpg"
 background: "images/orientation2018-min.jpeg"
-excerpt: "We're looking for for two first year CS students to join our Board of Directors as First Year Representatives."
+excerpt: "We're looking for two first year CS students to join our Board of Directors as First Year Representatives."
 hideBanner: false
 featured: true
 author: Sarah Ali
