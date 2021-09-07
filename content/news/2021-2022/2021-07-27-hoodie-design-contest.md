@@ -7,7 +7,7 @@ preview: "images/news/2021-2022/hoodie.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Submit a graphic for the chance to be featured on the back of the official CCSS hoodie. "
 hideBanner: false
-featured: true
+featured: false
 author: Victor Li
 categories:
 - annoucement
