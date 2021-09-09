@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "A panel of upper-year students from different computer science streams as well as some interns at Shopify!"
 start_time: "11:30 - 1:00 PM EDT"
 location: "Discord"
-location_link: ""http://discord.carletoncomputersciencesociety.ca/""
+location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 tags:
