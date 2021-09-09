@@ -7,10 +7,10 @@ layout: event
 poster: "images/event_posters/2021-2022/clubsinfosession.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Are you an incoming or returning CS student looking to get involved this year, but not sure how?"
+short_description: "Are you a CS student looking to get involved this year, but not sure how?"
 start_time: "1:00 - 2:30 PM EDT"
-location: "Link Coming Soon"
-location_link: "#TBD"
+location: "Zoom"
+location_link: "https://carleton-ca.zoom.us/j/94724503934"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 featured: true
