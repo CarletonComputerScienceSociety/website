@@ -13,6 +13,7 @@ location: "Zoom"
 location_link: "https://carleton-ca.zoom.us/j/96115886309"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+featured: true
 tags:
 - weekofawesome2021
 - talks
