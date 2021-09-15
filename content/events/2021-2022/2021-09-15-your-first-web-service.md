@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Learn how to build your first web service!"
 start_time: "6:00 - 7:00 PM EDT"
 location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/96115886309"
+location_link: "https://carleton-ca.zoom.us/j/97013063953"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 featured: true
