@@ -7,12 +7,13 @@ layout: event
 poster: "images/event_posters/2021-2022/movienight.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Join us for movie night!"
+short_description: "Join us for movie night! The movie will be voted on via Discord."
 start_time: "6:00 - 8:00 PM EDT"
-location: "Link Coming Soon"
-location_link: "#TBD"
+location: "Discord"
+location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+featured: true
 tags:
 - weekofawesome2021
 ---
