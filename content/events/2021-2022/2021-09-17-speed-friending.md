@@ -13,6 +13,7 @@ location: "Discord"
 location_link: "http://discord.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+featured: true
 tags:
 - weekofawesome2021
 ---
