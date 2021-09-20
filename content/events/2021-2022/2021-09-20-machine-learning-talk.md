@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Some natural and human-engineered processes exhibit patterns that suggest an underlying algorithm."
 start_time: "6:00 - 7:00 PM EDT"
-location: "Link Coming Soon"
+location: "Zoom"
 location_link: "https://carleton-ca.zoom.us/j/98955665307"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
