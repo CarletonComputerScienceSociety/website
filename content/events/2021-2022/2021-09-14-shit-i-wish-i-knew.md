@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "An info session all about your first year of Carleton Computer Science!"
 start_time: "11:30 - 1:00 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/92620644451"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/XF3Y4A2PtZ9c9vZTb-wync69t2A0uuTAPnQFSdJdgudVx4P4UiK9lKBXgvsFYJp4.g7mT2ZFZGi1WcjZe"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 featured: false
