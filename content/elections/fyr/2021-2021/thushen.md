@@ -24,6 +24,4 @@ What is Gather Town? Gather Town is a web-conferencing software like Zoom, but w
 
 Dm me on Discord at Thushen#1418 if you have any questions or come find me during Dev Club in the CCSS Discord Server! I hope we have an amazing year.
 
-This is the end of the platform. Thank you for letting me apply to be an First Year Representative.
-
 ![Thushen](/images/first_year_reps/2021/thushen.jpg)
