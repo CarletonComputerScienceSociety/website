@@ -18,7 +18,9 @@
     <article class="overlaypost_content markdown-content">
       <!--Temp-->
       <h1 style="font-size: 3rem">{{- .Params.title }}</h1>
-      <p class="post-author">Written By: {{ .Params.author }}</p>
+      {{ if .Params.author }}
+        <p class="post-author">Written By: {{ .Params.author }}</p>
+      {{ end }}
       <p class="post-excerpt">{{ .Params.excerpt }}</p>
       <p class="post-date">{{ .Params.date.Format "January 2, 2006" }}</p>
       <div class="post-content">
