@@ -7,14 +7,16 @@
   color: white;
   background: #c40729;
 
-  .fab {
+  .fab,
+  .fas {
     color: white !important;
     padding: 20px;
     font-size: 30px;
     text-decoration: None;
   }
 
-  .fab:hover {
+  .fab:hover,
+  .fas:hover {
     color: black !important;
   }
 }
@@ -39,6 +41,62 @@
 .links-header-image {
   border-radius: 50%;
   width: 7rem;
+}
+
+.accordion {
+  text-align: center;
+  height: fit-content;
+  color: black;
+  cursor: pointer;
+  padding: 1.2rem 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 0px;
+  margin-bottom: 0px !important;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  padding-right: 1rem;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel .link {
+  position: absolute;
+  top: -3rem;
+  z-index: 2;
+}
+
+.panel .link-anchor {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+button.link {
+  width: 100.6%;
 }
 
 .link-anchor {
@@ -67,7 +125,26 @@
   padding: 1.2rem 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
 .link:hover {
   color: white;
   background: #c40729;
+}
+
+.thread {
+  border-bottom: 5px solid lightgray;
+  border-left: 5px solid lightgray;
+  position: relative;
+  left: -13px;
+  top: -1rem;
+  height: 4rem;
+  z-index: 1;
 }

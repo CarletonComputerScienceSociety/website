@@ -12,7 +12,10 @@
         <br />
         <div>Carleton Computer Science Society</div>
         <br />
-        <div>Email: info@ccss.carleton.ca</div>
+        <div>
+          Email:
+          <a href="mailto:info@ccss.carleton.ca">info@ccss.carleton.ca</a>
+        </div>
         <div class="socials">
           <br />
           <a
@@ -35,11 +38,20 @@
             target="_blank"
             class="fab fa-twitter"
           ></a>
+          <a
+            href="https://ccss.carleton.ca/"
+            target="_blank"
+            class="fas fa-link"
+          ></a>
         </div>
       </div>
       {{ range $.Site.Data.links }}
         {{ if and ((time .release_date).Before now) ((time .expiration_date).After now) }}
-          {{- partial "link.html" (dict "label" .label "link" .link) -}}
+          {{ if not (isset . "sublinks") }}
+            {{- partial "link.html" (dict "label" .label "link" .link ) -}}
+            {{ else }}
+            {{- partial "dropdown.html" (dict "label" .label "link" .link "sublinks" .sublinks ) -}}
+          {{ end }}
         {{ end }}
       {{ end }}
     </div>
