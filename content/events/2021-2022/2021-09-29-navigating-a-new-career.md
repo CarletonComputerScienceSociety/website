@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Join two new Carleton grads Aarthi Ganesh and Abhi Santhosh as they unpack their ‘lessons learned’ navigating a new career as software developers at Martello Technologies."
 start_time: "6:00 - 7:00 PM EDT"
-location: "Coming Soon"
-location_link: "#coming soon"
+location: "Zoom"
+location_link: "https://carleton-ca.zoom.us/j/93481842966"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
