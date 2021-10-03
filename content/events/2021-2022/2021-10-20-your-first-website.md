@@ -1,10 +1,10 @@
 ---
 display_title: "Your First Website"
 title: "Your First Website"
-date: 2021-10-06T00:00:00Z
+date: 2021-10-20T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2021-2022/yourfirstwebsite.jpg"
+poster: "images/event_posters/2021-2022/yourfirstwebsite20.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn how to build your first website!"
