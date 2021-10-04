@@ -12,5 +12,5 @@ start_time: "6:00 - 7:00 PM EDT"
 location: "Coming Soon"
 location_link: "#coming soon"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2021-01-01
+publishdate: 2021-10-07
 ---
