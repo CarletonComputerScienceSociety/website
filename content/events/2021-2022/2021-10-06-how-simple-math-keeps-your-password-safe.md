@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn how the S in HTTPS works and the math behind why it's safe."
 start_time: "6:00 - 7:00 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/97593410361"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/5wGAEKQiJk-HD7Th_iBPI5Btb2UxZX6Dhvm08gKzc2bHm5XQYocvxMo5cQttXgH8.044eFzZnp6jMfQdr?startTime=1633557858000"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
