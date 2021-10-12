@@ -13,4 +13,6 @@ location: "Coming Soon"
 location_link: "#coming soon"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+tags:
+- talks
 ---
