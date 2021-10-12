@@ -13,6 +13,8 @@ location: "Recording"
 location_link: "https://carleton-ca.zoom.us/rec/share/GDS18sSDajhbXY5hrAKzJREMNciWaViQLU_MGkc5NT1KXcnTaamHeu0UznENt61s.8g4psvZui2JwRGuY"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+tags:
+- talks
 ---
 
 # Navigating a New Career

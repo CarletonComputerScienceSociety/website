@@ -13,6 +13,8 @@ location: "Recording"
 location_link: "https://carleton-ca.zoom.us/rec/share/5wGAEKQiJk-HD7Th_iBPI5Btb2UxZX6Dhvm08gKzc2bHm5XQYocvxMo5cQttXgH8.044eFzZnp6jMfQdr?startTime=1633557858000"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+tags:
+- talks
 ---
 
 # Description
