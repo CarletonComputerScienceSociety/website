@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Are you a CS student looking to get involved this year, but not sure how?"
 start_time: "1:00 - 2:30 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/94724503934"
+location: "Recording"
+location_link: "https://drive.google.com/file/d/1Jc7ftGZKN2t-gauUamucrqjGbkAYqfYk/view?usp=sharing"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 featured: false
