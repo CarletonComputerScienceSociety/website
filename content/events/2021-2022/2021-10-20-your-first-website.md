@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn how to build your first website!"
 start_time: "6:00 - 7:00 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/99210560735"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/Yu0BpVx8ZBaDGGqWlrIIatRrjccIXuKF4pX4FznTujMP3rv0UtjhFhSMwJopgjcg.HmTQF1IpwsQyQ9c-?startTime=1634766854000"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 tags:
