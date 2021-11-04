@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "The next tech talk we've got coming up is Introduction to GraphQL with Sarah Ali!"
 start_time: "6:00 - 7:00 PM EDT"
 location: "Coming Soon"
-location_link: "#Comingsoon"
+location_link: "https://carleton-ca.zoom.us/j/97914991340"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
