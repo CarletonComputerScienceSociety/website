@@ -13,4 +13,6 @@ location: "Zoom"
 location_link: "https://carleton-ca.zoom.us/j/97914991340"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+tags:
+- talks
 ---
