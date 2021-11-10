@@ -1,0 +1,57 @@
+.internal {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #c40729;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.internal-section {
+  width: 100%;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.internal-brand {
+  text-align: center;
+  color: white;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.internal-logo {
+  object-fit: cover;
+  min-width: 200px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.internal-section-image {
+  width: 150px;
+  margin: 0.5rem;
+}
+
+.internal-people {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.internal-title {
+  font-size: large;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.internal-links {
+  width: 40%;
+}
