@@ -1,7 +1,7 @@
 ---
 display_title: "COMP 1405 Study Session"
 title: "COMP 1405 Study Session"
-date: 2021-11-16T00:00:00Z
+date: 2021-11-16T00:18:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2021-2022/study_sessions.jpg"
