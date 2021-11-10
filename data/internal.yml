@@ -1,0 +1,28 @@
+people:
+  - name: Adi
+    url: https://app.asana.com/0/1200435800516221/calendar
+    image: /images/executives/adi.jpg
+  - name: Jake
+    url: https://app.asana.com/0/1200463786892830/calendar
+    image: /images/executives/jake.jpg 
+  - name: Matthew
+    url: https://app.asana.com/0/1189618794938324/calendar
+    image: /images/executives/matthew_macraebovell.jpg
+  - name: Sarah
+    url: https://app.asana.com/0/1190013702546641/calendar
+    image: /images/executives/sarah.jpg
+  - name: Victor
+    url: https://app.asana.com/0/1200435780842188/calendar
+    image: /images/executives/victor.jpg
+  - name: Zara
+    url: https://app.asana.com/0/1198223001409620/calendar
+    image: /images/executives/zara.jpg
+schedules:
+  - name: Event Schedule
+    url: https://app.asana.com/0/1201349491356044/calendar
+  - name: Meeting Schedule
+    url: https://app.asana.com/0/1201343761469830/calendar
+  - name: SCS Email Schedule
+    url: https://app.asana.com/0/1201343797690031/calendar
+    
+

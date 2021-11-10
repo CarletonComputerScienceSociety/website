@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="internal">
+    <div class="internal-section">
+      <div class="internal-brand">
+        <img class="internal-logo" src="/images/ccss-logo-white.png" />
+        <p>Internal Management</p>
+      </div>
+    </div>
+    <div class="internal-section">
+      <p class="internal-title">Board Member Calenders</p>
+      <div class="internal-people">
+        {{ range $.Site.Data.internal.people }}
+          <a href="{{ .url }}"
+            ><img class="internal-section-image" src="{{ .image }}"
+          /></a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="internal-section">
+      <p class="internal-title">Scheduling Calenders</p>
+      <div class="internal-links">
+        {{ range $.Site.Data.internal.schedules }}
+          {{- partial "link.html" (dict "label" .name "link" .url) -}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
