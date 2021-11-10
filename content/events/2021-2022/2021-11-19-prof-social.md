@@ -16,7 +16,6 @@ publishdate: 2021-01-01
 ---
 
 # Description
+The CCSS is so excited to invite you to our Fall Prof Social! This is an event we run every term where students, professors and faculty members can mingle, wind down and maybe even network (don't forget about your upcoming honours projects!) This term, we will also be inviting our Carleton recent graduates as well as current graduate students. 
 
-The Prof Social event is a great way to get to know your profs in a less formal setting. This is an excellent opportunity for you to ask them questions and get to know them as more than just a prof! 
-
-So stop by and come have a chat! We hope to see you there!
+The social will be held virtually over Zoom with breakout rooms you can hop between and meet new classmates and professors. Save the date for Friday, November 19th from 12 - 2 PM. We'll be wrapping up the event with a raffle to win three VIP tickets to CUSEC this year so don't miss out!
