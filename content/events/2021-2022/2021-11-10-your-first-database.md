@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn how to build your first Database!"
 start_time: "6:00 - 7:00 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/92499200553"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/rY4HZ22grQRaiRyk7EiBIFQmSj05lTFDBOYhVh6g3NAs7oHqNmVUrnaZp7LmRiP0.5872YF5Wr4Qbv91P"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 tags:
