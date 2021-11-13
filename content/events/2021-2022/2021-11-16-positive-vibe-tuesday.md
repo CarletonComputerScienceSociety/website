@@ -4,7 +4,7 @@ title: "Positive Vibe Tuesday"
 date: 2021-11-16T00:00:00Z
 draft: false
 layout: event
-poster: "images/positive_vibe_tuesday.jpg"
+poster: "images/event_posters/2021-2022/positive_vibe_tuesday.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us for some positive vibes!"
