@@ -24,5 +24,7 @@ schedules:
     url: https://app.asana.com/0/1201343761469830/calendar
   - name: SCS Email Schedule
     url: https://app.asana.com/0/1201343797690031/calendar
+  - name: Social Media Schedule
+    url: https://app.asana.com/0/1201391118315099/calendar
     
 
