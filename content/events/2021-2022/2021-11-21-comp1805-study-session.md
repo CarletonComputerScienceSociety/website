@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us for a collaborative student-led review."
 start_time: "3:00 - 4:00 PM EST"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/93198128045"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/Q78RreUatgZfesXE3Kdd1hWPLhMooOdF4MAQqopDurxaPyI0bqAgreX_DaPm7ug_.tViGNXZQVpK8IgfV"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
