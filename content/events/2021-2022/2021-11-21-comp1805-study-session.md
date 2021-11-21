@@ -14,3 +14,9 @@ location_link: "https://carleton-ca.zoom.us/j/93198128045"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
+
+# Resources
+
+- [Slides](https://docs.google.com/presentation/d/101OzZOTucwk3Lz3shqQibvAS-pBX0jd7rdTBAxGhwDE/edit?usp=sharing)
+
+
