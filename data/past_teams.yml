@@ -82,7 +82,7 @@
     - name: Elisa Kazan
       role: President
       email: elisa.kazan@ccss.carleton.ca
-      intro: "I’m a 4th year student in the mobile stream, focusing on iOS development. I’m always interested in chatting about conferences/events, CS education and improving the CS community. :sunflower: is my fav emoji"
+      intro: "I’m a 4th year student in the mobile stream, focusing on iOS development. I’m always interested in chatting about conferences/events, CS education and improving the CS community. 🌻 is my fav emoji"
       image: images/executives/elisa_kazan.jpg
     - name: Aidan Crowther
       role: Vice-President
@@ -97,7 +97,7 @@
     - name: Forest Anderson
       role: VP Academics
       email: forest.anderson@ccss.carleton.ca
-      intro: "I’m a 4th year boi in game dev. I like game jams, security CTFs, and running things. If you have any question, I would love to talk! :deciduous_tree::deciduous_tree::deciduous_tree:"
+      intro: "I’m a 4th year boi in game dev. I like game jams, security CTFs, and running things. If you have any question, I would love to talk! 🌳🌳🌳"
       image: images/executives/forest_anderson.jpg
     - name: Ben Karstad
       role: Treasurer
