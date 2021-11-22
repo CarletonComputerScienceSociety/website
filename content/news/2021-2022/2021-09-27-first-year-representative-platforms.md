@@ -7,7 +7,7 @@ preview: "images/news/2021-2022/vote.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Our first year representative campaigning period has begun!"
 hideBanner: false
-featured: true
+featured: false
 author: Sarah Ali
 url: /news/first-year-rep-platforms-2021
 categories:

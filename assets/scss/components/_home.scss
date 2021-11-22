@@ -142,3 +142,19 @@
     color: #ff1f48;
   }
 }
+
+.home-annoucement {
+  background-color: #c40729;
+  color: white;
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 11px;
+  font-weight: 600;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  span {
+    margin-left: 0.3rem;
+  }
+}
