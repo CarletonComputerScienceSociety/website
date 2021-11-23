@@ -1,6 +1,6 @@
 ---
-display_title: "Dev Club: December Meeting"
-title: "Dev Club: December Meeting"
+display_title: "Advent of Code 2021"
+title: "Advent of Code 2021"
 date: 2021-12-01T00:00:00Z
 draft: false
 layout: event
