@@ -9,7 +9,7 @@ excerpt: "The CCSS is thrilled to announce the launch of our official Developmen
 hideBanner: false
 featured: true
 author: Sarah Ali
-url: /news/2021-2021-hoodie
+url: /news/ccss-development-mentorship-program
 categories:
 - annoucement
 ---
