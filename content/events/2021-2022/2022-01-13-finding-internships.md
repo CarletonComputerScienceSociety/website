@@ -1,7 +1,7 @@
 ---
 display_title: "Finding Internships"
 title: "Finding Internships"
-date: 2022-01-13T00:00:00Z
+date: 2022-01-14T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2021-2022/job_series_finding_internship_2.jpg"
