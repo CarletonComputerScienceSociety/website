@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "A presentation discussing everything you need to help find your first tech internship."
 start_time: "6:00 - 7:00 PM EST"
-location: "Zoom"
+location: "Coming Soon"
 location_link: "#Coming Soon"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
