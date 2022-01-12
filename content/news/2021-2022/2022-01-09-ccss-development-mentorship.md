@@ -11,27 +11,17 @@ featured: true
 author: Sarah Ali
 url: /news/ccss-development-mentorship-program
 categories:
-- annoucement
+- announcement
 ---
 
 ![mentorship](/images/news/2021-2022/mentorship.jpg)
 
-Have you been meaning to start developing your own projects but have no idea how to start or keep going? Or maybe you’ve already been dabbling on projects and want to share your experience and insight with programmers who are starting out? Keep reading to find out what we’ve been working on for you! 
+**Applications now open!**
 
-The CCSS is thrilled to announce the launch of our official Development Mentorship Program! This project has been an idea for a long time now (going back years now!) but we are finally ready to make this a reality. 
+Have you been meaning to start developing your own projects but have no idea how to start or keep going? Or maybe you’ve already been dabbling on projects and want to share your experience and insight with programmers who are starting out? You can now apply to become a development **mentor** or **mentee!** Applications are open until end of day **January 26th.**
 
-Watch this space for our application forms! Coming out on Wednesday, January 12th.
-
-# What do we hope to achieve?
-
-- We want to encourage junior developers to start jumping into development projects and open source!
-- One of our main goals as a society is to expand Carleton’s developer community to be larger, more collaborative and more active and this is an active way to make that happen. 
-- In addition to a community, we want to create a network of developers consisting of students, alumni and connections for all of us to grow with and learn from. 
-- We all get stuck sometimes. We aim to ease the learning curve from learning programming at school to working on personal projects from start to finish.
-- Mentorship is an opportunity to both teach and learn and we want to facilitate these connections both naturally within the community and intentionally with creating focused development groups
-- There’s so much exciting tech out there! Working together means being exposed to more unique technologies that can be hard to learn on your own.
-- Developing software is a collaborative effort in industry and beyond. We want you to develop skills from becoming more familiar with git to pair programming among other collaborative practices you’ll see in industry. 
-- Finally, we want to see cool projects! Working in a team means you can create something larger and more impactful than you might have been able to do on your own.
+[Mentor Application](https://docs.google.com/forms/d/e/1FAIpQLSdKffg2WX40L2XHtkADC5kOoGHydVo5Wyvvq92emG_7-Zfd5w/viewform)
+[Mentee Application](https://docs.google.com/forms/d/e/1FAIpQLSfP0tNfo_15C2kPwxHumwezz-bzZ3SzQo_llRf7C4EM01HEpQ/viewform)
 
 # What does a mentor do?
 
@@ -86,5 +76,4 @@ We’ll be around to:
 - Moderate the mentorship server and keep it a safe, positive space for everyone
 - Hang out! Come chill with us whenever you get sick of your merge conflicts. :) 
 
-
-That’s our program in detail! Thanks for reading this far and we are excited to receive all your applications once we have them up on this page on Wednesday. Good luck with your Winter term!
+That’s our program in detail, thanks for reading. Good luck with your Winter term!
