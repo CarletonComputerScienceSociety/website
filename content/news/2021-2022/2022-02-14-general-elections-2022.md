@@ -25,18 +25,18 @@ The Board consists of the following six positions:
 4. Director of Social
 5. Director of Community
 
-Here is the breakdown of our full electoral period: 
+Here is the breakdown of this year's electoral period: 
 
 - Nomination Period: **February 28 - March 6**
 - Campaigning Period: **March 10 - March 20**
 - Voting Period: **March 21 - March 23**
 
-The Nomination Form will become available on Monday, February 28. You can fill it out [here](https://forms.gle/h771NnXChfEJwGQR6) if you want to run for a position.
+If you want to run for a CCSS Board of Directors position for the 2022-2023 academic year, please fill out the Nomination Form [here](https://forms.gle/h771NnXChfEJwGQR6). The Nomination Form will become available on Monday, February 28 at 12:00 am EST.
 
-For further election details and rules, please refer to our [Writ of Election](https://shorturl.at/kvzL5) and [Electoral Code](https://shorturl.at/jmpN7).
-For detailed descriptions for all the above executive positions, please refer to our [Officer Mandates](https://shorturl.at/ctEY7). 
-And lastly, please refer to our [Constitution](https://shorturl.at/nsCSY) to learn about our operations and responsibilities . 
+For further election details and rules, please consult the [Writ of Election](https://shorturl.at/kvzL5) and the [Electoral Code](https://shorturl.at/jmpN7).
+For detailed descriptions of the listed positions above, please refer to the [CCSS Officer Mandates](https://shorturl.at/ctEY7) document.
+And lastly, please consult our [Constitution](https://shorturl.at/nsCSY) to learn more about our operations and responsibilities.
 
-If you have any questions, please reach out to our Electoral Officer at elections@ccss.carleton.ca.
+If you have any questions or concerns, please do not hesitate to reach out to our Electoral Officer via email at elections@ccss.carleton.ca.
 
 Thank you and good luck!
