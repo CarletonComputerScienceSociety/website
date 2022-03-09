@@ -7,7 +7,7 @@ preview: "images/news/2021-2022/general_election.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "It's time to run for and elect your CCSS Board of Directors for the 2022-2023 academic year!"
 hideBanner: false
-featured: true
+featured: false
 author: Tiffany Lau
 url: /news/general-elections-2022-2023
 categories:

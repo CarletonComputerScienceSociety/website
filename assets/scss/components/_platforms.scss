@@ -1,0 +1,45 @@
+.platforms-page {
+  margin-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #313130;
+  font-size: 1.1rem;
+
+  p {
+    margin: 1.8rem 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 2rem 0;
+  }
+
+  hr {
+    margin: 4rem 0;
+    width: 10%;
+  }
+
+  .position {
+    margin-top: 4rem;
+  }
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #b62a2a;
+  }
+}
+
+.platforms-page-content {
+  margin-bottom: 8rem;
+  max-width: 1200px;
+  padding-left: calc(5% + 9px);
+  padding-right: calc(5% + 9px);
+}
