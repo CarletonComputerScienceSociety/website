@@ -42,7 +42,7 @@
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
-      <h1 style="margin-top: 4rem">The Campaign Platforms:</h2>
+      <h1 style="margin-top: 4rem">The Campaign Platforms:</h1>
       {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "President") }}
         <div class="position president">
           <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
