@@ -43,3 +43,14 @@
   padding-left: calc(5% + 9px);
   padding-right: calc(5% + 9px);
 }
+
+@media only screen and (max-width: 800px) {
+  .platforms-page {
+    max-width: 100vw;
+  }
+  .platforms-page-content {
+    max-width: 95vw;
+    padding: 0;
+    overflow: hidden;
+  }
+}
