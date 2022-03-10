@@ -44,9 +44,9 @@
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
-      <h3>Vice-President:</h3>
+      <h3>Vice President:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice-President") }}
+        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
@@ -85,7 +85,7 @@
       </div>
       <hr />
       <div class="vp-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice-President") }}
+        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") }}
           <div class="position vice-president">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
