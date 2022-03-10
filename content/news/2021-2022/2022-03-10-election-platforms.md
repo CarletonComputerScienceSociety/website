@@ -1,6 +1,6 @@
 ---
 title: "CCSS General Election Platforms"
-date: 2022-03-08T00:00:00Z
+date: 2022-03-10T00:00:00Z
 draft: false
 layout: platforms
 preview: "images/news/2020-2021/outside_hp.jpg"
