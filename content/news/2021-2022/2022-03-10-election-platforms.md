@@ -5,7 +5,7 @@ draft: false
 layout: platforms
 preview: "images/news/2020-2021/outside_hp.jpg"
 background: "images/orientation2018-min.jpeg"
-excerpt: "The CCSS Elections for 2022-2023 have begun! We’re excited to announce that we have 9 candidates running for positions on the Board of Directors."
+excerpt: "The CCSS Elections for 2022-2023 have begun! We’re excited to announce that we have 8 candidates running for positions on the Board of Directors."
 hideBanner: false
 featured: true
 author: Tiffany Lau
@@ -15,5 +15,5 @@ categories:
 
 ---
 
-The CCSS Elections for 2022-2023 have begun! We’re excited to announce that we have 9 candidates running for positions on the Board of Directors.
+The CCSS Elections for 2022-2023 have begun! We’re excited to announce that we have 8 candidates running for positions on the Board of Directors.
 
