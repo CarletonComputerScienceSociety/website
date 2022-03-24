@@ -8,9 +8,9 @@ poster: "images/event_posters/2021-2022/lightning_talks_web3.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us for two back to back lightning talks all about web3!"
-start_time: "6:00 - 7:00 PM EST"
-location: "Coming Soon"
-location_link: "#comingsoon"
+start_time: "6:00 - 7:00 PM EDT"
+location: "Zoom"
+location_link: "https://carleton-ca.zoom.us/j/96987815308"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-11-24
 tags:
