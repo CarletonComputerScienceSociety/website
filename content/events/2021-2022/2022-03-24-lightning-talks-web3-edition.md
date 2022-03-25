@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us for two back to back lightning talks all about web3!"
 start_time: "6:00 - 7:00 PM EDT"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/96987815308"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/gI5GyVZqA-xAYeRjp2UH1Z-VqOrjjMjo6rffj3nX-8wthAhEK4ZZnpwGv7tVlNQ-.uIZgcIcO-scwHxmG"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-11-24
 tags:
