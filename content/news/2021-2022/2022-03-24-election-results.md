@@ -35,4 +35,4 @@ A complete breakdown of the election results can be seen in the PDF [here](/pdfs
 - Aaditya Chopra (Adi)
 
 **Director of Community:**
-- As no candidates were running in this year's election, the Director of Community will be appointed by the new Board of Directors in the upcoming academic year.
+- As no candidates ran for this position in this year's election, the Director of Community will be appointed by the new Board of Directors in the upcoming academic year.
