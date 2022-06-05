@@ -15,6 +15,8 @@ categories:
 
 # CCSS Summer Dev Projects
 
+Hi, I'm Forest!
+
 This summer, Carleton students are working on several projects to help with
 certain courses at Carleton. To find out more about the projects, go
 [here](#todo).
