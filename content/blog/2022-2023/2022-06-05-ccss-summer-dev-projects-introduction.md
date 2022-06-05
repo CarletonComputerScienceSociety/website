@@ -31,3 +31,12 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Steven Kim ([@kyonghokim93](https://github.com/kyonghokim93))
+
+Hi, I’m Steven!
+
+I’m a CarletonU alumni with MA in Applied Linguistics who is now a CompSci student at Algonquin College. I am still new to many CompSci concepts, and I am excited to learn as much as I can.
+
+I am interested in making my own Roguelike in the future, something similar to Darkest Dungeon with Lovecraftian horror theme. My favorite game of all time is Ratchet and Clank.
+Nice to meet you!
