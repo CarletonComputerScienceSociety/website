@@ -38,5 +38,7 @@ co-edit the monthly game dev newsletter.
 
 Hi! I’m Areej :)
 
-I'm going into my 4th year of computer science at Carleton. I like to make rugs and paint in my free time.
+I'm going into my 4th year of computer science at Carleton, and I'm from Toronto. 
+
+In my free time I like to make rugs and paint. And probably spend too much time on TikTok.
 >>>>>>> Stashed changes
