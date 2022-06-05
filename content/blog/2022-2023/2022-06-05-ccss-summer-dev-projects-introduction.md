@@ -15,6 +15,19 @@ categories:
 
 # CCSS Summer Dev Projects
 
+Hi, I'm Forest!
+
+This summer, Carleton students are working on several projects to help with
+certain courses at Carleton. To find out more about the projects, go
+[here](#todo).
+
+This blog post will introduce some of the students behind these projects. Any
+student is able to participate, and many are in different years of university.
+There are also many different skillsets in use, with development to the frontend
+of websites, backend web servers, and even some other tooling in the middle.
+
+The projects are all open source, so [feel free to check them out for yourself](https://github.com/CarletonComputerScienceSociety?type=source)!
+
 ## Introductions
 
 ### Forest Anderson ([@AngelOnFira](https://github.com/angelonfira))
