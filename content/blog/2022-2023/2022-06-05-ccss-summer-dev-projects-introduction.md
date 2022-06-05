@@ -31,3 +31,14 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+
+
+### Anjali Patel 
+
+Hi! I'm Anjali, a 3rd-year Computer Science Honours student 
+also pursuing a double minor in Criminology and Mathematics. 
+I have a keen interest in Cyber Security and Web Development.
+Other than that, I am an extra curricular girl who is always engaged
+with academics, volunteering or learning new skill sets. 
+Not to mention, I am a K-drama and K-pop addict XD!
