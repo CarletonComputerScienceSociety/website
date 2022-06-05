@@ -64,3 +64,11 @@ I’m a CarletonU alumni with MA in Applied Linguistics who is now a CompSci stu
 
 I am interested in making my own Roguelike in the future, something similar to Darkest Dungeon with Lovecraftian horror theme. My favorite game of all time is Ratchet and Clank.
 Nice to meet you!
+
+### Victor Li ([@VictorLi5611](https://github.com/VictorLi5611))
+
+Hey, y'all!! My name is Victor. 
+
+Currently, I'm a 3rd year CS student w/ honors in the AI stream and a minor in Mathamataics at Carleton University in Ottawa, Canada. I'm also the Director of Finance or Treasurer of the Carleton Computer Science Society, where I manage our finances and merch. I'm also from Toronto and moved to Ottawa to study at Carleton!! I like to do in my spare time to read manga, watch anime, and playing some chess. If it's sunny out, I also kayak and bike around Ottawa. 
+
+I can't wait to work with you all and might see you in person in the fall semester!!
