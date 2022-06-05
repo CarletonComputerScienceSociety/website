@@ -31,3 +31,9 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Julie Wechsler ([@juliewex](https://github.com/ghoulie-jpg))
+
+Hello, I'm Julie
+
+I am a second year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on godot, and my favourite animal is cats. 
