@@ -34,6 +34,6 @@ co-edit the monthly game dev newsletter.
 
 ### Julie Wechsler ([@juliewex](https://github.com/ghoulie-jpg))
 
-Hello, I'm Julie
+Hello, I'm Julie!
 
-I am a second year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on godot, and my favourite animal is cats. 
+I am a second-year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on Godot, and my favourite animal is cats. 
