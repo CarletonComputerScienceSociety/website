@@ -55,3 +55,12 @@ I spend my freetime mostly playing video games (love emulating old games) and pl
 I've previously worked on some front-end and website-related projects. 
 With the CCSS, I'm currently working on a couple projects, mainly focusing on improving the Autograder project
 and developing parts of the CCSS website. :checkered_flag:	
+
+### Steven Kim ([@kyonghokim93](https://github.com/kyonghokim93))
+
+Hi, I’m Steven!
+
+I’m a CarletonU alumni with MA in Applied Linguistics who is now a CompSci student at Algonquin College. I am still new to many CompSci concepts, and I am excited to learn as much as I can.
+
+I am interested in making my own Roguelike in the future, something similar to Darkest Dungeon with Lovecraftian horror theme. My favorite game of all time is Ratchet and Clank.
+Nice to meet you!
