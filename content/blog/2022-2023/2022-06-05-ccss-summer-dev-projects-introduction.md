@@ -98,3 +98,10 @@ I'm a computer science student with minor in math at Carleton University. I'm in
 Hello!
 
 I'm a second-year comp sci student :D looking forward to working on CCSS projects this summer.
+
+### Anjali Patel 
+
+Hi! I'm Anjali, a 3rd-year Computer Science Honours student 
+also pursuing a double minor in Criminology and Mathematics. 
+I have a keen interest in Cyber Security and Web Development.
+Other than that, I am an extracurricular girl who is always engaged.
