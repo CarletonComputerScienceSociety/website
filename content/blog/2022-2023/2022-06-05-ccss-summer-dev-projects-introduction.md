@@ -12,7 +12,6 @@ author: Forest Anderson
 categories:
 - blog
 ---
-
 # CCSS Summer Dev Projects
 
 ## Introductions
@@ -31,3 +30,14 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Vasily Inkovskiy (@xxArchitect)
+
+Hi! I’m Vasily 👋
+
+I’m a computer science student at Carleton University in  Ottawa, Canada 🇨🇦. 
+My concentration is Software Engineering. I'm intrested in many topics, including 
+web development, UI/UX design, operating systems, and mutlithreading. 
+
+I have recently joined CCSS and looking forward to contribute to the products
+that can help students to achieve their academic goals!
