@@ -44,3 +44,14 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Nguyen-Hanh Nong ([@Nguyen-HanhNong](https://github.com/Nguyen-HanhNong))
+
+Sup, my name is Nguyen-Hanh. :handshake:
+
+I'm a honours computer science student at Carleton University, specializing in A.I and Machine Learning.
+I spend my freetime mostly playing video games (love emulating old games) and playing music (:musical_keyboard:)
+
+I've previously worked on some front-end and website-related projects. 
+With the CCSS, I'm currently working on a couple projects, mainly focusing on improving the Autograder project
+and developing parts of the CCSS website. :checkered_flag:	
