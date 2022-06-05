@@ -86,3 +86,9 @@ In my free time I like to make rugs and paint. And probably spend too much time 
 Hello, I'm Julie!
 
 I am a second-year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on Godot, and my favourite animal is cats. 
+
+### Bining Long ([@bininglong])(https://github.com/bininglong)
+
+Hello! I'm Bining
+
+I'm a computer science student with minor in math at Carleton University. I'm interested in web dev and software engineering!
