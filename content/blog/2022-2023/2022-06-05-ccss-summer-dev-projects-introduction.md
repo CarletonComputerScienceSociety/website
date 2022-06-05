@@ -80,3 +80,9 @@ Hi! I’m Areej :)
 I'm going into my 4th year of computer science at Carleton, and I'm from Toronto. 
 
 In my free time I like to make rugs and paint. And probably spend too much time on TikTok.
+
+### Julie Wechsler ([@juliewex](https://github.com/ghoulie-jpg))
+
+Hello, I'm Julie!
+
+I am a second-year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on Godot, and my favourite animal is cats. 
