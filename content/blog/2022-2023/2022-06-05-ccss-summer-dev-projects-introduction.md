@@ -34,7 +34,7 @@ co-edit the monthly game dev newsletter.
 
 ### Igor ([@igortascu](https://github.com/igortascu))
 
-hello!
+Hello!
 
-I'm a second year comp sci student :D looking forward to work on CCSS projects this summer
+I'm a second-year comp sci student :D looking forward to working on CCSS projects this summer.
 
