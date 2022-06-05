@@ -31,3 +31,12 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+<<<<<<< Updated upstream
+=======
+
+### Areej ([@areej-i](https://github.com/areej-i))
+
+Hi! I’m Areej :)
+
+I'm going into my 4th year of computer science at Carleton. I like to make rugs and paint in my free time.
+>>>>>>> Stashed changes
