@@ -81,6 +81,18 @@ I'm going into my 4th year of computer science at Carleton, and I'm from Toronto
 
 In my free time I like to make rugs and paint. And probably spend too much time on TikTok.
 
+### Julie Wechsler ([@juliewex](https://github.com/ghoulie-jpg))
+
+Hello, I'm Julie!
+
+I am a second-year computer science student in the Internet Security stream at Carleton. I like to make mini 2d games on Godot, and my favourite animal is cats. 
+
+### Bining Long ([@bininglong])(https://github.com/bininglong)
+
+Hello! I'm Bining
+
+I'm a computer science student with minor in math at Carleton University. I'm interested in web dev and software engineering!
+
 ### Igor ([@igortascu](https://github.com/igortascu))
 
 Hello!
