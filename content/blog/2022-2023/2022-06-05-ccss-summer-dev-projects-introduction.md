@@ -35,7 +35,7 @@ co-edit the monthly game dev newsletter.
 
 Hi! I’m Vasily 👋
 
-I’m a computer science student at Carleton University in  Ottawa, Canada 🇨🇦. 
+I’m a computer science student at Carleton University in Ottawa, Canada 🇨🇦. 
 My concentration is Software Engineering. I'm intrested in many topics, including 
 web development, UI/UX design, operating systems, and mutlithreading. 
 
