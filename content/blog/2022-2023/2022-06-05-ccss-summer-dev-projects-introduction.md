@@ -36,5 +36,5 @@ co-edit the monthly game dev newsletter.
 
 hello!
 
-test test test
+I'm a second year comp sci student :D looking forward to work on CCSS projects this summer
 
