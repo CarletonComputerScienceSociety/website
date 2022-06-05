@@ -31,3 +31,10 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Bining Long ([@bininglong])(https://github.com/bininglong)
+
+Hello! I'm Bining
+
+I'm a third-year computer science student with minor in math at Carleton University. I'm interested in Web Dev and currently I'm working on the project of discrete math interative test platform and the ccss website.
+
