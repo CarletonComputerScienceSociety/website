@@ -39,4 +39,4 @@ co-edit the monthly game dev newsletter.
 Hi! I'm Anjali, a 3rd-year Computer Science Honours student 
 also pursuing a double minor in Criminology and Mathematics. 
 I have a keen interest in Cyber Security and Web Development.
-Other than that, I am an extra curricular girl who is always engaged
+Other than that, I am an extracurricular girl who is always engaged.
