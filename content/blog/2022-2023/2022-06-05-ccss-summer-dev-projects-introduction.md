@@ -92,3 +92,9 @@ I am a second-year computer science student in the Internet Security stream at C
 Hello! I'm Bining
 
 I'm a computer science student with minor in math at Carleton University. I'm interested in web dev and software engineering!
+
+### Igor ([@igortascu](https://github.com/igortascu))
+
+Hello!
+
+I'm a second-year comp sci student :D looking forward to working on CCSS projects this summer.
