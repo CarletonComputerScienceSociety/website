@@ -31,3 +31,8 @@ part of the Rust Gamedev Working Group, and the team lead of the Rust CTCFT
 team. I’m also one of the core developers on Veloren, an open source game
 similar to Minecraft. In the Rust communty, I run a monthly game dev meetup, and
 co-edit the monthly game dev newsletter.
+
+### Igor ([@igortascu](https://github.com/igortascu))
+
+hello!
+
