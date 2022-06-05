@@ -36,5 +36,4 @@ co-edit the monthly game dev newsletter.
 
 Hello! I'm Bining
 
-I'm a third-year computer science student with minor in math at Carleton University. I'm interested in Web Dev and currently I'm working on the project of discrete math interative test platform and the ccss website.
-
+I'm going into my third year as a computer science student with minor in math at Carleton University. I'm interested in web dev and software engineering.
