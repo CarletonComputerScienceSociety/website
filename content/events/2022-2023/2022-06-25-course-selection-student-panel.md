@@ -12,4 +12,5 @@ start_time: "12:00 - 1:00 PM EST"
 location: "Register"
 location_link: "https://forms.gle/VkMu74w6ReEFrPba7"
 background: "images/orientation2018-min.jpeg"
+publishdate: 2021-01-01
 ---
