@@ -11,8 +11,8 @@
 - title: "DiscreteMath.ca"
   link: "https://ccss.carleton.ca/"
   color: "#ffab40"
-  description: "Interactive content for COMP 1805 and COMP 2804. (Coming Fall 2021)"
-  active: false
+  description: "Interactive content for COMP 1805 and COMP 2804."
+  active: true
 # - title: "CCSS Code Challenge"
 #  link: "https://ccss.carleton.ca/"
 #  color: "#4285f4ff"
