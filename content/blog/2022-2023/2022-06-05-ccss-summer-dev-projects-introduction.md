@@ -12,7 +12,6 @@ author: Forest Anderson
 categories:
 - blog
 ---
-
 # CCSS Summer Dev Projects
 
 Hi, I'm Forest!
@@ -105,3 +104,14 @@ Hi! I'm Anjali, a 3rd-year Computer Science Honours student
 also pursuing a double minor in Criminology and Mathematics. 
 I have a keen interest in Cyber Security and Web Development.
 Other than that, I am an extracurricular girl who is always engaged.
+
+### Vasily Inkovskiy (@xxArchitect)
+
+Hi! I’m Vasily 👋
+
+I’m a computer science student at Carleton University in Ottawa, Canada 🇨🇦. 
+My concentration is Software Engineering. I'm intrested in many topics, including 
+web development, UI/UX design, operating systems, and mutlithreading. 
+
+I have recently joined CCSS and looking forward to contribute to the products
+that can help students to achieve their academic goals!
