@@ -9,7 +9,7 @@
   description: "An app for viewing all upcoming events in the Carleton CS community."
   active: true
 - title: "DiscreteMath.ca"
-  link: "https://ccss.carleton.ca/"
+  link: "https://discretemath.ca/"
   color: "#ffab40"
   description: "Interactive content for COMP 1805 and COMP 2804."
   active: true
