@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "The webinar will feature a short course registration presentation and a Q&A session with a panel of upper-year students of various backgrounds and year standings."
 start_time: "12:00 - 1:00 PM EST"
-location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/96444658405"
+location: "Recording"
+location_link: "https://carleton-ca.zoom.us/rec/share/vWMHxlYzr9d0VPc55L88JWpf9LWJSjQvJ3-YKkQsLMYgLtRDWpDgtE8FKSHxEXsM.WTg8ijd2rcmQ4brx?startTime=1656171743000"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
