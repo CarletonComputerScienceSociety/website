@@ -1,40 +1,30 @@
-- name: Sarah Ali
-  role: President
-  email: sarah.ali@ccss.carleton.ca
-  intro: "I’m Sarah! I’m a third year CS student specializing in business and management. I love punk rock, my beautiful cat and making people laugh. When I get the chance, I love painting and devouring the YA fiction section of my local library. I’m really excited to be a part of the CCSS this year!"
-  image: images/executives/sarah.jpg
-- name: Erica Li
-  role: Vice-President
-  email: erica.li@ccss.carleton.ca
-  intro: "I'm Erica, and I'm in my second year of BCS. I like going on bike rides, discovering new music, and im always down for a hackathon. If you have any questions, don't hesitate to reach out!"
-  image: images/executives/erica.jpg
-- name: Veronica Yung
-  role: Director of Social
-  email: veronica.yung@ccss.carleton.ca
-  intro: "I'm a first year IMD student and I have a BIG passion for Burger King and game design. In my free time I absolutely love playing Ultimate Frisbee and taking care of my speedy turtle."
-  image: images/executives/veronica.jpg
 - name: Matthew MacRae-Bovell
-  role: Director of Academics
+  role: President
   email: matthew.macraebovell@ccss.carleton.ca
   intro: "I’m a 4th year student with an interest in web development, system design, and cloud infrastructure. I love working on side projects and If you have any questions, I would love to talk!"
   image: images/executives/matthew_macraebovell.jpg
-- name: Zara Ali
+- name: Forest Anderson
+  role: Vice-President
+  email: forest.anderson@ccss.carleton.ca
+  intro: "I'm the VP for this year. I've been a part of the CCSS for several years, and I run a lot different events here and there. I'm also a Github Campus Expert (1 of 8 in Canada!), and I do a lot of open source work in my free time 🙂"
+  image: images/executives/forest_anderson2.jpg
+- name: Aaditya Chopra
+  role: Director of Social
+  email: aaditya.chopra@ccss.carleton.ca
+  intro: "I’m Aaditya (you can just call me Adi), currently in my fourth year majoring in Computer Science. I love music, long walks, bike rides and coding! Got a question, comment, joke or anything? Feel free to reach out! See you at the CCSS Events!"
+  image: images/executives/adi.jpg
+- name: Amelie Haefele
+  role: Director of Academics
+  email: amelie.haefele@ccss.carleton.ca
+  intro: "My name is Amelie and I’m a third year computer science student with a minor in anthropology. I love playing video games, reading, and hanging out with friends. Feel free to reach out to me if you have any questions or need any advice :D"
+  image: images/executives/amelie.jpg
+- name: Shirley Zhan
   role: Director of Community
-  email: zara.ali@ccss.carleton.ca
-  intro: "I'm Zara, a second year who still hasn't stepped foot on campus. I use way too many Discord Nitro emojis and spend most of the day listening to music of different languages. I'm famously nocturnal, so come find me on the CCSS Discord!"
-  image: images/executives/zara.jpg
+  email: shirley.zhan@ccss.carleton.ca
+  intro: "I'm Shirley and I'm the Communciations Officer for CCSS this year! I love doing art and incorporating it into my code! I have lots of event ideas for the new year and I look forward to showcasing them all!"
+  image: images/executives/shirley.jpg
 - name: Victor Li
   role: Director of Finance
   email: victor.li@ccss.carleton.ca
-  intro: "I'm a second-year student, majoring in Computer Science and minoring in Mathematics. I'm also an avid photographer and gamer. If you have any questions or want to reach out to me, email or DM me though discord!!!"
-  image: images/executives/victor.jpg
-- name: Aaditya Chopra
-  role: Communications
-  email: aaditya.chopra@ccss.carleton.ca
-  intro: "I’m Aaditya (you can just call me Adi), currently in my third year majoring in Computer Science. I love music, long walks, bike rides and coding! Got a question, comment, joke or anything? Feel free to reach out!"
-  image: images/executives/adi.jpg
-- name: Jake Diedrich
-  role: Communications
-  email: jake.diedrich@ccss.carleton.ca
-  intro: "Hey guys! I'm Jake a second year student in BCS in the Game Development Stream. I enjoy playing games, listening to music, and everything tech! Any questions? Feel free to reach out!"
-  image: images/executives/jake.jpg
+  intro: "My name is Victor Li and I'm a 3rd year CS student in the AI stream with a minor in Mathematics. In my spare time, I enjoy playing strategy games, reading manga, and kayaking in the Ottawa River or Dows lake if it's sunny outside. I can't wait to see you in person at Carleton!"
+  image: images/executives/victor2.jpg
