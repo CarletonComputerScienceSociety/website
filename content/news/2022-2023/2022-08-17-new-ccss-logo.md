@@ -14,9 +14,9 @@ categories:
 - announcement
 ---
 
-![New Logo](/images/news/2022-2023/logo.jpg)
+![New Logo](/images/news/2022-2023/logo-thin.jpg)
 
-With our return to in-person activity this year, we really thought it was
+With the beginning of the new academic year, we really thought it was
 finally time to give the CCSS a new coat of paint. After quite a lot of
 variation, we're proud to present a symbol that we believe represents our
 program, community, and our mission as an organization. 
