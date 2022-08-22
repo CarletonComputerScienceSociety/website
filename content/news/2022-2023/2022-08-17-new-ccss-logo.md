@@ -5,7 +5,7 @@ draft: false
 layout: overlaypost
 preview: "images/news/2022-2023/logo.jpg"
 background: "images/orientation2018-min.jpeg"
-excerpt: "This year, we're excited to introduce a brand new CCSS logo."
+excerpt: "We're excited to introduce a brand new CCSS logo."
 hideBanner: false
 featured: true
 author: Matthew MacRae-Bovell
