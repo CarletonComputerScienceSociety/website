@@ -14,7 +14,7 @@ categories:
 - announcement
 ---
 
-![New Logo](/images/news/2022-2023/logo-thin.jpg)
+![New Logo](/images/news/2022-2023/logo-new.jpg)
 
 With the beginning of the new academic year, we really thought it was
 finally time to give the CCSS a new coat of paint. After quite a lot of
