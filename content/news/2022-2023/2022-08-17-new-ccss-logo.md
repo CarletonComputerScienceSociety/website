@@ -19,15 +19,13 @@ categories:
 With our return to in-person activity this year, we really thought it was
 finally time to give the CCSS a new coat of paint. After quite a lot of
 variation, we're proud to present a symbol that we believe represents our
-program, community, and our mission as an organization. This will become our
-official logo at the beginning of the fall semester and we will begin slowly
-transitioning over to this logo over the next few weeks.
+program, community, and our mission as an organization. 
 
 ## Why we needed a new logo
 
 ![Logo Change](/images/news/2022-2023/logo_change.jpg)
 
-Although we loved our previous logo very dearly, there were some objective
+Although we loved our previous logo very dearly, there were some
 issues with its design.
 
 The first main issue was the logo's proportions. The thin rectangular
@@ -82,8 +80,8 @@ squares, but we found that a bit too plain, so we decided to go with a hexagon.
 
 ![Logo Hexagons](/images/news/2022-2023/logo_hexagons.jpg)
 
-The idea behind our logo being a computer chip combined with a graph represents
-"computer science" with the computer chip representing the "computer" aspect and
+The idea behind our logo being a computer chip combined with a graph is that in combination these two ideas represents
+"computer science". With the computer chip representing the "computer" aspect and
 the graph representing the science and theory aspect. After we had those ideas
 in mind, we started to create different variations of our new logo.
 
@@ -116,7 +114,6 @@ universities.
 
 ## Conclusion
 
-We're excited to introduce a new brand CCSS logo! We think this logo will
-resonate with our members and be a great symbol for our community. We hope
+We're excited to introduce a new brand CCSS logo! We hope
 you'll join us in welcoming our new logo this year when we return to in-person
 activity.
