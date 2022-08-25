@@ -6,6 +6,6 @@
     {{ range $paginator.Pages }}
       {{- partial "archived-article.html" . -}}
     {{ end }}
-    {{- partial "paginator.html" . -}}
+    <div class="see-more">{{- partial "paginator.html" . -}}</div>
   </div>
 {{ end }}
