@@ -290,8 +290,8 @@ $navNumOfItemBlocks: 4;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 2px solid #c40729;
-  background-color: black;
+  border-bottom: 2px solid #dddddd;
+  // background-color: black;
 }
 .navbar {
   display: flex;
@@ -300,7 +300,7 @@ $navNumOfItemBlocks: 4;
   align-items: center;
   height: 60px;
   color: white;
-  background-color: black;
+  background-color: white;
   padding-left: calc(5% + 9px);
   padding-right: calc(5% + 9px);
 
@@ -312,6 +312,10 @@ $navNumOfItemBlocks: 4;
     justify-content: center;
     align-items: center;
   }
+}
+
+.navbar-logo {
+  width: 225px;
 }
 
 .navbar-items {
@@ -333,17 +337,18 @@ $navNumOfItemBlocks: 4;
 */
 
 #primary_nav_wrap {
-  color: white;
+  color: black;
   text-transform: uppercase;
   margin-left: auto;
-
+  padding-top: 0.4rem;
+  padding-bottom: 0.3rem;
   display: flex;
   justify-content: space-between;
 
   & > ul {
     list-style: none;
     position: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 100%;
     margin: 0;
 
@@ -409,20 +414,21 @@ $navNumOfItemBlocks: 4;
 
 /* movile nav bar */
 .header {
-  background: black;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #c40729;
+  background: rgb(255, 255, 255);
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #dddddd;
   padding-left: calc(5% + 9px);
   padding-right: calc(5% + 9px);
   position: sticky;
   top: 0;
   z-index: 3;
-  color: white;
+  color: rgb(0, 0, 0);
   /* padding-top: 0.5rem;
   padding-bottom: 0.5rem; */
 
   img {
-    margin-top: 1.15rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
   }
 
   a {
@@ -435,7 +441,7 @@ $navNumOfItemBlocks: 4;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background: black;
+  background: rgb(255, 255, 255);
 }
 
 .header li a {
@@ -447,6 +453,7 @@ $navNumOfItemBlocks: 4;
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #c40729;
+  color: white;
 }
 
 .header .logo {
@@ -477,7 +484,7 @@ $navNumOfItemBlocks: 4;
 }
 
 .header .menu-icon .navicon {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   display: block;
   height: 2px;
   position: relative;
@@ -487,7 +494,7 @@ $navNumOfItemBlocks: 4;
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   content: "";
   display: block;
   height: 100%;
