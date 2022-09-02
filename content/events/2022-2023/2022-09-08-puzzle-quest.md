@@ -17,6 +17,6 @@ publishdate: 2021-01-01
 
 ## Description
 
-**Notice:** This event is a part of SciFrosh and is therefore you will need to pay for SciFrosh to participate.
+**Notice:** This event is a part of SciFrosh and therefore you will need to pay for SciFrosh to participate.
 
 The Carleton Computer Science Society’s Puzzle Quest will have you and your team of three exploring campus and solving challenges. Try lock picking, complete an escape room, and find some landmarks around campus to get the highest score before the time is up! The winning teams will get some cool merch and a top-up of their campus cards.
