@@ -1,7 +1,7 @@
 ---
-title: "Week of Awesome"
+title: "Week of Awesom 2021"
 date: 2020-01-25T23:11:13Z
 draft: false
-url: "/events/weekofawesome"
+url: "/events/weekofawesome2021"
 layout: woa
 ---
