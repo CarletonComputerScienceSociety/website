@@ -7,7 +7,7 @@ preview: "images/news/2022-2023/logo.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "We're excited to introduce a brand new CCSS logo."
 hideBanner: false
-featured: true
+featured: false
 author: Matthew MacRae-Bovell
 url: /news/our-new-logo
 categories:
