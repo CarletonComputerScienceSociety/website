@@ -3,8 +3,8 @@ title: "CCSS Puzzle Quest"
 date: 2022-09-08T00:00:00Z
 draft: false
 layout: overlaypost
-# preview: "images/blog/2022-2023/summer-dev-projects.jpeg"
-# background: "images/orientation2018-min.jpeg"
+preview: "images/event_posters/2022-2023/puzzle_quest_large.jpg"
+background: "images/orientation2018-min.jpeg"
 excerpt: "Instructions for the CCSS Puzzle Quest"
 hideBanner: false
 featured: true
