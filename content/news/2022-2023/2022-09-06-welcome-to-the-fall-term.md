@@ -5,7 +5,7 @@ draft: false
 layout: overlaypost
 preview: "images/news/2022-2023/orientation_2022.jpg"
 background: "images/orientation2018-min.jpeg"
-excerpt: "Learn about the wide offering variety of events and activities we have lined up for you this term."
+excerpt: "Learn about the wide variety of events and activities we have lined up for you this term."
 hideBanner: false
 featured: true
 author: Matthew MacRae-Bovell
