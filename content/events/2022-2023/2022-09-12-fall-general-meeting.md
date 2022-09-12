@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn all about us, our plans, and how you can get involved!"
 start_time: "5:00 - 6:00 PM EDT"
-location: "HP 5345"
+location: "HP 5345 & Zoom"
 location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
@@ -18,6 +18,8 @@ tags:
 ---
 
 ## Description
+
+**Zoom Link:** [https://carleton-ca.zoom.us/j/92598592554](https://carleton-ca.zoom.us/j/92598592554)
 
 Be sure to join us for our Fall General Meeting on **September 12th @ 5PM EST!**
 
