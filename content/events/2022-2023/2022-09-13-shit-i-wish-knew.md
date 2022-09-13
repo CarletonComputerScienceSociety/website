@@ -9,10 +9,12 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "All the tips, tricks, and hacks for making the most of your first year."
 start_time: "1:30 - 3:00 PM EDT"
-location: "HP 5345"
+location: "HP 5345 & Zoom"
 location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 tags:
 - weekofawesome2022
 ---
+
+**Zoom Link:** [https://carleton-ca.zoom.us/j/91341863586](https://carleton-ca.zoom.us/j/91341863586)
