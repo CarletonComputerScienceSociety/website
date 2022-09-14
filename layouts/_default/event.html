@@ -1,5 +1,46 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+  <script type="text/javascript">
+     function generateGCalLink(){
+      let gCalUrl = new URL("https://www.google.com/calendar/render?");
+      let details = new URLSearchParams(gCalUrl.search)
+
+      const monthDict = {
+        "Jan" : "01",
+        "Feb" : "02",
+        "Mar" : "03",
+        "Apr" : "04",
+        "May" : "05",
+        "Jun" : "06",
+        "Jul" : "07",
+        "Aug" : "08",
+        "Sep" : "09",
+        "Oct" : "10",
+        "Nov" : "11",
+        "Dec" : "12"
+      }
+
+      const dateString = {{ .Params.date.Format "2006" }} + monthDict[{{ .Params.date.Format "Jan" }}] + {{ .Params.date.Format "2" }}
+      // const startTime = {{ .Params.start_time }}.split(" ")[0].replace(":", "").replace(" ", "").padStart(4, "0").padEnd(6, "0")
+      // const endTime = {{ .Params.start_time }}.split(" ")[2].replace(":", "").replace(" ", "").padStart(4, "0").padEnd(6, "0")
+      // Have to convert these to 12 hour time
+
+
+      details.append("action", "TEMPLATE");
+      details.append("text", {{ .Params.title }});
+      details.append("details", {{ .Params.short_description }});
+      details.append("location", {{ .Params.location }});
+      details.append("dates", dateString + "T" + startTime + "E" + "%2F" + dateString + "T" + endTime);
+      return gCalUrl + details;
+    }
+
+    window.onload = function(){
+      gCalButton = document.getElementById("g-cal-button")
+      gCalButton.href = generateGCalLink()
+    }
+     
+  </script>
   <div class="event-page">
     <!--Background-->
     {{- if ne .Params.hideBanner true }}
@@ -43,6 +84,15 @@
             <a href="{{ .Params.location_link }}"
               >{{- partial "button.html" (dict "label" .Params.location) -}}</a
             >
+          </div>
+          <div>
+            <div class="event-subtitle">ADD TO CALENDAR</div>
+            <div class="calendar-icons">
+              <a id="g-cal-button" target="_blank"><iconify-icon  class="hvr-float" icon="akar-icons:google-fill" style="color: #c40729;" width="30"></iconify-icon></a>
+              <iconify-icon id="apple-button" class="hvr-float" icon="ant-design:apple-filled" style="color: #c40729;" width="30"></iconify-icon>
+              <iconify-icon id="outlook-button" class="hvr-float" icon="file-icons:microsoft-outlook" style="color: #c40729;" width="30"></iconify-icon>
+              <iconify-icon id="yahoo-button" class="hvr-float" icon="mdi:yahoo" style="color: #c40729;" width="30"></iconify-icon>
+            </div>
           </div>
         </div>
       </div>
