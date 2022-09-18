@@ -54,7 +54,7 @@
         "Nov": 10,
         "Dec": 11
       }
-      
+
       const yearSplit = yearStr.split("T")[0].split("-")
       const dateSplit = dateStr.split(" - ")
 
@@ -107,8 +107,8 @@
     function generateAppleICSFileSingleDay(startDate, endDate){
       let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
       let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
-      
-      let event = 
+
+      let event =
         "BEGIN:VCALENDAR\n" +
         "VERSION:2.0\n" +
         "PRODID:-//ccss.carleton.ca//EN\n" +
@@ -138,7 +138,7 @@
       }else{
         [startDate, endDate] = convertDateMultiDay( {{ .Params.date }}, {{ .Params.start_time }} )
       }
-      
+
       gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
       outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
       appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
