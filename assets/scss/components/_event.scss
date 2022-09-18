@@ -96,14 +96,31 @@
   line-height: 5px;
 }
 
-@media only screen and (min-width: 415px) and (max-width: 770px) {
+.calendar-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+@media only screen and (min-width: 771px) and (max-width: 810px){
+  .date_card_about {
+    margin-top: -100px;
+    margin-left: 650px;
+  }
+
+  .calendar-icons{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 770px) {
   .date_card_about {
     margin-top: -100px;
     margin-left: 600px;
   }
 }
 
-@media only screen and (min-width: 380px) and (max-width: 414px) {
+@media only screen and (min-width: 380px) and (max-width: 428px) {
   .event_container {
     flex-direction: column;
 
@@ -119,7 +136,11 @@
 
   .date_card_about {
     margin-top: -100px;
-    margin-left: 270px;
+    margin-left: 260px;
+  }
+
+  .calendar-icons{
+    width: 40%;
   }
 }
 
@@ -140,6 +161,10 @@
     margin-top: -100px;
     margin-left: 240px;
   }
+
+  .calendar-icons{
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 360px) {
@@ -159,10 +184,10 @@
     margin-top: -100px;
     margin-left: 225px;
   }
+
+  .calendar-icons{
+    width: 50%;
+  }
 }
 
-.calendar-icons{
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-}
+
