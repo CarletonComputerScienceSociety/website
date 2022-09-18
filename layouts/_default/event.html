@@ -28,9 +28,45 @@
         endTimeHour += 16
       }
 
+      const year = parseInt(dateSplit[0])
+      const month = parseInt(dateSplit[1]) - 1
+      const day = parseInt(dateSplit[2])
+
       // Using Date.UTC because javascript likes to mess with daylight savings
-      const startDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), startTimeHour, startTimeMinute, 0))
-      const endDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), endTimeHour, endTimeMinute, 0))
+      const startDate = new Date(Date.UTC(year, month, day, startTimeHour, startTimeMinute, 0))
+      const endDate = new Date(Date.UTC(year, month, day, endTimeHour, endTimeMinute, 0))
+
+      return [startDate, endDate]
+    }
+
+    function convertDateMultiDay(yearStr, dateStr){
+      const monthToInt = {
+        "Jan": 0,
+        "Feb": 1,
+        "Mar": 2,
+        "Apr": 3,
+        "May": 4,
+        "Jun": 5,
+        "Jul": 6,
+        "Aug": 7,
+        "Sept": 8,
+        "Oct": 9,
+        "Nov": 10,
+        "Dec": 11
+      }
+      
+      const yearSplit = yearStr.split("T")[0].split("-")
+      const dateSplit = dateStr.split(" - ")
+
+      const year = parseInt(yearSplit[0])
+      const startMonth = monthToInt[dateSplit[0].split(" ")[0]]
+      const startDay = parseInt(dateSplit[0].split(" ")[1])
+
+      const endMonth = monthToInt[dateSplit[1].split(" ")[0]]
+      const endDay = parseInt(dateSplit[1].split(" ")[1])
+
+      const startDate = new Date(Date.UTC(year, startMonth, startDay, 4, 0, 0))
+      const endDate = new Date(Date.UTC(year, endMonth, endDay, 4, 0, 0))
 
       return [startDate, endDate]
     }
@@ -69,8 +105,8 @@
     }
 
     function generateAppleICSFileSingleDay(startDate, endDate){
-      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}Z`
-      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}Z`
+      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
+      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
       
       let event = 
         "BEGIN:VCALENDAR\n" +
@@ -92,20 +128,21 @@
     }
 
     window.onload = function(){
-      if {{ .Params.start_time }}.includes("PM") || {{ .Params.start_time }}.includes("AM"){
-        let startDate, endDate;
+      let startDate, endDate;
+      const gCalButton = document.getElementById("g-cal-button")
+      const outlookButton = document.getElementById("outlook-button")
+      const appleButton = document.getElementById("apple-button")
+
+      if ({{ .Params.start_time }}.includes("PM") || {{ .Params.start_time }}.includes("AM")){
         [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
-
-        const gCalButton = document.getElementById("g-cal-button")
-        gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
-
-        const outlookButton = document.getElementById("outlook-button")
-        outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
-      
-        const appleButton = document.getElementById("apple-button")
-        appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
-        appleButton.download = {{ .Params.title }} + ".ics"
+      }else{
+        [startDate, endDate] = convertDateMultiDay( {{ .Params.date }}, {{ .Params.start_time }} )
       }
+      
+      gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
+      outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
+      appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
+      appleButton.download = {{ .Params.date }} + "-" + {{ .Params.title }} + ".ics"
     }
 
   </script>
