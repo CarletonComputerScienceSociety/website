@@ -96,19 +96,19 @@
   line-height: 5px;
 }
 
-.calendar-icons{
+.calendar-icons {
   display: flex;
   justify-content: space-between;
   width: 35%;
 }
 
-@media only screen and (min-width: 771px) and (max-width: 810px){
+@media only screen and (min-width: 771px) and (max-width: 810px) {
   .date_card_about {
     margin-top: -100px;
     margin-left: 650px;
   }
 
-  .calendar-icons{
+  .calendar-icons {
     width: 40%;
   }
 }
@@ -139,7 +139,7 @@
     margin-left: 260px;
   }
 
-  .calendar-icons{
+  .calendar-icons {
     width: 40%;
   }
 }
@@ -162,7 +162,7 @@
     margin-left: 240px;
   }
 
-  .calendar-icons{
+  .calendar-icons {
     width: 45%;
   }
 }
@@ -185,9 +185,7 @@
     margin-left: 225px;
   }
 
-  .calendar-icons{
+  .calendar-icons {
     width: 50%;
   }
 }
-
-
