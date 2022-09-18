@@ -68,15 +68,44 @@
       return outlookUrl + details;
     }
 
+    function generateAppleICSFileSingleDay(startDate, endDate){
+      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}Z`
+      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}Z`
+      
+      let event = 
+        "BEGIN:VCALENDAR\n" +
+        "VERSION:2.0\n" +
+        "PRODID:-//ccss.carleton.ca//EN\n" +
+        "BEGIN:VEVENT\n" +
+        "SEQUENCE:0\n" +
+        "DTSTART:"+startDateStr+"\n" +
+        "DTEND:"+endDateStr+"\n" +
+        "SUMMARY:"+{{ .Params.title }}+"\n" +
+        "LOCATION:"+{{ .Params.location }}+"\n" +
+        "DESCRIPTION:"+{{ .Params.short_description }}+"\n" +
+        "END:VEVENT\n" +
+        "END:VCALENDAR\n"
+
+      let file = new File([event], {type: "text/plain" })
+
+      return window.URL.createObjectURL(file)
+    }
+
     window.onload = function(){
-      let startDate, endDate;
-      [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
+      if {{ .Params.start_time }}.includes("PM") || {{ .Params.start_time }}.includes("AM"){
+        let startDate, endDate;
+        [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
 
-      const gCalButton = document.getElementById("g-cal-button")
-      gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
+        const gCalButton = document.getElementById("g-cal-button")
+        gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
 
-      const outlookButton = document.getElementById("outlook-button")
-      outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
+        const outlookButton = document.getElementById("outlook-button")
+        outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
+      
+        const appleButton = document.getElementById("apple-button")
+        appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
+        appleButton.download = {{ .Params.title }} + ".ics"
+      }
     }
 
   </script>
