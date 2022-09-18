@@ -2,66 +2,88 @@
   {{- partial "navbar_temp.html" . -}}
   <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
   <script type="text/javascript">
-    function generateGCalLink(){
-      let gCalUrl = new URL("https://www.google.com/calendar/render?");
-      let details = new URLSearchParams(gCalUrl.search)
+    function convertDateSingleDay(dateStr, time){
+      let dateSplit = dateStr.split("T")[0].split("-")
 
-      const monthDict = {
-        "Jan" : "01",
-        "Feb" : "02",
-        "Mar" : "03",
-        "Apr" : "04",
-        "May" : "05",
-        "Jun" : "06",
-        "Jul" : "07",
-        "Aug" : "08",
-        "Sep" : "09",
-        "Oct" : "10",
-        "Nov" : "11",
-        "Dec" : "12"
-      }
+      let startTimeHour = parseInt(time.split(" ")[0].split(":")[0])
+      let endTimeHour = parseInt(time.split(" ")[2].split(":")[0])
+      let startTimeMinute = parseInt(time.split(" ")[0].split(":")[1])
+      let endTimeMinute = parseInt(time.split(" ")[2].split(":")[1])
 
-      const dateString = {{ .Params.date.Format "2006" }} + monthDict[{{ .Params.date.Format "Jan" }}] + {{ .Params.date.Format "2" }}
-      let startTimeHour = parseInt({{ .Params.start_time }}.split(" ")[0].split(":")[0])
-      let endTimeHour = parseInt({{ .Params.start_time }}.split(" ")[2].split(":")[0])
+      // times need to be convered to 24 hour, then need 4 hours added
+      // to match UTC
 
       // event begins in the morning and ends in the afternoon/evening
       // only convert endtime to 24 hour time
       // e.g 11:00 AM - 3:00 PM
       if (startTimeHour > endTimeHour){
-        endTimeHour += 12
-      
+        endTimeHour += 16
+
       // event starts and ends in the afternoon/evening OR starts in the morning and ends at 12PM
       // convert both times to 24 hour time
       // e.g 1:00 - 3:00 PM
       // e.g 11:00 - 12:00 PM
-      }else if ( {{ .Params.start_time}}.includes("PM") && endTimeHour < 12){
-        startTimeHour += 12
-        endTimeHour += 12
+      }else if ( {{ .Params.start_time }}.includes("PM") && endTimeHour < 12){
+        startTimeHour += 16
+        endTimeHour += 16
       }
 
-      // startTimeHour = (startTimeHour + 4) % 24
-      // endTimeHour = (endTimeHour + 4) % 24
+      // Using Date.UTC because javascript likes to mess with daylight savings
+      let startDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), startTimeHour, startTimeMinute, 0))
+      let endDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), endTimeHour, endTimeMinute, 0))
 
-      // if an event starts and ends in the AM then they are already in 24 hour time
-      // e.g 10:00 - 11:00 AM
+      return [startDate, endDate]
+    }
 
-      const startTime = startTimeHour.toString() + {{ .Params.start_time }}.split(" ")[0].split(":")[1] + "00"
-      const endTime = endTimeHour.toString() + {{ .Params.start_time }}.split(" ")[2].split(":")[1] + "00"
+    function generateGCalLinkSingleDay(){
+      let gCalUrl = new URL("https://www.google.com/calendar/render?");
+      let details = new URLSearchParams(gCalUrl.search)
+
+      let startDate, endDate;
+      [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
+
+      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z/`
+      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
+      let fullDateStr = startDateStr + endDateStr
+      // alert(fullDateStr)
 
       details.append("action", "TEMPLATE");
       details.append("text", {{ .Params.title }});
       details.append("details", {{ .Params.short_description }});
       details.append("location", {{ .Params.location }});
-      details.append("dates", dateString + "T" + startTime + "E/" + dateString + "T" + endTime + "E");
+      details.append("dates", fullDateStr);
+
+      // alert(gCalUrl + details)
+
       return gCalUrl + details;
+    }
+
+    function generateOutlookLinkSingleDay(){
+      let outlookUrl = new URL("https://outlook.live.com/calendar/0/deeplink/compose?");
+      let details = new URLSearchParams(outlookUrl.search)
+
+      details.append("allday", "false");
+      details.append("body", {{ .Params.short_description }});
+      // details.append("enddt", {{ .Params.date.Format "2006-01-02" }} + "T" + {{ .Params.start_time }}.split(" ")[2] + ":00" + "-04:00");
+      details.append("location", {{ .Params.location }});
+      details.append("path", "/calendar/action/compose");
+      details.append("rru", "addevent");
+      // details.append("startdt", {{ .Params.date.Format "2006-01-02" }} + "T" + {{ .Params.start_time }}.split(" ")[0] + ":00" + "-04:00");
+      details.append("subject", {{ .Params.title }});
+
+      // alert(outlookUrl + details)
+
+      return outlookUrl + details;
     }
 
     window.onload = function(){
       gCalButton = document.getElementById("g-cal-button")
-      gCalButton.href = generateGCalLink()
+      gCalButton.href = generateGCalLinkSingleDay()
+
+      outlookButton = document.getElementById("outlook-button")
+      outlookButton.href = generateOutlookLinkSingleDay()
     }
-     
+
   </script>
   <div class="event-page">
     <!--Background-->
@@ -110,10 +132,32 @@
           <div>
             <div class="event-subtitle">ADD TO CALENDAR</div>
             <div class="calendar-icons">
-              <a id="g-cal-button" target="_blank"><iconify-icon  class="hvr-float" icon="akar-icons:google-fill" style="color: #c40729;" width="30"></iconify-icon></a>
-              <a id="apple-button" target="_blank"><iconify-icon id="apple-button" class="hvr-float" icon="ant-design:apple-filled" style="color: #c40729;" width="30"></iconify-icon></a>
-              <a id="outlook-button" target="_blank"><iconify-icon id="outlook-button" class="hvr-float" icon="file-icons:microsoft-outlook" style="color: #c40729;" width="30"></iconify-icon></a>
-              <a id="yahoo-button" target="_blank"><iconify-icon id="yahoo-button" class="hvr-float" icon="mdi:yahoo" style="color: #c40729;" width="30"></iconify-icon></a>
+              <a id="g-cal-button" target="_blank"
+                ><iconify-icon
+                  class="hvr-float"
+                  icon="akar-icons:google-fill"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
+              <a id="outlook-button" target="_blank"
+                ><iconify-icon
+                  id="outlook-button"
+                  class="hvr-float"
+                  icon="file-icons:microsoft-outlook"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
+              <a id="apple-button" target="_blank"
+                ><iconify-icon
+                  id="apple-button"
+                  class="hvr-float"
+                  icon="ant-design:apple-filled"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
             </div>
           </div>
         </div>
