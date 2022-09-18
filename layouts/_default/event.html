@@ -3,7 +3,7 @@
   <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
   <script type="text/javascript">
     function convertDateSingleDay(dateStr, time){
-      let dateSplit = dateStr.split("T")[0].split("-")
+      const dateSplit = dateStr.split("T")[0].split("-")
 
       let startTimeHour = parseInt(time.split(" ")[0].split(":")[0])
       let endTimeHour = parseInt(time.split(" ")[2].split(":")[0])
@@ -29,23 +29,19 @@
       }
 
       // Using Date.UTC because javascript likes to mess with daylight savings
-      let startDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), startTimeHour, startTimeMinute, 0))
-      let endDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), endTimeHour, endTimeMinute, 0))
+      const startDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), startTimeHour, startTimeMinute, 0))
+      const endDate = new Date(Date.UTC(parseInt(dateSplit[0]), parseInt(dateSplit[1]) - 1, parseInt(dateSplit[2]), endTimeHour, endTimeMinute, 0))
 
       return [startDate, endDate]
     }
 
-    function generateGCalLinkSingleDay(){
+    function generateGCalLinkSingleDay(startDate, endDate){
       let gCalUrl = new URL("https://www.google.com/calendar/render?");
       let details = new URLSearchParams(gCalUrl.search)
-
-      let startDate, endDate;
-      [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
 
       let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z/`
       let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
       let fullDateStr = startDateStr + endDateStr
-      // alert(fullDateStr)
 
       details.append("action", "TEMPLATE");
       details.append("text", {{ .Params.title }});
@@ -53,35 +49,34 @@
       details.append("location", {{ .Params.location }});
       details.append("dates", fullDateStr);
 
-      // alert(gCalUrl + details)
-
       return gCalUrl + details;
     }
 
-    function generateOutlookLinkSingleDay(){
+    function generateOutlookLinkSingleDay(startDate, endDate){
       let outlookUrl = new URL("https://outlook.live.com/calendar/0/deeplink/compose?");
       let details = new URLSearchParams(outlookUrl.search)
 
       details.append("allday", "false");
       details.append("body", {{ .Params.short_description }});
-      // details.append("enddt", {{ .Params.date.Format "2006-01-02" }} + "T" + {{ .Params.start_time }}.split(" ")[2] + ":00" + "-04:00");
+      details.append("enddt", endDate.toISOString());
       details.append("location", {{ .Params.location }});
       details.append("path", "/calendar/action/compose");
       details.append("rru", "addevent");
-      // details.append("startdt", {{ .Params.date.Format "2006-01-02" }} + "T" + {{ .Params.start_time }}.split(" ")[0] + ":00" + "-04:00");
+      details.append("startdt", startDate.toISOString());
       details.append("subject", {{ .Params.title }});
-
-      // alert(outlookUrl + details)
 
       return outlookUrl + details;
     }
 
     window.onload = function(){
-      gCalButton = document.getElementById("g-cal-button")
-      gCalButton.href = generateGCalLinkSingleDay()
+      let startDate, endDate;
+      [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
 
-      outlookButton = document.getElementById("outlook-button")
-      outlookButton.href = generateOutlookLinkSingleDay()
+      const gCalButton = document.getElementById("g-cal-button")
+      gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
+
+      const outlookButton = document.getElementById("outlook-button")
+      outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
     }
 
   </script>
