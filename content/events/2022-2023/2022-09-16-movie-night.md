@@ -1,6 +1,6 @@
 ---
 display_title: "Movie Night"
-title: "MovieNight"
+title: "Movie Night"
 date: 2022-09-16T00:01:00Z
 draft: false
 layout: event
