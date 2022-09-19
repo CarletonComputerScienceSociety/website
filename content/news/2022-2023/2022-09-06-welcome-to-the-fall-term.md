@@ -7,7 +7,7 @@ preview: "images/news/2022-2023/orientation_2022.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Learn about the wide variety of events and activities we have lined up for you this term."
 hideBanner: false
-featured: true
+featured: false
 author: Matthew MacRae-Bovell
 url: /news/fall-2022
 categories:
