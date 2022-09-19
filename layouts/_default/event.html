@@ -1,5 +1,151 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+  <script type="text/javascript">
+    function convertDateSingleDay(dateStr, time){
+      const dateSplit = dateStr.split("T")[0].split("-")
+
+      let startTimeHour = parseInt(time.split(" ")[0].split(":")[0])
+      let endTimeHour = parseInt(time.split(" ")[2].split(":")[0])
+      let startTimeMinute = parseInt(time.split(" ")[0].split(":")[1])
+      let endTimeMinute = parseInt(time.split(" ")[2].split(":")[1])
+
+      // times need to be convered to 24 hour, then need 4 hours added
+      // to match UTC
+
+      // event begins in the morning and ends in the afternoon/evening
+      // only convert endtime to 24 hour time
+      // e.g 11:00 AM - 3:00 PM
+      if (startTimeHour > endTimeHour){
+        endTimeHour += 16
+
+      // event starts and ends in the afternoon/evening OR starts in the morning and ends at 12PM
+      // convert both times to 24 hour time
+      // e.g 1:00 - 3:00 PM
+      // e.g 11:00 - 12:00 PM
+      }else if ( {{ .Params.start_time }}.includes("PM") && endTimeHour < 12){
+        startTimeHour += 16
+        endTimeHour += 16
+      }
+
+      const year = parseInt(dateSplit[0])
+      const month = parseInt(dateSplit[1]) - 1
+      const day = parseInt(dateSplit[2])
+
+      // Using Date.UTC because javascript likes to mess with daylight savings
+      const startDate = new Date(Date.UTC(year, month, day, startTimeHour, startTimeMinute, 0))
+      const endDate = new Date(Date.UTC(year, month, day, endTimeHour, endTimeMinute, 0))
+
+      return [startDate, endDate]
+    }
+
+    function convertDateMultiDay(yearStr, dateStr){
+      const monthToInt = {
+        "Jan": 0,
+        "Feb": 1,
+        "Mar": 2,
+        "Apr": 3,
+        "May": 4,
+        "Jun": 5,
+        "Jul": 6,
+        "Aug": 7,
+        "Sept": 8,
+        "Oct": 9,
+        "Nov": 10,
+        "Dec": 11
+      }
+
+      const yearSplit = yearStr.split("T")[0].split("-")
+      const dateSplit = dateStr.split(" - ")
+
+      const year = parseInt(yearSplit[0])
+      const startMonth = monthToInt[dateSplit[0].split(" ")[0]]
+      const startDay = parseInt(dateSplit[0].split(" ")[1])
+
+      const endMonth = monthToInt[dateSplit[1].split(" ")[0]]
+      const endDay = parseInt(dateSplit[1].split(" ")[1])
+
+      const startDate = new Date(Date.UTC(year, startMonth, startDay, 4, 0, 0))
+      const endDate = new Date(Date.UTC(year, endMonth, endDay, 4, 0, 0))
+
+      return [startDate, endDate]
+    }
+
+    function generateGCalLinkSingleDay(startDate, endDate){
+      let gCalUrl = new URL("https://www.google.com/calendar/render?");
+      let details = new URLSearchParams(gCalUrl.search)
+
+      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z/`
+      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
+      let fullDateStr = startDateStr + endDateStr
+
+      details.append("action", "TEMPLATE");
+      details.append("text", {{ .Params.title }});
+      details.append("details", {{ .Params.short_description }});
+      details.append("location", {{ .Params.location }});
+      details.append("dates", fullDateStr);
+
+      return gCalUrl + details;
+    }
+
+    function generateOutlookLinkSingleDay(startDate, endDate){
+      let outlookUrl = new URL("https://outlook.live.com/calendar/0/deeplink/compose?");
+      let details = new URLSearchParams(outlookUrl.search)
+
+      details.append("allday", "false");
+      details.append("body", {{ .Params.short_description }});
+      details.append("enddt", endDate.toISOString());
+      details.append("location", {{ .Params.location }});
+      details.append("path", "/calendar/action/compose");
+      details.append("rru", "addevent");
+      details.append("startdt", startDate.toISOString());
+      details.append("subject", {{ .Params.title }});
+
+      return outlookUrl + details;
+    }
+
+    function generateAppleICSFileSingleDay(startDate, endDate){
+      let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
+      let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
+
+      let event =
+        "BEGIN:VCALENDAR\n" +
+        "VERSION:2.0\n" +
+        "PRODID:-//ccss.carleton.ca//EN\n" +
+        "BEGIN:VEVENT\n" +
+        "SEQUENCE:0\n" +
+        "DTSTART:"+startDateStr+"\n" +
+        "DTEND:"+endDateStr+"\n" +
+        "SUMMARY:"+{{ .Params.title }}+"\n" +
+        "LOCATION:"+{{ .Params.location }}+"\n" +
+        "DESCRIPTION:"+{{ .Params.short_description }}+"\n" +
+        "END:VEVENT\n" +
+        "END:VCALENDAR\n"
+
+      let file = new File([event], {type: "text/plain" })
+
+      return window.URL.createObjectURL(file)
+    }
+
+    window.onload = function(){
+      let startDate, endDate;
+      const gCalButton = document.getElementById("g-cal-button")
+      const outlookButton = document.getElementById("outlook-button")
+      const appleButton = document.getElementById("apple-button")
+
+      if ({{ .Params.start_time }}.includes("PM") || {{ .Params.start_time }}.includes("AM")){
+        [startDate, endDate] = convertDateSingleDay({{ .Params.date }}, {{ .Params.start_time }})
+      }else{
+        [startDate, endDate] = convertDateMultiDay( {{ .Params.date }}, {{ .Params.start_time }} )
+      }
+
+      gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
+      outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
+      appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
+      appleButton.download = {{ .Params.date }} + "-" + {{ .Params.title }} + ".ics"
+    }
+
+  </script>
   <div class="event-page">
     <!--Background-->
     {{- if ne .Params.hideBanner true }}
@@ -43,6 +189,37 @@
             <a href="{{ .Params.location_link }}"
               >{{- partial "button.html" (dict "label" .Params.location) -}}</a
             >
+          </div>
+          <div>
+            <div class="event-subtitle">ADD TO CALENDAR</div>
+            <div class="calendar-icons">
+              <a id="g-cal-button" target="_blank"
+                ><iconify-icon
+                  class="hvr-float"
+                  icon="akar-icons:google-fill"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
+              <a id="outlook-button" target="_blank"
+                ><iconify-icon
+                  id="outlook-button"
+                  class="hvr-float"
+                  icon="file-icons:microsoft-outlook"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
+              <a id="apple-button" target="_blank"
+                ><iconify-icon
+                  id="apple-button"
+                  class="hvr-float"
+                  icon="ant-design:apple-filled"
+                  style="color: #c40729;"
+                  width="30"
+                ></iconify-icon
+              ></a>
+            </div>
           </div>
         </div>
       </div>
