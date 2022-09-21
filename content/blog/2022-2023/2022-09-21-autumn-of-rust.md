@@ -15,12 +15,13 @@ categories:
 
 Hey everyone, Forest here!
 
-It's almost time for the Autumn of Rust 🍂🦀! This is a (free) student-run course that
-I just taught over the summer, and I'm bringing it back for the fall semester!
+It's almost time for the Autumn of Rust 🍂🦀! This is a (free) student-run
+course that I just taught over the summer, and I'm bringing it back for the fall
+semester!
 
-I wanted to run this course since there are several concepts in the Rust language
-that we don't (currently) learn in courses at Carleton. This includes a lot of
-topics in:
+I wanted to run this course since there are several concepts in the Rust
+language that we don't (currently) learn in courses at Carleton. This includes a
+lot of topics in:
 
 - language safety (begone segfaults!)
 - concurrency (what if threading wasn't scary? 👻)
