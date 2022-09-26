@@ -7,7 +7,7 @@ preview: "images/news/2021-2022/mentorship.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "The CCSS is thrilled to announce the launch of our official Development Mentorship Program!"
 hideBanner: false
-featured: true
+featured: false
 author: Sarah Ali
 url: /news/ccss-development-mentorship-program
 categories:

@@ -7,7 +7,7 @@ preview: "images/news/2022-2023/fyr_poster_no_dates.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Our first year representative campaigning period has begun!"
 hideBanner: false
-featured: true
+featured: false
 author: Matthew MacRae-Bovell
 url: /news/first-year-rep-platforms-2022
 categories:
