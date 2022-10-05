@@ -13,18 +13,18 @@
       // times need to be convered to 24 hour, then need 4 hours added
       // to match UTC
 
-      // event begins in the morning and ends in the afternoon/evening
-      // only convert endtime to 24 hour time
-      // e.g 11:00 AM - 3:00 PM
-      if (startTimeHour > endTimeHour){
-        endTimeHour += 16
+      // doesn't work for evening -> next morning hopefully that will never happen
 
-      // event starts and ends in the afternoon/evening OR starts in the morning and ends at 12PM
-      // convert both times to 24 hour time
-      // e.g 1:00 - 3:00 PM
-      // e.g 11:00 - 12:00 PM
-      }else if ( {{ .Params.start_time }}.includes("PM") && endTimeHour < 12){
+      // morning -> morning or morning -> 12 o'clock noon or morning -> afternoon
+      if (({{ .Params.start_time }}.includes("AM")) || ({{ .Params.start_time }}.includes("PM") && (endTimeHour === 12 || endTimeHour < startTimeHour))){
+        startTimeHour += 4
+      }else{
         startTimeHour += 16
+      }
+
+      if (({{ .Params.start_time }}.includes("AM") && endTimeHour != 12) || ({{ .Params.start_time }}.includes("PM") && endTimeHour == 12)){
+        endTimeHour += 4
+      }else{
         endTimeHour += 16
       }
 
@@ -35,6 +35,7 @@
       // Using Date.UTC because javascript likes to mess with daylight savings
       const startDate = new Date(Date.UTC(year, month, day, startTimeHour, startTimeMinute, 0))
       const endDate = new Date(Date.UTC(year, month, day, endTimeHour, endTimeMinute, 0))
+
 
       return [startDate, endDate]
     }
@@ -71,7 +72,7 @@
       return [startDate, endDate]
     }
 
-    function generateGCalLinkSingleDay(startDate, endDate){
+    function generateGCalLink(startDate, endDate){
       let gCalUrl = new URL("https://www.google.com/calendar/render?");
       let details = new URLSearchParams(gCalUrl.search)
 
@@ -88,7 +89,7 @@
       return gCalUrl + details;
     }
 
-    function generateOutlookLinkSingleDay(startDate, endDate){
+    function generateOutlookLink(startDate, endDate){
       let outlookUrl = new URL("https://outlook.live.com/calendar/0/deeplink/compose?");
       let details = new URLSearchParams(outlookUrl.search)
 
@@ -104,7 +105,7 @@
       return outlookUrl + details;
     }
 
-    function generateAppleICSFileSingleDay(startDate, endDate){
+    function generateAppleICSFile(startDate, endDate){
       let startDateStr = `${startDate.getUTCFullYear()}${(startDate.getUTCMonth() + 1).toString().padStart(2, "0")}${startDate.getUTCDate().toString().padStart(2, "0")}T${startDate.getUTCHours().toString().padStart(2, "0")}${startDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
       let endDateStr = `${endDate.getUTCFullYear()}${(endDate.getUTCMonth() + 1).toString().padStart(2, "0")}${endDate.getUTCDate().toString().padStart(2, "0")}T${endDate.getUTCHours().toString().padStart(2, "0")}${endDate.getUTCMinutes().toString().padStart(2, "0")}00Z`
 
@@ -139,9 +140,9 @@
         [startDate, endDate] = convertDateMultiDay( {{ .Params.date }}, {{ .Params.start_time }} )
       }
 
-      gCalButton.href = generateGCalLinkSingleDay(startDate, endDate)
-      outlookButton.href = generateOutlookLinkSingleDay(startDate, endDate)
-      appleButton.href = generateAppleICSFileSingleDay(startDate, endDate)
+      gCalButton.href = generateGCalLink(startDate, endDate)
+      outlookButton.href = generateOutlookLink(startDate, endDate)
+      appleButton.href = generateAppleICSFile(startDate, endDate)
       appleButton.download = {{ .Params.date }} + "-" + {{ .Params.title }} + ".ics"
     }
 
