@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn everything you need to find your first job in the tech industry. "
 start_time: "11:30 - 12:30 PM EDT"
-location: "Coming Soon"
+location: "HP 5345"
 location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
