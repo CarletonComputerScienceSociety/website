@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Get in the Halloween spirit and hangout with your fellow cs students!"
 start_time: "2:00 - 4:00 PM EDT"
 location: "HP 5345"
-location_link: "#comingsoon"
+location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
