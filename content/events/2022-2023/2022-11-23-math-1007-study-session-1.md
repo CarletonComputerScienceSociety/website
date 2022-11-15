@@ -1,7 +1,7 @@
 ---
 display_title: "MATH1007 Exam Review #1"
 title: "MATH1007 Exam Review #1"
-date: 2022-07-06T00:00:00Z
+date: 2022-11-23T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2022-2023/math1007_1.png"
