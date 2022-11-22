@@ -5,6 +5,27 @@
     function convertDateSingleDay(dateStr, time){
       const dateSplit = dateStr.split("T")[0].split("-")
 
+      const year = parseInt(dateSplit[0])
+      const month = parseInt(dateSplit[1]) - 1
+      const day = parseInt(dateSplit[2])
+
+      var DSTOffset = 0
+
+      Date.prototype.stdTimezoneOffset = function () {
+        var jan = new Date(this.getFullYear(), 0, 1);
+        var jul = new Date(this.getFullYear(), 6, 1);
+        return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+      }
+
+      Date.prototype.isDstObserved = function () {
+          return this.getTimezoneOffset() < this.stdTimezoneOffset();
+      }
+
+      var event_date = new Date(year, month, day);
+      if (!event_date.isDstObserved()) {
+          DSTOffset = 1
+      }
+
       let startTimeHour = parseInt(time.split(" ")[0].split(":")[0])
       let endTimeHour = parseInt(time.split(" ")[2].split(":")[0])
       let startTimeMinute = parseInt(time.split(" ")[0].split(":")[1])
@@ -17,20 +38,18 @@
 
       // morning -> morning or morning -> 12 o'clock noon or morning -> afternoon
       if (({{ .Params.start_time }}.includes("AM")) || ({{ .Params.start_time }}.includes("PM") && (endTimeHour === 12 || endTimeHour < startTimeHour))){
-        startTimeHour += 4
+        startTimeHour += 4 + DSTOffset
       }else{
-        startTimeHour += 16
+        startTimeHour += 16 + DSTOffset
       }
 
       if (({{ .Params.start_time }}.includes("AM") && endTimeHour != 12) || ({{ .Params.start_time }}.includes("PM") && endTimeHour == 12)){
-        endTimeHour += 4
+        endTimeHour += 4 + DSTOffset
       }else{
-        endTimeHour += 16
+        endTimeHour += 16 + DSTOffset
       }
 
-      const year = parseInt(dateSplit[0])
-      const month = parseInt(dateSplit[1]) - 1
-      const day = parseInt(dateSplit[2])
+
 
       // Using Date.UTC because javascript likes to mess with daylight savings
       const startDate = new Date(Date.UTC(year, month, day, startTimeHour, startTimeMinute, 0))
