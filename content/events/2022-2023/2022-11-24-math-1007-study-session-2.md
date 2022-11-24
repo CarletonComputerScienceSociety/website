@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Practice more advanced concepts to prepare for the calculus exam!"
 start_time: "6:00 - 8:00 PM EST"
-location: "HP 3545"
+location: "HP 5345"
 location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
