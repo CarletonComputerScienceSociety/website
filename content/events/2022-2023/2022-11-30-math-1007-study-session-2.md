@@ -4,7 +4,7 @@ title: "MATH1007 Exam Review #2"
 date: 2022-11-30T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2022-2023/math1007_2.png"
+poster: "images/event_posters/2022-2023/math_1007_2.png"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Practice more advanced concepts to prepare for the calculus exam!"
