@@ -13,6 +13,8 @@ location: "Tory 446"
 location_link: "https://carleton.ca/campus/buildings/tory-building/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
+tags:
+- talks
 ---
 
 Signup Form: [https://forms.gle/quV3UKib9RAF6vnS7](https://forms.gle/quV3UKib9RAF6vnS7)
