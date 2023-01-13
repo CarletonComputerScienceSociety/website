@@ -17,4 +17,8 @@ tags:
 - talks
 ---
 
+## Slides
+The presentation slides can be viewed [here!](/pdfs/2022-2023/find-your-first-tech-job.pdf).
+
+
 
