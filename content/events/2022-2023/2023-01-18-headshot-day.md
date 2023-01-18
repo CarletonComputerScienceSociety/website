@@ -14,3 +14,6 @@ location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
+
+## Photos
+The photos can be viewed [here!](https://drive.google.com/drive/folders/1-RDrj7Wu8z_Jg82LzGIaJQWNQHmHruQW?usp=share_link).
