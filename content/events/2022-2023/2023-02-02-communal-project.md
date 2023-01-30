@@ -1,7 +1,7 @@
 ---
 display_title: "Communal Project"
 title: "Communal Project"
-date: 2023-02-03T00:00:00Z
+date: 2023-02-02T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2022-2023/communal_project.png"
