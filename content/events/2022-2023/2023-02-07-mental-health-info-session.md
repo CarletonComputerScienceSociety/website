@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Learn how to make the most of Carleton's mental health resources"
 start_time: "1:00 - 2:00 PM EST"
-location: "Discord"
-location_link: "https://discord.gg/fvdmVyZbJx"
+location: "HP 5345"
+location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-01-01
 ---
