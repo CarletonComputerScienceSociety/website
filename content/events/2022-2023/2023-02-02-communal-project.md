@@ -14,3 +14,6 @@ location_link: "https://carleton.ca/campus/buildings/herzberg-laboratories/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-01-29
 ---
+
+## Slides
+The presentation slides can be viewed [here!](/pdfs/2022-2023/communal-project.pdf).
