@@ -4,7 +4,7 @@ title: "Communal Project"
 date: 2023-02-09T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2022-2023/communal_project_meeting_2_posters.jpg"
+poster: "images/event_posters/2022-2023/communal_project_meeting_2_poster.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us on our first meeting to discuss a communal project!"
