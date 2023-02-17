@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  {{ range $.Site.Data.meeting_minutes }}
+    <h1 style="text-align: center;">{{ .year }} MEETINGS</h1>
+    <hr />
+    <div id="team_flex_box" class="past">
+      {{ range .meetings }}
+        {{- partial "minutes_card.html" (dict "name" .name "date" .date "url" .url) -}}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
