@@ -1,12 +1,10 @@
 <div class="team-member">
-    <p>
+    <h2>
       {{.name}}
-    </p>
+    </h2>
     <p>
         {{.date}}
     </p>
-    <p>
-        {{.url}}
-    </p>
+    {{- partial "read-more.html" (dict "label" "Read More" "link" "{{.url}}") -}}
   </div>
   
