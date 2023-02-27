@@ -40,43 +40,43 @@
       <h1>The Candidates are:</h1>
       <h3>President:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "President") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "President") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h3>Vice President:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h3>Director of Finance:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Finance") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Finance") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h3>Director of Academics:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Academics") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Academics") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h3>Director of Social:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Social") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Social") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h3>Director of Community:</h3>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Community") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Community") ".Params.year" .Params.year) }}
           <li><div>{{ .Params.name }}</div></li>
         {{ end }}
       </ul>
       <h1 style="margin-top: 4rem">The Campaign Platforms:</h1>
       <div class="president-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "President") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "President") ".Params.year" .Params.year) }}
           <div class="position president">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
@@ -85,7 +85,7 @@
       </div>
       <hr />
       <div class="vp-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Vice President") ".Params.year" .Params.year) }}
           <div class="position vice-president">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
@@ -94,7 +94,7 @@
       </div>
       <hr />
       <div class="finance-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Finance") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Finance") ".Params.year" .Params.year) }}
           <div class="position finance">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
@@ -103,7 +103,7 @@
       </div>
       <hr />
       <div class="academics-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Academics") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Academics") ".Params.year" .Params.year) }}
           <div class="position academics">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
@@ -112,7 +112,7 @@
       </div>
       <hr />
       <div class="social-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Social") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Social") ".Params.year" .Params.year) }}
           <div class="position social">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>
@@ -121,7 +121,7 @@
       </div>
       <hr />
       <div class="community-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Community") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "Director of Community") ".Params.year" .Params.year) }}
           <div class="position community">
             <h2>{{ .Params.name }} - {{ .Params.position }}</h2>
             <p>{{ .Content }}</p>

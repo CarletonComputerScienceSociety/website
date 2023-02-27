@@ -9,6 +9,7 @@ excerpt: "The CCSS Elections for 2022-2023 have begun! We’re excited to announ
 hideBanner: false
 featured: false
 author: Tiffany Lau
+year: 2022-2023
 url: "elections-2022-2023"
 categories:
 - annoucement
