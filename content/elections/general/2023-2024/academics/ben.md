@@ -7,10 +7,6 @@ position: "Director of Academics"
 year: "2023-2024"
 ---
 
-My goal is to see as many students as possible succeed in their academic life. Computer science is a hard program to get through, but as Director of Academics, I want to make YOUR life easier.
-
-Here are some ideas I have to meet that goal:
-
 Hey everyone! My name is Ben, and I’m currently in 1st year. Although I may not have much experience within the university, I believe that I can help contribute to your academic success. Computer science is a hard program to get through, but as Director of Academics, I want to make YOUR life easier.
 
 Here are some ideas I have to meet that goal:
