@@ -1,0 +1,18 @@
+---
+display_title: "Computer Science End Of Year BBQ"
+title: "Computer Science End Of Year BBQ"
+date: 2023-03-31T00:00:00Z
+draft: false
+layout: event
+poster: "images/event_posters/2022-2023/end_of_year_bbq.jpg"
+poster_cover: "contain"
+poster_position: "center"
+short_description: "Join us for the third annual Computer Science End of Year BBQ!"
+start_time: "5:30 - 10:00 PM EST"
+location: "Ollie's Pub & Patio: Ticket Purchase"
+location_link: "https://payments.carleton.ca/scs/annual-computer-science-end-of-year-bbq/"
+background: "images/orientation2018-min.jpeg"
+publishdate: 2023-03-09
+---
+
+
