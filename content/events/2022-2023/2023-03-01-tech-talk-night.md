@@ -16,3 +16,5 @@ publishdate: 2021-01-01
 tags:
 - talks
 ---
+
+Recording: [Zoom](https://carleton-ca.zoom.us/rec/play/suayv5n1yBGagwQip-yaCnqY84Nnoi8moV9sS-buLqZCjsI6oBLYF1heqiXwjHp95R-r2xB0aJnbv91A.VMlK8IJzDaK79Wb3?startTime=1677711826000#P4)
