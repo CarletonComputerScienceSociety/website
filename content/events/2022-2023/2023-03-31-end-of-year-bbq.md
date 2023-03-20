@@ -15,4 +15,7 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2023-03-09
 ---
 
+![img](/images/event_pics/2022-2023/people.jpg)
+![img](/images/event_pics/2022-2023/karaoke.jpg)
+![img](/images/event_pics/2022-2023/people3.jpg)
 

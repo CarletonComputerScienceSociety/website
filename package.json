@@ -21,5 +21,8 @@
   "devDependencies": {
     "prettier": "2.1.1",
     "prettier-plugin-go-template": "0.0.10"
+  },
+  "dependencies": {
+    "hugo": "^0.0.3"
   }
 }
