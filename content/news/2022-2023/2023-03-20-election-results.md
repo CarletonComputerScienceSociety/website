@@ -26,7 +26,7 @@ A complete breakdown of the election results can be seen in the PDF [here](/pdfs
 - Richard Kim
 
 **Director of Finance:**
-- Victor Li
+- Ryan Chung
 
 **Director of Academics:**
 
