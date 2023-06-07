@@ -7,7 +7,7 @@ layout: event
 poster: "images/event_posters/2023-2024/student_panel.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "We're hosting a First Year Registration Guide Panel. We’ll tell you everything you need to knoww!"
+short_description: "We're hosting a First Year Registration Guide Panel. We’ll tell you everything you need to know!"
 start_time: "12:00 - 1:00 PM EST"
 location: "Zoom"
 location_link: "https://carleton-ca.zoom.us/meeting/register/tJAlfuqprz4uE934JnkopbzmGfIziEuAi5mP"
