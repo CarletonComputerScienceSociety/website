@@ -19,4 +19,4 @@ publishdate: 2023-06-05
 * What major, honours, and streams really mean
 * COMP1405/6 Z Section?
 * Q&A Session with upper years
-* and much much more!"
+* and much much more!
