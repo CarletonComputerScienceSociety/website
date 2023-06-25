@@ -25,5 +25,4 @@ publishdate: 2023-06-05
 The presentation slides can be viewed [here!](/pdfs/2023-2024/Course-Registration-Student-Panel-Slides-2023-2024.pdf).
 
 ## Recording
-Recording: [Zoom](https://carleton-ca.zoom.us/rec/share/HUyHPAIqYTlXQzv9qK1RDM88Ve4tTbFw3OimdNcFLb-8-FEUHpHi-dSME0AgTKwS.I__Rift3PBR_SeLT?startTime=1687622179000)
-Recording Password: x^0tcP9j
+Recording: [Youtube](https://youtu.be/VGkt17kvdWw0).
