@@ -20,3 +20,9 @@ publishdate: 2023-06-05
 * COMP1405/6 Z Section?
 * Q&A Session with upper years
 * and much much more!
+
+## Slides
+The presentation slides can be viewed [here!](/pdfs/2023-2024/Course-Registration-Student-Panel-Slides-2023-2024.pdf).
+
+## Recording
+Recording: [Youtube](https://youtu.be/VGkt17kvdWw0).
