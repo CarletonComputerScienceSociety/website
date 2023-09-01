@@ -4,7 +4,7 @@ title: "Mooney's Bay Picnic"
 date: 2023-09-10T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2023-2024/fall_general_meeting.jpg"
+poster: "images/event_posters/2023-2024/mooney's_beach_picnic.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Enjoy some time outside with great company and good food!"
