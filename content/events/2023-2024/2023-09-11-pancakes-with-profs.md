@@ -12,4 +12,6 @@ start_time: "12:30 - 1:30 PM EDT"
 location: Seminar Room (HP 5345)
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-08-25
+tags:
+- weekofawesome2023
 ---
