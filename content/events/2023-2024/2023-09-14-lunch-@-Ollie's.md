@@ -12,4 +12,6 @@ start_time: "11:30 - 1:00 PM EDT"
 location: Nideyinàn(University Center) First Floor
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-01
+tags:
+- weekofawesome2023
 ---

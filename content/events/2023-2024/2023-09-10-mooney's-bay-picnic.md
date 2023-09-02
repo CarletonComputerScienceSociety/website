@@ -12,4 +12,6 @@ start_time: "12:30 PM EDT"
 location: Mooney's Bay
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-01
+tags:
+- weekofawesome2023
 ---
