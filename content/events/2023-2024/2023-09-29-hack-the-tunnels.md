@@ -7,8 +7,8 @@ layout: event
 poster: "images/event_posters/2023-2024/hack_the_tunnels.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: ""
-start_time: ""
+short_description: "Join us for our beginner friendly hackathon."
+start_time: "TBD"
 location: "Richcraft Hall"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-04

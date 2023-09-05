@@ -3,18 +3,18 @@ title: "Welcome to the Fall Term"
 date: 2023-09-04T00:00:00Z
 draft: false
 layout: overlaypost
-preview: "images/news/2022-2023/orientation_2022.jpg"
+preview: "images/news/2023-2024/orientation_2023.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Learn about the wide variety of events and activities we have lined up for you this term."
 hideBanner: false
-featured: false
+featured: true
 author: Victor Li
 url: /news/fall-2023
 categories:
 - announcement
 ---
 
-![New Logo](/images/news/2022-2023/orientation_2022.jpg)
+![New Logo](/images/news/2023-2024/orientation_2023.jpg)
 
 Welcome to the Fall Term! We're excited to be back and are looking forward to a offering a wide variety of events and services this term. 
 
@@ -23,7 +23,7 @@ Welcome to the Fall Term! We're excited to be back and are looking forward to a 
 - [Hack the Tunnels](#hack-the-tunnels)
 - [Volunteer Opportunities](#volunteer-opportunities)
 - [First Year Representative Nominations](#first-year-representative-nominations)
-- [CCSS 2022-2023 Hoodies](#ccss-2022-2023-hoodies)
+- [CCSS 2023-2024 Hoodies](#ccss-2023-2024-hoodies)
 
 
 # CCSS Puzzle Quest
@@ -48,7 +48,7 @@ This term, we are looking for a variety of volunteers! Checkout our [volunteer p
 
 ## First Year Representative Nominations
 
-![First Year Representative Nominations](/images/news/2022-2023/fyr_poster.jpg)
+![First Year Representative Nominations](/images/news/2023-2024/fyr_poster.jpg)
 
 Each year, we elect two First Year Representatives to join our [executive Team](/about/team). If you are in first year and are interested in joining the CCSS Team, checkout our [First Year Representative Nomination Form](https://docs.google.com/forms/d/e/1FAIpQLSevWF_wmweG6aDHfHFOQdjRbl628N2Rg2mjBjj5zkafKsDNMA/viewform?usp=sf_link) for more information or contact an executive member via our [Discord](http://discord.carletoncomputersciencesociety.ca/).
 
