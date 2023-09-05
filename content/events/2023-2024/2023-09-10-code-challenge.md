@@ -14,7 +14,7 @@ location_link: "https://code.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-02
 tags:
-- weekofawesome2022
+- weekofawesome2023
 ---
 
 ## Description

@@ -12,6 +12,4 @@ start_time: "8:00 - 9:30 PM EDT"
 location: 
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-02
-tags:
-- weekofawesome2023
 ---
