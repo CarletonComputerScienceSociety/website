@@ -25,6 +25,9 @@ Welcome to the Fall Term! We're excited to be back and are looking forward to a 
 - [First Year Representative Nominations](#first-year-representative-nominations)
 - [CCSS 2023-2024 Hoodies](#ccss-2023-2024-hoodies)
 
+# Orientation 2023
+
+If you're interested in checking out the 2023 orientation slides, click [here](/pdfs/2023-2024/orientation_2023.pdf).
 
 # CCSS Puzzle Quest
 
