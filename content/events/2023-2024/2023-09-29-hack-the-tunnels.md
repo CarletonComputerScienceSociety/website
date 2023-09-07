@@ -9,7 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us for our beginner friendly hackathon."
 start_time: "TBD"
-location: "Richcraft Hall"
+location: "Register"
+location_link: "/hackthetunnels/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-04
 ---
