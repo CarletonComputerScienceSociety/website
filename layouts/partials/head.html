@@ -62,6 +62,10 @@
     {{ $image = print .Params.preview }}{{ end }}
 
 
+  {{ if eq .Params.layout "hack_the_tunnels" }}
+    {{ $image = print .Params.preview }}{{ end }}
+
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ $url }}" />
