@@ -10,6 +10,7 @@ hideBanner: false
 featured: false
 author: Matthew MacRae-Bovell
 url: /news/first-year-rep-platforms-2022
+year: 2022-2023
 categories:
 - annoucement
 

@@ -34,13 +34,13 @@
       {{ .Content }}
       <h1>The Candidates are:</h1>
       <ul>
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "First Year Representative") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "First Year Representative") ".Params.year" .Params.year) }}
           <li><a href="#{{ .Params.name }}">{{ .Params.name }}</a></li>
         {{ end }}
       </ul>
       <h1 style="margin-top: 4rem">The Campaign Platforms:</h1>
       <div class="fyr-candidates">
-        {{ range (where (where .Site.RegularPages "Section" "elections") ".Params.position" "First Year Representative") }}
+        {{ range (where (where (where .Site.RegularPages "Section" "elections") ".Params.position" "First Year Representative") ".Params.year" .Params.year) }}
           <div id="{{ .Params.name }}" class="position fyr">
             <h2>{{ .Params.name }}</h2>
             <p>{{ .Content }}</p>
