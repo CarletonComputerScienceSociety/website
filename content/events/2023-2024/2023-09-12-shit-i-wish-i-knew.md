@@ -14,5 +14,9 @@ location_link: "https://carleton-ca.zoom.us/rec/share/ZbKjbF0KgM-2eC1igX6ufEHtzI
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-01
 tags:
-- weekofawesome2023
+  - weekofawesome2023
 ---
+
+## Slides
+
+The presentation slides can be viewed [here!](/pdfs/2023-2024/SIWIK-2023.pdf).

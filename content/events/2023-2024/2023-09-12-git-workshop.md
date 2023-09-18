@@ -16,3 +16,5 @@ publishdate: 2023-08-25
 tags:
 - weekofawesome2023
 ---
+## Slides
+The presentation slides can be viewed [here!](/pdfs/2023-2024/Git-Workshop.pdf).
