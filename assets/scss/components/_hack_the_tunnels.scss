@@ -19,21 +19,126 @@
 .hack-the-tunnels {
   overflow-y: hidden;
 
+  &__link {
+    color: #34d3fa !important;
+  }
+
+  &__heading {
+    font-size: 1.7rem !important;
+  }
+
+  &__text {
+    font-size: 1.2rem !important;
+  }
+
   &__logo {
     object-fit: cover;
     width: 100%;
   }
 
   &__date {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 0 1rem;
+    margin-top: 5rem;
+  }
+
+  &__card {
+    width: 50%;
+    border-radius: 2rem;
+    height: 30rem;
+    margin: auto;
+    padding: 1rem;
+
+    p {
+      font-size: 1.3rem !important;
+    }
+
+    h1 {
+      font-size: 5rem !important;
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    &__cards {
+      flex-direction: column;
+    }
+
+    &__card {
+      width: 90%;
+    }
   }
 
   @media only screen and (max-width: 600px) {
     &__date {
       font-size: 1.1rem;
     }
+  }
+}
+
+.day1 {
+  border: 10px solid #34d3fa;
+}
+
+.day2 {
+  border: 10px solid #c6006a;
+}
+
+.day1-number {
+  color: #8c65fe;
+}
+
+.day2-number {
+  color: #f9df02;
+}
+
+.header-button {
+  margin-top: 3rem;
+  border-radius: 0.3rem;
+  border-width: 0px;
+  min-width: 9rem;
+  background-color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.05rem;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #34d3fa 0%,
+    #8c65fe 39%,
+    #f9df02 70%,
+    #c6006a 90%,
+    #34d3fa 100%
+  );
+  animation: slidebg 5s linear infinite;
+  color: white;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
   }
 }
