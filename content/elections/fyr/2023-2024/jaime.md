@@ -7,7 +7,7 @@ position: "First Year Representative"
 year: "2023-2024"
 ---
 
-![Aidan](/images/first_year_reps/2023/jaime.jpg)
+![Jaime](/images/first_year_reps/2023/jaime.jpg)
 
 Hello! My name is Jaime Sexton, and I’m a first year student in Computer Science (if you’re reading this, you probably are too). I’ve been interested in computer science for many years, and I would like to become more involved with the CCSS by being a first year representative!
 

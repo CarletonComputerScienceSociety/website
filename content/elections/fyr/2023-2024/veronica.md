@@ -7,7 +7,7 @@ position: "First Year Representative"
 year: "2023-2024"
 ---
 
-![Aidan](/images/first_year_reps/2023/veronica.jpg)
+![Veronica](/images/first_year_reps/2023/veronica.jpg)
 
 Hello, fellow computer science first years! My name is Veronica Mordvinova, and I am very excited to run for the first-year representative position!
 
