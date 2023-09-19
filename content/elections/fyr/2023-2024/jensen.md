@@ -7,6 +7,8 @@ position: "First Year Representative"
 year: "2023-2024"
 ---
 
+![Jensen](/images/first_year_reps/2023/jensen.jpg)
+
 Hello, my name is Jensen and I am hoping to become your first year representative. I would like to improve the **community, academics**, and **internship** side at Carleton CS.
 
 ### 🛎️Always willing to Network and Collaborate🛎️ (with great Friendliness👍):

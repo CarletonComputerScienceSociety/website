@@ -7,6 +7,8 @@ position: "First Year Representative"
 year: "2023-2024"
 ---
 
+![Jacc](/images/first_year_reps/2023/jacc.jpg)
+
 Hello everyone!
 My name is Aditya but my friends call me Jacc. I’m an international student from India and while I’m not currently in a stream, I’m considering minors in Law and Physics. You may know me as the owner of the “Carleton Class of ‘27” discord server. I have been running informational and social events for incoming first-year students over the summer. I have also been volunteering with the CCSS for the last few months to create a new resources section of the CCSS website.
 

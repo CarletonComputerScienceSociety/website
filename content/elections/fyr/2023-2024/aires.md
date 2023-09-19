@@ -7,6 +7,8 @@ position: "First Year Representative"
 year: "2023-2024"
 ---
 
+![Aires](/images/first_year_reps/2023/aires.jpg)
+
 Hello everyone, I'm Aires. As the former president of my high school coding club, I sure do love coding. I'm from Toronto, so I knew no one when I first came here, but I like to spontaneously greet random people, so if you have no one to say hi to, I'll say hi to you.
 
 ### 💻Partnering With Other CS-Related Clubs💻
