@@ -68,6 +68,28 @@
     }
   }
 
+  &__schedule {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__event {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    text-align: left;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 0.9rem;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     &__cards {
       flex-direction: column;
