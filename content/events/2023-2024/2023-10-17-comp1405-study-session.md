@@ -1,6 +1,6 @@
 ---
-display_title: "COMP 1405 Study Session"
-title: "COMP 1405 Study Session"
+display_title: "COMP 1405 Midterm Prep"
+title: "COMP 1405 Midterm Prep"
 date: 2023-10-17T00:00:00Z
 draft: false
 layout: event
