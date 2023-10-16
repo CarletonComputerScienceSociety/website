@@ -9,8 +9,8 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Prepare for your up and coming computer science midterm!"
 start_time: "6:30 - 7:30 PM EST"
-location: "Zoom (link tbd)"
-location_link: "#comingsoon"
+location: "Zoom"
+location_link: "https://carleton-ca.zoom.us/j/92223108965"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-11-24
 ---
