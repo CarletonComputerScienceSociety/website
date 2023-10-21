@@ -26,11 +26,7 @@
   <!--Added dynamic date updating with JavaScript-->
   <div class="footer-copyright">
     ©
-    <script>
-      document.write(new Date().getFullYear());
-    </script>
-    <span> </span>
-    Carleton Computer Science Society
+    {{ now.Year }} Carleton Computer Science Society
   </div>
 </div>
 
