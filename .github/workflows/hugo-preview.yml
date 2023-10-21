@@ -9,10 +9,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Setup Hugo                           
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.105.0'
+    - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.83.1'
+          extended: true
 
     - name: Setup base URL env var
       run: |
@@ -29,7 +30,7 @@ jobs:
       uses: afc163/surge-preview@v1
       id: preview_step
       with:
-        surge_token: ${{"1f147e7d61488c3db6957c80ab45939f"}}
+        surge_token: "1f147e7d61488c3db6957c80ab45939f"
         github_token: ${{ secrets.GITHUB_TOKEN }}
         dist: public
         failOnError: false
