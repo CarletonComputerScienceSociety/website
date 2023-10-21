@@ -14,3 +14,5 @@ location_link: "#comingsoon"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2021-11-24
 ---
+## Slides
+The presentation slides can be viewed [here!](/pdfs/2023-2024/COMP2402_Midterm_Review.pdf).
