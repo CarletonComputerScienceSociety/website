@@ -1,18 +1,24 @@
-- title: "CCSS Magazine"
-  link: "http://magazine.carletoncomputersciencesociety.ca/"
-  color: "#e62828"
-  description: "The latest Issue of the CCSS magazine."
-  active: true
-- title: "Carleton Merged"
-  link: "https://merged.carletoncomputerscience.ca/"
-  color: "black"
-  description: "An app for viewing all upcoming events in the Carleton CS community."
+- title: "CCSS Resources"
+  link: "https://resources.carletoncomputerscience.ca/"
+  color: "#08dd7a"
+  description: "A webpage with all the resources the CCSS has to offer."
   active: true
 - title: "DiscreteMath.ca"
   link: "https://discretemath.ca/"
   color: "#ffab40"
   description: "Interactive content for COMP 1805 and COMP 2804."
   active: true
+- title: "CCSS Magazine"
+  link: "http://magazine.carletoncomputersciencesociety.ca/"
+  color: "#e62828"
+  description: "The latest Issue of the CCSS magazine."
+  active: true
+
+# - title: "Carleton Merged"
+#   link: "https://merged.carletoncomputerscience.ca/"
+#   color: "black"
+#   description: "An app for viewing all upcoming events in the Carleton CS community."
+#   active: true
 # - title: "CCSS Code Challenge"
 #  link: "https://ccss.carleton.ca/"
 #  color: "#4285f4ff"
