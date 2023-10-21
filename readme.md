@@ -18,6 +18,8 @@ brew install hugo
 
 For Windows users, I recommend following [this video](https://www.youtube.com/watch?v=G7umPCU-8xc) if you are unfamilliar with choco.
 
+You will need to install the latest "hugo_extended" version. This can be found on the [Hugo releases page](https://github.com/gohugoio/hugo/releases).
+
 ### 2. Start Hugo
 
 To start Hugo, navigate to the directory where you cloned this project and run the following command:
