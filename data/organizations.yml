@@ -1,5 +1,5 @@
 - name: cuHacking
-  description: "cuHacking is Carleton University's official hackathon event."
+  description: "cuHacking is Carleton University's official hackathon event. Participants come together to innovate,collaborate and create solutions to various challenges"
   website: https://cuhacking.ca/
   discord: https://discord.com/invite/TGvYPnD
   github: https://github.com/cuhacking
@@ -7,7 +7,7 @@
   twitter: https://twitter.com/cuhacking
   linkedin: https://www.linkedin.com/company/cuhacking/
   facebook: https://www.facebook.com/cuhacking/
-  image: images/organizations/cuHacking2.jpg
+  image: images/organizations/cuHackinglogo2.jpg
 
 - name: SCESoc
   description: "The goal of SCESoc is to enhance the overall experience of students in and outside of the Systems and Computer Engineering (SCE) Department of Carleton."
