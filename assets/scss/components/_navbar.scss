@@ -516,7 +516,8 @@ $navNumOfItemBlocks: 4;
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 420px;
+  // if adding list items from menu, update below
+  max-height: 600px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
