@@ -9,18 +9,18 @@
   facebook: https://www.facebook.com/cuhacking/
   image: images/organizations/cuHackinglogo2.jpg
 
-- name: SCESoc
-  description: "The goal of SCESoc is to enhance the overall experience of students in and outside of the Systems and Computer Engineering (SCE) Department of Carleton."
-  website: https://www.scesoc.ca/
-  instagram: https://www.instagram.com/cuscesoc/?hl=en
-  twitter: https://twitter.com/cuscesoc?lang=en
-  linkedin: https://www.linkedin.com/company/cuscesoc/about/
-  facebook: https://www.facebook.com/SCESoc/
-  image: images/organizations/scesoc.jpg
+- name: MathSoc
+  description: "The Math Society is dedicated to bringing together students and faculty from the School of Mathematics at Carleton. We provide social opportunities for students of all years to form new friendships, and we organize enrichment opportunities that encourage enthusiasm for mathematics. You can look forward to lots of great events."
+  website: https://cumathsoc.github.io/
+  discord: https://discord.gg/4ttYNMWkVw
+  instagram: 
+  twitter: 
+  facebook: 
+  image: images/organizations/mathsoc.jpg
 
 - name: Women in Computer Science
   description: "Women in Computer Science (WiCS) is a group organized by the School of Computer Science, Carleton University with the mission of establishing a positive environment for women in computing at all academic levels. Our goal is to develop a network of females in computing at Carleton that would allow them to share experiences and learn from each other."
-  website: https://wics.scs.carleton.ca/
+  website: https://www.instagram.com/carleton_wics/
   instagram: https://www.instagram.com/carleton_wics/?utm_medium=copy_link
   linkedin: https://www.linkedin.com/company/carleton-women-in-computer-science/
   facebook: https://www.facebook.com/CarletonWiCS/
@@ -39,42 +39,52 @@
 
 - name: CU Blueprint
   description: "We're a team of students at Carleton University that develops pro-bono apps for nonprofits and promotes tech for social good."
+  website: https://linktr.ee/cublueprint
   instagram: https://www.instagram.com/cublueprint/
   twitter: https://twitter.com/cublueprint?lang=en
   linkedin: https://www.linkedin.com/company/cublueprint/
   facebook: https://www.facebook.com/cublueprint/
   image: images/organizations/blueprint.jpg
 
-- name: Technolgap
-  description: "Technolgap is Ottawa’s community for female post-secondary students in tech. Our slack group of over 100 members is a space to share internships, opportunities, and course resources, ask for career advice, and get involved in the community! All self-identifying female computer science students are welcome to join!"
-  website: https://www.notion.so/technolgap/We-are-Technolgap-d83090d62cb844aaa26064e978282507
-  instagram: https://www.instagram.com/technolgap
-  twitter: https://twitter.com/technolgap
-  linkedin: https://www.linkedin.com/company/technolgap/?originalSubdomain=ca
-  facebook: https://www.facebook.com/technolgap
-  image: images/organizations/technolgap.jpg
+#- name: Technolgap
+#  description: "Technolgap is Ottawa’s community for female post-secondary students in tech. Our slack group of over 100 members is a space to share internships, opportunities, and course resources, ask for career advice, and get involved in the community! All self-identifying female computer science students are welcome to join!"
+#  website: https://www.notion.so/technolgap/We-are-Technolgap-d83090d62cb844aaa26064e978282507
+#  instagram: https://www.instagram.com/technolgap
+#  twitter: https://twitter.com/technolgap
+#  linkedin: https://www.linkedin.com/company/technolgap/?originalSubdomain=ca
+#  facebook: https://www.facebook.com/technolgap
+#  image: images/organizations/technolgap.jpg
 
-- name: Carleton Web Dev Club
-  description: "The CWDC was formed with the intention to build a community of students/faculty at Carleton interested in furthering their study of web development and related areas. The club aims to bring together students interested in web development to work on projects together, organize and take part in hackathons and other challenges, produce knowledge within the web domain, and assist in career development and industry connections. Past experience with web development is not a requirement. Any motivated students interested in web development are encouraged to take part."
-  website: https://carleton-web-dev-club.github.io/club-site/#/
-  discord: https://discord.gg/6yGwvZC2tM
-  github: https://github.com/Carleton-Web-Dev-Club
-  image: images/organizations/webdev.jpg
+#- name: Carleton Web Dev Club
+#  description: "The CWDC was formed with the intention to build a community of students/faculty at Carleton interested in furthering their study of web development and related areas. The club aims to bring together students interested in web development to work on projects together, organize and take part in hackathons and other challenges, produce knowledge within the web domain, and assist in career development and industry connections. Past experience with web development is not a requirement. Any motivated students interested in web development are encouraged to take part."
+#  website: https://carleton-web-dev-club.github.io/club-site/#/
+#  discord: https://discord.gg/6yGwvZC2tM
+#  github: https://github.com/Carleton-Web-Dev-Club
+#  image: images/organizations/webdev.jpg
 
-- name: Carleton eggX
-  description: "Carleton eggX gathers people who want to create something that benefits themselves and the people around them by making coding more approachable to all kinds of students."
-  website: https://eggx.io/
-  discord: https://discord.com/invite/D9jKXkp
-  github: https://github.com/eggx-io
-  instagram: https://instagram.com/cu_eggx
-  twitter: https://twitter.com/cu_eggx
-  linkedin: https://www.linkedin.com/company/carleton-computer-science-entrepreneurs/
-  facebook: https://www.facebook.com/cueggx/
-  image: images/organizations/eggx.jpg
+#- name: Carleton eggX
+#  description: "Carleton eggX gathers people who want to create something that benefits themselves and the people around them by making coding more approachable to all kinds of students."
+#  website: https://eggx.io/
+#  discord: https://discord.com/invite/D9jKXkp
+#  github: https://github.com/eggx-io
+#  instagram: https://instagram.com/cu_eggx
+#  twitter: https://twitter.com/cu_eggx
+#  linkedin: https://www.linkedin.com/company/carleton-computer-science-entrepreneurs/
+#  facebook: https://www.facebook.com/cueggx/
+#  image: images/organizations/eggx.jpg
+
+- name: SCESoc
+  description: "The goal of SCESoc is to enhance the overall experience of students in and outside of the Systems and Computer Engineering (SCE) Department of Carleton."
+  website: https://www.scesoc.ca/
+  instagram: https://www.instagram.com/cuscesoc/?hl=en
+  twitter: https://twitter.com/cuscesoc?lang=en
+  linkedin: https://www.linkedin.com/company/cuscesoc/about/
+  facebook: https://www.facebook.com/SCESoc/
+  image: images/organizations/scesoc.jpg
 
 - name: Carleton Cyber Security club
   description: "If you're interested in learning more about Cyber Security and getting hands-on experience come and join the Carleton Cyber Security Club! We host weekly sessions that involved workshops, hacking activities and tech talks from guest speakers with industry or academic experience."
-  website: "#"
+  website: "https://linktr.ee/CarletonCyberSecurityClub"
   discord: https://discord.gg/ADV5Zvn
   instagram: https://www.instagram.com/carletoncybersecurityclub/?hl=en
   image: images/organizations/carletoncybersecurity.jpg
@@ -91,7 +101,7 @@
 
 - name: Computing Councils of Canada
   description: "The Computing Councils of Canada, also known as C^3 (or CCubed), is a national organization of students aiming to create and foster an inclusive community for all students in computing-related fields across Canada."
-  website: https://ccubed.dev/
+  website: https://linktr.ee/ccubed.dev
   discord: https://discord.com/invite/477KvYukHf
   github: https://github.com/ccubed-dev
   instagram: https://www.instagram.com/ccubed_dev/
@@ -109,12 +119,4 @@
   facebook: https://www.facebook.com/CarletonSciSoc/
   image: images/organizations/scisoc.jpg
 
-- name: MathSoc
-  description: "The Math Society is dedicated to bringing together students and faculty from the School of Mathematics at Carleton. We provide social opportunities for students of all years to form new friendships, and we organize enrichment opportunities that encourage enthusiasm for mathematics. You can look forward to lots of great events."
-  website: https://cumathsoc.github.io/
-  discord: https://discord.gg/4ttYNMWkVw
-  instagram: 
-  twitter: 
-  facebook: 
-  image: images/organizations/mathsoc.jpg
 
