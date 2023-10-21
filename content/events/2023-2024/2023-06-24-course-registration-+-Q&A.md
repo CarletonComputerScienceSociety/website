@@ -13,6 +13,8 @@ location: "Zoom"
 location_link: "https://forms.gle/YB3Ky9nnaJk3LLz26"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-06-05
+tags:
+- talks
 ---
 * How to plan your schedule
 * Elective suggestions
