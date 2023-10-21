@@ -1,6 +1,6 @@
 .footer {
   background-color: black;
-  height: 25vh;
+  height: 24vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -26,8 +26,8 @@
 
 .footer-text {
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   b {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
