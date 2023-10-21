@@ -15,6 +15,7 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-01
 tags:
   - weekofawesome2023
+  - talks
 ---
 
 ## Slides
