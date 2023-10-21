@@ -1,12 +1,12 @@
 .footer {
   background-color: black;
-  height: 24vh;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top: 2px solid #c40729;
+  padding-bottom: 2rem;
 
   a {
     color: inherit;
