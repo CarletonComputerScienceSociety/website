@@ -298,7 +298,7 @@ $navNumOfItemBlocks: 4;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  height: 60px;
+  height: calc(60px + 0.7rem);
   color: white;
   background-color: white;
   padding-left: calc(5% + 9px);
@@ -340,8 +340,6 @@ $navNumOfItemBlocks: 4;
   color: black;
   text-transform: uppercase;
   margin-left: auto;
-  padding-top: 0.4rem;
-  padding-bottom: 0.3rem;
   display: flex;
   justify-content: space-between;
 
