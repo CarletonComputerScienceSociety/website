@@ -25,7 +25,6 @@
     }
   }
 
-
   a {
     text-decoration: auto;
   }
@@ -33,7 +32,6 @@
   a:hover {
     background: #ff7777 !important;
   }
-
 
   .pagination__item--current {
     color: white;
@@ -43,8 +41,6 @@
   .pagination__item {
     animation: all 0.4s ease-in;
   }
-
-
 
   @media only screen and (max-width: 600px) {
     .pagination {
