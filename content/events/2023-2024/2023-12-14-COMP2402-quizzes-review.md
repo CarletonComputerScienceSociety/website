@@ -1,10 +1,10 @@
 ---
-display_title: "COMP2402 Quiz Collection Review"
-title: "COMP2402 Quiz Collection Review"
+display_title: "COMP2402 Quizzes Review"
+title: "COMP2402 Quizzes Review"
 date: 2023-12-14T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2023-2024/COMP2402_quiz_collection_review.jpg"
+poster: "images/event_posters/2023-2024/COMP2402_quizzes_review.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "TAs will be going through the toughest quiz collection questions!"
