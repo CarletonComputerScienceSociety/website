@@ -12,6 +12,6 @@ start_time: "5:00 - 9:00 PM EST"
 location: "HP4135"
 location_link: "#comingsoon"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2023-12-24
+publishdate: 2024-01-26
 ---
 Register here: https://forms.gle/budLRxkpMobiRA3P6

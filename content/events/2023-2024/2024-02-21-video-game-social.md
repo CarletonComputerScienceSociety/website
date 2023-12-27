@@ -12,7 +12,7 @@ start_time: "6:00 - 9:00 PM EST"
 location: "CCSS Discord"
 location_link: "https://discord.gg/B3cdnfX3rh"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2023-12-24
+publishdate: 2024-01-21
 ---
 ## Link to Downloading Games
 ### Among Us
