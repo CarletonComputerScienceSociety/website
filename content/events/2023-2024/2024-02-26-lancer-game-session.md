@@ -7,7 +7,7 @@ layout: event
 poster: "images/event_posters/2023-2024/lancer_game_session.jpg"
 poster_cover: "contain"
 poster_position: "center"
-short_description: "Join us for a long long tabletop game of Lancer!"
+short_description: "Join us for a long tabletop game of the tabletop rpg Lancer!"
 start_time: "5:00 - 9:00 PM EST"
 location: "HP4135"
 location_link: "#comingsoon"
