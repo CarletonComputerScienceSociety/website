@@ -1,0 +1,81 @@
+.jobuary-page {
+  height: 100vh;
+  text-align: center;
+  //   background-color: #01000cf2;
+  background-color: #03050c;
+  opacity: 0.97;
+}
+
+.jobuary-background-wrap {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(10, 11, 20);
+  z-index: -2;
+  background-image: url(https://media.istockphoto.com/id/136754396/photo/silhouette-of-trees-at-night.webp?b=1&s=170667a&w=0&k=20&c=5MosZ1b2CBPOdv8CXOhWT7ZGo-Ook_o220OXbtsuPFc=);
+  //background-image: url(https://static.vecteezy.com/system/resources/previews/009/626/037/non_2x/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-national-park-view-mist-black-and-white-good-for-wallpaper-background-banner-cover-poster-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   opacity: 0.7;
+  @media only screen and (max-width: 600px) {
+    height: 120vh;
+  }
+}
+
+.jobuary {
+  overflow-y: hidden;
+
+  &__logo {
+    object-fit: cover;
+    width: 17rem;
+  }
+
+  &__slogan {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+  }
+}
+.header-button {
+  margin-top: 3rem;
+  border-radius: 0.3rem;
+  border-width: 0px;
+  min-width: 9rem;
+  background-color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.05rem;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #09cef0 0%,
+    #8664f1 39%,
+    #00de79 70%,
+    #09cef0 100%
+  );
+  animation: slidebg 5s linear infinite;
+  color: white;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}

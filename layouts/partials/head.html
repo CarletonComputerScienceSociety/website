@@ -66,6 +66,10 @@
     {{ $image = print .Params.preview }}{{ end }}
 
 
+  {{ if eq .Params.layout "jobuary" }}
+    {{ $image = print .Params.preview }}{{ end }}
+
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ $url }}" />
