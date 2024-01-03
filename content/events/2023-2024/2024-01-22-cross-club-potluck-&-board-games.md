@@ -4,7 +4,7 @@ title: "Cross-Club Potluck & Board Games"
 date: 2024-01-22T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2023-2024/cross_club_potluck_&_board_games.jpg"
+poster: "images/event_posters/2023-2024/cross_club_potluck_&_board_games_night.jpg"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Eat a hearty meal while playing board games in a multi-club collab"
