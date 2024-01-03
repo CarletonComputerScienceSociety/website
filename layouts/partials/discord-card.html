@@ -1,0 +1,60 @@
+<div class="outer_organization_card">
+  <div class="organization_card">
+    <div
+      class="upper_organization_picture"
+      style="background-image: url('{{ absURL .image }}');"
+    ></div>
+    <div class="lower_organization_info">
+      <!-- Link to organization website in name -->
+      <div class="organization_name_text">
+        <a href="{{ .discord }}" target="”_blank”"
+          >{{ .name }}
+          {{ with .website }} <i class="fas fa-link"></i> {{ end }}
+        </a>
+      </div>
+      <div class="organization_description_text">
+        {{ .description }}
+      </div>
+      <!--
+      <div class="organization_links">
+        {{ with .discord }}
+          <a href="{{ . }}" target="”_blank”"><i class="fab fa-discord"></i></a>
+        {{ end }}
+        {{ with .github }}
+          <a href="{{ . }}" target="”_blank”"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        {{ end }}
+        {{ with .instagram }}
+          <a href="{{ . }}" target="”_blank”"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        {{ end }}
+        {{ with .youtube }}
+          <a href="{{ . }}" target="”_blank”">
+            <i class="fab fa-youtube"></i>
+          </a>
+        {{ end }}
+        {{ with .twitter }}
+          <a href="{{ . }}" target="”_blank”"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        {{ end }}
+        {{ with .linkedin }}
+          <a href="{{ . }}" target="”_blank”"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        {{ end }}
+        {{ with .slack }}
+          <a href="{{ . }}" target="”_blank”"><i class="fab fa-slack"></i></a>
+        {{ end }}
+        {{ with .facebook }}
+          <a href="{{ . }}" target="”_blank”"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        {{ end }}
+      </div>
+      -->
+    </div>
+  </div>
+</div>
