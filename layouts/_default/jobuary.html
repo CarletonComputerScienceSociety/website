@@ -19,12 +19,43 @@
         </div>
         <div class="jobuary__slogan">Kickstart Your Career In Tech</div>
         <div>
-          <a href="#about"
-            ><button class="header-button">Coming Soon</button></a
-          >
+          <a href="#about"><button class="header-button">Learn More</button></a>
         </div>
       </div>
     </div>
   </div>
-  <div style="height: 200vh; background-color: #03050c;"></div>
+  <div class="jobuary-content" id="about">
+    <h1>Job Search Presentations</h1>
+    <div class="woa-events">
+      {{ range sort (.Site.Taxonomies.tags.jobsearch) "Date" }}
+        <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+    <h1>Career Services</h1>
+    <div class="woa-events">
+      {{ range sort (.Site.Taxonomies.tags.service) "Date" }}
+        <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+    <h1>Industry Speakers</h1>
+    <div class="woa-events">
+      {{ range sort (.Site.Taxonomies.tags.industryspeaker) "Date" }}
+        <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+    <h1>Get Involved</h1>
+    <div class="woa-events">
+      {{ range sort (.Site.Taxonomies.tags.getinvolved) "Date" }}
+        <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+          >{{- partial "event_card.html" . -}}</a
+        >
+      {{ end }}
+    </div>
+  </div>
 {{ end }}
