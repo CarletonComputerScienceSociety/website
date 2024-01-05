@@ -3,7 +3,16 @@
   text-align: center;
   //   background-color: #01000cf2;
   background-color: #03050c;
-  opacity: 0.97;
+  opacity: 0.9;
+}
+
+.jobuary-content {
+  height: fit-content;
+  background-color: #03050c;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
 }
 
 .jobuary-background-wrap {
