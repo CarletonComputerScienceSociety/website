@@ -32,8 +32,22 @@
   }
 }
 
+.jobuary-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 .jobuary {
   overflow-y: hidden;
+  height: fit-content;
+
+  .woa-background-wrap {
+    z-index: -1;
+    background-color: #ffffff00;
+  }
 
   &__logo {
     object-fit: cover;
