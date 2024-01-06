@@ -17,10 +17,13 @@ tags:
 - getinvolved
 ---
 ### Project Board
+
 All issues can be found [here](https://github.com/orgs/CarletonComputerScienceSociety/projects/17). These issues can be done individually or collaboratively at any time!
 
 ### In-Person Sessions
+
 In-person sessions will be centered around collaboration and guiding students through their first contributions towards new and existing CCSS projects.
 
 ### Getting Asynchronous Help
+
 If you cannot make it to our in-person sessions but still need help, you can send a message in our [Discord server](https://discord.gg/TVHaxACPqk)!
