@@ -16,3 +16,8 @@ tags:
 - jobuary
 - jobsearch
 ---
+
+
+## Slides
+
+Click [here](/pdfs/2023-2024/find-your-first-job.pdf) to view the slides.
