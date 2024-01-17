@@ -16,3 +16,4 @@ tags:
 - jobuary
 - service
 ---
+You can find your photos here!: https://nextcloud.scs.carleton.ca/index.php/s/9YdLbcTDcyBGxET
