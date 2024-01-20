@@ -16,3 +16,6 @@ tags:
 - jobuary
 - jobsearch
 ---
+## Slides
+
+Click [here](/pdfs/2023-2024/A_Guide_to_Tech_Interviews_Presentation.pdf) to view the slides.
