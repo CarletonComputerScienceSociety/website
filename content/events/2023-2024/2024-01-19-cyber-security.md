@@ -16,3 +16,6 @@ tags:
 - jobuary
 - industryspeaker
 ---
+## Slides
+
+Click [here](/pdfs/2023-2024/Cybersecurity-Talk.pdf) to view the slides.
