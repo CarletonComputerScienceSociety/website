@@ -10,7 +10,7 @@ hideBanner: false
 featured: true
 author: Forest Anderson
 categories:
-- blog
+- news
 ---
 
 # CCSS Summer Dev Projects

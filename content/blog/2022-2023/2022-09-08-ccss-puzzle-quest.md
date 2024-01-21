@@ -10,7 +10,7 @@ hideBanner: false
 featured: true
 author: Forest Anderson
 categories:
-- blog
+- news
 ---
 
 Hello! Welcome to the CCSS Puzzle Quest! Throughout the next hour and a half,
