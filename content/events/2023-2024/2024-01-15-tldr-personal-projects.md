@@ -16,3 +16,4 @@ tags:
 - jobuary
 - jobsearch
 ---
+Click [here](/pdfs/2023-2024/TLDR-Personal-Projects.pdf) to view the slides.
