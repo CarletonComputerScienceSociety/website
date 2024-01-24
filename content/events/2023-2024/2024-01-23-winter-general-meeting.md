@@ -16,3 +16,8 @@ tags:
 - jobuary
 - getinvolved
 ---
+Click [here](/pdfs/2023-2024/Winter-General-Meeting-2024.pdf) to view the slides.
+Here's the recording:
+https://carleton-ca.zoom.us/rec/share/jl569PlKAeatd1M7e3r4lCZHDoQCABKYq8U-uJyOurhwRmIJErK0YQNi3JoquHuj.yEja_MT8SJWW-0Zg?startTime=1706051081000
+Passcode: K2nqVp#S
+```
