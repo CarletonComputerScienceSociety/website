@@ -16,3 +16,4 @@ tags:
 - jobuary
 - getinvolved
 ---
+Click [here](/pdfs/2023-2024/Winter-General-Meeting-2024.pdf) to view the slides.
