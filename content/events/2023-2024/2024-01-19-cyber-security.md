@@ -17,5 +17,7 @@ tags:
 - industryspeaker
 ---
 ## Slides
-
 Click [here](/pdfs/2023-2024/Cybersecurity-Talk.pdf) to view the slides.
+
+## Recording
+Click [here](https://carleton-ca.zoom.us/rec/share/5shzx5rqv1ZzNPsNcMhOG_-toZ6pLH8-FUdM9yFNmWE55LGgoGfktESMgw7gdiDd.N6JZnYX-Xa3HWTnH?startTime=1705705505000) to view recordings
