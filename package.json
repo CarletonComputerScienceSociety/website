@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "prettier --check '{layouts,assets}/**/*.{css,scss,html,js}'",
-    "format": "prettier --write '{layouts,assets}/**/*.{css,scss,html,js}'"
+    "format": "prettier --write '{layouts,assets}/**/*.{css,scss,html,js}'",
+    "start" : "hugo server"
   },
   "repository": {
     "type": "git",
