@@ -7,7 +7,7 @@ preview: "images/news/2023-2024/fyr_poster.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Our first year representative campaigning period has begun!"
 hideBanner: false
-featured: true
+featured: false
 author: Victor Li
 url: /news/first-year-rep-platforms-2023
 year: 2023-2024
