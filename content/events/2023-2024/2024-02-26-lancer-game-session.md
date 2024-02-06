@@ -2,7 +2,7 @@
 display_title: "Lancer Game Session"
 title: "Lancer Game Session"
 date: 2024-02-26T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "images/event_posters/2023-2024/lancer_game_session.jpg"
 poster_cover: "contain"
