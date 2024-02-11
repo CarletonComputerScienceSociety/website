@@ -1,6 +1,6 @@
 ---
 display_title: "AWS YouthTech Bootcamp"
-title: "AWS YouthTech Bootcamp""
+title: "AWS YouthTech Bootcamp"
 date: 2024-02-16T21:30:00Z
 draft: false
 layout: event
