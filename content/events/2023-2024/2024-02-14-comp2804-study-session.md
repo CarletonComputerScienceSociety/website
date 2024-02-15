@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "A TA will be going over past midterms with you, tackling the toughest of problems!"
 start_time: "5:30 - 7:00 PM EST"
 location: "Zoom"
-location_link: "https://carleton-ca.zoom.us/j/92335379495"
+location_link: "https://carleton-ca.zoom.us/j/95276862613"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-01-07
 ---
