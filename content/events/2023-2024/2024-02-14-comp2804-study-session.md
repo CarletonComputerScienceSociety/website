@@ -14,3 +14,7 @@ location_link: "https://carleton-ca.zoom.us/j/95276862613"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-01-07
 ---
+
+## Solutions
+Click [here](/pdfs/2023-2024/COMP_2804_Winter_2019_Midterm_Explanation.pdf) to view the solutions.
+
