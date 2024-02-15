@@ -14,4 +14,4 @@ location_link: "https://carleton-ca.zoom.us/j/92335379495"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-01-07
 ---
-## Recording can be found [here](https://carleton-ca.zoom.us/rec/share/e92nymbWU9e7NIjRmTuGRZVd9_i34KI0ov-xSRyeUc7-QxM3LVhxM1XlIagDX0kk.Vv9Pfj0fRlUFPGB2)
+## Recording can be found [here](https://youtu.be/u3GWj0gNQus)
