@@ -10,6 +10,7 @@ poster_position: "center"
 short_description: "Join us for the fourth annual Computer Science End of Year BBQ!"
 start_time: "5:30 - 11:55 PM EST"
 location: "Ollie's Pub & Patio: Ticket Purchase"
+location_link: "https://payments.carleton.ca/scs/annual-computer-science-end-of-year-bbq/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-02-28
 ---
