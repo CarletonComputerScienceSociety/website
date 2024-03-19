@@ -17,7 +17,7 @@ categories:
 
 A complete breakdown of the election results can be seen in the PDF [here](/pdfs/2023-2024/ccss-2024-election-results.pdf).
 
-**The 2023-2024 CCSS Board of Directors will be as follows:**
+**The 2024-2025 CCSS Board of Directors will be as follows:**
 
 **President:**
 - Veronica Mordvinova
