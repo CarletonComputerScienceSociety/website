@@ -5,7 +5,7 @@ draft: false
 layout: overlaypost
 preview: "images/event_posters/2023-2024/sapp_journey.jpg"
 background: "images/orientation2018-min.jpeg"
-excerpt: "Instructions for the CCSS Puzzle Quest"
+excerpt: "John's experience with the Students as Partners Program"
 hideBanner: false
 featured: true
 author: John Lu
