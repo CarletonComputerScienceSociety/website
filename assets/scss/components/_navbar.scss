@@ -290,8 +290,7 @@ $navNumOfItemBlocks: 4;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 2px solid #dddddd;
-  // background-color: black;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.025), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
 }
 .navbar {
   display: flex;
