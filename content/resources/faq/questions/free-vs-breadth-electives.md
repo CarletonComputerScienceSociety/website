@@ -1,5 +1,5 @@
 ---
-title: "What a Breadth elective vs a Free elective?"
+title: "What is a Breadth elective vs a Free elective?"
 date: 2024-05-31T00:00:00Z
 last_updated: 2024-05-31T00:00:00Z
 draft: false
