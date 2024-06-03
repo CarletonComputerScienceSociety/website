@@ -2,38 +2,32 @@
   <div class="footer-text">
     <p>
       <b>Carleton Computer Science Society</b><br />
-      4135 Herzberg Laboratories<br />
-      1125 Colonel By Drive,<br />
-      Ottawa, ON K1S 5B6<br /><br />
-      email: <a href="mailto:info@ccss.carleton.ca">info@ccss.carleton.ca</a>
     </p>
   </div>
+  <div>
+    <div class="footer-location">
+      4135 Herzberg Laboratories
+      <span style="font-size: 1.5rem; padding-inline-start: 0.3rem; ">
+        <a
+          href="https://www.google.com/maps/place/Herzberg+Laboratories,+Carleton+University/@45.3820948,-75.7002151,17z/data=!3m1!4b1!4m6!3m5!1s0x4cce05df66cb2091:0x63e0b51cfa79f889!8m2!3d45.3820948!4d-75.6976402!16s%2Fg%2F1trvl1gf?entry=ttu">
+          <i class="fas fa-map-marker-alt"></i></a>
+      </span>
+      <br />
+    </div>
+  </div>
   <div class="footer-socials">
-    <a href="http://discord.carletoncomputersciencesociety.ca"
-      ><i class="fab fa-discord"></i
-    ></a>
-    <a href="https://www.instagram.com/carletoncss/"
-      ><i class="fab fa-instagram"></i
-    ></a>
-    <a href="https://www.facebook.com/CarletonComputerScienceSociety"
-      ><i class="fab fa-facebook"></i
-    ></a>
+    <a href="http://discord.carletoncomputersciencesociety.ca"><i class="fab fa-discord"></i></a>
+    <a href="https://www.instagram.com/carletoncss/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/CarletonComputerScienceSociety"><i class="fab fa-facebook"></i></a>
     <a href="https://twitter.com/carletoncss"><i class="fab fa-twitter"></i></a>
-    <a href="https://github.com/CarletonComputerScienceSociety"
-      ><i class="fab fa-github"></i
-    ></a>
+    <a href="https://github.com/CarletonComputerScienceSociety"><i class="fab fa-github"></i></a>
+    <a href="mailto:info@ccss.carleton.ca"><i class="fas fa-envelope"></i></a>
   </div>
   <!--Added dynamic date updating with JavaScript-->
-  <div class="footer-copyright">
-    © {{ now.Year }} Carleton Computer Science Society
-  </div>
 </div>
 
-<script
-  src="https://code.jquery.com/jquery-1.9.1.min.js"
-  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
-  crossorigin="anonymous"
-></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"
+  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
 
 <!--JS Bundle-->
 
@@ -51,8 +45,9 @@
 
 {{- $bundle := slice $main $navbar $slideshow $faq }}
 {{- if site.Params.Staticman }}
-  {{- $bundle = slice $main $navbar $slideshow $faq }}
+{{- $bundle = slice $main $navbar $slideshow $faq }}
 {{- end }}
-{{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
+{{- $bundle = $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 
-<script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}"
+  crossorigin="anonymous"></script>

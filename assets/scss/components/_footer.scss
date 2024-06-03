@@ -1,12 +1,12 @@
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #faf9f8;
+  color: rgb(16, 14, 14);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top: 2px solid #c40729;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   a {
     color: inherit;
@@ -16,10 +16,10 @@
 .footer-socials {
   display: flex;
   justify-content: space-between;
-  width: 14rem;
+  width: 15rem;
   font-size: 1.5rem;
   margin-bottom: 0.6rem;
-  margin-top: 0.1rem;
+  margin-top: 0.4rem;
   // this margin just makes the spacing look better
   // can probs play around with it more
 }
@@ -30,4 +30,11 @@
   b {
     font-size: 1.25rem;
   }
+}
+.footer-location{
+  margin-top: -0.3rem; 
+  font-size: 1rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
