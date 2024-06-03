@@ -1,3 +1,40 @@
+- year: 2023-2024
+  members:
+    - name: Victor Li
+      role: President
+      email: victor.li@ccss.carleton.ca
+      intro: "My name is Victor Li and I'm in my 4th year of Computer Science, specializing in cyber security and a math minor. In my spare time, I fence, dragon boat, play ultimate and I also love to bike around Ottawa. If you've got questions or need advice about uni and post-uni life, DM me!  Hope to see y'all at our CCSS Events!"
+      image: images/executives/victor2.jpg
+    - name: Richard Kim
+      role: Vice-President
+      email: richard.kim@ccss.carleton.ca
+      intro: "Hey, I'm Richard, and I'll be your VP this year.  I'm in my fourth year in the Honours program, minoring in Biology and Greek and Roman Studies. I took them to get better at writing essays but I ended up liking it. Message me if you have questions about minors, research programs, or uni stuff or just wanna talk."
+      image: images/executives/richard_kim.jpg
+    - name: John Lu
+      role: Director of Social
+      email: john.lu@ccss.carleton.ca
+      intro: "Hello! My name's John. I'm currently in my second year of Computer Science software engineering stream. This year,  I'm going to be your Director of Social! I've been living off-res for the first time since I come from the GTA, so send me a DM if you have questions about renting and stuff!😎"
+      image: images/executives/john_lu.jpg
+    - name: Benjamin Yu
+      role: Director of Academics
+      email: benjamin.yu@ccss.carleton.ca
+      intro: "Hey everyone! My name is Ben Yu and I'm currently a 2nd year student. I'll be one of your two Co-Directors of Academic this year, and I can't wait for you guys to see what we have planned. I enjoy playing and listening to all sorts of music in my spare time. Feel free to reach out anytime!"
+      image: images/executives/benjamin_yu.jpg
+    - name: Shirley Zhan
+      role: Director of Academics
+      email: shirley.zhan@ccss.carleton.ca
+      intro: "Hello! I'm Shirley Zhan and I'm currently a 3rd year student. I like to constantly learn and create new projects using what I've learned. I am a huge fan of anime and manga which is why I'm constantly broke. If you have any questions regarding school, coop, or just personal life, feel free to message me!"
+      image: images/executives/shirley.jpg
+    - name: Kelly Huang
+      role: Director of Community
+      email: kelly.huang@ccss.carleton.ca
+      intro: "I’m Kelly and I’m a second year in the software engineering stream. I have way too many hobbies because I have to explore everything that catches my interest. Feel free to reach out to me if you ever have any questions or need good restaurant suggestions in Ottawa!"
+      image: images/executives/kelly_huang.jpg
+    - name: Ryan Chung
+      role: Director of Finance
+      email: ryan.chung@ccss.carleton.ca
+      intro: "Hey! I'm Ryan and I'm currently a second year in the Software Engineering stream. Last year I was your First Year Rep, and I am returning as the Director of Finance. I speak both French and English. Feel free to message me if you have any questions or suggestions!"
+      image: images/executives/ryan_chung.jpg
 - year: 2022-2023
   members:
     - name: Matthew MacRae-Bovell
