@@ -70,6 +70,11 @@
     {{ $image = print .Params.preview }}{{ end }}
 
 
+  {{ if eq .Params.layout "faq-topic" }}
+    {{ $description = print .Params.description }}
+    {{ $image = print .Params.header_image_url }}{{ end }}
+
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ $url }}" />
