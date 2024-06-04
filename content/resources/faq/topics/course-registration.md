@@ -5,7 +5,7 @@ date: 2024-05-31T00:00:00Z
 draft: false
 url: "/faq/course-registration"
 layout: faq-topic
-header_image_url: https://carleton.ca/registrar/registration/wp-content/uploads/Computer-Science-768x512.jpg
+header_image_url: images/general/game_lab.jpg
 questions:
 - free-vs-breadth-electives
 - comp1405-z-section
