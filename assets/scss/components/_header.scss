@@ -89,7 +89,13 @@
   vertical-align: middle;
 }
 
-body > div.home-header-mobile > div.home-header-card > div.home-header-buttons > a:nth-child(2) > div > div {
+body
+  > div.home-header-mobile
+  > div.home-header-card
+  > div.home-header-buttons
+  > a:nth-child(2)
+  > div
+  > div {
   vertical-align: unset;
 }
 
