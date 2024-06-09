@@ -1,0 +1,36 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="faq-topic__page">
+    <div class="faq-topic__content">
+      <div class="faq-topic__header">
+        <div class="page-section">
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-section-text">{{ .Title }}</div>
+            <div class="page-section-body">
+              {{ .Description }}
+            </div>
+            <a href="#coming-soon"
+              >{{- partial "button.html" (dict "label" "View All FAQ") -}}</a
+            >
+          </div>
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style="background-image: url({{ absURL .Params.header_image_url }})"
+          ></div>
+        </div>
+      </div>
+      <div class="faq-topic__questions">
+        {{ range .Params.questions }}
+          {{ $page := printf "resources/faq/questions/%s" . }}
+          {{ with $.Site.GetPage $page }}
+            <div class="faq-topic__question">
+              <h3>{{ .Title }}</h3>
+              <p>{{ .Params.summary }}</p>
+              {{- partial "read-more.html" (dict "label" "Read More " "link" .RelPermalink) -}}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

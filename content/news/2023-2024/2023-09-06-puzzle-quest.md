@@ -10,7 +10,7 @@ hideBanner: false
 featured: true
 author: Victor Li
 categories:
-- blog
+- news
 ---
 
 ![puzzle](/images/event_posters/2023-2024/puzzle_quest.jpg)

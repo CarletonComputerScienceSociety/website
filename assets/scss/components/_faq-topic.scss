@@ -1,0 +1,57 @@
+.faq-topic {
+  &__page {
+    background: #faf9f8;
+    height: fit-content;
+    padding-bottom: 5rem;
+  }
+
+  &__content {
+    max-width: 65rem;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 2.5rem;
+  }
+
+  &__header {
+    .page-section-image {
+      min-height: 20rem;
+    }
+
+    .page-section {
+      padding: 2rem 0rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  &__question {
+    p {
+      color: #8d8d8d;
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      color: #c40729;
+    }
+
+    a:hover {
+      color: #ff1f48;
+    }
+
+    a:visited {
+      color: #c40729;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__questions {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+  }
+}

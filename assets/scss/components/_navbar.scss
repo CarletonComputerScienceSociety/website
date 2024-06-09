@@ -290,8 +290,7 @@ $navNumOfItemBlocks: 4;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 2px solid #dddddd;
-  // background-color: black;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.025), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
 }
 .navbar {
   display: flex;
@@ -353,7 +352,7 @@ $navNumOfItemBlocks: 4;
     & > li > a {
       // display: block;
       text-decoration: none;
-      padding: 0 15px;
+      padding: 0 0.5vw;
     }
 
     & > li {
@@ -413,8 +412,7 @@ $navNumOfItemBlocks: 4;
 /* movile nav bar */
 .header {
   background: rgb(255, 255, 255);
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #dddddd;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.025), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
   padding-left: calc(5% + 9px);
   padding-right: calc(5% + 9px);
   position: sticky;
