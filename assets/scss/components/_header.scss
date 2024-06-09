@@ -89,6 +89,10 @@
   vertical-align: middle;
 }
 
+body > div.home-header-mobile > div.home-header-card > div.home-header-buttons > a:nth-child(2) > div > div {
+  vertical-align: unset;
+}
+
 .home-header-discord:hover {
   text-decoration: underline;
   color: #ff1f48;
