@@ -7,7 +7,7 @@ preview: "images/event_posters/2022-2023/puzzle_quest_large.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Instructions for the CCSS Puzzle Quest"
 hideBanner: false
-featured: true
+featured: false
 author: Forest Anderson
 categories:
 - news
