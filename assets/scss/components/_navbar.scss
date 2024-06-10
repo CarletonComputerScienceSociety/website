@@ -350,9 +350,8 @@ $navNumOfItemBlocks: 4;
     margin: 0;
 
     & > li > a {
-      // display: block;
       text-decoration: none;
-      padding: 0 0.5vw;
+      padding: 0 15px;
     }
 
     & > li {
@@ -535,7 +534,7 @@ $navNumOfItemBlocks: 4;
   top: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1050px) {
   .navbar-items {
     display: none;
   }
@@ -553,7 +552,7 @@ $navNumOfItemBlocks: 4;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1050px) {
   .navbar-items {
     display: flex;
   }
