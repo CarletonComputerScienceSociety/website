@@ -302,6 +302,8 @@ $navNumOfItemBlocks: 4;
   background-color: white;
   padding-left: calc(5% + 9px);
   padding-right: calc(5% + 9px);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
   a {
     color: inherit;
@@ -352,7 +354,8 @@ $navNumOfItemBlocks: 4;
     & > li > a {
       // display: block;
       text-decoration: none;
-      padding: 0 0.5vw;
+      padding: 0 1.5vw;
+      font-size: large;
     }
 
     & > li {
