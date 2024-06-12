@@ -37,5 +37,11 @@
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: first baseline;
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
