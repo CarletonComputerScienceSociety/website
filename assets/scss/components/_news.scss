@@ -9,9 +9,15 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 415px) and (max-width: 1120px) {
+@media only screen and (min-width: 475px) and (max-width: 1120px) {
   .news-flex-wrapper {
     justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .news-flex-wrapper {
+    justify-content: center;
   }
 }
 
