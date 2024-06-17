@@ -10,6 +10,7 @@ poster_position: "center"
 short_description: "Learn how to build your best schedule and ask your burning questions!"
 start_time: "1:00 - 2:30 PM EST"
 location: "Zoom"
+location_link: "https://carleton-ca.zoom.us/j/93697101003"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-06-16
 tags:
