@@ -8,11 +8,11 @@
   email: john.lu@ccss.carleton.ca
   intro: "Blurb: Hi, I'm John. I'll be your Director of Operations for this year. Let me know if you have any concerns!"
   image: images/executives/john_lu.jpg
-- name: Benjamin Yu
-  role: Director of Academics
-  email: benjamin.yu@ccss.carleton.ca
-  intro: "Hey everyone! My name is Ben Yu and I'm currently a 3rd year student. I'll be your Director of Academics this year, and I can't wait for you guys to see what we have planned. I enjoy playing and listening to all sorts of music in my spare time. Feel free to reach out anytime!"
-  image: images/executives/benjamin_yu.jpg
+- name: Ryan Chung
+  role: Director of Finance
+  email: ryan.chung@ccss.carleton.ca
+  intro: "Hey! I'm Ryan and I'm currently a third year in the Software Engineering stream. In the past I was a First Year Rep, and this year I am the Director of Finance (for the second year in a row)! Feel free to message me for anything!"
+  image: images/executives/ryan_chung.jpg
 - name: Richard Kim
   role: Director of Industry Initiatives
   email: richard.kim@ccss.carleton.ca
@@ -23,13 +23,13 @@
   email: kelly.huang@ccss.carleton.ca
   intro: "Hey! I’m Kelly and I’m a third year with a minor in psychology. Feel free to reach out to me if you ever have any event ideas or need good restaurant suggestions in Ottawa!"
   image: images/executives/kelly_huang.jpg
-- name: Ryan Chung
-  role: Director of Finance
-  email: ryan.chung@ccss.carleton.ca
-  intro: "Hey! I'm Ryan and I'm currently a third year in the Software Engineering stream. In the past I was a First Year Rep, and this year I am the Director of Finance (for the second year in a row)! Feel free to message me for anything!"
-  image: images/executives/ryan_chung.jpg
 - name: Rebecca Kempe
   role: Director of Publications
   email: rebecca.kempe@ccss.carleton.ca
   intro: "Hi! I'm Rebecca and I'm a fourth year student (sort of). I transferred to Carleton from another university and program, so if you're in the same boat and ever want to talk, my DMs are open! Please let me know if there are any resources you'd like to see."
   image: images/executives/rebecca.jpg
+- name: Benjamin Yu
+  role: Director of Academics
+  email: benjamin.yu@ccss.carleton.ca
+  intro: "Hey everyone! My name is Ben Yu and I'm currently a 3rd year student. I'll be your Director of Academics this year, and I can't wait for you guys to see what we have planned. I enjoy playing and listening to all sorts of music in my spare time. Feel free to reach out anytime!"
+  image: images/executives/benjamin_yu.jpg
