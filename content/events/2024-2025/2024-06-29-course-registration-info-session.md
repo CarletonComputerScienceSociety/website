@@ -22,5 +22,3 @@ tags:
 * COMP1405/6 Z Section?
 * Q&A Session with upper years
 * and much much more!
----
-The recording can be found [here](https://www.youtube.com/watch?v=ac9KrkgqlNY), and slides [here](https://docs.google.com/presentation/d/1073AmxoSsAmu4Bzs9gBmJBJdI5-FSK7UqUFj9Gf__eA/edit?usp=sharing).
