@@ -1,7 +1,7 @@
-- title: "CCSS Resources"
-  link: "https://resources.carletoncomputerscience.ca/"
-  color: "#08dd7a"
-  description: "A webpage with all the resources the CCSS has to offer."
+- title: "Questions Repository"
+  link: "https://questions.carletoncomputerscience.ca/comp2804"
+  color: "#e62828"
+  description: "A webpage with practice questions for COMP courses."
   active: true
 - title: "DiscreteMath.ca"
   link: "https://discretemath.ca/"
@@ -10,7 +10,7 @@
   active: true
 - title: "CCSS Magazine"
   link: "http://magazine.carletoncomputersciencesociety.ca/"
-  color: "#e62828"
+  color: "#000000"
   description: "The latest Issue of the CCSS magazine."
   active: true
 
