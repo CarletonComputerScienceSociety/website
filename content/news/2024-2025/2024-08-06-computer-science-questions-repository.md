@@ -7,7 +7,7 @@ preview: "images/news/2024-2025/computer-science-question-repository.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "DiscreteMath.ca is now the Computer Science Question Repository."
 hideBanner: false
-featured: false
+featured: true
 author: John Lu, Matthew MacRae-Bovell, and Nguyen-Hanh Nong
 url: /news/computer-science-question-repository
 categories:
