@@ -22,7 +22,7 @@ DiscreteMath.ca was built and maintained by CCSS executives and volunteers over 
 
 The [Carleton Computer Science Question Repository](https://questions.carletoncomputerscience.ca) is an upgraded version of DiscreteMath.ca built with the idea of eventually supporting more than just COMP 2804 and designed to improve the experience of contributing to the site.
 
-All content for the site is now statictly stored within the [project's repository](https://github.com/CarletonComputerScienceSociety/questions) and the website is redeployed automatically as soon as any contributor merges to master.
+All content for the site is now statically stored within the [project's repository](https://github.com/CarletonComputerScienceSociety/questions) and the website is redeployed automatically as soon as any contributor merges to master.
 
 <br/>
 
