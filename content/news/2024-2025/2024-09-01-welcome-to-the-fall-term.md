@@ -34,7 +34,7 @@ If you're interested in checking out the 2024 orientation slides, click [here](/
 
 ![Brain Games](/images/event_posters/2024-2025/brain_games.jpg)
 
-Kicking off this term, we're thrilled to present CCSS Brain Games as part of SciFrosh! Test your skills with lock picking, escape rooms, and a campus landmark hunt to score the most points before time runs out! The competition starts on September 7th as part of SciFrosh. For more details, you can find additional information about the event [here](/events/2024-2025/2024-09-03-brain-games.md/).
+Kicking off this term, we're thrilled to present CCSS Brain Games as part of SciFrosh! Test your skills with lock picking, escape rooms, and a campus landmark hunt to score the most points before time runs out! The competition starts on September 3rd as part of SciFrosh. For more details, you can find additional information about the event [here](/events/2024-2025/2024-09-03-brain-games/).
 
 # Week of Awesome
 

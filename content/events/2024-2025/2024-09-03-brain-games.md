@@ -11,7 +11,7 @@ short_description: "Compete to see how many escape rooms you can conquer before 
 start_time: "8:00 - 9:30 PM EDT"
 location: "Tory Building (Second Floor)"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2024-08-02
+publishdate: 2024-08-03
 tags:
 - weekofawesome2024
 ---
