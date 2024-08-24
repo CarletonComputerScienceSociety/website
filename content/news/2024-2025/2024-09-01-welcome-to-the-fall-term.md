@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the Fall Term"
-date: 2024-09-01T00:00:00Z
+date: 2024-08-24T00:00:00Z
 draft: false
 layout: overlaypost
 preview: "images/news/2023-2024/orientation_2023.jpg"

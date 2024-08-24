@@ -1,7 +1,7 @@
 ---
 display_title: "SciFrosh: Brain Games"
 title: "SciFrosh: Brain Games"
-date: 2023-09-03T00:00:00Z
+date: 2024-09-03T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2024-2025/brain_games.jpg"
