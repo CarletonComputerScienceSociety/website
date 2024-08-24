@@ -12,4 +12,6 @@ start_time: "8:00 - 9:30 PM EDT"
 location: "Tory Building (Second Floor)"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-08-02
+tags:
+- weekofawesome2024
 ---
