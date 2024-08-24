@@ -21,6 +21,7 @@ Welcome to the Fall Term! We're thrilled to be back and can't wait to bring you 
 - [Orientation 2024](#orientation-2024)
 - [CCSS Brain Games](#ccss-brain-games)
 - [Week of Awesome](#week-of-awesome)
+- [Hack the Tunnels](#hack-the-tunnels)
 - [Volunteer Opportunities](#volunteer-opportunities)
 - [First Year Representative Nominations](#first-year-representative-nominations)
 - [CCSS 2024-2025 Hoodies](#ccss-2024-2025-hoodies)
@@ -40,6 +41,12 @@ Kicking off this term, we're thrilled to present CCSS Brain Games as part of Sci
 ![Week of Awesome](/images/event_posters/2024-2025/week_of_awesome_timeline.jpg)
 
 Week of Awesome is a week-long event taking place from September 8th to September 14th. This exciting event is completely free and open to students of all year levels. For details on all the Week of Awesome events, check out [this page](/events/weekofawesome).
+
+# Hack the Tunnels
+
+![Hack the Tunnels](/images/event_posters/2023-2024/hack_the_tunnels.jpg)
+
+We are exited to be running our second web development hackathon in October. This is a first-year-friendly hackathon, and we have planned this event to ensure that you will do fine even if you have yet to gain programming experience. If you want to join this event, watch out for more information!
 
 # Volunteer Opportunities
 
