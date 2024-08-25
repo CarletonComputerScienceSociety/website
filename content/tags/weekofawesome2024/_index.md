@@ -1,6 +1,6 @@
 ---
 title: "Week of Awesome"
-date: 2020-01-25T23:11:13Z
+date: 2024-08-08T00:00:00Z
 draft: false
 url: "/events/weekofawesome"
 layout: woa

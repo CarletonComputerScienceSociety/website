@@ -24,7 +24,6 @@ Welcome to the Fall Term! We're thrilled to be back and can't wait to bring you 
 - [Hack the Tunnels](#hack-the-tunnels)
 - [Volunteer Opportunities](#volunteer-opportunities)
 - [First Year Representative Nominations](#first-year-representative-nominations)
-- [CCSS 2024-2025 Hoodies](#ccss-2024-2025-hoodies)
 
 # Orientation 2024
 
@@ -44,7 +43,7 @@ Week of Awesome is a week-long event taking place from September 8th to Septembe
 
 # Hack the Tunnels
 
-![Hack the Tunnels](/images/event_posters/2023-2024/hack_the_tunnels.jpg)
+![Hack the Tunnels](/images/event_posters/2024-2025/hack_the_tunnels.jpg)
 
 We are exited to be running our second web development hackathon in October. This is a first-year-friendly hackathon, and we have planned this event to ensure that you will do fine even if you have yet to gain programming experience. If you want to join this event, watch out for more information!
 
@@ -57,11 +56,5 @@ This term, we are looking for a variety of volunteers! Checkout our [volunteer p
 ![First Year Representative Nominations](/images/news/2024-2025/fyr_poster.jpg)
 
 Each year, we elect two First Year Representatives to join our [executive Team](/about/team). If you are in first year and are interested in joining the CCSS Team, checkout our [First Year Representative Nomination Form](https://forms.gle/DG2pWZNh4HBiuk198) for more information or contact an executive member via our [Discord](http://discord.carletoncomputersciencesociety.ca/).
-
-# CCSS 2024-2025 Hoodies
-
-![CCSS Hoodies](/images/news/2023-2024/hoodies.jpg)
-
-We're currently accepting orders for 2024-2025 CCSS hoodies. Be sure to checkout our [Shopify store page](https://carletoncss.myshopify.com) to order your hoodie today!
 
 
