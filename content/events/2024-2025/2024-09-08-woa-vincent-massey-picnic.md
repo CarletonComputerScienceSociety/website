@@ -9,7 +9,7 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Enjoy some time outside with great company and snacks!"
 start_time: "12:30 PM EST"
-location: "Official Site"
+location: "Vincent Massey Park"
 location_link: "https://maps.app.goo.gl/fUW7ciAdk8E2ysRSA"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-08-28
