@@ -9,10 +9,12 @@ poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us to play some fun board games and make new friends!"
 start_time: "7:00 PM EST"
-location: "HP 5345"
-location_link: "#comingsoon"
+location: "Level One Game Pub"
+location_link: "https://levelonegamepub.com/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-08-28
 tags:
 - weekofawesome2024
 ---
+
+Purchase a ticket for the event here: [Level One Game Pub Tickets](https://carletoncss.myshopify.com/products/level-one-game-pub-ticket-september-11th-6-30pm-tax-included)
