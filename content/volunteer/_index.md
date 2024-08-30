@@ -23,7 +23,7 @@ We are currently looking for the following roles for the Fall 2024 semester.
 
 ### 🌟 First Year Representatives
 
-We are also looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](#form).
+We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](#form).
 
 ### 📋 Coordinator Positions
 We are currently looking for three (3) coordinator roles:
