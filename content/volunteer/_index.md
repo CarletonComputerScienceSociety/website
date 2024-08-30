@@ -5,3 +5,106 @@ draft: false
 
 layout: volunteer
 ---
+
+<h1 style="margin-top:-1.5rem">Getting Involved</h1>
+
+We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](#need-link).
+
+Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [info@ccss.carleton.ca](#email) or asking any member of our leadership team.
+
+We understand that university life can be hectic, so we've tailored our volunteer program to offer flexibility. Whether you prefer to contribute at your own pace, help out during events, or take on a leadership role, we have something for everyone.
+
+<br/>
+<hr/>
+
+## Fall 2024 Open Positions
+
+We are currently looking for the following roles for the Fall 2024 semester.
+
+### 🌟 First Year Representatives
+
+We are also looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](#form).
+
+### 📋 Coordinator Positions
+We are currently looking for three (3) coordinator roles:
+- 🛋️ Lounge Coordinator
+- ❤️ Volunteer Experience Coordinator
+- 👕 Merchandise Coordinator
+
+To apply to be a coordinator, please complete the [Fall 2024 Application Form](#form).
+
+<br>
+<hr>
+
+
+## Zero Commitment Volunteering
+
+For those who want to contribute without a firm commitment, these oppurtunities are perfect.
+
+### 🎨 Graphic & Poster Feedback
+
+Assist in the creation and refinement of graphics, posters, and other visual materials by providing your creative input and suggestions inside our Discord workspace.
+  
+### 🎉 Event & Service Logistic Feedback
+
+Help us organize successful events and services by offering feedback on logistics proposals within our Discord workspace.
+
+### 💻 Development: Questions Repository Scripting
+
+Contribute to the [Computer Science Question Repository](https://questions.carletoncomputerscience.ca/comp2804), a project that helps students practice previous midterm and exam questions from Carleton computer science courses. It's a great way to make your first open-source contribution! Check out the [contributing guide](https://github.com/CarletonComputerScienceSociety/questions) to get started.
+
+<br/>
+<hr/>
+
+## On-Call Volunteering
+
+For the following roles, we will reach out to our volunteer mailing list and Discord Workspace as needed. These roles require volunteers to commit to attending a specific time and location.
+
+### 📅 "Day Of" Events Volunteer
+
+Help ensure the success of our events by assisting with setup, cleanup, event registration, and any other tasks that may arise. We commonly need volunteers for large events like hackathons, our End Of Year BBQ, and more.
+
+### 📷 Photographers
+
+Capture the energy and excitement of our events by taking photos that will be shared on our social media channels and website. Photographer volunteers preferably should own their own camera.
+
+### 🗣️ Talk/Workshop Presenter
+
+We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [info@ccss.carleton.ca](#email).
+
+
+<br/>
+<hr/>
+
+## Coordinator Positions
+
+These positions require a commitment of a full semester. Coordinator positions change depending on the needs determined by the leadership team.
+
+### 🛋️ Lounge Coordinator
+
+Oversee the operation of the CCSS lounge, ensuring it's a welcoming space for all students, that our office schedule is maintained, and that our lounge services are running smoothly.
+
+### ❤️ Volunteer Experience Coordinator
+
+Coordinate with our leadership team to delegate tasks to volunteers, document common procedures, and serve as a point of contact for volunteers seeking to get involved.
+
+### 👕 Merchandise Coordinator
+
+Handle the design and distribution of merchandise including clothing, stickers, pins, and anything else you feel would interest the student body.
+
+<br/>
+<hr/>
+
+## Leadership Team Positions
+
+For those who those interested in being involved for the entire year and are interesting in molding the direction of the organization, these roles are perfect for you.
+
+### 📢 Director Positions
+
+Join the [Board of Directors](../about/team/) and help steer the direction of the CCSS. You'll play a key role in decision-making, event planning, and representing the society to the broader community. These positions are elected annually in the winter academic term.
+
+### 🌟 First-Year Representatives
+
+Represent the interests of first-year students on the CCSS Board of Directors. We elect two (2) first year representatives each September.
+
+<br/>
