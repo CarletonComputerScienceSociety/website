@@ -41,15 +41,15 @@ To apply to be a coordinator, please complete the [Fall 2024 Application Form](#
 
 For those who want to contribute without a firm commitment, these oppurtunities are perfect.
 
-### 🎨 Graphic & Poster Feedback
+### 🎨 Graphic & Poster Contributor
 
-Assist in the creation and refinement of graphics, posters, and other visual materials by providing your creative input and suggestions inside our Discord workspace.
+Provide creative input and suggestions inside our Discord workspace to those creating graphics, posters, and other visual materials. 
   
-### 🎉 Event & Service Logistic Feedback
+### 🎉 Event & Service Logistics Contributor
 
-Help us organize successful events and services by offering feedback on logistics proposals within our Discord workspace.
+Share your feedback and suggestions on logistics proposals in our Discord workspace to help us organize successful events and services.
 
-### 💻 Development: Questions Repository Scripting
+### 💻 Development: Questions Repository Contributor
 
 Contribute to the [Computer Science Question Repository](https://questions.carletoncomputerscience.ca/comp2804), a project that helps students practice previous midterm and exam questions from Carleton computer science courses. It's a great way to make your first open-source contribution! Check out the [contributing guide](https://github.com/CarletonComputerScienceSociety/questions) to get started.
 
