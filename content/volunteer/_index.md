@@ -6,11 +6,15 @@ draft: false
 layout: volunteer
 ---
 
-<h1 style="margin-top:-1.5rem">Getting Involved</h1>
+<br/>
+<hr/>
+<br/>
+
+<h1>Getting Involved</h1>
 
 We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](#need-link).
 
-Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [info@ccss.carleton.ca](#email) or asking any member of our leadership team.
+Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [info@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
 
 We understand that university life can be hectic, so we've tailored our volunteer program to offer flexibility. Whether you prefer to contribute at your own pace, help out during events, or take on a leadership role, we have something for everyone.
 
@@ -36,10 +40,9 @@ To apply to be a coordinator, please complete the [Fall 2024 Application Form](#
 <br>
 <hr>
 
-
 ## Zero Commitment Volunteering
 
-For those who want to contribute without a firm commitment, these oppurtunities are perfect.
+For those who want to contribute without a firm commitment, these opportunities are perfect.
 
 ### 🎨 Graphic & Poster Contributor
 
@@ -68,10 +71,20 @@ Help ensure the success of our events by assisting with setup, cleanup, event re
 
 Capture the energy and excitement of our events by taking photos that will be shared on our social media channels and website. Photographer volunteers preferably should own their own camera.
 
-### 🗣️ Talk/Workshop Presenter
+### 🗣️ Talk / Workshop Presenter
 
 We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [info@ccss.carleton.ca](#email).
 
+<br/>
+<hr/>
+
+## Recurring Volunteer Roles
+
+These roles involve commiting to helping weekly or biweekly for likely 1-2 hours.
+
+### 🗄️ Lounge Office Volunteer
+
+Keep our office open and accessible, manage the POS system, and maintain a clean, welcoming atmosphere in the lounge.
 
 <br/>
 <hr/>
