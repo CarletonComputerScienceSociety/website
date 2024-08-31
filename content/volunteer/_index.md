@@ -7,8 +7,6 @@ layout: volunteer
 ---
 
 <br/>
-<hr/>
-<br/>
 
 <h1>Getting Involved</h1>
 
