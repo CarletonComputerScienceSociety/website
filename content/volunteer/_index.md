@@ -12,7 +12,7 @@ layout: volunteer
 
 <h1>Getting Involved</h1>
 
-We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](#need-link).
+We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/xsYLJobBfPVx28vu5).
 
 Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [info@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
 
@@ -27,7 +27,7 @@ We are currently looking for the following roles for the Fall 2024 semester.
 
 ### 🌟 First Year Representatives
 
-We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](#form).
+We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](https://forms.gle/XJU9p1yST5xBG2ni9).
 
 ### 📋 Coordinator Positions
 We are currently looking for three (3) coordinator roles:
@@ -35,7 +35,7 @@ We are currently looking for three (3) coordinator roles:
 - ❤️ Volunteer Experience Coordinator
 - 👕 Merchandise Coordinator
 
-To apply to be a coordinator, please complete the [Fall 2024 Application Form](#form).
+To apply to be a coordinator, please complete the [Fall 2024 Application Form](https://forms.gle/knRGmMjx6C51UWjeA).
 
 <br>
 <hr>
