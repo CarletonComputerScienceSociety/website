@@ -28,8 +28,7 @@ We are currently looking for the following roles for the Fall 2024 semester.
 We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](https://forms.gle/XJU9p1yST5xBG2ni9).
 
 ### 📋 Coordinator Positions
-We are currently looking for three (3) coordinator roles:
-- 🛋️ Lounge Coordinator
+We are currently looking for two (2) coordinator roles:
 - ❤️ Volunteer Experience Coordinator
 - 👕 Merchandise Coordinator
 
