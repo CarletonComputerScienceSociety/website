@@ -1,0 +1,26 @@
+.Volunteer {
+  &__content {
+    margin-bottom: 8rem;
+    max-width: 1100px;
+    margin: auto;
+    padding-left: calc(5% + 9px);
+    padding-right: calc(5% + 9px);
+    font-size: 1.1rem;
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 2.5rem;
+    }
+
+    a {
+      text-decoration: underline;
+      color: #c40729;
+    }
+
+    img {
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+}

@@ -1,12 +1,33 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
   <div class="about-page page">
-    <div class="home-section-grid home-section-dark page-heading">
+    <div class="home-section-grid home-section-dark">
+      <div class="home-section">
+        <div class="page-section">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/images/general/volunteer_2.jpg")'
+          ></div>
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-header-title">VOLUNTEER</div>
+            <div class="page-section-text">Make an Impact.</div>
+            <div class="page-section-body">
+              The Carleton Computer Science Society is creating a variety of CCR
+              accredited volunteer oppurtunities.
+            </div>
+            <a href="https://forms.gle/xsYLJobBfPVx28vu5"
+              >{{- partial "button.html" (dict "label" "Join Mailing List") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="home-section-grid home-section-dark page-heading">
       <div class="home-section">
         <div class="page-section page-section-grid-priority">
           <div
             class="page-section-image page-section-grid-secondary"
-            style='background-image: url("/images/general/volunteer.jpg")'
+            style='background-image: url("/images/general/volunteer_2.jpg")'
           ></div>
           <div class="page-section-content">
             <div class="page-header-title">VOLUNTEER</div>
@@ -16,11 +37,14 @@
               accredited volunteer oppurtunities.
             </div>
             <a href="https://forms.gle/v8JYvEF5a9wj7D6f8"
-              >{{- partial "button.html" (dict "label" "Apply Now") -}}</a
+              >{{- partial "button.html" (dict "label" "Join Mailing List") -}}</a
             >
           </div>
         </div>
       </div>
+    </div> -->
+    <div class="Volunteer__content">
+      {{ .Content }}
     </div>
     <!--
     <div class="home-section-grid home-section-light">
