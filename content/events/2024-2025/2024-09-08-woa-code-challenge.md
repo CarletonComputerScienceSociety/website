@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "New code challenges will release each day of week of awesome!"
 start_time: "Sept 8th - Sept 13th @ Midnight"
 location: "Official Site"
-location_link: "https://code.carletoncomputersciencesociety.ca/"
+location_link: "https://challenge.carletoncomputersciencesociety.ca/"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-08-28
 tags:
