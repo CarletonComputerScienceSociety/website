@@ -16,3 +16,4 @@ publishdate: 2024-08-28
 tags:
 - weekofawesome2024
 ---
+The event slides can be found [here](https://docs.google.com/presentation/d/1G5uImYP-19p-ExrJCSqaIb2bhhA6y7vGBvOzNPRg0zM/edit?usp=sharing)
