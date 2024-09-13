@@ -49,6 +49,10 @@ Provide creative input and suggestions inside our Discord workspace to those cre
 
 Share your feedback and suggestions on logistics proposals in our Discord workspace to help us organize successful events and services.
 
+### ❓ FAQ Contributor (Coming Soon - 2024)
+
+Contribute answers to frequently asked questions to our website. Stay tuned for more details on how you can get involved!
+
 ### 💻 Development: Questions Repository Contributor
 
 Contribute to the [Computer Science Question Repository](https://questions.carletoncomputerscience.ca/comp2804), a project that helps students practice previous midterm and exam questions from Carleton computer science courses. It's a great way to make your first open-source contribution! Check out the [contributing guide](https://github.com/CarletonComputerScienceSociety/questions) to get started.
@@ -70,7 +74,32 @@ Capture the energy and excitement of our events by taking photos that will be sh
 
 ### 🗣️ Talk / Workshop Presenter
 
+We often run tech talk and workshop events, if you enjoy presenting and would like to be contacted when we are looking for presenters, add this option when joining our mailling list.
+
+<br/>
+<hr/>
+
+## Proposal-Based Volunteering
+
+For the following roles, you can submit a proposal and contribute in a way that fits your interests. All proposal-based initatives must be overseen by atleast one leadership team member.
+
+### 🥳 Event Proposal
+
+Do you have an idea for a new event? Whether it's a social gathering, a study group, or something entirely different, we’d love to hear your suggestions. Reach out to us at info@ccss.carleton.ca with your event ideas!
+
+_*A dedicated event proposal form with requirements and a template will be made available in the future._
+
+### ✍️ Article / Resource Proposal
+
+Interested in writing an article or creating a resource to help fellow students? Whether it’s a tutorial, a career guide, or an opinion piece, we welcome submissions that offer value to the community. Send your article or resource ideas to info@ccss.carleton.ca.
+
+_*A dedicated article proposal form with requirements and a template will be made available in the future._
+
+### 🎤 Talk / Workshop Proposal
+
 We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [info@ccss.carleton.ca](#email).
+
+_*A dedicated talk / workshop proposal form with requirements and a template will be made available in the future._
 
 <br/>
 <hr/>
