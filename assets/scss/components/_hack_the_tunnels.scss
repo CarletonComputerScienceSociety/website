@@ -53,7 +53,6 @@
 
   &__card {
     width: 50%;
-    border-radius: 2rem;
     height: 30rem;
     margin: auto;
     padding: 1rem;
@@ -109,10 +108,31 @@
 
 .day1 {
   border: 10px solid #34d3fa;
+  border-radius: 2rem;
 }
 
 .day2 {
-  border: 10px solid #c6006a;
+  border: 5px solid #c6006a;
+  border-radius: 2rem;
+}
+
+.day1-2024 {
+  border: 10px solid #3a309f;
+  border-style: dashed;
+}
+
+.day2-2024 {
+  border-image: linear-gradient(
+      to right,
+      #34d3fa 0%,
+      #8c65fe 40%,
+      #f9df02 75%,
+      #c6006a 100%
+    )
+    1;
+  border-width: 10px;
+  border-style: solid;
+  animation: slidebg 5s linear infinite;
 }
 
 .day1-number {
