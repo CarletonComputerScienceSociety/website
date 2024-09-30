@@ -19,6 +19,53 @@
 .hack-the-tunnels {
   overflow-y: hidden;
 
+  &__gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &-1 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/1.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-2 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/2.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-3 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/4.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-4 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/3.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+  }
+
   &__link {
     color: #34d3fa !important;
   }
