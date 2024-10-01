@@ -1,7 +1,7 @@
 .hack-the-tunnels-page {
   height: 100vh;
   text-align: center;
-  background-color: #01000cf2;
+  background-color: #01000cf8;
 }
 
 .hack-the-tunnels-background-wrap {
@@ -18,6 +18,53 @@
 
 .hack-the-tunnels {
   overflow-y: hidden;
+
+  &__gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &-1 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/1.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-2 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/2.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-3 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/4.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    &-4 {
+      height: 15rem;
+      width: 16rem;
+      background-image: url("/images/event_pics/2023-2024/hack-the-tunnels/3.jpg");
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+  }
 
   &__link {
     color: #34d3fa !important;
@@ -36,10 +83,24 @@
     width: 100%;
   }
 
+  &__logo-2024 {
+    object-fit: cover;
+    width: 100%;
+    max-width: 42rem;
+  }
+
   &__date {
     padding-top: 1.5rem;
     color: white;
     font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__date-2024 {
+    font-size: 1.3rem;
+    padding-top: 4rem;
+    margin-bottom: -1.4rem;
+    color: white;
     font-weight: bold;
   }
 
@@ -48,12 +109,12 @@
     justify-content: space-between;
     gap: 3rem;
     margin: 0 1rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   &__card {
     width: 50%;
-    border-radius: 2rem;
     height: 30rem;
     margin: auto;
     padding: 1rem;
@@ -109,10 +170,39 @@
 
 .day1 {
   border: 10px solid #34d3fa;
+  border-radius: 2rem;
 }
 
 .day2 {
-  border: 10px solid #c6006a;
+  border: 5px solid #c6006a;
+  border-radius: 2rem;
+}
+
+.day1-2024 {
+  border: 7px solid #3a309f;
+  border-style: dashed;
+
+  h1 {
+    font-size: 3.75rem !important;
+  }
+}
+
+.day2-2024 {
+  border-image: linear-gradient(
+      to right,
+      #34d3fa 0%,
+      #8c65fe 40%,
+      #f9df02 75%,
+      #c6006a 100%
+    )
+    1;
+  border-width: 10px;
+  border-style: solid;
+  animation: slidebg 5s linear infinite;
+
+  h1 {
+    font-size: 3.75rem !important;
+  }
 }
 
 .day1-number {
@@ -121,6 +211,14 @@
 
 .day2-number {
   color: #f9df02;
+}
+
+.day1-number-2024 {
+  color: #f9df02;
+}
+
+.day2-number-2024 {
+  color: #78ff3e;
 }
 
 .header-button {
