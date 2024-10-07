@@ -11,11 +11,11 @@
       </div>
       <div class="faq-question__sources">
         {{ with .Params.sources }}
-          <h3>Sources:</h3>
+          <h3>Links and Sources:</h3>
           {{ range $index, $source := . }}
             <p>
-              <a href="{{ $source.link }}">({{ add $index 1 }})</a>
-              {{ $source.name }}
+              ({{ add $index 1 }})
+              <a href="{{ $source.link }}">{{ $source.name }}</a>
             </p>
           {{ end }}
         {{ end }}
