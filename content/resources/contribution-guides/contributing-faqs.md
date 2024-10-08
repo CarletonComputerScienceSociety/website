@@ -23,6 +23,8 @@ Sample completed FAQ page - [What is a Breadth elective vs a Free elective](http
 
 [Resources Contributions Project Board](https://github.com/orgs/CarletonComputerScienceSociety/projects/22)
 
+Change the status on the Project Board from `Todo` to `In Progress`
+
 ## 2. Locate the empty markdown file
 
 You can find the FAQ markdown files here: `content/resources/faq/questions`
@@ -60,5 +62,7 @@ You can refer to a completed FAQ file to get an idea of how to include links
 ## 6. Make a Pull Request with the completed FAQ file
 
 If you are not familiar with using Git/Github, check out this guide - [Intro to Git and Github](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+
+Change the status of the FAQ on the Project Board to `For Review`
 
 
