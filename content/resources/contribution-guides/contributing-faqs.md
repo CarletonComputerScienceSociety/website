@@ -3,10 +3,10 @@
 FAQs can be be viewed here - [ccss.carleton.ca/faq/course-registration/](https://ccss.carleton.ca/faq/course-registration/)
 
 FAQ Topic Page:
-<img src="static/images/resources/faqs/faq-page.png"/>
+<img src="../static/images/resources/faqs/faq-page.png"/>
 
 Sample FAQ: 
-<img src="static/images/resources/faqs/sample-faq.png"/>
+<img src="../static/images/resources/faqs/sample-faq.png"/>
 
 <br/>
 
