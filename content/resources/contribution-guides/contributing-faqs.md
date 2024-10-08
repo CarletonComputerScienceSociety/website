@@ -49,7 +49,7 @@ You can find the FAQ markdown files here: `content/resources/faq/questions`
 
 - FAQs are intended to summarise relevant information as concisely as possible. Try to stick to **100-200 words**. 
 - Don't rewrite things that have already been explained by the School of Computer Science or Carleton University webpages. You can include a short summary or quote and then link to their webpages.
-- The ticket on the project board corresponding to your FAQ will highlight some information that should be covered by your answer.
+- The ticket on the project board corresponding to your FAQ will highlight some information that should be covered by your answer. You can add any other information you think is useful but anything highlighted there must be included. 
 
 ## 5. Format your answer with markdown
 
