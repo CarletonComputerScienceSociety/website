@@ -3,17 +3,10 @@
 FAQs can be be viewed here - [ccss.carleton.ca/faq/course-registration/](https://ccss.carleton.ca/faq/course-registration/)
 
 FAQ Topic Page:
-<<<<<<< HEAD
 <img src="/static/images/resources/faqs/faq-page.png"/>
 
 Sample FAQ: 
 <img src="/static/images/resources/faqs/sample-faq.png"/>
-=======
-<img src="static/images/resources/faqs/faq-page.png"/>
-
-Sample FAQ: 
-<img src="static/images/resources/faqs/sample-faq.png"/>
->>>>>>> d0b7807ce (add faq contribution guide)
 
 <br/>
 
@@ -30,11 +23,8 @@ Sample completed FAQ page - [What is a Breadth elective vs a Free elective](http
 
 [Resources Contributions Project Board](https://github.com/orgs/CarletonComputerScienceSociety/projects/22)
 
-<<<<<<< HEAD
-Change the status on the Project Board from `Todo` to `In Progress`
+Leave a comment under the FAQ ticket indicating that you're working on it. 
 
-=======
->>>>>>> d0b7807ce (add faq contribution guide)
 ## 2. Locate the empty markdown file
 
 You can find the FAQ markdown files here: `content/resources/faq/questions`
@@ -61,11 +51,8 @@ You can find the FAQ markdown files here: `content/resources/faq/questions`
 
 - FAQs are intended to summarise relevant information as concisely as possible. Try to stick to **100-200 words**. 
 - Don't rewrite things that have already been explained by the School of Computer Science or Carleton University webpages. You can include a short summary or quote and then link to their webpages.
-<<<<<<< HEAD
 - The ticket on the project board corresponding to your FAQ will highlight some information that should be covered by your answer. You can add any other information you think is useful but anything highlighted there must be included. 
-=======
 - The ticket on the project board corresponding to your FAQ will highlight some information that should be covered by your answer.
->>>>>>> d0b7807ce (add faq contribution guide)
 
 ## 5. Format your answer with markdown
 
@@ -76,10 +63,4 @@ You can refer to a completed FAQ file to get an idea of how to include links
 ## 6. Make a Pull Request with the completed FAQ file
 
 If you are not familiar with using Git/Github, check out this guide - [Intro to Git and Github](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-
-<<<<<<< HEAD
-Change the status of the FAQ on the Project Board to `For Review`
-
-=======
->>>>>>> d0b7807ce (add faq contribution guide)
 
