@@ -5,6 +5,7 @@
 
 #team_flex_box {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
@@ -12,6 +13,23 @@
   max-width: 85rem;
   margin: auto;
   width: 100%;
+}
+
+.team-row {
+  display: flex;
+  gap: 30px;
+}
+
+.team-row-4 {
+  flex-wrap: wrap;
+}
+
+.team-row-3 {
+  flex-wrap: wrap;
+}
+
+.team-row-2 {
+  flex-wrap: wrap;
 }
 
 .past {
