@@ -1,7 +1,7 @@
 ---
 id: "add-css-animation"
 order: 23
-title: "Create A CSS Animation"
+title: "9. Create A CSS Animation"
 points: 5
 difficulty: Intermediate
 category: Frontend

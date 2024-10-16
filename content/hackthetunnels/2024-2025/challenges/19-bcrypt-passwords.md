@@ -1,7 +1,7 @@
 ---
 id: "bcrypt-passwords"
 order: 19
-title: "Bcrypt Passwords"
+title: "24. Bcrypt Passwords"
 points: 8
 difficulty: Beginner Friendly
 category: Security

@@ -1,7 +1,7 @@
 ---
 id: "scheduled-event-page-caching"
 order: 22
-title: "Scheduled Event Page With Redis"
+title: "21. Scheduled Event Page With Redis"
 points: 8
 difficulty: Complex
 category: Fullstack

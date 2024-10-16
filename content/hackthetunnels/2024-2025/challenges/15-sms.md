@@ -1,7 +1,7 @@
 ---
 id: "sms"
 order: 15
-title: "Send Text When Timetable Is Created"
+title: "16. Send Text When Timetable Is Created"
 points: 7
 difficulty: Intermediate
 category: Backend

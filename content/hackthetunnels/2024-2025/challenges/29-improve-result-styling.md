@@ -1,7 +1,7 @@
 ---
 id: "improve-result-styling"
 order: 7
-title: "Improve Search Result Styling"
+title: "6. Improve Search Result Styling"
 points: 6
 difficulty: Intermediate
 category: Frontend

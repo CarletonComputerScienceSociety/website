@@ -1,7 +1,7 @@
 ---
 id: "e2e-sequence-diagram"
 order: 5
-title: "Sequence Diagram"
+title: "27. Sequence Diagram"
 points: 5
 difficulty: Beginner Friendly
 category: Diagrams

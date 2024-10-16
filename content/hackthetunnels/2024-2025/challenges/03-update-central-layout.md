@@ -1,7 +1,7 @@
 ---
 id: "update-central-layout"
 order: 3
-title: "Update Central Layout"
+title: "3. Update Central Layout"
 points: 7
 difficulty: Beginner Friendly
 category: Frontend

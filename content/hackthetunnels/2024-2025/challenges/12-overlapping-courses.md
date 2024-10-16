@@ -1,7 +1,7 @@
 ---
 id: "overlapping-courses"
 order: 1
-title: "Prevent Overlapping Events"
+title: "10. Prevent Overlapping Events"
 points: 6
 difficulty: Beginner Friendly
 category: Backend

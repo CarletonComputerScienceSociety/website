@@ -1,7 +1,7 @@
 ---
 id: "hello-world"
 order: 1
-title: "Hello World: Update Page Title"
+title: "0. Hello World: Update Page Title"
 points: 1
 difficulty: Beginner Friendly (Start here)
 category: Frontend

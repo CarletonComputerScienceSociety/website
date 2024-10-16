@@ -1,7 +1,7 @@
 ---
 id: "registration-count-report"
 order: 10
-title: "Generate Recurring Report"
+title: "13. Generate Recurring Report"
 points: 6
 difficulty: Intermediate
 category: Backend

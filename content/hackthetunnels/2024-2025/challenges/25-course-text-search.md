@@ -1,7 +1,7 @@
 ---
 id: "course-text-search"
 order: 25
-title: "Course Elastic Search"
+title: "22. Course Elastic Search"
 points: 11
 difficulty: Complex
 category: Fullstack

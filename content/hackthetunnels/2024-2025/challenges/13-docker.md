@@ -1,7 +1,7 @@
 ---
 id: "docker"
 order: 13
-title: "Dockerize Client and Service"
+title: "26. Dockerize Client and Service"
 points: 10
 difficulty: Intermediate
 category: DevOps

@@ -1,7 +1,7 @@
 ---
 id: "name-timetables"
 order: 3
-title: "Save Timetable Name"
+title: "2. Save Timetable Name"
 points: 4
 difficulty: Beginner Friendly
 category: Frontend

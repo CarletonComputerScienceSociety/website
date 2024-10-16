@@ -1,7 +1,7 @@
 ---
 id: "redesign-404-page"
 order: 4
-title: "Redesign 404 Page"
+title: "4. Redesign 404 Page"
 points: 3
 difficulty: Beginner Friendly
 category: Frontend

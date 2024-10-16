@@ -1,7 +1,7 @@
 ---
 id: "github-actions-prettier"
 order: 1
-title: "Set Up GitHub Actions for Prettier"
+title: "25. Set Up GitHub Actions for Prettier"
 points: 3
 difficulty: Beginner Friendly
 category: DevOps

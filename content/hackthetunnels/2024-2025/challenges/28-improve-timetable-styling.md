@@ -1,7 +1,7 @@
 ---
 id: "improve-timetable-styling"
 order: 5
-title: "Improve Timetable Styling"
+title: "5. Improve Timetable Styling"
 points: 6
 difficulty: Intermediate
 category: Frontend

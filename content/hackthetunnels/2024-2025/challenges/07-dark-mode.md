@@ -1,7 +1,7 @@
 ---
 id: "dark-mode"
 order: 7
-title: "Dark Mode"
+title: "7. Dark Mode"
 points: 5
 difficulty: Beginner Friendly
 category: Frontend

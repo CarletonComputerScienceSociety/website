@@ -1,7 +1,7 @@
 ---
 id: "webscraper-course-data"
 order: 11
-title: "Course Data Web Scraper"
+title: "14. Course Data Web Scraper"
 points: 10
 difficulty: Intermediate
 category: Backend

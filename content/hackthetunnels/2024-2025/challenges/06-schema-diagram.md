@@ -1,7 +1,7 @@
 ---
 id: "schema-diagram"
 order: 6
-title: "Entity Relationship Diagram"
+title: "28. Entity Relationship Diagram"
 points: 3
 difficulty: Beginner Friendly
 category: Diagrams

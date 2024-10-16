@@ -1,7 +1,7 @@
 ---
 id: "email-timetable"
 order: 9
-title: "Send Email On Timetable Create"
+title: "12. Send Email On Timetable Create"
 points: 8
 difficulty: Intermediate
 category: Backend

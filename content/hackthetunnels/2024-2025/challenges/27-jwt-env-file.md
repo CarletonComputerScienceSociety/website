@@ -1,7 +1,7 @@
 ---
 id: "jwt-env-file"
 order: 1
-title: "Move JWT Secret to .env"
+title: "23. Move JWT Secret to .env"
 points: 3
 difficulty: Beginner Friendly
 category: Security

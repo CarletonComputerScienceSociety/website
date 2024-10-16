@@ -1,7 +1,7 @@
 ---
 id: "redesign-login-page"
 order: 2
-title: "Create Your Own Login Page"
+title: "1. Create Your Own Login Page"
 points: 6
 difficulty: Beginner Friendly
 category: Frontend

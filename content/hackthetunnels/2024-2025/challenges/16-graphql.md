@@ -1,7 +1,7 @@
 ---
 id: "graphql-api-implementation"
 order: 16
-title: "Create a GraphQL API"
+title: "17. Create a GraphQL API"
 points: 10
 difficulty: Intermediate
 category: Backend

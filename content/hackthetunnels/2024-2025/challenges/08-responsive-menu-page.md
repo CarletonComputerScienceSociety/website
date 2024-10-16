@@ -1,7 +1,7 @@
 ---
 id: "carleton-central-responsive-menu"
 order: 8
-title: "Responsive Menu Page"
+title: "8. Responsive Menu Page"
 points: 5
 difficulty: Intermediate
 category: Frontend

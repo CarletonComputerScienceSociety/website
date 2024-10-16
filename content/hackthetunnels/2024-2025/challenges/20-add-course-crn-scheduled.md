@@ -1,7 +1,7 @@
 ---
 id: "add-course-crn-scheduled"
 order: 20
-title: "Search Course by CRN"
+title: "20. Search Course by CRN"
 points: 5
 difficulty: Intermediate
 category: Fullstack

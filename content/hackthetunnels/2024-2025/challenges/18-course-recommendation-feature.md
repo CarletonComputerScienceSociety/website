@@ -1,7 +1,7 @@
 ---
 id: "course-recommendation-feature"
 order: 18
-title: "Course Recommendation"
+title: "19. Course Recommendation"
 points: 8
 difficulty: Intermediate
 category: Fullstack

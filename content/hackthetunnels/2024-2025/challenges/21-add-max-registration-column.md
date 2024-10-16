@@ -1,7 +1,7 @@
 ---
 id: "add-max-registration-column"
 order: 2
-title: "Add Max Registration Column to Scheduled Events"
+title: "11. Add Max Registration Column to Scheduled Events"
 points: 3
 difficulty: Beginner Friendly
 category: Backend
