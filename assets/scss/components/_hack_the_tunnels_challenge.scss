@@ -1,0 +1,117 @@
+.hack-the-tunnels-challenge-page {
+  min-height: 100vh;
+  height: fit-content;
+
+  text-align: left;
+  background-color: #020012;
+  color: white;
+
+  .frontend {
+    &:hover {
+      background-color: #34d3fa;
+      cursor: pointer;
+    }
+  }
+
+  .backend {
+    &:hover {
+      background-color: #f3da00;
+      cursor: pointer;
+    }
+  }
+
+  .fullstack {
+    &:hover {
+      background-color: #8c65fe;
+      cursor: pointer;
+    }
+  }
+
+  .security {
+    &:hover {
+      background-color: #c6006a;
+      cursor: pointer;
+    }
+  }
+
+  .diagrams {
+    &:hover {
+      background-color: #ffbb3e;
+      cursor: pointer;
+    }
+  }
+
+  .devops {
+    &:hover {
+      background-color: #78ff3e;
+      cursor: pointer;
+    }
+  }
+
+  hr {
+    width: 100%;
+    opacity: 0.25;
+  }
+
+  &__categories {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  &__category {
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.2rem;
+    background-color: #363636;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+
+    a {
+      color: white !important;
+    }
+  }
+
+  &__challenge {
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    padding: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    code {
+      background-color: #363636;
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.2rem;
+    }
+
+    a {
+      color: #78ff3e;
+      text-decoration: none;
+
+      code {
+        background-color: #2c2c2c;
+        color: #78ff3e;
+        padding: 0.2rem 0.5rem;
+        border-radius: 0.2rem;
+      }
+    }
+  }
+
+  &__logo {
+    object-fit: cover;
+    width: 15rem;
+    // margin: 0 auto;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    margin-bottom: 3rem;
+  }
+}

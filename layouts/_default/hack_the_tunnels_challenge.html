@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="hack-the-tunnels-challenge-page">
+    <div class="hack-the-tunnels-challenge-page__content">
+      <a href="/hackthetunnels/2024-2025/challenges">
+        <img
+          class="hack-the-tunnels-challenge-page__logo"
+          src="/images/hack-the-tunnels-2024.png"
+        />
+      </a>
+      <h1>{{ .Title }} (Points: {{ .Params.points }})</h1>
+
+      <div>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}
