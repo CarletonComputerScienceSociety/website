@@ -1,0 +1,107 @@
+{{ define "main" }}
+  <div class="hack-the-tunnels-challenge-page">
+    <div class="hack-the-tunnels-challenge-page__content">
+      <a href="/hackthetunnels">
+        <img
+          class="hack-the-tunnels-challenge-page__logo"
+          src="/images/hack-the-tunnels-2024.png"
+        />
+      </a>
+      <h1 style="text-align: center">✨ Challenges ✨</h1>
+      <br />
+      <div class="hack-the-tunnels-challenge-page__categories">
+        <a href="#frontend"></a>
+          <div class="hack-the-tunnels-challenge-page__category frontend">
+            🎨 Frontend
+          </div>
+        </a>
+        <a href="#backend">
+          <div class="hack-the-tunnels-challenge-page__category backend">
+            🛠️ Backend
+          </div>
+        </a>
+        <a href="#fullstack">
+          <div class="hack-the-tunnels-challenge-page__category fullstack">
+            👨‍💻 Fullstack
+          </div>
+        </a>
+        <a href="#security">
+          <div class="hack-the-tunnels-challenge-page__category security">
+            🔒 Security
+          </div>
+        </a>
+        <a href="#devops">
+          <div class="hack-the-tunnels-challenge-page__category devops">
+            🚢 DevOps
+          </div>
+        </a>
+        <a href="#diagrams">
+          <div class="hack-the-tunnels-challenge-page__category diagrams">
+            📊 Diagrams
+          </div>
+        </a>
+      </div>
+      <br />
+      <hr />
+      <div>
+        <h2 id="frontend">🎨 Frontend</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "Frontend").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+      <hr />
+      <div>
+        <h2 id="backend">🛠️ Backend</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "Backend").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+      <hr />
+      <div>
+        <h2 id="fullstack">👨‍💻 Fullstack</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "Fullstack").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+      <hr />
+      <div>
+        <h2 id="security">🔒 Security</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "Security").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+      <hr />
+      <div>
+        <h2 id="devops">🚢 DevOps</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "DevOps").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+      <hr />
+      <div>
+        <h2 id="diagrams">📊 Diagrams</h2>
+        {{ range (where (where .Site.RegularPages "Section" "hackthetunnels") "Params.category" "Diagrams").ByParam "order" }}
+          <div class="hack-the-tunnels-challenge-page__challenge">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h4>Points: {{ .Params.points }} • {{ .Params.difficulty }}</h4>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
