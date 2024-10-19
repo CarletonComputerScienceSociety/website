@@ -14,9 +14,24 @@ preview: "images/event_posters/2023-2024/hack_the_tunnels.jpg"
 
 Create a web scraper that extracts course data from the [Carleton Central schedule page](https://central.carleton.ca/prod/bwysched.p_select_term?wsea_code=EXT). The scraper should retrieve details such as course codes, titles, and available sections for a given term.
 
-If you're not sure where to get started, see this [guide.
-](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/)
-<br/>
+If you're not sure where to get started, here is some starter code:
+
+```typescript
+import axios from 'axios';
+import * as cheerio from 'cheerio';  // Use this syntax for compatibility
+
+const scrapeData = async () => {
+  const { data } = await axios.get('https://central.carleton.ca/prod/bwysched.p_select_term?wsea_code=EXT');
+  console.log(data);  // Logs raw HTML content
+  
+  const $ = cheerio.load(data);  // Initialize Cheerio with loaded HTML
+  console.log($('title').text());  // Example: Print the <title> content
+};
+
+scrapeData();
+```
+
+To run this code, you'll have to `npm i axios` and `npm i cheerio`.
 
 ## Acceptance Criteria:
 
