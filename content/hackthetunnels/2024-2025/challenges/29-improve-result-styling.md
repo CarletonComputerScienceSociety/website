@@ -12,7 +12,7 @@ layout: hack_the_tunnels_challenge
 preview: "images/event_posters/2023-2024/hack_the_tunnels.jpg"
 ---
 
-Enhance the **styling** of the "course results" on the BuildTimetable. 
+Enhance the **styling** of the "course results" on the [BuildTimetable](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/8f7769a7223bb3e2ac4e95ced1f64373444fd838/client/src/pages/BuildTimetable/BuildTimetable.tsx) page. 
 
 This refers to the ui that displays search results for scheduled events. 
 

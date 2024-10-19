@@ -17,6 +17,8 @@ On the BuildTimetable page, add UI that allows the user to search for courses by
 
 To query the backend, you can either add new program [query parameter](https://www.branch.io/glossary/query-parameters/#:~:text=Query%20parameters%20are%20a%20defined,web%20server%20when%20making%20requests.) to the `/scheduledEvents` endpoint or create a new endpoint.
 
+Both of these would involve modifications to the [scheduleEventsRouter](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/8a57926575f6d4c35565d84971337e505cab96a9/service/src/api/routes/scheduledEvents.ts).
+
 ## Acceptance Criteria:
 
 The participant can demostrate the different results are returned for each selected program.

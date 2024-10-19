@@ -2,7 +2,7 @@
 id: "improve-timetable-styling"
 order: 5
 title: "5. Improve Timetable Styling"
-points: 6
+points: 7
 difficulty: Intermediate
 category: Frontend
 date: 2024-10-14T23:11:13Z
@@ -12,7 +12,11 @@ layout: hack_the_tunnels_challenge
 preview: "images/event_posters/2023-2024/hack_the_tunnels.jpg"
 ---
 
-Improve the user experience by updating the **styling** of the [`<Timetable/>`](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/main/client/src/components/Timetable/Timetable.tsx) component to make it more visually appealing and user-friendly. You can enhance the layout, colors, spacing, and overall design to improve clarity and usability for students.
+Improve the user experience by updating the **styling** of the [`<Timetable/>`](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/main/client/src/components/Timetable/Timetable.tsx) component to make it more visually appealing and user-friendly. 
+
+You can enhance the layout, colors, spacing, and overall design to improve clarity and usability for students.
+
+This component has definitely got some "spaghetti code". Have Fun :)
 
 <br/>
 

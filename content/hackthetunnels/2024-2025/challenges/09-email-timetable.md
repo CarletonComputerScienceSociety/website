@@ -14,7 +14,9 @@ preview: "images/event_posters/2023-2024/hack_the_tunnels.jpg"
 
 When a student creates a timetable, an email should be sent to the student's email address containing details of their newly created timetable.
 
-You can use any library to achieve this. If you're unsure where to start, this [guide](https://medium.com/@y.mehnati_49486/how-to-send-an-email-from-your-gmail-account-with-nodemailer-837bf09a7628) demonstrates how to send emails using `nodemailer` with Gmail.
+You can use any library to achieve this. If you're unsure where to start, this [guide](https://medium.com/@y.mehnati_49486/how-to-send-an-email-from-your-gmail-account-with-nodemailer-837bf09a7628) demonstrates how to send emails using `nodemailer` with the Gmail SMTP server.
+
+Timetable creation is handled in the Timetable Service ([service/src/services/Timetable.ts](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/main/service/src/services/Timetable.ts)) inside the `createTimetable` method.
 
 <br/>
 

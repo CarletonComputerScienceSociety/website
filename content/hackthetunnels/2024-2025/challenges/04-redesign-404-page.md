@@ -25,5 +25,3 @@ Checkout: [`client/src/pages/NotFound/NotFound.tsx`](https://github.com/Carleton
 The new page must have more than just the text "404".
 
 If you can't think of any better improvements, just put a funny gif or something you feel represents the goal of this page.
-
-Bonus points are allowed to be given if it is obvious the team has put significant effort into overhauling the 404 page.

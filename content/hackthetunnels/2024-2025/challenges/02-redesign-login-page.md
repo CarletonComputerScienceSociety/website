@@ -31,5 +31,3 @@ The new login page must satisfy atleast (2) of these (4) possible criteria:
 - Improve the "error message" styling. Ex: The message that appears when you enter a wrong email-password combination
 
 Additionally, the team must demonstrate that their sign in inputs are not hardcoded with values of `admin@email.com` and `password`. 
-
-Bonus points are allowed to be given if it is obvious the team has put significant effort into overhauling the login page.

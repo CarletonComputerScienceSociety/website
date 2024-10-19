@@ -18,6 +18,8 @@ The feature should include validation to ensure the CRN is valid and exists in t
 
 To query the backend, you can either add new CRN [query parameter](https://www.branch.io/glossary/query-parameters/#:~:text=Query%20parameters%20are%20a%20defined,web%20server%20when%20making%20requests.) to the `/scheduledEvents` endpoint or create a new endpoint.
 
+Both of these would involve modifications to the [scheduleEventsRouter](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/8a57926575f6d4c35565d84971337e505cab96a9/service/src/api/routes/scheduledEvents.ts).
+
 <br/>
 
 ## Acceptance Criteria:

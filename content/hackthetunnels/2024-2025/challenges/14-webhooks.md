@@ -18,6 +18,8 @@ Your task is to configure the backend so that, upon the occurrence of {x} event,
 
 You can use any library or method to send the HTTP request to the Discord webhook URL.
 
+Timetable creation is handled in the Timetable Service ([service/src/services/Timetable.ts](https://github.com/CarletonComputerScienceSociety/hack-the-tunnels-starter-2024/blob/main/service/src/services/Timetable.ts)) inside the `createTimetable` method.
+
 <br/>
 
 ## Acceptance Criteria:

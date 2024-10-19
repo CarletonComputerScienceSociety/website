@@ -59,5 +59,3 @@ The new layout must satisfy (3) of the (5) following criteria
 - Improve the "page title" styling (see `Central__page__title`)
 - Create an improved footer (see `Central__page__footer`)
 - Update the colors used in the layout (see `client/src/globals.scss`)
-
-Bonus points are allowed to be given if it is obvious the team has put significant effort into overhauling the login page.
