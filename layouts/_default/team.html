@@ -1,17 +1,9 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
   <div id="team_flex_box">
-    {{ $counter := 0 }}
     {{ range $.Site.Data.current_team }}
-      {{ if eq $counter 0 }}<div class="team-row team-row-4">{{ end }}
-      {{ if eq $counter 4 }}</div><div class="team-row team-row-3">{{ end }}
-      {{ if eq $counter 7 }}</div><div class="team-row team-row-2">{{ end }}
-      
       {{- partial "team_card.html" (dict "name" .name "role" .role "email" .email "intro" .intro "image" .image ) -}}
-      
-      {{ $counter = add $counter 1 }}
     {{ end }}
-    </div>
   </div>
   <div class="see-more">
     <a href="/about/team/past/">See Previous Teams...</a>
