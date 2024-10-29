@@ -3,7 +3,7 @@ title: "Carleton Computer Science Society Levy Referendum"
 date: 2024-10-29T00:00:00Z
 draft: false
 layout: overlaypost
-preview: "images/news/2024-2025/computer-science-question-repository.jpg"
+preview: "/images/news/2024-2025/levy/levy-graphic-poster.PNG"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Vote to shape the future of Carleton's Computer Science community!"
 hideBanner: false
@@ -13,6 +13,8 @@ url: /news/carleton-computer-science-society-levy-referendum
 categories:
 - announcement
 ---
+
+![levy-graphic-poster](/images/news/2024-2025/levy/levy-graphic-poster.PNG)
 
 Over the past decade, Carleton’s Computer Science program has grown rapidly and our student population has tripled.  However, funding for the initiatives that enhance your university experience, especially those tailored for computer science students, has not kept pace.
 
