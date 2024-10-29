@@ -140,7 +140,7 @@ If you have any questions feel free to contact us at [info@ccss.carleton.ca](mai
 
 1. [Referendum question - Carleton Computer Science Society Levy](https://students.carleton.ca/referendum/#:~:text=Question%3A%20Carleton%20Computer%20Science%20Society%20Levy)
 2. [OIRP student enrolment data](https://oirp.carleton.ca/databook/index/html/student-enrolment.htm)
-3. [Other student society levy fees](https://carleton.ca/studentaccounts/tuition-fees/fw-ug/f24w25-ug-ontario/)
+3. [Other student society levy fees](https://carleton.ca/studentaccounts/tuition-fees/fw-ug/f24w25-ug-ontario/#:~:text=operative%20Education%20Program.-,Miscellaneous%20Fees,-Included%20in%20the)
 
 
 
