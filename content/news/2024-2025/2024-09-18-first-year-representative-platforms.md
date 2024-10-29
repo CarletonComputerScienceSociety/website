@@ -7,7 +7,7 @@ preview: "/images/news/2024-2025/fyr_poster_2024.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Our first year representative campaigning period has begun!"
 hideBanner: false
-featured: true
+featured: false
 author: Aditya "Jacc" Padmakar
 url: /news/first-year-rep-platforms-2024
 year: 2024-2025
