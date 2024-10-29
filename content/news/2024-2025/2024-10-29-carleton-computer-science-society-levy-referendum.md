@@ -26,7 +26,7 @@ Please make sure to vote on **November 12th-13th**, 2024 via the online ballot s
 
 <br/>
 
-## How is our funding used?
+## How is Our Funding Used?
 
 The CCSS budget supports a wide range of [initiatives](https://ccss.carleton.ca/events/) that enhance student life, offer career development, and foster academic success, including:
 
@@ -64,7 +64,7 @@ Last year we had 14 events and required a budget of $600+.
 
 <br/>
 
-## Why do we need the levy?
+## Why Do We Need the Levy?
 
 As the Computer Science program grows, so does the demand for events, services, and support. Without adequate funding, it’s becoming harder to maintain the quality and quantity of these offerings. The proposed levy would provide the consistent financial support needed to meet these demands and ensure that the CCSS can continue enriching your university experience.
 
@@ -90,7 +90,7 @@ This system limits our ability to plan larger events and forces us to scale back
 
 <br/>
 
-## How does our proposed levy compare to other societies?
+## How Does Our Proposed Levy Compare to Other Societies?
 
 Many other student societies collect significantly larger levies, providing them with hundreds of thousands of dollars in funding annually. In comparison, our proposed levy of $2.50 per term, applied to 2,214 full-time Computer Science students (2023-2024), would raise approximately $11,000 per year. This modest amount would allow us to sustain and expand our services while keeping costs affordable for students.
 
@@ -98,7 +98,7 @@ Many other student societies collect significantly larger levies, providing them
 
 <br/>
 
-## How would we spend our new funds?
+## How Would We Spend Our New Funds?
 
 If the majority votes in favor of the levy, our new budget will focus on the following priorities:
 
