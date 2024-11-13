@@ -2,7 +2,7 @@
 display_title: "Bob Ross Paint Night"
 title: "Bob Ross Paint Night"
 date: 2024-11-20T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "images/event_posters/2024-2025/bob-ross-paint-night-november.PNG"
 poster_cover: "contain"
