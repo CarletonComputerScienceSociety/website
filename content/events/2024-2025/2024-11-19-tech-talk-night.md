@@ -2,7 +2,7 @@
 display_title: "Tech Talk Night"
 title: "Tech Talk Night"
 date: 2024-11-19T00:00:00Z
-draft: true
+draft: false
 layout: event
 poster: "images/event_posters/2024-2025/tech-talk-night-november.PNG"
 poster_cover: "contain"
