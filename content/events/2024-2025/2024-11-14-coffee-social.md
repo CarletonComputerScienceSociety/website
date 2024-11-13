@@ -4,7 +4,7 @@ title: "Coffee Social"
 date: 2024-11-14T00:00:00Z
 draft: false
 layout: event
-poster: "images/event_posters/2024-2025/coffee-social-november.png"
+poster: "images/event_posters/2024-2025/coffee-social-november.PNG"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Come chat, grab a coffee or a bite to eat at our coffee social!"
