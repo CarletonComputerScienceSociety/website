@@ -1,6 +1,6 @@
 ---
 title: "Victor's Platform"
-date: 2022-02-27-T00:00:00Z
+date: 2022-02-27T00:00:00Z
 draft: false
 name: "Victor Li"
 position: "President"
