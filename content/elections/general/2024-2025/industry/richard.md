@@ -1,6 +1,6 @@
 ---
 title: "Richards's Platform"
-date: 2024-02-26-T00:00:00Z
+date: 2024-02-26T00:00:00Z
 draft: false
 name: "Richard Kim"
 position: "Director of Industry Initiatives"

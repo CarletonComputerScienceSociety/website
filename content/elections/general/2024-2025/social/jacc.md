@@ -1,6 +1,6 @@
 ---
 title: "Jacc's Platform"
-date: 2024-02-26-T00:00:00Z
+date: 2024-02-26T00:00:00Z
 draft: false
 name: 'Aditya "Jacc" Padmakar'
 position: "Director of Social"
