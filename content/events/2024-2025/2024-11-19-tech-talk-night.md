@@ -15,10 +15,10 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2024-11-12
 ---
 
-Rebecca's Presentation: [link](\pdfs\2024-2025\CCSS_Tech_Talk_RKempe_condensed.pdf).
+Rebecca's Presentation: [link](/pdfs/2024-2025/CCSS_Tech_Talk_RKempe_condensed.pdf)
 
-Alan's Presentation: [link](\pdfs\2024-2025\Introduction_to_R_Programming_Slides.pdf). 
+Alan's Presentation: [link](/pdfs/2024-2025/Introduction_to_R_Programming_Slides.pdf) 
 
-Spencer's Presentation: [link](\pdfs\2024-2025\SCraig_CS-Presentation.pdf).
+Spencer's Presentation: [link](/pdfs/2024-2025/SCraig_CS-Presentation.pdf)
 
 
