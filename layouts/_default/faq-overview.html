@@ -1,0 +1,44 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="faq__page">
+    <div class="faq__content">
+      <div class="faq__header">
+        <div class="page-section">
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-section-text">{{ .Title }}</div>
+            <div class="page-section-body">
+              {{ .Description }}
+            </div>
+          </div>
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style="background-image: url({{ absURL .Params.header_image_url }})"
+          ></div>
+        </div>
+      </div>
+      <div class="faq__topics">
+        {{ range .Params.Topics }}
+          {{ $page := printf "resources/faq/topics/%s" . }}
+          {{ with $.Site.GetPage $page }}
+            <div class="faq__topic">
+              <a href="{{ .RelPermalink }}">
+                <div class=faq__topic_name><h3>{{ .Title }} <i class="fas fa-arrow-right read-more-arrow"></i></h3></div>
+              </a>
+              <div class = "faq-topic__questions"> 
+                {{ range first 2 .Params.questions }}
+                  {{ $questionPage := printf "resources/faq/questions/%s" . }}
+                  {{ with $.Site.GetPage $questionPage }}
+                    <div class="faq__question">
+                      <div>{{- partial "curated-questions.html" (dict "Title" .Title "summary" .Params.summary) -}}</div>
+                      <div>{{- partial "read-more.html" (dict "label" "Read More " "link" .RelPermalink) -}}</div>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
