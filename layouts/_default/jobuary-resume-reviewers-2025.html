@@ -12,8 +12,8 @@
         <h2>{{ .name }}</h2>
         <p>{{ .intro }}</p>
         <a href="{{ .link }}"
-              >{{- partial "button.html" (dict "label" (printf "Book a Resume Review with %s" .firstname)) -}}</a
-            >
+          >{{- partial "button.html" (dict "label" (printf "Book a Resume Review with %s" .firstname)) -}}</a
+        >
       </div>
     {{ end }}
   </div>
