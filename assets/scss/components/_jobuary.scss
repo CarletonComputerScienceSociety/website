@@ -150,3 +150,13 @@
 .padded-between {
   padding-top: 8px;
 }
+
+.book-link {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
