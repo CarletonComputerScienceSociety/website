@@ -113,7 +113,7 @@
 #team_flex_box {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items:first baseline;
   flex-wrap: wrap;
   flex-basis: 0;
   max-width: 85rem;
@@ -129,14 +129,22 @@
 }
 
 .profile img {
+  display: block;
+  margin: 0 auto;
   border-radius: 50%;
   width: 192px;
   height: 192px;
   object-fit: cover;
 }
 
+.profile h2 {
+  text-align: center; 
+  margin-top: 0.5rem; 
+}
+
 .max-width-700 {
   max-width: 700px;
+  text-align: center;
 }
 
 .centered {
