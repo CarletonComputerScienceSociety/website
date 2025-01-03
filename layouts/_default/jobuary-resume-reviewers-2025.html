@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{- partial "navbar_temp.html" . -}}
+<link rel="stylesheet" href="{{ " assets/scss/components/_jobuary.scss" | relURL }}">
 <div id="team_flex_box">
   {{ range .Site.Data.resume_reviewers }}
   <div class="profile">
