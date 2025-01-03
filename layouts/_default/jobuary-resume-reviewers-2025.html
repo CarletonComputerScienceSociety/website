@@ -1,6 +1,12 @@
 {{ define "main" }}
 {{- partial "navbar_temp.html" . -}}
 <div id="team_flex_box">
-  {{ "Add profiles here" }}
+  {{ range .Site.Data.resume_reviewers }}
+  <div class="profile">
+    <img src="{{ .image | relURL }}" alt="{{ .name }}">
+    <h2>{{ .name }}</h2>
+    <p>{{ .intro }}</p>
+  </div>
+  {{ end }}
 </div>
 {{ end }}
