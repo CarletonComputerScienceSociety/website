@@ -1,17 +1,21 @@
 {{ define "main" }}
-{{- partial "navbar_temp.html" . -}}
-<link rel="stylesheet" href="{{ " assets/scss/components/_jobuary.scss" | relURL }}">
-<h1 class="max-width-700 centered padded-top">Meet the Resume Reviewers!</h1>
-<p class="max-width-700 centered padded-between">Read through the profiles of our resume reviewers and click the link to
-  schedule a
-  call with them.</p>
-<div id="team_flex_box">
-  {{ range .Site.Data.resume_reviewers }}
-  <div class="profile">
-    <img src="{{ .image | relURL }}" alt="{{ .name }}">
-    <h2>{{ .name }}</h2>
-    <p>{{ .intro }}</p>
+  {{- partial "navbar_temp.html" . -}}
+  <link
+    rel="stylesheet"
+    href="{{ " assets/scss/components/_jobuary.scss" | relURL }}"
+  />
+  <h1 class="max-width-700 centered padded-top">Meet the Resume Reviewers!</h1>
+  <p class="max-width-700 centered padded-between">
+    Read through the profiles of our resume reviewers and click the link to
+    schedule a call with them.
+  </p>
+  <div id="team_flex_box">
+    {{ range .Site.Data.resume_reviewers }}
+      <div class="profile">
+        <img src="{{ .image | relURL }}" alt="{{ .name }}" />
+        <h2>{{ .name }}</h2>
+        <p>{{ .intro }}</p>
+      </div>
+    {{ end }}
   </div>
-  {{ end }}
-</div>
 {{ end }}
