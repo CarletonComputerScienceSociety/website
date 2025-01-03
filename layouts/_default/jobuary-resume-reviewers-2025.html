@@ -15,7 +15,9 @@
         <img src="{{ .image | relURL }}" alt="{{ .name }}" />
         <h2>{{ .name }}</h2>
         <p>{{ .intro }}</p>
-        <a href="{{ .link }}" class="book-link">Book a resume review with {{ .name }} ></a>
+        <a href="{{ .link }}" class="book-link"
+          >Book a resume review with {{ .name }} ></a
+        >
       </div>
     {{ end }}
   </div>
