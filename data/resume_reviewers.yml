@@ -1,0 +1,29 @@
+- name: Matthew MacRae-Bovell
+  firstname: Matthew
+  intro: "Previous President of the Carleton Computer Science Society and Software Developer with 5+ years of experience across freelance, internships, and more. Interned with various startups as well as The Bank of Canada, Kinaxis, and RBC, followed by a two-year tenure at Shopify. Currently working as a Software Developer II at Jobber (a SAAS for service providers)."
+  image: images/jobuary-2025-resume-reviewers/matthew.png
+  link: "https://calendly.com/matthewmacraebovell/chats?month=2025-01"
+  
+- name: Mumtahin Farabi
+  firstname: Farabi
+  intro: "Self-taught developer with internships at Ciena(2x), and Emids. Avid hackathon attendee passionate about open-source software. Experience spans networking embedded software development, full-stack development, and DevOps. Former President of Hack the Hill, and the Carleton Systems and Computer Engineering Society (SCESoc). Former Director of Technology for CUSEC 2024. Former developer for SPAC 2024, and IEEE Canada. Currently involved with cuHacking as an architect."
+  image: images/jobuary-2025-resume-reviewers/farabi.png
+  link: "https://calendly.com/mfarabi/resume-review-session"
+
+- name: Rebecca Kempe
+  firstname: Rebecca
+  intro: "Fourth year, cybersecurity stream. Formerly President of Carleton Cybersecurity Club, former Cyber Team Canada member. Most recent internships: Data Analyst @ Bank of Canada, NSERC USRA @ Carleton (Data Science Research), Cyber Security Analyst @ Bank of Canada. I also have extensive experience with writing and communications."
+  image: images/jobuary-2025-resume-reviewers/rebecca.jpg
+  link: "https://calendly.com/rebecca-kempe/resume-review-session"
+
+- name: Ryan Chung
+  firstname: Ryan
+  intro: "Third year in the Software Engineering stream, and the current Director of Finance for the Carleton Computer Science Society. Has 2+ years of developer experience, including internships at RBC and an early-stage startup, Decipad. Currently interning at RBC for a second time in payment systems."
+  image: images/jobuary-2025-resume-reviewers/ryan.jpg
+  link: "https://calendly.com/ryan-chung-cs/resume-review"
+
+- name: Victor Li
+  firstname: Victor
+  intro: "Victor is a former President of the Carleton Computer Science Society and is set to begin his Master’s degree in Computer Science with a specialization in Data Science in September 2025. His experience includes software development, maritime research, IT support, and university-level teaching. He has gained practical experience through internships at Defence Research and Development Canada (DRDC), Cerio, and the RCMP. Additionally, he served as a Teaching Assistant at Carleton University for three semesters and has contributed to academic research projects focused on game theory, reinforcement learning, and multi-agent systems."
+  image: images/jobuary-2025-resume-reviewers/victor.jpeg
+  link: "https://calendly.com/livictor146/resume-review-session"
