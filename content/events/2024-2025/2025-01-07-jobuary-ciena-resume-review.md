@@ -12,6 +12,9 @@ start_time: "5:30 - 7:00 PM EST"
 location: "HP5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-01-04
+tags:
+- jobuary2025
+- week1
 ---
 We are collaborating with Rachael King from Ciena for a resume review!
 

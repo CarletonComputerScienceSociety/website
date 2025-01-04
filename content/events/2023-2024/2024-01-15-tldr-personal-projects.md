@@ -13,7 +13,7 @@ location: "HP 5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-12-01
 tags:
-- jobuary
+- jobuary2024
 - jobsearch
 ---
 Click [here](/pdfs/2023-2024/TLDR-Personal-Projects.pdf) to view the slides.

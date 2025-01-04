@@ -13,7 +13,7 @@ location: "RB 2200"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-12-30
 tags:
-- jobuary
+- jobuary2024
 ---
 Sign up now through the link in our bio to enjoy free food during our night of networking! 🎉✨ 
 https://www.tickettailor.com/events/hackthehill1/1112522
