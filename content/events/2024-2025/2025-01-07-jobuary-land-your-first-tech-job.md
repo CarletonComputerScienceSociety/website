@@ -13,3 +13,5 @@ location: "HP5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-01-04
 ---
+
+Here are the presentation slides: [link](/pdfs/2024-2025/land-your-first-tech-job.pdf)
