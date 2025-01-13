@@ -38,8 +38,6 @@
       {{ end }}
     </div>
     <h1>Week 2</h1>
-    <p>Coming Soon!</p>
-    <!--
     <div class="jobuary-events">
       {{ range sort (.Site.Taxonomies.tags.week2) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
@@ -47,12 +45,11 @@
         >
       {{ end }}
     </div>
-    -->
     <h1>Week 3</h1>
     <p>Coming Soon!</p>
     <!--
     <div class="jobuary-events">
-      {{ range sort (.Site.Taxonomies.tags.week3) "Date" }}
+      {{ range sort (.Site.Taxonomies.tags.week1) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
@@ -63,7 +60,7 @@
     <p>Coming Soon!</p>
     <!--
     <div class="jobuary-events">
-      {{ range sort (.Site.Taxonomies.tags.week4) "Date" }}
+      {{ range sort (.Site.Taxonomies.tags.week2) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
