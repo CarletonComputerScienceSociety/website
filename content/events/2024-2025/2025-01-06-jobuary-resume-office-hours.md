@@ -12,5 +12,8 @@ start_time: "Jan 6th - 7th"
 location: "Online"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-01-04
+tags:
+- jobuary2025
+- week1
 ---
 Check out our resume reviewers and book your own time slot [here](/jobuary/resume-reviewers-2025/)

@@ -13,7 +13,7 @@ location: "HP 5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2023-12-01
 tags:
-- jobuary
+- jobuary2024
 - service
 ---
 You can find your photos here!: https://nextcloud.scs.carleton.ca/index.php/s/9YdLbcTDcyBGxET
