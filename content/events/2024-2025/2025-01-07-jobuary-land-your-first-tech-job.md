@@ -16,3 +16,5 @@ tags:
 - jobuary2025
 - week1
 ---
+
+Here are the presentation slides: [link](/pdfs/2024-2025/land-your-first-tech-job.pdf)
