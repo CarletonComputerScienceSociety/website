@@ -7,7 +7,7 @@ preview: "images/blog/2022-2023/summer-dev-projects.jpeg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "An introduction to students participating in the CCSS Summer Dev Projects"
 hideBanner: false
-featured: true
+featured: false
 author: Forest Anderson
 categories:
 - news
