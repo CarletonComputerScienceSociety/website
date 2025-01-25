@@ -1,5 +1,5 @@
 ---
-display_title: "Coffe Social"
+display_title: "Coffee Social"
 title: "Coffee Social"
 date: 2025-01-15T00:00:00Z
 draft: false
