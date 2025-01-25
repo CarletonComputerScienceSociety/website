@@ -16,3 +16,18 @@ tags:
 - jobuary2025
 - week3
 ---
+Checkout the event slides [here](https://docs.google.com/presentation/d/1a3PCU50UUt5Xl4FFF8tpC-mgXZfADK7n9Pr9rBe0PKg/edit?usp=sharing)
+
+### Carleton Blueprint
+- [Slides](https://docs.google.com/presentation/d/1zyXlS1TrPm7b7BwEfAiZCgxKhqy7buhk5qygn3YOWfc/edit?usp=sharing)
+- [Website](https://carletonblueprint.org/)
+- [Linktree](https://linktr.ee/cublueprint)
+
+### CU InSpace
+- [Slides](https://docs.google.com/presentation/d/1cSbODJ-BDJwHKVKTXMZL3O1XeTsCkyMjiVgrSzlyugQ/edit?usp=sharing)
+- [Website](https://www.cuinspace.ca/)
+- [Discord](https://discord.com/invite/sDAcVB5)
+
+### cuHacking 
+- [Website](https://docs.cuhacking.ca/)
+- [Linktree](https://linktr.ee/cuhacking_)

@@ -16,3 +16,4 @@ tags:
 - jobuary2025
 - week3
 ---
+Checkout the event slides [here](https://docs.google.com/presentation/d/1di4eIx_jvrvUw5aV6jzq9FBs-FpKm8ji-f1BjvUcw50/edit?usp=sharing)
