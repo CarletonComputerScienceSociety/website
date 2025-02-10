@@ -7,7 +7,7 @@ preview: "images/event_posters/2023-2024/sapp_journey.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "John's experience with the Students as Partners Program"
 hideBanner: false
-featured: true
+featured: false
 author: John Lu
 categories:
 - blog
