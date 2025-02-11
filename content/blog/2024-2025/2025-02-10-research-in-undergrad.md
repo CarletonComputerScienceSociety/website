@@ -37,7 +37,7 @@ If you are considering attending graduate programs (for example a master’s or 
 ### Dean’s Summer Research Internship (DSRI) -- for first years
 This is an opportunity for first year students in the Faculty of Science to do a 12 week long, paid research internship with a professor in the Faculty of Science. Students with first year standing and a high enough GPA (as of 2024, the cutoff was 11.0/12) are invited to apply sometime near the beginning of the Winter term. 
 
-For more information and the application deadline for the upcoming summer term, see [Dean's Summer Research Internships](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/deans-summer-research-internships/)
+For more information and the application deadline for the upcoming summer term, see [Dean's Summer Research Internships](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/deans-summer-research-internships/).
 </br></br>
 
 ### NSERC Undergraduate Student Research Award (USRA) -- 2nd year + 
@@ -45,7 +45,7 @@ This is an opportunity for domestic undergraduate students with 2nd year standin
 
 While the official cutoff to apply is a CGPA of B- (7.0/12), I’ve anecdotally heard that NSERC USRA applicants typically need much higher GPAs (A range) to be competitive.
 
-For more information and the application deadline for the upcoming summer term, see [NSERC USRA](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/undergraduate-research-awards-program/)
+For more information and the application deadline for the upcoming summer term, see [NSERC USRA](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/undergraduate-research-awards-program/).
 </br></br>
 
 ### Black and Indigenous Summer Research Internships (BISRI) 
@@ -53,13 +53,13 @@ The BISRI award was introduced in 2024, and is a research opportunity specifical
 
 What’s unique about this award is that it can be combined (in theory) with the NSERC USRA award (if the applicant is awarded both), and it is also not limited to domestic students. 1st years who are eligible for both DSRI and BISRI can apply for both awards, though only one of DSRI and BISRI may be accepted.
 
-For more information and the application deadline for the upcoming summer term, see [Black and Indigenous Summer Research Internships](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/black-and-indigenous-summer-research-internships/)
+For more information and the application deadline for the upcoming summer term, see [Black and Indigenous Summer Research Internships](https://science.carleton.ca/students/undergraduate-student-summer-research-opportunities/black-and-indigenous-summer-research-internships/).
 </br></br>
 
 ### Internship-Carleton University Research Experience for Undergraduate Students (I-CUREUS) 
 I-CUREUS is an opportunity for undergraduate students to work on a research project, under the supervision of a faculty member, for 150 hours. At the end of the project, students are required to submit a poster, written report, or other method of communicating the research findings. I-CUREUS projects can happen during any academic term; that being said, only one I-CUREUS project can be done by a student per academic year.
 
-For more information, see [I-CUREUS](https://carleton.ca/tls/future-learning-lab/i-cureus/)
+For more information, see [I-CUREUS](https://carleton.ca/tls/future-learning-lab/i-cureus/).
 </br></br>
 
 ### Research Assistantships (RA-ships)
@@ -76,9 +76,9 @@ An honours project (COMP 4905) or thesis (COMP 4906) is an opportunity to work o
 
 Note that if you are doing an honours project or thesis, at least one supervisor must be a faculty member from the School of Computer Science. However, you are allowed to be co-supervised by a professor from another department.
 
-Examples of past honours projects and theses can be found [here](https://report-hub.scs.carleton.ca/)
+Examples of past honours projects and theses can be found [here](https://report-hub.scs.carleton.ca/).
 
-More information about COMP 4905/4906 can be found [here](https://carleton.ca/scs/current-students/undergraduate-students/honours-project-and-directed-studies/honours-project-faq/)
+More information about COMP 4905/4906 can be found [here](https://carleton.ca/scs/current-students/undergraduate-students/honours-project-and-directed-studies/honours-project-faq/).
 </br></br>
 
 ### How do I find a faculty supervisor?
@@ -88,7 +88,7 @@ Another method of finding a supervisor is to reach out to faculty members whose 
 
 Lastly, sometimes faculty members reach out to exceptionally strong students, asking them whether they would be interested in doing a research project. If you get such an email and are curious about research, it may be worth taking the professor up on that offer.
 
-A list of faculty members in Computer Science, as well as their research interests, can be found [here](https://carleton.ca/scs/current-students/undergraduate-students/honours-project-and-directed-studies/honours-project-finding-a-supervisor/)
+A list of faculty members in Computer Science, as well as their research interests, can be found [here](https://carleton.ca/scs/current-students/undergraduate-students/honours-project-and-directed-studies/honours-project-finding-a-supervisor/).
 
 It is also generally a good idea to look at potential supervisors’ websites before contacting them, because it will give you a much better sense of what kind of research they do and what they expect from students.
 
