@@ -7,7 +7,7 @@ preview: "/images/news/2024-2025/levy/levy-graphic-poster.PNG"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Vote to shape the future of Carleton's Computer Science community!"
 hideBanner: false
-featured: true
+featured: false
 author: Matthew Macrae-Bovell and Aditya "Jacc" Padmakar
 url: /news/carleton-computer-science-society-levy-referendum
 categories:
