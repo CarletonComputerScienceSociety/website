@@ -1,0 +1,53 @@
+.faq {
+    &__page {
+      background: #faf9f8;
+      height: fit-content;
+      padding-bottom: 5rem;
+    }
+  
+    &__content {
+      max-width: 65rem;
+      margin: 0 auto;
+      height: fit-content;
+      padding: 2.5rem;
+    }
+  
+    &__header {
+      .page-section-image {
+        min-height: 20rem;
+      }
+  
+      .page-section {
+        padding: 2rem 0rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .page-section-grid-primary {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .page-section-grid-secondary {
+      display: block;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    &__topic_name {
+      display: inline-block;
+    }
+  
+    &__questions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+    @media (max-width: 768px) {
+      &__questions {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+  }
+  
