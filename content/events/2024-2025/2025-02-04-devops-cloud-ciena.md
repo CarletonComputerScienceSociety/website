@@ -16,3 +16,5 @@ tags:
 - jobuary2025
 - week4
 ---
+
+Here are the [presentation slides](/pdfs/2024-2025/ciena-cloud-&-devops.pdf)
