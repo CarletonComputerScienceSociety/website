@@ -16,7 +16,7 @@ publishdate: 2025-03-23
 
 Here are the presentation slides along with some more useful resources: 
 
-[Slides](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/CS_and_Society_5_Evolution_Of_Networks.pdf)
-[MacOS Docker Instructions](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/Docker_instructions_MacOS.pdf)
-[Ubuntu Setup](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/Ubuntu_setup.pdf)
-[FRR Workspace Setup](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/FRR_Workspace_Setup_Build.pdf)
+[Slides](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/CS_and_Society_5_Evolution_Of_Networks.pdf) <br>
+[MacOS Docker Instructions](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/Docker_instructions_MacOS.pdf) <br>
+[Ubuntu Setup](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/Ubuntu_setup.pdf) <br>
+[FRR Workspace Setup](/pdfs/2024-2025/cs-and-society-5-evolution-of-networks/FRR_Workspace_Setup_Build.pdf) <br>
