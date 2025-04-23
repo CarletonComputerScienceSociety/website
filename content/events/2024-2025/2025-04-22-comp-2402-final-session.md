@@ -13,3 +13,5 @@ location: "HP5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-04-16
 ---
+
+[Slides](https://docs.google.com/presentation/d/10aTylzw4q3eK2DwDxk66vGGbfayI1T5r8bLIkaqwIKY/edit?usp=sharing)
