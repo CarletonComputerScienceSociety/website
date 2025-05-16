@@ -1,12 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>news on Carleton Computer Science Society</title><link>https://ccss.carleton.ca/categories/news/</link><description>Recent content in news on Carleton Computer Science Society</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ccss.carleton.ca/categories/news/index.xml" rel="self" type="application/rss+xml"/><item><title>CCSS Puzzle Quest</title><link>https://ccss.carleton.ca/news/2023-2024/2023-09-06-puzzle-quest/</link><pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2023-2024/2023-09-06-puzzle-quest/</guid><description>Hello! Welcome to the CCSS Puzzle Quest! Throughout the next hour and a half, you’ll be working on 30 Questions, in 6 different categories!
-Submitting To submit each challenge, fill out this google form for each question. Choose only the challenge you&amp;rsquo;re submitting!
-Leaderboard You can check out the leaderboard on this document.
-Challenges Treasure Hunt For all of these challenges, take a selfie with your team at these locations!</description></item><item><title>Autumn of Rust</title><link>https://ccss.carleton.ca/news/2022-2023/2022-09-21-autumn-of-rust/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-09-21-autumn-of-rust/</guid><description>Hey everyone, Forest here!
-It&amp;rsquo;s almost time for the Autumn of Rust 🍂🦀! This is a (free) student-run course that I just taught over the summer, and I&amp;rsquo;m bringing it back for the fall semester!
-I wanted to run this course since there are several concepts in the Rust language that we don&amp;rsquo;t (currently) learn in courses at Carleton. This includes a lot of topics in:
-language safety (begone segfaults!</description></item><item><title>CCSS Puzzle Quest</title><link>https://ccss.carleton.ca/news/2022-2023/2022-09-08-ccss-puzzle-quest/</link><pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-09-08-ccss-puzzle-quest/</guid><description>Hello! Welcome to the CCSS Puzzle Quest! Throughout the next hour and a half, you&amp;rsquo;ll be working on 25 challenges, in 5 different categories.
-Submitting To submit each challenge, fill out this Google Form for each question.
-Chose only the challenge you&amp;rsquo;re submitting! Leaderboard You can check out the leaderboard on this document:
-https://hackmd.io/zp90MdBaT3-WzdXcM-8bMw?view
-Challenges Treasure Hunt For all of these challenges, take a selfie with your team at these locations!</description></item><item><title>CCSS Summer Dev Projects</title><link>https://ccss.carleton.ca/news/2022-2023/2022-06-20-ccss-summer-dev-projects-introduction/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-06-20-ccss-summer-dev-projects-introduction/</guid><description>CCSS Summer Dev Projects This summer, the CCSS is running several &amp;ldquo;summer dev projects&amp;rdquo;. This gives Carleton students several projects to contribute to over the summer, which are designed to help other students. You can read more about the projects on this Notion document.
-This blog post will introduce some of the students behind these projects. Any student can participate, and many are in different years of university. There are also many different skill sets in use, with development to the frontend of websites, backend web servers, and even some other tooling in the middle.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on Carleton Computer Science Society</title><link>https://ccss.carleton.ca/categories/news/</link><description>Recent content in News on Carleton Computer Science Society</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ccss.carleton.ca/categories/news/index.xml" rel="self" type="application/rss+xml"/><item><title>CCSS Puzzle Quest</title><link>https://ccss.carleton.ca/news/2023-2024/2023-09-06-puzzle-quest/</link><pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2023-2024/2023-09-06-puzzle-quest/</guid><description>&lt;p>&lt;img src="https://ccss.carleton.ca/images/event_posters/2023-2024/puzzle_quest.jpg" alt="puzzle">&lt;/p>
+&lt;p>Hello! Welcome to the CCSS Puzzle Quest! Throughout the next hour and a half, you’ll be working on 30 Questions, in 6 different categories!&lt;/p>
+&lt;h2 id="submitting">Submitting&lt;/h2>
+&lt;p>To submit each challenge, fill out &lt;a href="https://forms.gle/pDH8f7jNPnGKE8E67">this google form&lt;/a> for each question. Choose only the challenge you&amp;rsquo;re submitting!&lt;/p>
+&lt;h2 id="leaderboard">Leaderboard&lt;/h2>
+&lt;p>You can check out the leaderboard on &lt;a href="https://hackmd.io/Koc46LCYQAKPBEWDz9SrIg">this document&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;br>
+&lt;h1 id="challenges">Challenges&lt;/h1>
+&lt;h2 id="treasure-hunt">Treasure Hunt&lt;/h2>
+&lt;p>For all of these challenges, take a selfie with your team at these locations! These will be manually validated and must include your entire team.&lt;/p></description></item><item><title>Autumn of Rust</title><link>https://ccss.carleton.ca/news/2022-2023/2022-09-21-autumn-of-rust/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-09-21-autumn-of-rust/</guid><description>&lt;p>Hey everyone, Forest here!&lt;/p>
+&lt;p>It&amp;rsquo;s almost time for the Autumn of Rust 🍂🦀! This is a (free) student-run
+course that I just taught over the summer, and I&amp;rsquo;m bringing it back for the fall
+semester!&lt;/p>
+&lt;p>I wanted to run this course since there are several concepts in the Rust
+language that we don&amp;rsquo;t (currently) learn in courses at Carleton. This includes a
+lot of topics in:&lt;/p>
+&lt;ul>
+&lt;li>language safety (begone segfaults!)&lt;/li>
+&lt;li>concurrency (what if threading wasn&amp;rsquo;t scary? 👻)&lt;/li>
+&lt;li>functional programming (&lt;code>iter().filter().map()&lt;/code>&amp;hellip;).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ccss.carleton.ca/images/blog/2022-2023/ferris-rust.png" alt="Ferris the Rust Mascot">&lt;/p></description></item><item><title>CCSS Puzzle Quest</title><link>https://ccss.carleton.ca/news/2022-2023/2022-09-08-ccss-puzzle-quest/</link><pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-09-08-ccss-puzzle-quest/</guid><description>&lt;p>Hello! Welcome to the CCSS Puzzle Quest! Throughout the next hour and a half,
+you&amp;rsquo;ll be working on 25 challenges, in 5 different categories.&lt;/p>
+&lt;h1 id="submitting">Submitting&lt;/h1>
+&lt;p>To submit each challenge, fill out &lt;a href="https://forms.gle/dnWNK4dViXv2JWe3A">this Google Form&lt;/a> for each question.&lt;/p>
+&lt;ul>
+&lt;li>Chose only the challenge you&amp;rsquo;re submitting!&lt;/li>
+&lt;/ul>
+&lt;h1 id="leaderboard">Leaderboard&lt;/h1>
+&lt;p>You can check out the leaderboard on this document:&lt;/p>
+&lt;p>&lt;a href="https://hackmd.io/zp90MdBaT3-WzdXcM-8bMw?view">https://hackmd.io/zp90MdBaT3-WzdXcM-8bMw?view&lt;/a>&lt;/p>
+&lt;h1 id="challenges">Challenges&lt;/h1>
+&lt;h2 id="treasure-hunt">Treasure Hunt&lt;/h2>
+&lt;p>For all of these challenges, take a selfie with your team at these locations! These will be manually validated, and must include your entire team.&lt;/p></description></item><item><title>CCSS Summer Dev Projects</title><link>https://ccss.carleton.ca/news/2022-2023/2022-06-20-ccss-summer-dev-projects-introduction/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>https://ccss.carleton.ca/news/2022-2023/2022-06-20-ccss-summer-dev-projects-introduction/</guid><description>&lt;h1 id="ccss-summer-dev-projects">CCSS Summer Dev Projects&lt;/h1>
+&lt;p>This summer, the CCSS is running several &amp;ldquo;summer dev projects&amp;rdquo;. This gives
+Carleton students several projects to contribute to over the summer, which are
+designed to help other students. You can read more about the projects on &lt;a href="https://angelonfira.notion.site/CCSS-Dev-Projects-Summer-2022-d0284164d0ae4a4f8bbdd43783f4c09e">this
+Notion
+document&lt;/a>.&lt;/p>
+&lt;p>This blog post will introduce some of the students behind these projects. Any
+student can participate, and many are in different years of university. There
+are also many different skill sets in use, with development to the frontend of
+websites, backend web servers, and even some other tooling in the middle.&lt;/p></description></item></channel></rss>
