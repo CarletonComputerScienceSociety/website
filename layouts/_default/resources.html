@@ -22,7 +22,7 @@
     <br>
     <div class="page-topic-container">
       {{ range $key, $value := .Params.topics }}
-        <div class="page-topic">{{ .name }}: {{ .description }}</div>
+        {{- partial "link.html" (dict "label" .name "link" .link) -}}
       {{ end }}
     </div>
 
