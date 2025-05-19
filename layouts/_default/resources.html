@@ -13,18 +13,16 @@
             <div class="page-section-text">Have any lingering questions?</div>
             <div class="page-section-body">
               This resources page contains info regarding relevant courses, student life, career paths and more!
+            
+              {{ range $key, $value := .Params.topics }}
+                <div class="page-section-text">{{ $key }}: {{ $value }}</div>
+              {{ end }}
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-
-
-    {{ range $key, $value := .Params.topics }}
-      <h1><a href="">{{ $key }}: {{ $value }}</a></h1>
-    {{ end }}
     <!-- 
       <h1>{{ .Params.custom_heading }}</h1>
       <p>{{ .Params.description }}</p>
