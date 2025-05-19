@@ -13,9 +13,11 @@
             <div class="page-section-text">Have any lingering questions?</div>
             <div class="page-section-body">
               This resources page contains info regarding relevant courses, student life, career paths and more!
-            
+              <br>
+              <input type="search" name="q" id="search-query" placeholder="Search....">
+              <br>
               {{ range $key, $value := .Params.topics }}
-                <div class="page-section-text">{{ $key }}: {{ $value }}</div>
+                <div class="page-resource-text">{{ .name }}: {{ .description }}</div>
               {{ end }}
             </div>
           </div>
