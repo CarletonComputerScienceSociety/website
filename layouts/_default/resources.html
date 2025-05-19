@@ -4,6 +4,10 @@
     <div class="home-section-grid home-section-dark">
       <div class="home-section">
         <div class="page-section">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("")'
+          ></div>
           <div class="page-section-content page-section-grid-primary">
             <div class="page-header-title">RESOURCES</div>
             <div class="page-section-text">Have any lingering questions?</div>
@@ -14,6 +18,28 @@
         </div>
       </div>
     </div>
+
+
+
+
+    {{ range $key, $value := .Params.topics }}
+      <h1><a href="">{{ $key }}: {{ $value }}</a></h1>
+    {{ end }}
+    <!-- 
+      <h1>{{ .Params.custom_heading }}</h1>
+      <p>{{ .Params.description }}</p>
+
+      {{ if .Params.featured_image }}
+        <img src="{{ .Params.featured_image }}" alt="Featured image">
+      {{ end }}
+
+      <article>
+        {{ .Content }}
+      </article>
+
+
+    -->
+
     <!-- <div class="home-section-grid home-section-dark page-heading">
       <div class="home-section">
         <div class="page-section page-section-grid-priority">
@@ -35,9 +61,6 @@
         </div>
       </div>
     </div> -->
-    <div class="Volunteer__content">
-      {{ .Content }}
-    </div>
     <!--
     <div class="home-section-grid home-section-light">
       <div class="home-section">

@@ -1,10 +1,14 @@
 ---
 title: "Resources"
 date: 2025-05-17T00:00:00Z
-last_updated: If an FAQ is updated, the date of the edit. Otherwise, same as the `date` attribute. Format - `YYYY-MM-DDT00:00:00Z`
+last_updated: 2025-05-18T00:00:00Z
 draft: false
 url: /resources 
 layout: resources
-summary: Summary text that will show up on the topic page with the full list of FAQs (see first image)
-contributors: Names of the people that contributed to writing and editing the FAQ
+topics:
+    Student Life: "Learn more about how you can get involved in the student community."
+    Academics: "Set yourself up for success with advice and info provided by other students."
+    Careers: "Explore your possible future career paths."
+    Self-Learning: "Find ways to teach yourself new skills."
+    Course Info: "Research the variety of courses offered in Carleton's CS program."
 ---
