@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "prettier --check '{layouts,assets}/**/*.{css,scss,html,js}'",
     "format": "prettier --write '{layouts,assets}/**/*.{css,scss,html,js}'",
-    "start" : "hugo server"
+    "start": "hugo server"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "prettier": "2.1.1",
     "prettier-plugin-go-template": "0.0.10"
+  },
+  "dependencies": {
+    "hugo-algolia": "^1.2.14"
   }
 }
