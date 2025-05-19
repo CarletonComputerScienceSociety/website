@@ -18,7 +18,9 @@
         </div>
       </div>
     </div>
-    <input type="search" name="q" id="search-query" placeholder="Search....">
+    <div class="resource-search-container">
+    <input type="search" class="resource-search" name="q" id="search-query" placeholder="Search....">
+    </div>
     <br>
     <div class="page-topic-container">
       {{ range $key, $value := .Params.topics }}
