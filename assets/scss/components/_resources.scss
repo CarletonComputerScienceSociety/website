@@ -14,10 +14,19 @@
     unicode-bidi: isolate;
 }
 
-.page-resource-text {
-  font-size: 12px;
-  line-height: 1.125;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+.page-topic {
+  flex: 1 1 20%;              /* Grow/Shrink/Basis: adjust width here */
+  min-width: 200px;           /* Prevents them from becoming too narrow */
+  background-color: #f0f0f0;  /* Just for visibility */
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  text-align: center;
+}
 
+.page-topic-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
 }

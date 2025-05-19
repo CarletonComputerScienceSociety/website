@@ -4,25 +4,26 @@
     <div class="home-section-grid home-section-dark">
       <div class="home-section">
         <div class="page-section">
-          <div
-            class="page-section-image page-section-grid-secondary"
-            style='background-image: url("")'
-          ></div>
+          <div class="page-section-image page-section-grid-secondary">
+            <dotlottie-player src="https://lottie.host/760e8898-bc6c-4886-b679-8beea409245b/IowH6GnB3h.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+          </div>
           <div class="page-section-content page-section-grid-primary">
             <div class="page-header-title">RESOURCES</div>
             <div class="page-section-text">Have any lingering questions?</div>
             <div class="page-section-body">
               This resources page contains info regarding relevant courses, student life, career paths and more!
               <br>
-              <input type="search" name="q" id="search-query" placeholder="Search....">
-              <br>
-              {{ range $key, $value := .Params.topics }}
-                <div class="page-resource-text">{{ .name }}: {{ .description }}</div>
-              {{ end }}
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <input type="search" name="q" id="search-query" placeholder="Search....">
+    <br>
+    <div class="page-topic-container">
+      {{ range $key, $value := .Params.topics }}
+        <div class="page-topic">{{ .name }}: {{ .description }}</div>
+      {{ end }}
     </div>
 
     <!-- 
@@ -126,4 +127,5 @@
     </div>
     -->
   </div>
+  
 {{ end }}
