@@ -2,7 +2,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
-  {{- $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+  {{- $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass $options | resources.Fingerprint "sha512" }}
   <link
     rel="stylesheet"
     href="{{ $styles.Permalink }}"
