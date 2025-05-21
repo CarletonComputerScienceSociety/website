@@ -1,6 +1,6 @@
 ---
-display_title: "Trail n' Error"
-title: "Trail and Error"
+display_title: "Trail & Error"
+title: "Trail & Error"
 date: 2025-05-31T00:00:00Z
 draft: false
 layout: event
