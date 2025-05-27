@@ -3,43 +3,12 @@
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
-      <p class="faq-question__summary">
+      <p class="article-question__summary">
         <i><b>Summary:</b> {{ .Params.summary }}</i>
       </p>
-    </div>
-  </div>
-{{ end }}
-
-<!--
-{{ define "main" }}
-  {{- partial "navbar_temp.html" . -}}
-  <div class="faq-question__page">
-    <div class="faq-question__content">
-      <h1 class="faq-question__title">{{ .Title }}</h1>
-      <p class="faq-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
-      </p>
-      <div class="faq-question__body">
+        <div class="article-question__body">
         {{ .Content }}
       </div>
-      <div class="faq-question__sources">
-        {{ with .Params.sources }}
-          <h3>Links and Sources:</h3>
-          {{ range $index, $source := . }}
-            <p>
-              ({{ add $index 1 }})
-              <a href="{{ $source.link }}">{{ $source.name }}</a>
-            </p>
-          {{ end }}
-        {{ end }}
-      </div>
-      <div class="faq-topic__contributors">
-        <h3>Contributors:</h3>
-        {{ range .Params.contributors }}
-          <p>{{ . }}</p>
-        {{ end }}
-      </div>
     </div>
   </div>
 {{ end }}
--->
