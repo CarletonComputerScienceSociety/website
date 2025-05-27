@@ -3,11 +3,17 @@
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
-      <p class="article-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
-      </p>
-        <div class="article-question__body">
+      <div class="article-topic__contributors">
+        <h3>Contributors:</h3>
+        {{ range .Params.contributors }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </div>
+      <div class="article-question__body">
         {{ .Content }}
+      </div>
+      <div class="article-question__last-updated">
+        Last Updated: {{ .Params.last_updated }}
       </div>
     </div>
   </div>
