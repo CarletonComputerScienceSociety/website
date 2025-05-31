@@ -1,7 +1,7 @@
 ---
 display_title: "Trail & Error"
 title: "Trail & Error"
-date: 2025-05-31T00:00:00Z
+date: 2025-06-07T00:00:00Z
 draft: false
 layout: event
 poster: "/images/event_posters/2024-2025/trail-and-error.png"
@@ -12,7 +12,7 @@ start_time: "1:00 PM EST"
 location: "Pindigen Park"
 location_link: "https://maps.app.goo.gl/vAmtuX1e6PU1EAkA7"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2025-05-20
+publishdate: 2025-05-31
 ---
 **Please arrive at Pindigen Park by 1 PM to catch the shuttle!**
 
