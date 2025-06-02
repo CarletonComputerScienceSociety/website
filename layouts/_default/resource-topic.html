@@ -21,7 +21,7 @@
       </div>
       <div class="faq-topic__questions">
         {{ range .Params.questions }}
-          {{ $page := printf "resources/faq/questions/%s" . }}
+          {{ $page := printf "resources/questions/%s" . }}
           {{ with $.Site.GetPage $page }}
             <div class="faq-topic__question">
               <h3>{{ .Title }}</h3>
