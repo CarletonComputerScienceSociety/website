@@ -15,13 +15,25 @@
           </div>
           <div
             class="page-section-image page-section-grid-secondary"
-            style="background-image: url({{ absURL .Params.header_image_url }})"
+            style="background-image: url('{{ absURL .Params.header_image_url }}')"
           ></div>
         </div>
       </div>
+      <div class="faq-topic__articles">
+        {{ range .Params.articles }}
+          {{ $page := printf "resources/articles/%s" . }}
+          {{ with $.Site.GetPage $page }}
+            <div class="faq-topic__article">
+              <h3>{{ .Title }}</h3>
+              <p>{{ .Params.summary }}</p>
+              {{- partial "read-more.html" (dict "label" "Read More " "link" .RelPermalink) -}}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
       <div class="faq-topic__questions">
-        {{ range .Params.questions }}
-          {{ $page := printf "resources/questions/%s" . }}
+        {{ range .Params.faqs }}
+          {{ $page := printf "resources/faqs/%s" . }}
           {{ with $.Site.GetPage $page }}
             <div class="faq-topic__question">
               <h3>{{ .Title }}</h3>

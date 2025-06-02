@@ -6,7 +6,9 @@ draft: false
 url: "/resources/course-registration"
 layout: resource-topic
 header_image_url: images/general/game_lab.jpg
-questions:
+articles:
+- test-article
+faqs:
 - free-vs-breadth-electives
 - comp1405-z-section
 - comp1405-t-section
