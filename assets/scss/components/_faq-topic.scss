@@ -157,6 +157,7 @@
         line-height: 1.4;
         display: -webkit-box;
         -webkit-line-clamp: 2; // number of lines before ellipsis
+        line-clamp: 2; // standard property for compatibility
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
