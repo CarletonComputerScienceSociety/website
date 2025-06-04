@@ -10,7 +10,7 @@
               {{ .Description }}
             </div>
             <a href="#faqs-heading"
-              >{{- partial "button.html" (dict "label" "View All FAQ") -}}</a
+              >{{- partial "button.html" (dict "label" "FAQ") -}}</a
             >
           </div>
           <div
@@ -20,32 +20,34 @@
         </div>
       </div>
       <h2 id="resources-heading">Resources</h2>
-      <div class="faq-topic__articles">        
+      <div class="faq-topic__articles">
         {{ range .Params.articles }}
           {{ $page := printf "resources/articles/%s" . }}
           {{ with $.Site.GetPage $page }}
             <div class="faq-topic__article">
-              <div class = "card_text">
+              <div class="card_text">
                 <h3>{{ .Title }}</h3>
                 <p>{{ .Params.summary }}</p>
               </div>
               <a href="{{ .RelPermalink }}">
-                {{- partial "button.html" (dict "label" "Read More") -}} 
+                {{- partial "button.html" (dict "label" "Read More") -}}
               </a>
             </div>
           {{ end }}
         {{ end }}
       </div>
-      <h2 id="faqs-heading">FAQs</h2>
+      <h2 id="faqs-heading">Frequently Asked Questions</h2>
       <div class="faq-topic__questions">
         {{ range .Params.faqs }}
           {{ $page := printf "resources/faqs/%s" . }}
           {{ with $.Site.GetPage $page }}
-            <div class="faq-topic__question">
-              <h3>{{ .Title }}</h3>
-              <p>{{ .Params.summary }}</p>
-              {{- partial "read-more.html" (dict "label" "Read More " "link" .RelPermalink) -}}
-            </div>
+            <a class="faq-topic__question" href="{{ .RelPermalink }}">
+              <div class="faq-content">
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Params.summary }}</p>
+              </div>
+              <i class="fas fa-arrow-right faq-arrow"></i>
+            </a>
           {{ end }}
         {{ end }}
       </div>
