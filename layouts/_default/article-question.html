@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- partial "navbar_temp.html" . -}}  
+  {{- partial "navbar_temp.html" . -}}
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
@@ -12,7 +12,7 @@
       <div class="article-question__last-updated">
         Last Updated: {{ .Params.last_updated }}
       </div>
-      <br>
+      <br />
       <div class="article-question__body">
         {{ .Content }}
       </div>
@@ -27,9 +27,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="article-question__related-content">
-        
-      </div>
+      <div class="article-question__related-content"></div>
     </div>
   </div>
 {{ end }}
