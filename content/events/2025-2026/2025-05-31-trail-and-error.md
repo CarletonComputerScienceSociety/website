@@ -4,7 +4,7 @@ title: "Trail & Error"
 date: 2025-06-07T00:00:00Z
 draft: false
 layout: event
-poster: "/images/event_posters/2024-2025/trail-and-error.png"
+poster: "/images/event_posters/2025-2026/trail-and-error.png"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Join us in exploring the paths and nature of Gatineau Park's King Mountain!"
