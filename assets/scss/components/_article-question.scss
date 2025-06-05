@@ -38,6 +38,28 @@
   &__related-content {
   }
 
+  &__articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: stretch;
+  }
+
+    &__questions {
+    a {
+      text-decoration: none;
+
+      h3 {
+        color: #000;
+        font-weight: 700;
+      }
+
+      p {
+        margin-top: 0.75rem;
+      }
+    }
+  }
+
   &__sources {
     margin-bottom: 2.5rem;
     a {

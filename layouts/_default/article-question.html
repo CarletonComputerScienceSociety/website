@@ -12,7 +12,6 @@
       <div class="article-question__last-updated">
         Last Updated: {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
-      <br />
       <div class="article-question__body">
         {{ .Content }}
       </div>
@@ -27,7 +26,25 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="article-question__related-content"></div>
+      <div class="article-question__related-content">
+        <div class="article-question__articles">
+          {{ range .Params.related_content.articles }}
+            {{ $page := printf "resources/articles/%s" . }}
+            {{ with $.Site.GetPage $page }}
+              {{ partial "article-card.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+        <h2 id="faqs-heading">Frequently Asked Questions</h2>
+        <div class="article-question__questions">
+          {{ range .Params.related_content.faqs }}
+            {{ $page := printf "resources/faqs/%s" . }}
+            {{ with $.Site.GetPage $page }}
+              {{ partial "faq-card.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 {{ end }}
