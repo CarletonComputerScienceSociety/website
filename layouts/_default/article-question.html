@@ -7,10 +7,10 @@
         <i>Written by: {{ .Params.written_by }} </i>
       </div>
       <div class="article-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
+        <i>{{ .Params.summary }}</i>
       </div>
       <div class="article-question__last-updated">
-        Last Updated: {{ .Params.last_updated }}
+        Last Updated: {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
       <br />
       <div class="article-question__body">
