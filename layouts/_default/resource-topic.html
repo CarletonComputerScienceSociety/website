@@ -24,15 +24,7 @@
         {{ range .Params.articles }}
           {{ $page := printf "resources/articles/%s" . }}
           {{ with $.Site.GetPage $page }}
-            <div class="faq-topic__article">
-              <div class="card_text">
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.summary }}</p>
-              </div>
-              <a href="{{ .RelPermalink }}">
-                {{- partial "button.html" (dict "label" "Read More") -}}
-              </a>
-            </div>
+            {{ partial "article-card.html" . }}
           {{ end }}
         {{ end }}
       </div>
@@ -41,13 +33,7 @@
         {{ range .Params.faqs }}
           {{ $page := printf "resources/faqs/%s" . }}
           {{ with $.Site.GetPage $page }}
-            <a class="faq-topic__question" href="{{ .RelPermalink }}">
-              <div class="faq-content">
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.summary }}</p>
-              </div>
-              <i class="fas fa-arrow-right faq-arrow"></i>
-            </a>
+            {{ partial "faq-card.html" . }}
           {{ end }}
         {{ end }}
       </div>
