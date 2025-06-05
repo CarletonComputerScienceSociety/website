@@ -21,13 +21,23 @@
 
   &__summary {
     font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 3.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__last-updated {
+    color: red;
+    margin-bottom: 2rem;
   }
 
   &__body {
     font-size: 1.15rem;
     margin-bottom: 4rem;
+  }
+
+  &__related-content {
+
+    
   }
 
   &__sources {

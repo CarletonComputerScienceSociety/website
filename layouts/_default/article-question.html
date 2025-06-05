@@ -3,21 +3,32 @@
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
-      <p class="article-question__summary">
+      <div class="article-question__contributors">
+        <i>Written by: {{ .Params.written_by }} </i>
+      </div>
+      <div class="article-question__summary">
         <i><b>Summary:</b> {{ .Params.summary }}</i>
-      </p>
-      <div class="article-topic__contributors">
-        <h3>Contributors:</h3>
-        {{ range .Params.contributors }}
-          <p>{{ . }}</p>
-        {{ end }}
+      </div>
+      <div class="article-question__last-updated">
+        Last Updated: {{ .Params.last_updated }}
       </div>
       <br>
       <div class="article-question__body">
         {{ .Content }}
       </div>
-      <div class="article-question__last-updated">
-        Last Updated: {{ .Params.last_updated }}
+      <div class="article-question__sources">
+        {{ with .Params.sources }}
+          <h3>Links and Sources:</h3>
+          {{ range $index, $source := . }}
+            <p>
+              ({{ add $index 1 }})
+              <a href="{{ $source.link }}">{{ $source.name }}</a>
+            </p>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="article-question__related-content">
+        
       </div>
     </div>
   </div>
