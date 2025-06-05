@@ -1,0 +1,25 @@
+.mailing-list {
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+
+  &__image {
+    width: 100%;
+    max-width: 36rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    height: 18rem;
+    object-fit: cover;
+  }
+
+  &__logo {
+    width: 100%;
+    max-width: 17rem;
+    margin-bottom: 4rem;
+  }
+}
