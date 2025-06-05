@@ -7,7 +7,7 @@ url: "/resources/course-registration"
 layout: resource-topic
 header_image_url: images/general/game_lab.jpg
 articles:
-- first-year-course-selection
+- first-year-course-
 - making-your-perfect-schedule
 - making-your-perfect-schedule
 - first-year-course-selection

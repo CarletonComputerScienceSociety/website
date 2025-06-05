@@ -10,7 +10,8 @@
         <i>{{ .Params.summary }}</i>
       </div>
       <div class="article-question__last-updated">
-        Last Updated: {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
+        Last Updated:
+        {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
       <div class="article-question__body">
         {{ .Content }}
