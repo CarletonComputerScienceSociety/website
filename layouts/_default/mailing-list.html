@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <div class="mailing-list">
+    <a href="/"
+      ><img
+        src="/images/ccss-logo-2022.png"
+        alt="Carleton Computer Science Society Logo"
+        class="mailing-list__logo"
+    /></a>
+    <img
+      src="/images/slideshow/orientation.jpeg"
+      alt="Background Image"
+      class="mailing-list__image"
+    />
+    <i>Join our mailing list to stay updated!</i>
+
+    <script
+      async
+      src="https://eocampaign1.com/form/c291271e-41b5-11f0-a0df-edc663a22539.js"
+      data-form="c291271e-41b5-11f0-a0df-edc663a22539"
+    ></script>
+
+    <script>
+      window.addEventListener("load", () => {
+        const observer = new MutationObserver(() => {
+          const form = document.querySelector("form.emailoctopus-form");
+          if (form) {
+            observer.disconnect();
+
+            const emailInput = form.querySelector('input[type="email"]');
+            const submitButton = form.querySelector('input[type="submit"]');
+
+            if (!emailInput || !submitButton) return;
+
+            submitButton.addEventListener("click", (e) => {
+              const email = emailInput.value.trim();
+              if (/@cmail\.carleton\.ca$/i.test(email)) {
+                e.preventDefault();
+                alert(
+                  "Sorry, emails from cmail.carleton.ca are not allowed. We already sends emails to all Computer Science students with a cmail address."
+                );
+              }
+            });
+          }
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    </script>
+  </div>
+{{ end }}
