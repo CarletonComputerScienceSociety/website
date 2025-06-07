@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
-  <div class="faq-topic__page">
-    <div class="faq-topic__content">
-      <div class="faq-topic__header">
+  <div class="resources-topic__page">
+    <div class="resources-topic__content">
+      <div class="resources-topic__header">
         <div class="page-section">
           <div class="page-section-content page-section-grid-primary">
             <div class="page-section-text">{{ .Title }}</div>
@@ -20,7 +20,7 @@
         </div>
       </div>
       <h2 id="resources-heading">Resources</h2>
-      <div class="faq-topic__articles">
+      <div class="resources-topic__articles">
         {{ range .Params.articles }}
           {{ $page := printf "resources/articles/%s" . }}
           {{ with $.Site.GetPage $page }}
@@ -29,7 +29,7 @@
         {{ end }}
       </div>
       <h2 id="faqs-heading">Frequently Asked Questions</h2>
-      <div class="faq-topic__questions">
+      <div class="resources-topic__questions">
         {{ range .Params.faqs }}
           {{ $page := printf "resources/faqs/%s" . }}
           {{ with $.Site.GetPage $page }}
