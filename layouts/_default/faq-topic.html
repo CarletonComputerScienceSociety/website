@@ -19,7 +19,7 @@
           ></div>
         </div>
       </div>
-      <div class="faq-topic__questions">
+      <div class="faq__questions">
         {{ range .Params.questions }}
           {{ $page := printf "resources/faq/questions/%s" . }}
           {{ with $.Site.GetPage $page }}
