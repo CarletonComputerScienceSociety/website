@@ -1,14 +1,14 @@
-<h3>Related Content:</h3>        
+<h3>Related Content:</h3>
 <div class="resources-topic__questions">
   {{ range .Params.related }}
     {{ $page := printf "resources/articles/%s" . }}
     {{ with $.Site.GetPage $page }}
-      {{ partial "faq-card.html" . }}                            
+      {{ partial "faq-card.html" . }}
     {{ end }}
 
     {{ $page := printf "resources/faqs/%s" . }}
     {{ with $.Site.GetPage $page }}
       {{ partial "faq-card.html" . }}
-    {{ end }}            
+    {{ end }}
   {{ end }}
 </div>
