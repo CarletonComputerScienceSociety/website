@@ -20,12 +20,15 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="faq-topic__contributors">
+      <div class="faq-question__contributors">
         <h3>Contributors:</h3>
         {{ range .Params.contributors }}
           <p>{{ . }}</p>
         {{ end }}
       </div>
+      <div class = "related-content">
+        {{ partial "resources-related-content.html" . }}
+      </div>       
     </div>
   </div>
 {{ end }}

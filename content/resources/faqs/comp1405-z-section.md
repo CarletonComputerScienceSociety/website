@@ -12,6 +12,10 @@ sources:
     link: https://devdegree.ca/
   - name: Override Requests
     link: https://carleton.ca/registrar/registration/override-requests/
+related:
+- first-year-course-selection
+- free-vs-breadth-electives
+- comp1405-z-section
 ---
 
 The Z section is an **accelerated version of COMP 1405 and COMP 1406**, which allows you to complete both of them in the fall semester. COMP 1405 Z runs during the first half of the semester and COMP 1406 Z runs during the second half of the semester. It is important to note that the Z section is **not a separate course**, it is just a different section of both COMP 1405 and COMP 1406.
