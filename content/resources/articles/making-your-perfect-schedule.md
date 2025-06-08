@@ -6,6 +6,11 @@ draft: false
 layout: article-question
 summary: "A collection of tips and tricks to help you build your ideal first-year schedule and navigate course planning with confidence."
 contributors: 
-- "Jacc" 
+- "test" 
 sources:
+  - name: Test Name
+    link: https://ccss.carleton.ca/
+related:
+- first-year-course-selection
+- making-your-perfect-schedule
 ---
