@@ -5,12 +5,16 @@
       <h1 class="faq-question__title">{{ .Title }}</h1>
       {{ with .Params.contributors }}
         <p class="faq-question__contributors">
-          <strong>Contributors:</strong> {{ delimit . ", " }}
+          <i><strong>Contributors:</strong> {{ delimit . ", " }}</i>
         </p>
       {{ end }}
       <p class="faq-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
+        <b>Summary:</b> {{ .Params.summary }}
       </p>
+      <div class="faq-question__last-updated">
+        Last Updated:
+        {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
+      </div>
       <div class="faq-question__body">
         {{ .Content }}
       </div>

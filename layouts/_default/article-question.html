@@ -3,9 +3,11 @@
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
-      <div class="article-question__contributors">
-        <h3><i>Written by: {{ .Params.written_by }} </i></h3>
-      </div>
+      {{ with .Params.contributors }}
+        <div class="article-question__contributors">        
+          <i><strong>Written by:</strong> {{ delimit . ", " }}</i>
+        </div>
+      {{ end }}        
       <div class="article-question__summary">
         {{ .Params.summary }}
       </div>
@@ -13,20 +15,22 @@
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
+      <hr>
       <div class="article-question__body">
         {{ .Content }}
       </div>
-      <div class="article-question__sources">
-        {{ with .Params.sources }}
-          <h3>Links and Sources:</h3>
+      <hr class = "end-line">
+      {{ with .Params.sources }}
+        <details class="faq-question__sources">
+          <summary><b>View Links and Sources</b></summary>
           {{ range $index, $source := . }}
             <p>
               ({{ add $index 1 }})
               <a href="{{ $source.link }}">{{ $source.name }}</a>
             </p>
           {{ end }}
-        {{ end }}
-      </div>
+        </details>
+      {{ end }}
       <div class="article-question__related-content">
         {{ partial "resources-related-content.html" . }}
       </div>

@@ -14,10 +14,16 @@
   }
 
   &__title {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
   }
+
+  &__contributors {
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem;
+  }
+
 
   &__questions {
     a {
@@ -37,45 +43,20 @@
   &__summary {
     font-size: 1.5rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   &__last-updated {
-    color: red;
-    margin-bottom: 2rem;
+    color: #c40729;
+    margin-bottom: 1.5rem;
   }
 
   &__body {
     font-size: 1.15rem;
-    margin-bottom: 4rem;
-  }
+    margin: 3rem 0;
+  }    
 
-  &__related-content {
-  }
-
-  &__articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    align-items: stretch;
-  }
-
-  &__questions {
-    a {
-      text-decoration: none;
-
-      h3 {
-        color: #000;
-        font-weight: 700;
-      }
-
-      p {
-        margin-top: 0.75rem;
-      }
-    }
-  }
-
-  &__sources {
+  &__sources {    
     margin-bottom: 2.5rem;
     a {
       color: #c40729;
@@ -89,4 +70,8 @@
       color: #c40729;
     }
   }
+}
+
+.end-line {
+  margin-bottom: 2.5rem;  
 }
