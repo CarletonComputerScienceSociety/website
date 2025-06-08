@@ -19,19 +19,23 @@
     margin-bottom: 1.5rem;
   }
 
+  &__contributors {
+    margin-bottom: 1.5rem;
+    font-size: 1.15rem;
+  }
+
   &__summary {
     font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 3.4rem;
+    margin-bottom: 3.5rem;
   }
 
   &__body {
     font-size: 1.15rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
   }
 
   &__sources {
-    margin-bottom: 2.5rem;
+    margin-top: 2rem;
     a {
       color: #c40729;
     }
@@ -43,9 +47,5 @@
     a:visited {
       color: #c40729;
     }
-  }
-
-  &__contributors {
-    margin-bottom: 2.5rem;
   }
 }

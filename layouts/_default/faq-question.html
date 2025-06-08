@@ -3,11 +3,19 @@
   <div class="faq-question__page">
     <div class="faq-question__content">
       <h1 class="faq-question__title">{{ .Title }}</h1>
+      {{ with .Params.contributors }}
+        <p class="faq-question__contributors">
+          <strong>Contributors:</strong> {{ delimit . ", " }}
+        </p>
+      {{ end }}
       <p class="faq-question__summary">
         <i><b>Summary:</b> {{ .Params.summary }}</i>
       </p>
       <div class="faq-question__body">
         {{ .Content }}
+      </div>
+      <div class="faq-question__related">
+        {{ partial "resources-related-content.html" . }}
       </div>
       <div class="faq-question__sources">
         {{ with .Params.sources }}
@@ -19,15 +27,6 @@
             </p>
           {{ end }}
         {{ end }}
-      </div>
-      <div class="faq-question__contributors">
-        <h3>Contributors:</h3>
-        {{ range .Params.contributors }}
-          <p>{{ . }}</p>
-        {{ end }}
-      </div>
-      <div class="related-content">
-        {{ partial "resources-related-content.html" . }}
       </div>
     </div>
   </div>
