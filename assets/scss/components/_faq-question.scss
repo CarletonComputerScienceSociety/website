@@ -35,7 +35,9 @@
   }
 
   &__sources {
-    margin-top: 2rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+
     a {
       color: #c40729;
     }
@@ -46,6 +48,27 @@
 
     a:visited {
       color: #c40729;
+    }
+
+    summary {
+      max-width: fit-content;
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+      list-style: none;
+      &::-webkit-details-marker {
+        display: none;
+      }
+    }
+
+    summary::after {
+      content: " ▼";
+      margin-left: 0.5rem;
+      font-size: 0.85rem;
+    }
+
+    &[open] summary::after {
+      content: " ▲";
+      font-size: 0.85rem;
     }
   }
 }

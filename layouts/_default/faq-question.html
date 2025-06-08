@@ -14,19 +14,19 @@
       <div class="faq-question__body">
         {{ .Content }}
       </div>
-      <div class="faq-question__related">
-        {{ partial "resources-related-content.html" . }}
-      </div>
-      <div class="faq-question__sources">
-        {{ with .Params.sources }}
-          <h3>Links and Sources:</h3>
+      {{ with .Params.sources }}
+        <details class="faq-question__sources">
+          <summary><b>View Links and Sources</b></summary>
           {{ range $index, $source := . }}
             <p>
               ({{ add $index 1 }})
               <a href="{{ $source.link }}">{{ $source.name }}</a>
             </p>
           {{ end }}
-        {{ end }}
+        </details>
+      {{ end }}
+      <div class="faq-question__related">
+        {{ partial "resources-related-content.html" . }}
       </div>
     </div>
   </div>
