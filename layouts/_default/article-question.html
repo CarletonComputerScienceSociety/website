@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="article-question__page">
+    <div class="article-question__content">
+      <h1 class="article-question__title">{{ .Title }}</h1>
+      <div class="article-question__contributors">
+        <h3><i>Written by: {{ .Params.written_by }} </i></h3>
+      </div>
+      <div class="article-question__summary">
+        {{ .Params.summary }}
+      </div>
+      <div class="article-question__last-updated">
+        Last Updated:
+        {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
+      </div>
+      <div class="article-question__body">
+        {{ .Content }}
+      </div>
+      <div class="article-question__sources">
+        {{ with .Params.sources }}
+          <h3>Links and Sources:</h3>
+          {{ range $index, $source := . }}
+            <p>
+              ({{ add $index 1 }})
+              <a href="{{ $source.link }}">{{ $source.name }}</a>
+            </p>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="article-question__related-content">
+        {{ partial "resources-related-content.html" . }}
+      </div>
+    </div>
+  </div>
+{{ end }}
