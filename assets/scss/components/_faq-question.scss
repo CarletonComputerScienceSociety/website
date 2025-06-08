@@ -75,4 +75,29 @@
       font-size: 0.85rem;
     }
   }
+
+  @media (max-width: 768px) {
+    &__title {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+
+    &__summary {
+      font-size: 1.1rem;
+      line-height: 1.4;
+    }
+    &__contributors {
+      font-size: 1rem;
+    }
+    &__body {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    &__sources {
+      font-size: 1rem;
+    }
+    &__last-updated {
+      font-size: 1rem;
+    }
+  }
 }
