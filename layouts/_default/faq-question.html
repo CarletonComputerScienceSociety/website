@@ -8,9 +8,7 @@
           <i><strong>Contributors:</strong> {{ delimit . ", " }}</i>
         </p>
       {{ end }}
-      <p class="faq-question__summary">
-        <b>Summary:</b> {{ .Params.summary }}
-      </p>
+      <p class="faq-question__summary"><b>Summary:</b> {{ .Params.summary }}</p>
       <div class="faq-question__last-updated">
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}

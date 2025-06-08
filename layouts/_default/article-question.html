@@ -4,10 +4,10 @@
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
       {{ with .Params.contributors }}
-        <div class="article-question__contributors">        
+        <div class="article-question__contributors">
           <i><strong>Written by:</strong> {{ delimit . ", " }}</i>
         </div>
-      {{ end }}        
+      {{ end }}
       <div class="article-question__summary">
         {{ .Params.summary }}
       </div>
@@ -15,11 +15,11 @@
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
-      <hr>
+      <hr />
       <div class="article-question__body">
         {{ .Content }}
       </div>
-      <hr class = "end-line">
+      <hr class="end-line" />
       {{ with .Params.sources }}
         <details class="faq-question__sources">
           <summary><b>View Links and Sources</b></summary>
