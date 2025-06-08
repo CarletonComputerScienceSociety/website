@@ -3,19 +3,23 @@
   <div class="faq-question__page">
     <div class="faq-question__content">
       <h1 class="faq-question__title">{{ .Title }}</h1>
+      <p class="faq-question__summary">
+        <i><b>Summary:</b> {{ .Params.summary }}</i>
+      </p>
       {{ with .Params.contributors }}
         <p class="faq-question__contributors">
-          <i><strong>Contributors:</strong> {{ delimit . ", " }}</i>
+          <strong>Contributors:</strong> {{ delimit . ", " }}
         </p>
       {{ end }}
-      <p class="faq-question__summary"><b>Summary:</b> {{ .Params.summary }}</p>
       <div class="faq-question__last-updated">
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
+      <hr />
       <div class="faq-question__body">
         {{ .Content }}
       </div>
+      <hr class="end-line" />
       {{ with .Params.sources }}
         <details class="faq-question__sources">
           <summary><b>View Links and Sources</b></summary>

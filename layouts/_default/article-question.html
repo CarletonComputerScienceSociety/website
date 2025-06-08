@@ -3,14 +3,14 @@
   <div class="article-question__page">
     <div class="article-question__content">
       <h1 class="article-question__title">{{ .Title }}</h1>
+      <div class="article-question__summary">
+        <i>{{ .Params.summary }}</i>
+      </div>
       {{ with .Params.contributors }}
         <div class="article-question__contributors">
-          <i><strong>Written by:</strong> {{ delimit . ", " }}</i>
+          <strong>Written by:</strong> {{ delimit . ", " }}
         </div>
       {{ end }}
-      <div class="article-question__summary">
-        {{ .Params.summary }}
-      </div>
       <div class="article-question__last-updated">
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
