@@ -81,6 +81,10 @@
   font-weight: bold;
   cursor: pointer;
   color: #c40729;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .home-header-discord-arrow {
@@ -91,6 +95,7 @@
 
 .small-external-link-arrow {
   vertical-align: unset;
+  font-size: 1.175rem;
 }
 
 .home-header-discord:hover {
