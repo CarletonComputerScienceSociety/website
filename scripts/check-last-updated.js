@@ -12,10 +12,15 @@ function getChangedFiles() {
 }
 
 function didUpdateLastUpdated(filePath) {
-    const diffOutput = execSync(`git diff ${GIT_RANGE} -- ${filePath}`).toString();
-    console.log(`🔎 Diff for ${filePath}:\n${diffOutput}`); // ← debug log
-    return diffOutput.includes("last_updated:");
+  const diffOutput = execSync(`git diff ${GIT_RANGE} -- ${filePath}`).toString();
+  const lines = diffOutput.split("\n");
+
+  return lines.some(line =>
+      (line.startsWith("+") || line.startsWith("-")) &&
+      line.includes("last_updated:")
+  );
 }
+
 
 const changedFiles = getChangedFiles();
 let failed = false;
