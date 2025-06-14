@@ -1,0 +1,20 @@
+{{ $relatedPages := slice }}
+
+{{ range .Params.related }}
+  {{ $article := $.Site.GetPage (printf "resources/articles/%s" .) }}
+  {{ $faq := $.Site.GetPage (printf "resources/faqs/%s" .) }}
+  {{ if $article }}
+    {{ $relatedPages = $relatedPages | append $article }}
+    {{ else if $faq }}
+    {{ $relatedPages = $relatedPages | append $faq }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $relatedPages) 0 }}
+  <h3>Related Content:</h3>
+  <div class="resources-topic__questions">
+    {{ range $relatedPages }}
+      {{ partial "faq-card.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

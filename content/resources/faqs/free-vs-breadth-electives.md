@@ -9,7 +9,7 @@ contributors:
 - Matthew MacRae-Bovell
 sources:
   - name: School of Computer Science - Electives and Prohibited Courses
-    link: https://carleton.ca/scs/current-students/undergraduate-students/help-selecting-courses/electives-and-prohibited-courses-2/
+    link: https://carleton.ca/scs/current-students/undergraduate-students/help-selecting-courses/electives-and-prohibited-courses/
 ---
 
 Breadth Electives **cannot** be under **COMP, MATH, or STAT**. After you fulfill your breadth elective requirement, courses that would have counted towards your breadth requirement begin to count as free electives.

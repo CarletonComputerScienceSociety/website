@@ -1,22 +1,22 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
-  <div class="faq-question__page">
-    <div class="faq-question__content">
-      <h1 class="faq-question__title">{{ .Title }}</h1>
-      <p class="faq-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
-      </p>
+  <div class="article-question__page">
+    <div class="article-question__content">
+      <h1 class="article-question__title">{{ .Title }}</h1>
+      <div class="article-question__summary">
+        <i>{{ .Params.summary }}</i>
+      </div>
       {{ with .Params.contributors }}
-        <p class="faq-question__contributors">
-          <strong>Contributors:</strong> {{ delimit . ", " }}
-        </p>
+        <div class="article-question__contributors">
+          <strong>Written by:</strong> {{ delimit . ", " }}
+        </div>
       {{ end }}
-      <div class="faq-question__last-updated">
+      <div class="article-question__last-updated">
         Last Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
       <hr />
-      <div class="faq-question__body">
+      <div class="article-question__body">
         {{ .Content }}
       </div>
       <hr class="end-line" />
@@ -31,7 +31,7 @@
           {{ end }}
         </details>
       {{ end }}
-      <div class="faq-question__related">
+      <div class="article-question__related-content">
         {{ partial "resources-related-content.html" . }}
       </div>
     </div>
