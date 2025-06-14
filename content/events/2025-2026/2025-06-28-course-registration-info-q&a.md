@@ -10,9 +10,12 @@ poster_position: "center"
 short_description: "Learn all about course registration and how to build your ideal schedule!"
 start_time: "12:00 - 1:30 PM EST"
 location: "ZOOM"
+location_link: https://carleton-ca.zoom.us/j/96707573459?pwd=NqMHaPpf4SKvgQvIFaLzAhQRkQHtvJ.1
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-06-05
 ---
+**[Zoom Link](https://carleton-ca.zoom.us/j/96707573459?pwd=NqMHaPpf4SKvgQvIFaLzAhQRkQHtvJ.1)**
+
 This session will feature a **short presentation** followed by a **Q&A session with upper year students** with various backgrounds and year standings. Topics will include: 
 - Course selection
 - Planning your schedule
@@ -22,5 +25,3 @@ This session will feature a **short presentation** followed by a **Q&A session w
 - ... and much much more!
 
 Please **register for the event [here](https://forms.gle/pNJGRRBZqAD65oJs6).**
-
-The Zoom link will be added to this page closer to the event.
