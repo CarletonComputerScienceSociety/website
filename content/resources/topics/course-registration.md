@@ -9,5 +9,6 @@ header_image_url: images/general/game_lab.jpg
 articles:
 -
 faqs:
--
+- comp1405-z-section
+- free-vs-breadth-electives
 ---
