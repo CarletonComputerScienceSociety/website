@@ -16,6 +16,9 @@ publishdate: 2025-06-05
 ---
 **[Zoom Link](https://carleton-ca.zoom.us/j/96707573459?pwd=NqMHaPpf4SKvgQvIFaLzAhQRkQHtvJ.1)**
 
+*Meeting ID:* 967 0757 3459<br> 
+*Password:* 484291
+ 
 This session will feature a **short presentation** followed by a **Q&A session with upper year students** with various backgrounds and year standings. Topics will include: 
 - Course selection
 - Planning your schedule
