@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="resources-topic__page">
+    <div class="resources-topic__content">
+      <div class="resources-topic__header">
+        <div class="page-section">
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-section-text">{{ .Title }}</div>
+            <div class="page-section-body">
+              {{ .Description }}
+            </div>
+            <a href="#faqs-heading"
+              >{{- partial "button.html" (dict "label" "FAQ") -}}</a
+            >
+          </div>
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style="background-image: url('{{ absURL .Params.header_image_url }}')"
+          ></div>
+        </div>
+      </div>
+      <h2 id="resources-heading">Resources</h2>
+      <div class="resources-topic__articles">
+        {{ range .Params.articles }}
+          {{ $page := printf "resources/articles/%s" . }}
+          {{ with $.Site.GetPage $page }}
+            {{ partial "article-card.html" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <h2 id="faqs-heading">Frequently Asked Questions</h2>
+      <div class="resources-topic__questions">
+        {{ range .Params.faqs }}
+          {{ $page := printf "resources/faqs/%s" . }}
+          {{ with $.Site.GetPage $page }}
+            {{ partial "faq-card.html" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
