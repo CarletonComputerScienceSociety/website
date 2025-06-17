@@ -7,6 +7,7 @@ layout: article-question
 summary: "Instead of just filling elective credits with bird courses, using them toward a minor can help you stand out, deepen your skills, and explore a second area of interest."
 contributors: 
 - Matthew MacRae-Bovell
+- Aditya "Jacc" Padmakar
 sources:
   - name: SCS Program Requirements
     link: https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#Computer_Science__BCS_Honours:~:text=Statistical%20Modeling%20I-,6.%C2%A0%C2%A05.0%20credits%20in%20Breadth%20Electives,4.0,-Total%20Credits

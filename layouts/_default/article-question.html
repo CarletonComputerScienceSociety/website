@@ -6,30 +6,46 @@
       <div class="article-question__summary">
         <i>{{ .Params.summary }}</i>
       </div>
-      {{ with .Params.contributors }}
-        <div class="article-question__contributors">
-          <strong>Written by:</strong> {{ delimit . ", " }}
-        </div>
-      {{ end }}
-      <div class="article-question__last-updated">
-        Last Updated:
+      <div class="resource__updated-at">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
-      <hr />
+      <hr class="resource__separator" style="margin-bottom: -0.7rem;" />
       <div class="article-question__body">
         {{ .Content }}
       </div>
-      <hr class="end-line" />
+      <hr class="resource__separator" />
+      <div style="height: 0.5rem"></div>
+      {{ with .Params.contributors }}
+        <div class="resource__contributors">
+          <span><i class="far fa-user" aria-hidden="true"></i></span>
+          <span class="resource__contributors-list">
+          {{ range $index, $contributor := . }}
+            <span
+              class="resource__contributor-pill"
+            >
+              {{ $contributor }}
+            </span>
+          {{ end }}
+          </span>
+        </span>
+        </div>
+      {{ end }} 
+      <div style="height: 0.2rem"></div>
       {{ with .Params.sources }}
-        <details class="faq-question__sources">
-          <summary><b>View Links and Sources</b></summary>
+        <div class="resource__sources">
+          <div>
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+            <span class="resource__sources__heading"></span>Links and Sources</span>
+          </div>
           {{ range $index, $source := . }}
             <p>
               ({{ add $index 1 }})
               <a href="{{ $source.link }}">{{ $source.name }}</a>
             </p>
           {{ end }}
-        </details>
+        </div>
       {{ end }}
       <div class="article-question__related-content">
         {{ partial "resources-related-content.html" . }}
