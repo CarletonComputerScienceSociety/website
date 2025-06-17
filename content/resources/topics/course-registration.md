@@ -8,7 +8,7 @@ layout: resource-topic
 header_image_url: images/general/game_lab.jpg
 articles:
 - why-you-should-consider-a-minor
-- why-you-should-consider-a-minor
+- should-you-take-z-section-2000-level-comp
 - why-you-should-consider-a-minor
 - why-you-should-consider-a-minor
 faqs:
