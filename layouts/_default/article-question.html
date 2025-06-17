@@ -21,23 +21,20 @@
         <div class="resource__contributors">
           <span><i class="far fa-user" aria-hidden="true"></i></span>
           <span class="resource__contributors-list">
-          {{ range $index, $contributor := . }}
-            <span
-              class="resource__contributor-pill"
-            >
-              {{ $contributor }}
-            </span>
-          {{ end }}
+            {{ range $index, $contributor := . }}
+              <span class="resource__contributor-pill">
+                {{ $contributor }}
+              </span>
+            {{ end }}
           </span>
-        </span>
         </div>
-      {{ end }} 
+      {{ end }}
       <div style="height: 0.2rem"></div>
       {{ with .Params.sources }}
         <div class="resource__sources">
           <div>
             <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-            <span class="resource__sources__heading"></span>Links and Sources</span>
+            <span class="resource__sources__heading">Links and Sources</span>
           </div>
           {{ range $index, $source := . }}
             <p>
