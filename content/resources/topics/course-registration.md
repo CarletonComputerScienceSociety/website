@@ -7,7 +7,10 @@ url: "/resources/course-registration"
 layout: resource-topic
 header_image_url: images/general/game_lab.jpg
 articles:
--
+- why-you-should-consider-a-minor
+- why-you-should-consider-a-minor
+- why-you-should-consider-a-minor
+- why-you-should-consider-a-minor
 faqs:
 - comp1405-z-section
 - free-vs-breadth-electives

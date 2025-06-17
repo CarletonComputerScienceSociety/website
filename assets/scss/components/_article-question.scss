@@ -4,6 +4,18 @@
     min-height: 90vh;
     height: fit-content;
     padding-bottom: 5rem;
+
+    a {
+      color: #c40729;
+    }
+
+    a:hover {
+      color: #ff1f48;
+    }
+
+    a:visited {
+      color: #c40729;
+    }
   }
 
   &__content {
