@@ -4,7 +4,7 @@ date: 2025-06-16T00:00:00Z
 last_updated: 2025-06-16T00:00:00Z
 draft: false
 layout: article-question
-summary: "Taking the acc section enables you to take 2000-level COMP courses earlier, but it’s not necessarily the right choice for everyone."
+summary: "Taking the accelerated COMP 1405 Z section enables you to take 2000-level COMP courses earlier, but it’s not necessarily the right choice for everyone."
 contributors: 
 - Matthew MacRae-Bovell
 - Aditya "Jacc" Padmakar

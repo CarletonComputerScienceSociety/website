@@ -3,8 +3,8 @@ const fs = require("fs");
 
 const GIT_RANGE = "HEAD~1..HEAD";
 const TARGET_DIRS = [
-  "content/resources/faqs/questions/",
-  "content/resources/articles/"
+  "content/resources/faqs/**",
+  "content/resources/articles/**"
 ];
 
 function getChangedFiles() {
