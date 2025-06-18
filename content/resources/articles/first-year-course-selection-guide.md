@@ -4,7 +4,7 @@ date: 2025-06-02T00:00:00Z
 last_updated: 2025-06-02T00:00:00Z
 draft: false
 layout: article-question
-summary: "An overview of recomme, MATH, and elective courses, along with common scheduling options to help you plan your timetable effectively."
+summary: "An overview of recommended first-year COMP, MATH, and elective courses, along with common scheduling options to help you plan your timetable effectively."
 contributors: 
 - "test" 
 sources:
