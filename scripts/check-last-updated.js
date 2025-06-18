@@ -16,8 +16,18 @@ function getChangedFiles() {
 
 function didUpdateLastUpdated(filePath) {
   const diffOutput = execSync(`git diff ${GIT_RANGE} -- ${filePath}`).toString();
-  return diffOutput.includes("last_updated:");
+  
+  const lastUpdatedLines = diffOutput
+    .split('\n')
+    .filter(line => line.includes("last_updated:"));
+
+  // Check if there's both a removed (-) and added (+) line
+  const hasRemoved = lastUpdatedLines.some(line => line.startsWith("-"));
+  const hasAdded = lastUpdatedLines.some(line => line.startsWith("+"));
+
+  return hasRemoved && hasAdded;
 }
+
 
 const changedFiles = getChangedFiles();
 let failed = false;
