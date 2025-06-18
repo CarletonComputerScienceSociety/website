@@ -7,7 +7,7 @@ on:
       - 'content/resources/articles/**'
   push:
     branches:
-      - main
+      - '**'
     paths:
       - 'content/resources/faq/questions/**'
       - 'content/resources/articles/**'
