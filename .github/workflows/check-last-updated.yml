@@ -3,13 +3,13 @@ name: Check Last Updated Fields
 on:
   pull_request:
     paths:
-      - 'content/resources/faq/questions/**'
+      - 'content/resources/faq/**'
       - 'content/resources/articles/**'
   push:
     branches:
       - '**'
     paths:
-      - 'content/resources/faq/questions/**'
+      - 'content/resources/faq/**'
       - 'content/resources/articles/**'
 
 jobs:
