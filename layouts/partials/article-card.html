@@ -1,0 +1,9 @@
+<div class="resources-topic__article">
+  <div class="card_text">
+    <h4>{{ .Title }}</h4>
+    <p>{{ .Params.summary }}</p>
+  </div>
+  <a href="{{ .RelPermalink }}">
+    {{- partial "button.html" (dict "label" "Read More") -}}
+  </a>
+</div>

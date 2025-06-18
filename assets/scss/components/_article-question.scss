@@ -1,47 +1,9 @@
-.faq-question {
+.article-question {
   &__page {
     background: #faf9f8;
     min-height: 90vh;
     height: fit-content;
     padding-bottom: 5rem;
-  }
-
-  &__content {
-    max-width: 65rem;
-    margin: 0 auto;
-    height: fit-content;
-    padding: 2.5rem;
-  }
-
-  &__title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
-
-  &__contributors {
-    margin-bottom: 1rem;
-  }
-
-  &__summary {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-  }
-
-  &__last-updated {
-    color: #c40729;
-    margin-bottom: 1.5rem;
-  }
-
-  &__body {
-    font-size: 1.15rem;
-    margin: 3rem 0;
-    margin-bottom: 4rem;
-  }
-
-  &__sources {
-    cursor: pointer;
-    margin-bottom: 1.5rem;
 
     a {
       color: #c40729;
@@ -54,25 +16,67 @@
     a:visited {
       color: #c40729;
     }
+  }
 
-    summary {
-      font-size: 1.15rem;
-      margin-bottom: 0.5rem;
-      list-style: none;
-      &::-webkit-details-marker {
-        display: none;
+  &__content {
+    max-width: 65rem;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 2.5rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+  }
+
+  &__contributors {
+    margin-bottom: 1rem;
+  }
+
+  &__questions {
+    a {
+      text-decoration: none;
+
+      h3 {
+        color: #000;
+        font-weight: 700;
+      }
+
+      p {
+        margin-top: 0.75rem;
       }
     }
+  }
 
-    summary::after {
-      content: " ▼";
-      margin-left: 0.5rem;
-      font-size: 0.85rem;
+  &__summary {
+    font-size: 1.5rem;
+    margin-bottom: 2.25rem;
+  }
+
+  &__last-updated {
+    color: #c40729;
+    margin-bottom: 1.5rem;
+  }
+
+  &__body {
+    font-size: 1.15rem;
+    margin: 3rem 0;
+  }
+
+  &__sources {
+    margin-bottom: 2.5rem;
+    a {
+      color: #c40729;
     }
 
-    &[open] summary::after {
-      content: " ▲";
-      font-size: 0.85rem;
+    a:hover {
+      color: #ff1f48;
+    }
+
+    a:visited {
+      color: #c40729;
     }
   }
 
@@ -100,4 +104,8 @@
       font-size: 1rem;
     }
   }
+}
+
+.end-line {
+  margin-bottom: 2.5rem;
 }

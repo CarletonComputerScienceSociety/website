@@ -1,18 +1,18 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
-  <div class="faq-question__page">
-    <div class="faq-question__content">
-      <h1 class="faq-question__title">{{ .Title }}</h1>
-      <p class="faq-question__summary">
-        <i><b>Summary:</b> {{ .Params.summary }}</i>
-      </p>
-      <div class="resource__updated-at" style="margin-top: -1rem;">
+  <div class="article-question__page">
+    <div class="article-question__content">
+      <h1 class="article-question__title">{{ .Title }}</h1>
+      <div class="article-question__summary">
+        <i>{{ .Params.summary }}</i>
+      </div>
+      <div class="resource__updated-at">
         <i class="far fa-clock" aria-hidden="true"></i>
         Updated:
         {{ .Params.last_updated | time | dateFormat "January 2, 2006" }}
       </div>
-      <hr class="resource__separator" />
-      <div class="faq-question__body">
+      <hr class="resource__separator" style="margin-bottom: -0.7rem;" />
+      <div class="article-question__body">
         {{ .Content }}
       </div>
       <hr class="resource__separator" />
@@ -44,7 +44,7 @@
           {{ end }}
         </div>
       {{ end }}
-      <div class="faq-question__related">
+      <div class="article-question__related-content">
         {{ partial "resources-related-content.html" . }}
       </div>
     </div>
