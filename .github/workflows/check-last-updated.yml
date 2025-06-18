@@ -1,0 +1,28 @@
+name: Check Last Updated Fields
+
+on:
+  pull_request:
+    paths:
+      - 'content/resources/faq/questions/**'
+      - 'content/resources/articles/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/resources/faq/questions/**'
+      - 'content/resources/articles/**'
+
+jobs:
+  check-last-updated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Last Updated Check
+        run: node scripts/check-last-updated.js
