@@ -46,8 +46,14 @@ for (const file of changedFiles) {
 }
 
 if (failed) {
-  console.error("\nPlease update the 'last_updated' field in all modified FAQ/article files.");
-  process.exit(1);
+  console.error("\n❌ CI FAILED: The following files were modified without updating 'last_updated':");
+  for (const file of changedFiles) {
+    if (!didUpdateLastUpdated(file)) {
+      console.error(`   • ${file}`);
+    }
+  }
+
+  throw new Error("🚫 Commit rejected: 'last_updated' must be updated for each modified FAQ/article.");
 } else {
   console.log("✅ All modified FAQ/article files have updated 'last_updated' fields.");
 }
