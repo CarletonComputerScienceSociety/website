@@ -35,8 +35,8 @@
       <div class="reviewer">
         <img src="{{ .image | relURL }}" alt="{{ .name }}" />
         <h2>{{ .name }}</h2>
-        <b><p>{{ .year_standing }} Year Standing</p></b>
-        <b><p>{{ .stream }} Stream</p></b>
+        <b><p>{{ .year_standing }} year standing</p></b>
+        <b><p>{{ .stream }}</p></b>
         <p>{{ .minors }}</p>
         <p>{{ .additional_info }}</p>
         <a href="" onclick="Calendly.initPopupWidget({url: '{{ .link }}'});return false;"
