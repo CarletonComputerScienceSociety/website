@@ -36,7 +36,7 @@
       }
     });
   </script>
-  <h1>Meet our Registration Office Hours Volunteers!</h1>
+  <h1>Meet our Course Registration Office Hours Volunteers!</h1>
   <div class="resume-reviewers">
     {{ range .Site.Data.registration_office_hours_volunteers }}
       <div class="reviewer">
@@ -44,8 +44,17 @@
         <h2>{{ .name }}</h2>
         <b><p>{{ .year_standing }} year standing</p></b>
         <b><p>{{ .stream }}</p></b>
-        <p>{{ .minors }}</p>
-        <p>{{ .additional_info }}</p>
+        {{ if .minors }}
+          <p>{{ .minors }}</p>
+          {{ else }}
+          <p class="placeholder"></p>
+        {{ end }}
+
+        {{ if .additional_info }}
+          <p>{{ .additional_info }}</p>
+          {{ else }}
+          <p class="placeholder"></p>
+        {{ end }}
         <a
           href=""
           onclick="Calendly.initPopupWidget({url: '{{ .link }}'});return false;"

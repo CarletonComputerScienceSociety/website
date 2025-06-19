@@ -1,9 +1,9 @@
 - name: Riley Lutz
   first_name: Riley
   year_standing: Fourth
-  stream: No stream
+  stream: Game Development stream
   minors: Minor in Film
-  additional_info: Previously in the Game Development stream
+  additional_info: 
   image: images/executives/riley.png
   link: "https://calendly.com/riley-lutz-ccss/registration-office-hours"
 
@@ -20,10 +20,10 @@
   first_name: Landon
   year_standing: Third
   stream: Cybersecurity stream
-  minors: ""
+  minors: No minors
   additional_info: TA experience, Took the Z section
   image: images/executives/landon.jpg
-  link: 
+  link: "https://calendly.com/05effects/registration-office-hours"
 
 - name: Ryan Chung
   first_name: Ryan
@@ -32,7 +32,7 @@
   minors: Minor in Business Entrepreneurship
   additional_info: Took the Z section
   image: images/executives/ryan_chung2.JPG
-  link: 
+  link: "https://calendly.com/ryan-chung-ccss/30min"
 
 - name: Nguyen-Hanh Nong
   first_name: Nguyen 
@@ -47,7 +47,7 @@
   first_name: Kimia
   year_standing: Second
   stream: Cybersecurity stream
-  minors: ""
+  minors: No minors
   additional_info: ""
   image: images/executives/kimia.jpg
   link: "https://calendly.com/kimia-khorramroudi-ccss/registration-office-hours"
@@ -66,7 +66,7 @@
   year_standing: Third
   stream: AI and ML stream
   minors: Minor in Economics
-  additional_info: ""
+  additional_info: 
   image: images/executives/eros.png
   link: "https://calendly.com/eros-mcguire-ccss/registration-office-hours"
 
