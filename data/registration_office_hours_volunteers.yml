@@ -1,0 +1,73 @@
+- name: Riley Lutz
+  first_name: Riley
+  year_standing: Fourth
+  stream: Game Development stream
+  minors: Minor in Film
+  additional_info: 
+  image: images/executives/riley.png
+  link: "https://calendly.com/riley-lutz-ccss/registration-office-hours"
+
+- name: Jacc Padmakar
+  first_name: Jacc
+  year_standing: Third
+  stream: AI and ML stream
+  minors: Minor in Film
+  additional_info: International student, Took the Z section
+  image: images/executives/jacc.jpg
+  link: "https://calendly.com/jacc-padmakar-ccss/registration-office-hours"
+
+- name: Landon MacDonald
+  first_name: Landon
+  year_standing: Third
+  stream: Cybersecurity stream
+  minors: No minors
+  additional_info: TA experience, Took the Z section
+  image: images/executives/landon.jpg
+  link: "https://calendly.com/05effects/registration-office-hours"
+
+- name: Ryan Chung
+  first_name: Ryan
+  year_standing: Fourth 
+  stream: AI and ML stream
+  minors: Minor in Business Entrepreneurship
+  additional_info: Took the Z section
+  image: images/executives/ryan_chung2.JPG
+  link: "https://calendly.com/ryan-chung-ccss/30min"
+
+- name: Nguyen-Hanh Nong
+  first_name: Nguyen 
+  year_standing: Fourth
+  stream: AI and ML stream
+  minors: Minors in Math and Psychology
+  additional_info: TA experience
+  image: images/executives/nguyen.jpg
+  link: "https://calendly.com/nguyenhanh-nong-ccss/registration-office-hours"
+
+- name: Kimia Khorram-Roudi
+  first_name: Kimia
+  year_standing: Second
+  stream: Cybersecurity stream
+  minors: No minors
+  additional_info: ""
+  image: images/executives/kimia.jpg
+  link: "https://calendly.com/kimia-khorramroudi-ccss/registration-office-hours"
+
+- name: Veronica Mordvinova
+  first_name: Veronica
+  year_standing: Third
+  stream: AI and ML stream
+  minors: Minors in Math and Neuroscience
+  additional_info: TA experience
+  image: images/executives/veronica2.jpg
+  link: "https://calendly.com/veronica-mordvinova-ccss/registration-office-hours"
+
+- name: Eros McGuire
+  first_name: Eros
+  year_standing: Third
+  stream: AI and ML stream
+  minors: Minor in Economics
+  additional_info: 
+  image: images/executives/eros.png
+  link: "https://calendly.com/eros-mcguire-ccss/registration-office-hours"
+
+
