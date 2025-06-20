@@ -14,8 +14,11 @@ sources:
     link: "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Natural%20Science%20Electives-,Prohibited%20Courses,-The%20following%20courses"
   - name: Maximum Number of Credits Below the 2000-level
     link: "https://carleton.ca/scs/current-students/undergraduate-students/courses-and-registration/#UG_electives_and_prohibited:~:text=IMPORTANT%3A%20Maximum%20Number%20of%20Credits%20Below%20the%202000%2Dlevel."
+  - name: Adding a Minor 
+    link: "https://admissions.carleton.ca/minors/"
 related:
 - why-you-should-consider-a-minor
+- free-vs-breadth-electives
 ---
 When trying to figure out which electives might be best for you - there are a few things that you might want to consider. Whether that might be making the best use of your breadth and free electives, getting a minor, or strategically planning your electives to be able to take online courses during the summer, there are a lot of options for Computer Science students!
 
