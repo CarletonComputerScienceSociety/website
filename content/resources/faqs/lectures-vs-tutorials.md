@@ -1,15 +1,21 @@
 ---
-title: ""
+title: "What is the difference between a lecture and tutorial?"
 date: 2025-06-16T00:00:00Z
 last_updated: 2025-06-16T00:00:00Z
 draft: false
-layout: article-question
-summary: ""
+layout: faq-question
+summary: "Lectures are the bulk of the content taught in a course, while tutorials accompany learning via hands-on exercises."
 contributors: 
--  
+- Riley Lutz
+- Aditya "Jacc" Padmakar
 sources:
-  - name: 
-    link:
+  - name: Registration Terminology
+    link: https://carleton.ca/registration/terminology/
 related:
 - 
 ---
+Lectures are the main part of a course where your instructor covers the course material. It is also common for midterms to take place during the lecture time slot.  
+
+Tutorials are additional sessions led by teaching assistants that are meant to supplement your learning, such as with practical exercises or short quizzes. The exact format of a tutorial varies between courses and will be mentioned in the course outline. 
+
+If a course has a tutorial, you must register for both a lecture section as well as an associated tutorial section.  
