@@ -30,6 +30,10 @@
         </div>
       {{ end }}
       <div style="height: 0.2rem"></div>
+      <div class="faq-question__related">
+        {{ partial "resources-related-content.html" . }}
+      </div>
+      <div style="height: 0.2rem"></div>
       {{ with .Params.sources }}
         <div class="resource__sources">
           <div>
@@ -43,10 +47,7 @@
             </p>
           {{ end }}
         </div>
-      {{ end }}
-      <div class="faq-question__related">
-        {{ partial "resources-related-content.html" . }}
-      </div>
+      {{ end }}      
     </div>
   </div>
 {{ end }}

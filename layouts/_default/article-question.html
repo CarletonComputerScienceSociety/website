@@ -28,7 +28,11 @@
             {{ end }}
           </span>
         </div>
-      {{ end }}
+      {{ end }}      
+      <div style="height: 0.2rem"></div>
+      <div class="article-question__related-content">
+        {{ partial "resources-related-content.html" . }}
+      </div>
       <div style="height: 0.2rem"></div>
       {{ with .Params.sources }}
         <div class="resource__sources">
@@ -44,9 +48,6 @@
           {{ end }}
         </div>
       {{ end }}
-      <div class="article-question__related-content">
-        {{ partial "resources-related-content.html" . }}
-      </div>
     </div>
   </div>
 {{ end }}
