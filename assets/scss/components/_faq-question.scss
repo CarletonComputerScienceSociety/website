@@ -4,19 +4,30 @@
     min-height: 90vh;
     height: fit-content;
     padding-bottom: 5rem;
+    a {
+      color: #c40729;
+    }
+
+    a:hover {
+      color: #ff1f48;
+    }
+
+    a:visited {
+      color: #c40729;
+    }
   }
 
   &__content {
     max-width: 65rem;
     margin: 0 auto;
     height: fit-content;
-    padding: 2.5rem;
+    padding: 2.5rem;    
   }
 
   &__title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    height: fit-content;        
   }
 
   &__contributors {
@@ -26,6 +37,7 @@
   &__summary {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    line-height: 1.8rem;
   }
 
   &__last-updated {
@@ -37,6 +49,7 @@
     font-size: 1.15rem;
     margin: 3rem 0;
     margin-bottom: 4rem;
+    line-height: 1.6rem;
   }
 
   &__sources {

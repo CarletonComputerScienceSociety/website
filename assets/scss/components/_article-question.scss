@@ -22,8 +22,7 @@
     max-width: 65rem;
     margin: 0 auto;
     height: fit-content;
-    padding: 2.5rem;
-    line-height: 1.6rem;
+    padding: 2.5rem;    
   }
 
   &__title {
@@ -65,6 +64,7 @@
   &__body {
     font-size: 1.15rem;
     margin: 3rem 0;
+    line-height: 1.6rem;
   }
 
   &__sources {

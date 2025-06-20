@@ -35,18 +35,20 @@
       </div>
       <div style="height: 0.2rem"></div>
       {{ with .Params.sources }}
-        <div class="resource__sources">
-          <div>
-            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-            <span class="resource__sources__heading">Links and Sources</span>
+        {{ if gt (len .) 0 }}
+          <div class="resource__sources">
+            <div>
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              <span class="resource__sources__heading">Links and Sources</span>
+            </div>
+            {{ range $index, $source := . }}
+              <p>
+                ({{ add $index 1 }})
+                <a href="{{ $source.link }}">{{ $source.name }}</a>
+              </p>
+            {{ end }}
           </div>
-          {{ range $index, $source := . }}
-            <p>
-              ({{ add $index 1 }})
-              <a href="{{ $source.link }}">{{ $source.name }}</a>
-            </p>
-          {{ end }}
-        </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>
