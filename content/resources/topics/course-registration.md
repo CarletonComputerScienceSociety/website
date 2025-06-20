@@ -11,7 +11,7 @@ articles:
 - should-you-take-z-section
 - reducing-second-year-workload
 - things-to-consider-while-making-schedule
-- which electives-should-I-take
+- which-electives-should-I-take
 - useful-carleton-webpages
 faqs:
 - comp1405-z-section
