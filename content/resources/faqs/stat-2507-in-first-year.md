@@ -11,7 +11,7 @@ sources:
   - name: Computer Science undergraduate calendar
     link: "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/"
 related:
-- 
+- reducing-second-year-workload
 ---
 Taking STAT 2507 in your first year can help reduce your second-year workload, which could include as many as seven required 2000-level courses for Computer Science students. [1]
 

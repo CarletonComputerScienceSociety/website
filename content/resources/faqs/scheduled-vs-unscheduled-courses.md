@@ -12,7 +12,7 @@ sources:
   - name: Course Delivery Types
     link: https://carleton.ca/registration/course-delivery-types/#fall-2025-winter-2026-course-registration-labels
 related:
-- 
+- things-to-consider-while-making-schedule
 ---
 **Online scheduled**: 
 Lectures are delivered online during specific time slots. Lecture recordings may or may not be provided

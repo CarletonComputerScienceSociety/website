@@ -11,7 +11,7 @@ sources:
   - name: Undergraduate Courses
     link: "https://calendar.carleton.ca/undergrad/courses/"
   - name: Prohibited courses for computer science students
-    link: "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Natural%20Science%20Electives-,Prohibited%20Courses,-The%20following%20courses"
+    link: "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Course%20Categories%20(B.C.S.)"
   - name: Maximum Number of Credits Below the 2000-level
     link: "https://carleton.ca/scs/current-students/undergraduate-students/courses-and-registration/#UG_electives_and_prohibited:~:text=IMPORTANT%3A%20Maximum%20Number%20of%20Credits%20Below%20the%202000%2Dlevel."
   - name: Adding a Minor 
@@ -22,7 +22,7 @@ related:
 ---
 When trying to figure out which electives might be best for you - there are a few things that you might want to consider. Whether that might be making the best use of your breadth and free electives, getting a minor, or strategically planning your electives to be able to take online courses during the summer, there are a lot of options for Computer Science students!
 
-Before we get started - you can find the complete list of course offerings [here](https://calendar.carleton.ca/undergrad/courses/). Also be sure to check the list of [prohibited courses](https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Natural%20Science%20Electives-,Prohibited%20Courses,-The%20following%20courses) that cannot be used for credit in the Computer Science program.
+Before we get started - you can find the complete list of course offerings [here](https://calendar.carleton.ca/undergrad/courses/). Also be sure to check the list of [prohibited courses](https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Course%20Categories%20(B.C.S.)) that cannot be used for credit in the Computer Science program.
 
 <br/>
 

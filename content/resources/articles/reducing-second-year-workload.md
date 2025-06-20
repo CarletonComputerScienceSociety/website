@@ -7,7 +7,7 @@ layout: article-question
 summary: "Strategically selecting courses in your first year can help reduce your second-year workload and set you up for academic success."
 contributors: 
 - Matthew MacRae-Bovell
-- Aditya "Jacc" Padmakar
+- Jacc Padmakar
 sources:
 related:
 - should-you-take-z-section

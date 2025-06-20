@@ -1,5 +1,5 @@
 ---
-title: "What is the COMP 1405 Z section?"
+title: "What is the COMP 1405/1406-Z section?"
 date: 2024-10-06T00:00:00Z
 last_updated: 2025-06-20T00:00:00Z
 draft: false
@@ -13,7 +13,7 @@ sources:
   - name: Bachelor of Cybersecurity Program
     link: "https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/"
   - name: Override Requests
-    link: https://carleton.ca/registrar/registration/override-requests/
+    link: https://carleton.ca/registration/override-requests/
 related:
 - should-you-take-z-section
 ---
@@ -22,4 +22,4 @@ The Z section is an **accelerated version of COMP 1405 and COMP 1406**, which al
 
 The learning outcomes and topics covered are the same as the standard versions of these courses, but they are covered in half as much time. It is recommended that you have some **prior programming experience** in order to ensure that you are able to keep up with the pace of the course.
 
-The Z section is primarily for students in the [Shopify Dev Degree](https://devdegree.ca/) and [Bachelor of Cybersecurity (B.Cyber)](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/) programs. However, Bachelor of Computer Science (BCS) students with an admission average of 90% or higher may also be eligible to take the course. If you are a BCS student, you must submit a [registration override request](https://carleton.ca/registration/override-requests/) (3) to get permission to register.
+The Z section is primarily for students in the [Shopify Dev Degree](https://devdegree.ca/) and [Bachelor of Cybersecurity (B.Cyber)](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/) programs. However, Bachelor of Computer Science (BCS) students with an admission average of 90% or higher may also be eligible to take the course. If you are a BCS student, you must submit a [registration override request](https://carleton.ca/registration/override-requests/) to get permission to register.

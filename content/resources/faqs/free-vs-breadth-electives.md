@@ -12,6 +12,8 @@ sources:
     link: https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Course%20Categories%20(B.C.S.)
   - name: School of Computer Science - Courses and Registration
     link: https://carleton.ca/scs/current-students/undergraduate-students/courses-and-registration/#UG_electives_and_prohibited:~:text=a%20payment.-,Electives%20and%20Prohibited%20Courses,-Electives%20are%20courses
+related: 
+- which-electives-should-I-take
 ---
 
 **Breadth Electives cannot** be under **COMP, MATH, STAT, CSEC, DATA or Engineering**, or on the list of **[prohibited courses](https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Course%20Categories%20(B.C.S.))**. After you fulfill your breadth elective requirement, courses that would have counted towards your breadth requirement begin to count as free electives.

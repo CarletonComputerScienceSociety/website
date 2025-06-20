@@ -15,7 +15,7 @@ sources:
   - name: BCS First Year Course Selection Guide
     link: https://carleton.ca/registration/course-selection-guide/bcs/
 related:
-- 
+- first-year-courses-order
 ---
 All Computer Science students should complete the following required courses in their first year [1], in addition to any elective courses:
 

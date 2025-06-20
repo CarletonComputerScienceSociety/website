@@ -12,10 +12,11 @@ sources:
     link: https://carleton.ca/registration/course-selection-guide/bcs/
 related:
 - can-I-take-2000-level-courses-in-first-year
+- reducing-second-year-workload
 ---
 The First-Year Course Selection Guide [1] recommends taking COMP 1405 and MATH 1007 in the Fall, followed by COMP 1406, COMP 1805, and MATH 1104 in the Winter.
 
-**COMP 1405 must be taken in the Fall**, since it’s a prerequisite for COMP 1406, which should be completed in the Winter.
+**COMP 1405 must be taken in the Fall** since it’s a prerequisite for COMP 1406, which should be completed in the Winter.
 
 The other courses - MATH 1007, MATH 1104, and COMP 1805 - have no prerequisites and can be taken in either term. When deciding which term to take them in, think about factors such as your overall workload, scheduling conflicts, and the instructors available for each term.
 

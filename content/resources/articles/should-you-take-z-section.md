@@ -7,7 +7,7 @@ layout: article-question
 summary: "Taking the accelerated COMP 1405 Z section enables you to take 2000-level COMP courses earlier, but it’s not necessarily the right choice for everyone."
 contributors: 
 - Matthew MacRae-Bovell
-- Aditya "Jacc" Padmakar
+- Jacc Padmakar
 sources:
   - name: COMP 1405 Z Syllabus
     link: https://outline.scs.carleton.ca/media/2023/F/COMP1405ZF2023/COMP-1405-Z-F-2023.pdf

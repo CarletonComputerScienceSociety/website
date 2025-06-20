@@ -19,7 +19,8 @@ sources:
   - name: Academic Dates and Deadlines
     link: "https://students.carleton.ca/academic-dates/"
 related:
-- 
+- first-year-courses-order
+- reducing-second-year-workload
 ---
 
 ### Consider all the Possibilities

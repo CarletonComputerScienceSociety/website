@@ -9,8 +9,6 @@ contributors:
 - Riley Lutz
 - Jacc Padmakar
 sources:
-  - name: Registration Terminology
-    link: https://carleton.ca/registration/terminology/
 related:
 - 
 ---

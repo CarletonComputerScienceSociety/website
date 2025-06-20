@@ -14,7 +14,7 @@ sources:
   - name: COMP 1405 / 1406 Z Section
     link: https://ccss.carleton.ca/resources/faqs/comp1405-z-section/
 related:
-- 
+- comp1405-z-section
 ---
 While the **learning outcomes** and core content of a course are the **same across all sections**, there may be a few **minor differences**. Different instructors may have different grade breakdowns, assignment and test schedules, and slight differences in the order or focus of the course content.
 

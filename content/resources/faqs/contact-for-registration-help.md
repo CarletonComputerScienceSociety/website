@@ -1,7 +1,7 @@
 ---
 title: "Who should I contact if I need help with registration?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-16T00:00:00Z
+last_updated: 2025-06-20T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Contact the academic advisors at scs.ug.advisor@carleton.ca"
