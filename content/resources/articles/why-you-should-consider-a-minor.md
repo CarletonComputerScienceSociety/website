@@ -7,7 +7,7 @@ layout: article-question
 summary: "Instead of just filling elective credits with bird courses, using them toward a minor can help you stand out, deepen your skills, and explore a second area of interest."
 contributors: 
 - Matthew MacRae-Bovell
-- Aditya "Jacc" Padmakar
+- Jacc Padmakar
 sources:
   - name: SCS Program Requirements
     link: https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#Computer_Science__BCS_Honours:~:text=Statistical%20Modeling%20I-,6.%C2%A0%C2%A05.0%20credits%20in%20Breadth%20Electives,4.0,-Total%20Credits
@@ -26,7 +26,7 @@ sources:
   - name: How many first year courses can I take?
     link: https://carleton.ca/cuknowhow/my-degree/#:~:text=you%20can%20only%20count%20a%20maximum%20of%207.0%20credits%20in%20first%2Dyear%20courses
 related:
-- 
+- which-electives-should-I-take
 ---
 
 As a computer science student, you’ll need to take several non-CS courses to complete your degree. Instead of just filling space, why not use those credits to earn a minor?
