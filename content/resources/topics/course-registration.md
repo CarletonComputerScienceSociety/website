@@ -13,6 +13,22 @@ articles:
 - reducing-second-year-workload
 - why-you-should-consider-a-minor
 faqs:
-- comp1405-z-section
+- which-courses-in-first-year
+- first-year-courses-order
+- which-courses-can-I-take-as-electives
 - free-vs-breadth-electives
+- comp1405-z-section
+- can-I-take-2000-level-courses-in-first-year
+- stat-2507-in-first-year
+- override-request
+- should-I-register-for-both-terms
+- switch-courses-after-registering
+- how-many-courses-in-a-semester
+- are-all-sections-the-same
+- lectures-vs-tutorials
+- course-does-not-have-instructor
+- comp-1005-1006-vs-1405-1406
+- scheduled-vs-unscheduled-courses
+- what-are-time-tickets
+- contact-for-registration-help
 ---

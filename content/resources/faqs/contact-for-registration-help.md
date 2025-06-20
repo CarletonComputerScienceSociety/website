@@ -7,13 +7,13 @@ layout: faq-question
 summary: "Contact the academic advisors at scs.ug.advisor@carleton.ca"
 contributors: 
 - Riley Lutz
-- Aditya "Jacc" Padmakar
+- Jacc Padmakar
 sources:
   - name: Registration Guide
     link: https://carleton.ca/registration/
 related:
 - 
 ---
-Academic Advisors with the School of Computer Science are your main point of contact for questions about course selection, your degree requirements, reduced course loads, and more. You can reach them at scs.ug.advisor@carleton.ca.
+Academic Advisors with the School of Computer Science are your main point of contact for questions about course selection, your degree requirements, reduced course loads, and more. You can reach them at **scs.ug.advisor@carleton.ca.**
 
-For help with the registration process, check out [this guide](https://carleton.ca/registration/) [1] or contact the Registrar’s Office at registrar@carleton.ca or call 613-520-3500 during business hours.
+For help with the registration process, check out [this guide](https://carleton.ca/registration/). You can also contact the Registrar’s Office at **registrar@carleton.ca**, or call 613-520-3500 during business hours.
