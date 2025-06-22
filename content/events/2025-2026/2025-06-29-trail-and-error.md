@@ -27,7 +27,9 @@ We will likely be stopping at some point through the hike to have lunch, so **br
 
 A map of the park can be found [here](https://ncc-ccn.gc.ca/places/gatineau-park-trails-map).
 
----
 **NOTE:** *Hikes may be postponed depending on the weather. If the date changes, we’ll post updates on our Instagram stories and Discord.*
+
+---
+
 ### Previous Hikes:
 - **June 7th** - Waterfall and Laurialt Trail, Gatineau Park
