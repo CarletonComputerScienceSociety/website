@@ -14,8 +14,7 @@ location_link: "https://maps.app.goo.gl/vAmtuX1e6PU1EAkA7"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-05-31
 ---
-
-This event is running every other saturday for the summer, starting on the 29th.
+This event is running every other weekend for the summer, starting on June 29th (weather permitting)
 ### Destination
 **Pink Lake Trail** at **Gatineau Park** via the **Gatineau Shuttle Bus** going from **Pindigen Park** to **Pink Lake**.
 ### Transportation
@@ -29,6 +28,6 @@ We will likely be stopping at some point through the hike to have lunch, so **br
 A map of the park can be found [here](https://ncc-ccn.gc.ca/places/gatineau-park-trails-map).
 
 ---
-
+**NOTE:** *Hikes may be postponed depending on the weather. If the date changes, we’ll post updates on our Instagram stories and Discord.*
 ### Previous Hikes:
 - **June 7th** - Waterfall and Laurialt Trail, Gatineau Park
