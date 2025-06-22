@@ -8,13 +8,12 @@ poster: "/images/event_posters/2025-2026/summer-game-night.png"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Kick back and enjoy a variety of games with others on Discord!"
-start_time: "1:00 PM EST"
+start_time: "5:00 - 8:00 PM EST"
 location: "Discord"
 location_link: https://discord.com/invite/fvdmVyZbJx
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-06-22
 ---
-Kick back and enjoy a variety of games with others on Discord!
 ### Planned Games:
 - Among Us
 - Gartic Phone
