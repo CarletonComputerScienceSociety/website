@@ -1,3 +1,40 @@
+- year: 2024-2025
+  members:
+    - name: Veronica Mordvinova
+      role: President
+      email: veronica.mordvinova@ccss.carleton.ca
+      intro: "Hello everyone! I'm Veronica and I am in the software engineering stream with a minor in math and business. If you have any concerns that you would like to bring forward, or would just like to chat, feel free to reach out anytime!"
+      image: images/executives/veronica_mordvinova.jpg
+    - name: John Lu
+      role: Director of Operations
+      email: john.lu@ccss.carleton.ca
+      intro: "Blurb: Hi, I'm John. I'll be your Director of Operations for this year. Let me know if you have any concerns!"
+      image: images/executives/john_lu.jpg
+    - name: Ryan Chung
+      role: Director of Finance
+      email: ryan.chung@ccss.carleton.ca
+      intro: "Hey! I'm Ryan and I'm currently a third year in the Software Engineering stream. In the past I was a First Year Rep, and this year I am the Director of Finance (for the second year in a row)! Feel free to message me for anything!"
+      image: images/executives/ryan_chung2.JPG
+    - name: Richard Kim
+      role: Director of Industry Initiatives
+      email: richard.kim@ccss.carleton.ca
+      intro: Hey, I'm Richard, I was your VP last year, and will be your Director of Industry Initiatives this year! I'm in my fourth year in the Honours program, minoring in Biology and Greek and Roman Studies. I took them to get better at writing essays but I ended up liking it. Feel free to HMU to ask questions or chat!
+      image: images/executives/richard_kim.jpg
+    - name: Kelly Huang
+      role: Director of Social
+      email: kelly.huang@ccss.carleton.ca
+      intro: "Hey! I’m Kelly and I’m a third year with a minor in psychology. Feel free to reach out to me if you ever have any event ideas or need good restaurant suggestions in Ottawa!"
+      image: images/executives/kelly_huang.jpg
+    - name: Aditya "Jacc" Padmakar
+      role: Director of Publications
+      email: aditya.padmakar@ccss.carleton.ca
+      intro: "Hey! My name is Aditya but everyone calls me Jacc. I'm a 2nd year student with minors in Film and Law. I'm also an international student. Feel free to reach out with any questions or suggestions!"
+      image: images/executives/jacc.jpg
+    - name: Benjamin Yu
+      role: Director of Academics
+      email: benjamin.yu@ccss.carleton.ca
+      intro: "Hey everyone! My name is Ben Yu and I'm currently a 3rd year student. I'll be your Director of Academics this year, and I can't wait for you guys to see what we have planned. I enjoy playing and listening to all sorts of music in my spare time. Feel free to reach out anytime!"
+      image: images/executives/benjamin_yu.jpg
 - year: 2023-2024
   members:
     - name: Victor Li
