@@ -4,7 +4,7 @@
   stream: Game Development stream
   minors: Minor in Film
   additional_info: 
-  image: images/executives/riley.png
+  image: images/executives/riley.jpg
   link: "https://calendly.com/riley-lutz-ccss/registration-office-hours"
 
 - name: Jacc Padmakar
@@ -49,7 +49,7 @@
   stream: Cybersecurity stream
   minors: No minors
   additional_info: ""
-  image: images/executives/kimia.jpg
+  image: images/executives/kimia.png
   link: "https://calendly.com/kimia-khorramroudi-ccss/registration-office-hours"
 
 - name: Veronica Mordvinova
@@ -58,7 +58,7 @@
   stream: AI and ML stream
   minors: Minors in Math and Neuroscience
   additional_info: TA experience
-  image: images/executives/veronica2.jpg
+  image: images/executives/veronica_mordvinova2.jpg
   link: "https://calendly.com/veronica-mordvinova-ccss/registration-office-hours"
 
 - name: Eros McGuire
@@ -67,7 +67,7 @@
   stream: AI and ML stream
   minors: Minor in Economics
   additional_info: 
-  image: images/executives/eros.png
+  image: images/executives/eros.jpg
   link: "https://calendly.com/eros-mcguire-ccss/registration-office-hours"
 
 
