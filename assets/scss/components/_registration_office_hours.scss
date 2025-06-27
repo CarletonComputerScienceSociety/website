@@ -1,14 +1,20 @@
-h1 {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 1.5rem;
-  }
-}
-
 .resume-reviewers {
+  &__header {
+    h1 {
+      text-align: center;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
