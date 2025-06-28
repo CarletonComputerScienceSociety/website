@@ -2,6 +2,21 @@
   {{- partial "navbar_temp.html" . -}}
   <div class="faq-question__page">
     <div class="faq-question__content">
+      {{ $last := time .Params.last_updated }} {{ $sixMonthsAgo := now.AddDate 0
+    -6 0 }} {{ if lt $last $sixMonthsAgo }}
+    <div
+      style="
+        background-color: #ea0e0e;
+        color: #000000;
+        border: 1px solid #ffeeba;
+        padding: 1rem;
+        margin-top: 1rem;
+      "
+    >
+      ⚠️ <strong>Note:</strong> This page was last updated more than 6 months
+      ago and may be out of date.
+    </div>
+    {{ end }}
       <h1 class="faq-question__title">{{ title .Title }}</h1>
       <p class="faq-question__summary">
         <i><b>Summary:</b> {{ .Params.summary }}</i>
