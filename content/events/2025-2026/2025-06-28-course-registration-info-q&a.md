@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Learn all about course registration and how to build your ideal schedule!"
 start_time: "12:00 - 1:30 PM EST"
 location: "ZOOM"
-location_link: https://carleton-ca.zoom.us/j/96707573459?pwd=NqMHaPpf4SKvgQvIFaLzAhQRkQHtvJ.1
+location_link: https://youtu.be/daC9mJM9PXc
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-06-05
 ---
