@@ -73,11 +73,11 @@
 .home-header-buttons {
   display: flex;
   align-items: center;
+  gap: 2.25rem;
 }
 
 .home-header-discord {
   margin-top: 0.1rem;
-  margin-left: 2.25rem;
   font-weight: bold;
   cursor: pointer;
   color: #c40729;
