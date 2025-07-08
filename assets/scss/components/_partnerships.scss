@@ -71,7 +71,7 @@
   background-color: #fff;
   border-radius: 1rem;
   border-top: 4px solid #c40729;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@
   flex: 1 1 300px; // allows cards to grow and shrink, maintaining a minimum width
 
   &:hover {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   }
 
   h3 {
@@ -192,7 +192,7 @@
   padding: 2rem;
   text-align: left;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .email-cta-header {
