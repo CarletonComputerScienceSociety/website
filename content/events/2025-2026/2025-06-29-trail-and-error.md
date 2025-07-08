@@ -4,7 +4,7 @@ title: "Trail & Error"
 date: 2025-07-12T00:00:00Z
 draft: false
 layout: event
-poster: "/images/event_posters/2025-2026/trail-and-error-recurring.png"
+poster: "/images/event_posters/2025-2026/trail-and-error-july-12.png"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Meet other CS students and explore the nature of Ottawa-Gatineau!"
@@ -14,7 +14,7 @@ location_link: "https://maps.app.goo.gl/vACH1CTCmMpDKADE6"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-07-07
 ---
-This event is running every other weekend for the summer, starting on June 29th (weather permitting)
+This event is running every other weekend for the summer (weather permitting).
 ### Destination
 **Parliament Hill Loop** starting in front of the Fairmont Chateau Laurier.
 [Meeting spot](https://maps.app.goo.gl/vACH1CTCmMpDKADE6).
