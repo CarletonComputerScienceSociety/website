@@ -16,4 +16,5 @@ publishdate: 2021-01-01
 tags:
 - weekofawesome2022
 - talks
+- industry
 ---
