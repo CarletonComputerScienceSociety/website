@@ -15,7 +15,6 @@ publishdate: 2023-12-01
 tags:
 - jobuary2024
 - industryspeaker
-- industry
 ---
 ## Slides
 Click [here](/pdfs/2023-2024/Cybersecurity-Talk.pdf) to view the slides.

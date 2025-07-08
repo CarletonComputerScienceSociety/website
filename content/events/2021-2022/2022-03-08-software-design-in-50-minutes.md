@@ -15,7 +15,6 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2021-11-24
 tags:
 - talks
-- industry
 ---
 
 ## Description

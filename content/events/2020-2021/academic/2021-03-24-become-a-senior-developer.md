@@ -15,7 +15,6 @@ background: "images/orientation2018-min.jpeg"
 tags:
 - academics
 - talks
-- industry
 ---
 
 ## Description
