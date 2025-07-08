@@ -35,20 +35,8 @@
   padding: 0 1rem;
 }
 
-.event-type-card-features {
-  margin: 0;
-  margin-bottom: 1.5rem;
-  padding: 0;
-}
-
-.event-type-card-features li {
-  list-style-type: none;
-  margin-bottom: 0.5rem;
-
-  i {
-    min-width: 24px;
-    color: #c40729;
-  }
+#ways-to-get-involved {
+  scroll-margin-top: 6rem; 
 }
 
 .event-type-cards-wrapper {
@@ -129,6 +117,22 @@
   a {
     margin-top: 1rem;
     text-decoration: none;
+  }
+}
+
+.event-type-card-features {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.event-type-card-features li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+
+  i {
+    min-width: 24px;
+    color: #c40729;
   }
 }
 
