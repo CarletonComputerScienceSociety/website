@@ -111,51 +111,8 @@
           }
           delete data.otherText;
 
-          try {
-            // For now, we'll redirect to the Google Form with the data
-            // In the future, this could be replaced with an API call
-            const googleFormUrl = 'https://forms.gle/xsYLJobBfPVx28vu5';
-            
-            // Create a temporary form to submit to Google Forms
-            const tempForm = document.createElement('form');
-            tempForm.method = 'POST';
-            tempForm.action = googleFormUrl;
-            tempForm.target = '_blank';
-            
-            // Add form data as hidden inputs
-            Object.keys(data).forEach(key => {
-              if (Array.isArray(data[key])) {
-                data[key].forEach(value => {
-                  const input = document.createElement('input');
-                  input.type = 'hidden';
-                  input.name = key;
-                  input.value = value;
-                  tempForm.appendChild(input);
-                });
-              } else {
-                const input = document.createElement('input');
-                input.type = 'hidden';
-                input.name = key;
-                input.value = data[key];
-                tempForm.appendChild(input);
-              }
-            });
-            
-            document.body.appendChild(tempForm);
-            tempForm.submit();
-            document.body.removeChild(tempForm);
-            
-            formMessage.textContent = 'Thank you for signing up! You will be redirected to complete the form.';
-            formMessage.style.color = '#28a745';
-            
-            // Reset form
-            form.reset();
-            otherTextInput.disabled = true;
-            
-          } catch (error) {
-            formMessage.textContent = 'An error occurred. Please try again.';
-            formMessage.style.color = '#dc3545';
-          }
+          
+
         });
       });
     </script>
