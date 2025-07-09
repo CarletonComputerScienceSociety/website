@@ -90,8 +90,27 @@
   border-radius: 1rem;
 }
 
+.page-section-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  width: 100%;
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.page-section-image-grid img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
 .page {
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 901px) {
     .page-heading {
       padding-left: 0;
       padding-right: 0;
@@ -117,7 +136,7 @@
 
   .page-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    //grid-template-rows: 1fr 1fr; //removing this line fixes spacing issues with partnerships page ?
   }
 
   .page-section-content {

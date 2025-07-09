@@ -15,6 +15,7 @@ publishdate: 2025-01-04
 tags:
 - jobuary2025
 - week1
+- industry
 ---
 We are collaborating with Rachael King from Ciena for a resume review!
 

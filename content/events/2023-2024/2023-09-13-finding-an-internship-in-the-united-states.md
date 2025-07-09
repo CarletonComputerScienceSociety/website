@@ -14,7 +14,8 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2023-09-01
 tags:
   - weekofawesome2023
-  - talks
+  - talks  
+  - industry
 ---
 ## Slides
 The presentation slides can be viewed [here!](/pdfs/2023-2024/Internship-Presentation.pdf).

@@ -12,6 +12,8 @@ start_time: "6:00 - 8:00 PM EST"
 location: "HP 4351"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-03-23
+tags:
+- industry
 ---
 
 Here are the presentation slides along with some more useful resources: 
