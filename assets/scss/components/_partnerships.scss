@@ -145,12 +145,14 @@
 .event-type-card-button {
   display: block;
   text-align: center;
-  background-color: #c40729;
   color: white;
   font-weight: bold;
-  padding: 0 0.75rem;
   border-radius: 0.5rem;
   text-decoration: none;
+
+  button {
+    width: 100%;
+  }
 }
 
 .past-events-header {
@@ -227,11 +229,14 @@
   background-color: #c40729;
   color: white;
   font-weight: bold;
-  padding: 0 0.75rem;
   border-radius: 0.5rem;
   text-decoration: none;
 
   &:hover {
     background-color: #c40729;
+  }
+
+  button {
+    width: 100%;
   }
 }
