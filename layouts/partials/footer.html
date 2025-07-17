@@ -49,9 +49,12 @@
 {{- $faqScriptPath := "js/faq.js" }}
 {{- $faq := resources.Get $faqScriptPath | resources.ExecuteAsTemplate $faqScriptPath . }}
 
-{{- $bundle := slice $main $navbar $slideshow $faq }}
+{{- $partnershipsSlideshowScriptPath := "js/partnerships-slideshow.js" }}
+{{- $partnershipsSlideshow := resources.Get $partnershipsSlideshowScriptPath | resources.ExecuteAsTemplate $partnershipsSlideshowScriptPath . }}
+
+{{- $bundle := slice $main $navbar $slideshow $faq $partnershipsSlideshow }}
 {{- if site.Params.Staticman }}
-  {{- $bundle = slice $main $navbar $slideshow $faq }}
+  {{- $bundle = slice $main $navbar $slideshow $faq $partnershipsSlideshow }}
 {{- end }}
 {{- $bundle =  $bundle | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" -}}
 
