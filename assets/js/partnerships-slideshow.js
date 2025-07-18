@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   var partnershipUrls = [
-    "/images/general/workshops.jpg",
-    "/images/general/lounge.jpg",
-    "/images/general/orientation_2017.jpg",
-    "/images/general/orientation_2018.jpg",
+    "/images/partnerships/htt-lecture-hall.png",
+    "/images/partnerships/kinaxis_presentation.png",
+    "/images/partnerships/cisco-talk.png",
+    "/images/partnerships/big-group-seminar-room.png",
+    "/images/partnerships/kinaxis_group_talking.png",
+    "/images/partnerships/jobuary_panel.png",
   ];
 
   const partnershipFadeDuration = 500; // ms
@@ -12,13 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var partnershipsFront = document.getElementById("partnerships-front");
   var partnershipsBack = document.getElementById("partnerships-back");
   var partnershipSlideshowIndex = 0;
+  var slideshowStarted = false;
+  var observer;
 
-  // Set initial images
-  if (partnershipsFront && partnershipsBack) {
+  function startPartnershipsSlideshow() {
+    if (slideshowStarted) return;
+    slideshowStarted = true;
+    // Set initial images
     partnershipsFront.style.backgroundImage = `url('${partnershipUrls[0]}')`;
     partnershipsBack.style.backgroundImage = `url('${partnershipUrls[0]}')`;
 
-    function startPartnershipsSlideshow() {
+    function nextSlide() {
       partnershipSlideshowIndex =
         (partnershipSlideshowIndex + 1) % partnershipUrls.length;
       partnershipsBack.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
@@ -32,18 +38,27 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         partnershipsFront.style.animation = `fadein ${partnershipFadeDuration}ms forwards`;
       }, partnershipFadeDuration);
-      setTimeout(
-        startPartnershipsSlideshow,
-        partnershipImageTransitionDuration
-      );
+      setTimeout(nextSlide, partnershipImageTransitionDuration);
     }
 
     function changePartnershipsImage(header, imagePath) {
       header.style.backgroundImage = `url('${imagePath}')`;
     }
 
-    // Wait 5 seconds before first transition
-    setTimeout(startPartnershipsSlideshow, partnershipImageTransitionDuration);
+    setTimeout(nextSlide, partnershipImageTransitionDuration);
+  }
+
+  if (partnershipsFront && partnershipsBack) {
+    observer = new IntersectionObserver(
+      function (entries) {
+        if (entries[0].isIntersecting) {
+          startPartnershipsSlideshow();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    observer.observe(partnershipsFront);
   } else {
     console.error("Partnerships slideshow elements not found.");
   }
