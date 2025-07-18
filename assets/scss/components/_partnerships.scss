@@ -35,13 +35,26 @@
   padding: 0 1rem;
 }
 
+.event-type-subtext {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+
+  a {
+    color: #c40729;
+    text-decoration: none;
+  }
+}
+
 #ways-to-get-involved {
   scroll-margin-top: 6rem;
 }
 
 .event-type-cards-wrapper {
   width: 80%;
-  margin: 5rem auto;
+  margin: 4rem auto;
 
   @media only screen and (max-width: 1200px) {
     max-width: 100%;
