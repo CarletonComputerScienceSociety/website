@@ -52,7 +52,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .event-type-card {
@@ -60,14 +60,14 @@
   border-radius: 1rem;
   border-top: 4px solid #c40729;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: box-shadow 0.2s ease;
-  max-width: 320px;
+  max-width: 300px;
   width: 100%;
-  flex: 1 1 300px; // allows cards to grow and shrink, maintaining a minimum width
+  flex: 1 1 260px; // allows cards to grow and shrink, maintaining a minimum width
 
   &:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
