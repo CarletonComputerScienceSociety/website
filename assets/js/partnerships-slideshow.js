@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "/images/partnerships/kinaxis_presentation.png",
     "/images/partnerships/cisco-talk.png",
     "/images/partnerships/big-group-seminar-room.png",
-    "/images/partnerships/kinaxis_group_talking.png",
+    "/images/partnerships/kinaxis-group-talking.png",
     "/images/partnerships/jobuary_panel.png",
   ];
 
@@ -17,13 +17,25 @@ document.addEventListener("DOMContentLoaded", function () {
   var slideshowStarted = false;
   var observer;
 
+  // Preload all images
+  function preloadImages(urls, callback) {
+    let loaded = 0;
+    let total = urls.length;
+    urls.forEach(function (url) {
+      const img = new Image();
+      img.onload = img.onerror = function () {
+        loaded++;
+        if (loaded === total) callback();
+      };
+      img.src = url;
+    });
+  }
+
   function startPartnershipsSlideshow() {
     if (slideshowStarted) return;
     slideshowStarted = true;
-    // Set initial images
     partnershipsFront.style.backgroundImage = `url('${partnershipUrls[0]}')`;
     partnershipsBack.style.backgroundImage = `url('${partnershipUrls[0]}')`;
-
     function nextSlide() {
       partnershipSlideshowIndex =
         (partnershipSlideshowIndex + 1) % partnershipUrls.length;
@@ -40,25 +52,25 @@ document.addEventListener("DOMContentLoaded", function () {
       }, partnershipFadeDuration);
       setTimeout(nextSlide, partnershipImageTransitionDuration);
     }
-
     function changePartnershipsImage(header, imagePath) {
       header.style.backgroundImage = `url('${imagePath}')`;
     }
-
     setTimeout(nextSlide, partnershipImageTransitionDuration);
   }
 
   if (partnershipsFront && partnershipsBack) {
-    observer = new IntersectionObserver(
-      function (entries) {
-        if (entries[0].isIntersecting) {
-          startPartnershipsSlideshow();
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-    observer.observe(partnershipsFront);
+    preloadImages(partnershipUrls, function () {
+      observer = new IntersectionObserver(
+        function (entries) {
+          if (entries[0].isIntersecting) {
+            startPartnershipsSlideshow();
+            observer.disconnect();
+          }
+        },
+        { threshold: 0.2 }
+      );
+      observer.observe(partnershipsFront);
+    });
   } else {
     console.error("Partnerships slideshow elements not found.");
   }
