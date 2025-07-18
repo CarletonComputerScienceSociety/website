@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var partnershipUrls = [
     "/images/general/workshops.jpg",
     "/images/general/lounge.jpg",
@@ -19,16 +19,23 @@ document.addEventListener("DOMContentLoaded", function() {
     partnershipsBack.style.backgroundImage = `url('${partnershipUrls[0]}')`;
 
     function startPartnershipsSlideshow() {
-      partnershipSlideshowIndex = (partnershipSlideshowIndex + 1) % partnershipUrls.length;
+      partnershipSlideshowIndex =
+        (partnershipSlideshowIndex + 1) % partnershipUrls.length;
       partnershipsBack.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
       partnershipsFront.style.animation = `fadeout ${partnershipFadeDuration}ms forwards`;
       setTimeout(function () {
-        changePartnershipsImage(partnershipsFront, partnershipUrls[partnershipSlideshowIndex]);
+        changePartnershipsImage(
+          partnershipsFront,
+          partnershipUrls[partnershipSlideshowIndex]
+        );
       }, partnershipFadeDuration);
       setTimeout(function () {
         partnershipsFront.style.animation = `fadein ${partnershipFadeDuration}ms forwards`;
       }, partnershipFadeDuration);
-      setTimeout(startPartnershipsSlideshow, partnershipImageTransitionDuration);
+      setTimeout(
+        startPartnershipsSlideshow,
+        partnershipImageTransitionDuration
+      );
     }
 
     function changePartnershipsImage(header, imagePath) {
