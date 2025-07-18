@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "/images/partnerships/jobuary_panel.png",
   ];
 
-  const partnershipFadeDuration = 500; // ms
+  const partnershipFadeDuration = 500; // ms (match CSS)
   const partnershipImageTransitionDuration = 5000; // ms
 
   var partnershipsFront = document.getElementById("partnerships-front");
@@ -36,24 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
     slideshowStarted = true;
     partnershipsFront.style.backgroundImage = `url('${partnershipUrls[0]}')`;
     partnershipsBack.style.backgroundImage = `url('${partnershipUrls[0]}')`;
+    partnershipsFront.classList.remove("fadeout");
+    partnershipsFront.classList.add("fadein");
     function nextSlide() {
       partnershipSlideshowIndex =
         (partnershipSlideshowIndex + 1) % partnershipUrls.length;
       partnershipsBack.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
-      partnershipsFront.style.animation = `fadeout ${partnershipFadeDuration}ms forwards`;
+      partnershipsFront.classList.remove("fadein");
+      partnershipsFront.classList.add("fadeout");
       setTimeout(function () {
-        changePartnershipsImage(
-          partnershipsFront,
-          partnershipUrls[partnershipSlideshowIndex]
-        );
-      }, partnershipFadeDuration);
-      setTimeout(function () {
-        partnershipsFront.style.animation = `fadein ${partnershipFadeDuration}ms forwards`;
+        partnershipsFront.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
+        partnershipsFront.classList.remove("fadeout");
+        partnershipsFront.classList.add("fadein");
       }, partnershipFadeDuration);
       setTimeout(nextSlide, partnershipImageTransitionDuration);
-    }
-    function changePartnershipsImage(header, imagePath) {
-      header.style.backgroundImage = `url('${imagePath}')`;
     }
     setTimeout(nextSlide, partnershipImageTransitionDuration);
   }
