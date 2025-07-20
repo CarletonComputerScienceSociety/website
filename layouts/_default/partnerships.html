@@ -1,0 +1,224 @@
+{{ define "main" }}
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="home-section-grid home-section-dark page-heading">
+      <div class="home-section">
+        <div class="page-section page-section-grid-priority">
+          <div
+            class="page-section-image page-section-grid-secondary"
+            style='background-image: url("/images/general/conversation.png")'
+          ></div>
+          <div class="page-section-content">
+            <div class="page-header-title">INDUSTRY PARTNERSHIPS</div>
+            <div class="page-section-text">
+              Partner with Carleton's <br /><span style="color: #c40729"
+                >Computer Science Society</span
+              >
+            </div>
+            <div class="page-section-body">
+              Connect with accomplished Computer Science students through our
+              various engagement programs. Build your campus presence, mentor
+              new developers and discover future talent.
+            </div>
+            <a href="#ways-to-get-involved"
+              >{{- partial "button.html" (dict "label" "Explore Opportunities") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-section-grid home-section-light">
+      <div class="home-section">
+        <div class="page-section">
+          <div class="page-section-content page-section-grid-primary">
+            <div class="page-section-text">Why Collaborate?</div>
+            <div class="page-section-body">
+              Collaborating with us gives you <b>direct access</b> to Carleton's
+              computer science community. Our industry partnerships support
+              students in developing their technical skills, exploring career
+              paths, and learning from professionals with real-world experience.
+              Partnering with us <b>strengthens your campus presence</b>, offers
+              opportunities to <b>mentor the next generation of developers</b>,
+              and <b>connects you with talented students</b> ready to make an
+              impact.
+            </div>
+            <div class="stats-container">
+              <div class="stat-block">
+                <p class="stat-number">2500+</p>
+                <p class="stat-label">Students</p>
+              </div>
+              <div class="dot-separator">·</div>
+              <div class="stat-block">
+                <p class="stat-number">50-100+</p>
+                <p class="stat-label">Average Attendance</p>
+              </div>
+            </div>
+          </div>
+          <div class="page-section-image-wrapper">
+            <div
+              class="page-section-image page-section-grid-secondary"
+              id="partnerships-front"
+              style='background-image: url("/images/partnerships/htt-lecture-hall.jpg");'
+            ></div>
+            <div
+              class="page-section-image page-section-grid-secondary"
+              id="partnerships-back"
+              style='background-image: url("/images/partnerships/htt-lecture-hall.jpg");'
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ways-to-get-involved" class="home-section-dark">
+      <h1 class="event-type-header">Three Ways to Get Involved</h1>
+      <p class="event-type-subheader">
+        Choose the engagement format that best fits your goals and strengths
+      </p>
+      <div class="event-type-cards-wrapper">
+        <div class="event-type-cards">
+          <div class="event-type-card">
+            <div class="event-type-card-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3>Company Info Sessions</h3>
+            <p>
+              Share your company culture and career opportunities with motivated
+              students
+            </p>
+            <ul class="event-type-card-features">
+              <li>
+                <i class="fa-solid fa-user-group"></i> 50-100 student attendees
+              </li>
+              <li>
+                <i class="fa-solid fa-chalkboard"></i> Formal presentation
+              </li>
+              <li>
+                <i class="fa-solid fa-comments"></i> Interactive Q&A session
+              </li>
+            </ul>
+            <hr class="event-type-card-divider" />
+            <h4 class="event-type-card-tagline">Perfect for:</h4>
+            <ul class="event-type-card-tags">
+              <li>Co-op and new grad recruitment</li>
+              <li>Conversations with students</li>
+              <li>Networking opportunities</li>
+              <li>Highlighting brand values</li>
+            </ul>
+            <a
+              class="event-type-card-button"
+              href="mailto:partnerships@ccss.carleton.ca"
+              >{{- partial "button.html" (dict "label" "Schedule Info Session") -}}</a
+            >
+          </div>
+
+          <div class="event-type-card">
+            <div class="event-type-card-icon">
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+            <h3>Developer Tech Talks</h3>
+            <p>
+              Individual developers share insights about their work, projects,
+              and career journeys.
+            </p>
+            <ul class="event-type-card-features">
+              <li>
+                <i class="fa-solid fa-user-group"></i> 30-80 student attendees
+              </li>
+              <li>
+                <i class="fa-solid fa-microphone-lines"></i> Casual presentation
+              </li>
+              <li>
+                <i class="fa-solid fa-code"></i> Developer experiences showcase
+              </li>
+            </ul>
+            <hr class="event-type-card-divider" />
+            <h4 class="event-type-card-tagline">Perfect for:</h4>
+            <ul class="event-type-card-tags">
+              <li>Exploring company tech stacks</li>
+              <li>Career journey stories</li>
+              <li>Technical deep dives</li>
+              <li>Industry trend discussions</li>
+            </ul>
+            <a
+              class="event-type-card-button"
+              href="mailto:partnerships@ccss.carleton.ca"
+              >{{- partial "button.html" (dict "label" "Propose Tech Talk") -}}</a
+            >
+          </div>
+          <div class="event-type-card">
+            <div class="event-type-card-icon">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Technical Workshops</h3>
+            <p>
+              Teach practical skills and technologies in hands-on training
+              sessions.
+            </p>
+            <ul class="event-type-card-features">
+              <li>
+                <i class="fa-solid fa-user-group"></i> 20-40 student
+                participants
+              </li>
+              <li>
+                <i class="fa-solid fa-handshake"></i> Hands-on learning format
+              </li>
+              <li>
+                <i class="fa-solid fa-lightbulb"></i> Skill-building focus
+              </li>
+            </ul>
+            <hr class="event-type-card-divider" />
+            <h4 class="event-type-card-tagline">Perfect for:</h4>
+            <ul class="event-type-card-tags">
+              <li>Practical learning sessions</li>
+              <li>Technology tutorials</li>
+              <li>Hackathon challenges</li>
+              <li>Tool demonstrations</li>
+            </ul>
+            <a
+              class="event-type-card-button "
+              href="mailto:partnerships@ccss.carleton.ca"
+              >{{- partial "button.html" (dict "label" "Plan Workshop") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+      <p class="event-type-subtext">
+        Have something different in mind? We're always open to exploring new
+        ideas! <br />
+        Feel free to
+        <a href="mailto:partnerships@ccss.carleton.ca">reach out</a> to start
+        the conversation.
+      </p>
+    </div>
+    <div class="home-section-light past-events-wrapper">
+      <h1 class="past-events-header">Past Events</h1>
+      <div class="past-events">
+        {{ range sort (.Site.Taxonomies.tags.industry) "Date" "desc" }}
+          <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
+            >{{- partial "event_card.html" . -}}</a
+          >
+        {{ end }}
+      </div>
+    </div>
+    <div id="get-started" class="email-cta-section">
+      <h2>Ready to Get Started?</h2>
+      <p>Contact our partnerships team to discuss how we can work together</p>
+      <div class="email-cta-card">
+        <div class="email-cta-header">
+          <i class="fa-solid fa-envelope"></i>
+          <h3 class="email-cta-title">Email Us</h3>
+        </div>
+        <div class="email-cta-subtext">
+          Send us details about your proposed event or partnership
+        </div>
+        <a class="email-cta-button" href="mailto:partnerships@ccss.carleton.ca">
+          {{- partial "button.html" (dict "label" "partnerships@ccss.carleton.ca") -}}
+        </a>
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -42,4 +42,6 @@ function changeImage(header, imagePath) {
   }
 }
 
-startSlideshow();
+if (frontHeader && backHeader && frontHeaderMobile && backHeaderMobile) {
+  startSlideshow();
+}

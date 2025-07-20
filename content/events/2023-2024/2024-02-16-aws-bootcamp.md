@@ -13,4 +13,6 @@ location: "Register Here!"
 location_link: "https://docs.google.com/forms/d/e/1FAIpQLScJDtjMU4Q5Gw5PQPYyiSwn4Z7ug8YpKzZ5t4g9iN-hV_m7sA/viewform"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2024-01-16
+tags:
+- industry
 ---

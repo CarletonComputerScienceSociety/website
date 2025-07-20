@@ -15,6 +15,7 @@ publishdate: 2025-01-17
 tags:
 - jobuary2025
 - week4
+- industry
 ---
 
 Here are the [presentation slides](/pdfs/2024-2025/ciena-cloud-&-devops.pdf)

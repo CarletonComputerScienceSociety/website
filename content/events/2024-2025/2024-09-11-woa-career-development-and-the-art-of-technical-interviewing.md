@@ -15,4 +15,5 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2024-08-28
 tags:
 - weekofawesome2024
+- industry
 ---
