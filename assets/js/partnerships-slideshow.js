@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var partnershipUrls = [
+    "/images/event_pics/2023-2024/hack-the-tunnels/1.jpg",
     "/images/partnerships/htt-lecture-hall.png",
     "/images/partnerships/kinaxis_presentation.png",
     "/images/partnerships/cisco-talk.png",
