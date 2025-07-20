@@ -1,71 +1,53 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var partnershipUrls = [
-    "/images/partnerships/htt-forest-presenting.jpg",
+  const imageUrls = [
+    "/images/partnerships/htt-lecture-hall.jpg",
     "/images/partnerships/connor-talking.jpg",
     "/images/partnerships/cisco-talk.jpg",
     "/images/partnerships/seminar-room-crowd.jpg",
+    "/images/partnerships/kinaxis-group-talking.png",
+
   ];
 
-  const partnershipFadeDuration = 500; // ms (match CSS)
-  const partnershipImageTransitionDuration = 5000; // ms
+  const fadeDuration = 500; // ms
+  const displayDuration = 5000; // ms
 
-  var partnershipsFront = document.getElementById("partnerships-front");
-  var partnershipsBack = document.getElementById("partnerships-back");
-  var partnershipSlideshowIndex = 0;
-  var slideshowStarted = false;
-  var observer;
+  const front = document.getElementById("partnerships-front");
+  const back = document.getElementById("partnerships-back");
+  let currentIndex = 0;
+  let slideshowStarted = false;
 
-  // Preload all images
-  function preloadImages(urls, callback) {
-    let loaded = 0;
-    let total = urls.length;
-    urls.forEach(function (url) {
-      const img = new Image();
-      img.onload = img.onerror = function () {
-        loaded++;
-        if (loaded === total) callback();
-      };
-      img.src = url;
-    });
-  }
+  // Preload images
+  imageUrls.forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
 
-  function startPartnershipsSlideshow() {
+  function startSlideshow() {
     if (slideshowStarted) return;
     slideshowStarted = true;
-    partnershipsFront.style.backgroundImage = `url('${partnershipUrls[0]}')`;
-    partnershipsBack.style.backgroundImage = `url('${partnershipUrls[0]}')`;
-    partnershipsFront.classList.remove("fadeout");
-    partnershipsFront.classList.add("fadein");
-    function nextSlide() {
-      partnershipSlideshowIndex =
-        (partnershipSlideshowIndex + 1) % partnershipUrls.length;
-      partnershipsBack.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
-      partnershipsFront.classList.remove("fadein");
-      partnershipsFront.classList.add("fadeout");
-      setTimeout(function () {
-        partnershipsFront.style.backgroundImage = `url('${partnershipUrls[partnershipSlideshowIndex]}')`;
-        partnershipsFront.classList.remove("fadeout");
-        partnershipsFront.classList.add("fadein");
-      }, partnershipFadeDuration);
-      setTimeout(nextSlide, partnershipImageTransitionDuration);
-    }
-    setTimeout(nextSlide, partnershipImageTransitionDuration);
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % imageUrls.length;
+
+      back.style.backgroundImage = `url('${imageUrls[currentIndex]}')`;
+      front.classList.add("fade-out");
+
+      setTimeout(() => {
+        front.style.backgroundImage = `url('${imageUrls[currentIndex]}')`;
+        front.classList.remove("fade-out");
+      }, fadeDuration);
+    }, displayDuration);
   }
 
-  if (partnershipsFront && partnershipsBack) {
-    preloadImages(partnershipUrls, function () {
-      observer = new IntersectionObserver(
-        function (entries) {
-          if (entries[0].isIntersecting) {
-            startPartnershipsSlideshow();
-            observer.disconnect();
-          }
-        },
-        { threshold: 0.2 }
-      );
-      observer.observe(partnershipsFront);
+  // Only start when visible
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        startSlideshow();
+        observer.disconnect(); // only start once
+      }
     });
-  } else {
-    console.error("Partnerships slideshow elements not found.");
-  }
+  }, { threshold: 0.3 });
+
+  observer.observe(document.getElementById("partnerships-front"));
 });
