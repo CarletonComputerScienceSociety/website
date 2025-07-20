@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Meet other CS students and explore the nature of Ottawa-Gatineau!"
 start_time: "1:00 PM EST"
 location: "Mooney's Bay and Hogs Back Falls"
-location_link: "https://maps.app.goo.gl/PjwqXP4yFW2MJo1n7"
+location_link: "https://maps.app.goo.gl/vYWi4gBBcQFda1bGA"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-07-20
 ---
