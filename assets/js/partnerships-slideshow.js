@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "/images/partnerships/cisco-talk.jpg",
     "/images/partnerships/seminar-room-crowd.jpg",
     "/images/partnerships/kinaxis-group-talking.png",
-
   ];
 
   const fadeDuration = 500; // ms
@@ -40,14 +39,17 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Only start when visible
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        startSlideshow();
-        observer.disconnect(); // only start once
-      }
-    });
-  }, { threshold: 0.3 });
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          startSlideshow();
+          observer.disconnect(); // only start once
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
 
   observer.observe(document.getElementById("partnerships-front"));
 });
