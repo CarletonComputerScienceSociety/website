@@ -1,12 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   var partnershipUrls = [
-    "/images/event_pics/2023-2024/hack-the-tunnels/1.jpg",
-    "/images/partnerships/htt-lecture-hall.png",
-    "/images/partnerships/kinaxis_presentation.png",
-    "/images/partnerships/cisco-talk.png",
-    "/images/partnerships/big-group-seminar-room.png",
-    "/images/partnerships/kinaxis-group-talking.png",
-    "/images/partnerships/jobuary_panel.png",
+    "/images/partnerships/htt-forest-presenting.jpg",
+    "/images/partnerships/connor-talking.jpg",
+    "/images/partnerships/cisco-talk.jpg",
+    "/images/partnerships/seminar-room-crowd.jpg",
   ];
 
   const partnershipFadeDuration = 500; // ms (match CSS)
