@@ -4,7 +4,7 @@ title: "Trail & Error"
 date: 2025-07-26T00:00:00Z
 draft: false
 layout: event
-poster: "/images/event_posters/2025-2026/trail-and-error-july-12.png"
+poster: "/images/event_posters/2025-2026/trail-and-error-july-26.png"
 poster_cover: "contain"
 poster_position: "center"
 short_description: "Meet other CS students and explore the nature of Ottawa-Gatineau!"
