@@ -18,7 +18,7 @@ This event is running every other weekend for the summer (weather permitting).
 ### Destination
 [**Mooney's Bay and Hogs Back Falls Loop**](https://www.alltrails.com/trail/canada/ontario/mooney-s-bay-walk?u=m&sh=pyqp4t).
 
-[Meeting spot](https://maps.app.goo.gl/vACH1CTCmMpDKADE6).
+[Meeting spot](https://maps.app.goo.gl/gAW4BkhVAGt31prb8).
 
 Make sure you **bring sunscreen**, at least 2 refillable bottles full of **water** and wear **proper hiking clothes and shoes**.
 
