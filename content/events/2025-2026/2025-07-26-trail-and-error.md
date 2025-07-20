@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Meet other CS students and explore the nature of Ottawa-Gatineau!"
 start_time: "1:00 PM EST"
 location: "Mooney's Bay and Hogs Back Falls"
-location_link: "https://maps.app.goo.gl/PjwqXP4yFW2MJo1n7"
+location_link: "https://maps.app.goo.gl/vYWi4gBBcQFda1bGA"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-07-20
 ---
@@ -18,7 +18,7 @@ This event is running every other weekend for the summer (weather permitting).
 ### Destination
 [**Mooney's Bay and Hogs Back Falls Loop**](https://www.alltrails.com/trail/canada/ontario/mooney-s-bay-walk?u=m&sh=pyqp4t).
 
-[Meeting spot](https://maps.app.goo.gl/vACH1CTCmMpDKADE6).
+[Meeting spot](https://maps.app.goo.gl/vYWi4gBBcQFda1bGA).
 
 Make sure you **bring sunscreen**, at least 2 refillable bottles full of **water** and wear **proper hiking clothes and shoes**.
 
