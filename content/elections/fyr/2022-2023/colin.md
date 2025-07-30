@@ -1,7 +1,7 @@
 ---
 title: "Colin's Platform"
 date: 2022-08-18T00:00:00Z
-draft: false
+draft: true
 name: "Colin McCormack"
 position: "First Year Representative"
 year: "2022-2023"
