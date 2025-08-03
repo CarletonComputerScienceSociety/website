@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Meet other CS students and explore the nature of Ottawa-Gatineau!"
 start_time: "1:00 PM EST"
 location: "Rideau Canal Waterway and Dow's Lake"
-location_link: "https://maps.app.goo.gl/vYWi4gBBcQFda1bGA"
+location_link: "https://maps.app.goo.gl/K3wggrFb9aFcc83D8"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-07-20
 ---
@@ -21,7 +21,7 @@ publishdate: 2025-07-20
 
 [Meeting spot](https://maps.app.goo.gl/K3wggrFb9aFcc83D8) - Next to Rideau Canal pathway map.
 
-Look for people wearing a **red CCSS laniard with a tag that says "volunteer."** This is who will be leading the walk. 
+Look for people wearing a **red CCSS lanyard with a tag that says "volunteer."** This is who will be leading the walk. 
 
 Make sure you **bring sunscreen**, at least 2 refillable bottles full of **water** and wear **proper hiking clothes and shoes**.
 
