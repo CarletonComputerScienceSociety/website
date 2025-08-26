@@ -1,0 +1,169 @@
+{{ define "main" }}
+  <div class="mailing-list">
+    <a href="/"
+      ><img
+        src="/images/ccss-logo-2022.png"
+        alt="Carleton Computer Science Society Logo"
+        class="mailing-list__logo"
+    /></a>
+    <img
+      src="/images/slideshow/orientation.jpeg"
+      alt="Background Image"
+      class="mailing-list__image"
+    />
+    <i>Sign up with our volunteer mailing list to stay updated on any future volunteer opportunities!</i>
+
+    <div class="new-signup-form">
+      <form id="volunteer-signup-form">
+        <label for="fullName">Full Name <span style="color: red;">*</span></label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="cmail">Cmail (@cmail.carleton.ca) <span style="color: red;">*</span></label>
+        <input type="email" id="cmail" name="cmail" pattern=".*@cmail\.carleton\.ca$" title="Please enter a valid cmail.carleton.ca address" required>
+
+        <label>How would you be interested in volunteering? <span style="color: red;">*</span></label>
+        <div>
+          <input type="checkbox" id="logistics" name="volunteerInterest" value="Event & Service Logistics (Zero Commitment)">
+          <label for="logistics">Event & Service Logistics (Zero Commitment)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="graphicDesign" name="volunteerInterest" value="Graphic & Poster Design (Zero Commitment)">
+          <label for="graphicDesign">Graphic & Poster Design (Zero Commitment)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="dayOfEvents" name="volunteerInterest" value="Day Of Events Volunteer (On-Call)">
+          <label for="dayOfEvents">"Day Of" Events Volunteer (On-Call)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="photography" name="volunteerInterest" value="Photography (On-Call, Must Own Camera+)">
+          <label for="photography">Photography (On-Call, Must Own Camera+)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="talkPresenter" name="volunteerInterest" value="Talk / Workshop Presenter (On-Call)">
+          <label for="talkPresenter">Talk / Workshop Presenter (On-Call)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="loungeVolunteer" name="volunteerInterest" value="Lounge Volunteer (Recurring Commitment)">
+          <label for="loungeVolunteer">Lounge Volunteer (Recurring Commitment)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="resourceCreation" name="volunteerInterest" value="Resource Creation (Coming Soon)">
+          <label for="resourceCreation">Resource Creation (Coming Soon)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="development" name="volunteerInterest" value="Development (Coming Soon)">
+          <label for="development">Development (Coming Soon)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="other" name="volunteerInterest" value="Other">
+          <label for="other">Other:</label>
+          <input type="text" id="otherText" name="otherText" disabled>
+        </div>
+
+        <button type="submit">Subscribe</button>
+        <div id="formMessage"></div>
+      </form>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const otherCheckbox = document.getElementById('other');
+        const otherTextInput = document.getElementById('otherText');
+
+        otherCheckbox.addEventListener('change', () => {
+          otherTextInput.disabled = !otherCheckbox.checked;
+          if (!otherCheckbox.checked) {
+            otherTextInput.value = '';
+          }
+        });
+
+        const form = document.getElementById('volunteer-signup-form');
+        const formMessage = document.getElementById('formMessage');
+
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          // Validate that at least one volunteer interest is selected
+          const volunteerInterests = form.querySelectorAll('input[name="volunteerInterest"]:checked');
+          if (volunteerInterests.length === 0) {
+            formMessage.textContent = 'Please select at least one volunteer interest.';
+            formMessage.style.color = '#dc3545';
+            return;
+          }
+
+          const formData = new FormData(form);
+          const data = {};
+          formData.forEach((value, key) => {
+            if (key === 'volunteerInterest') {
+              if (!data[key]) {
+                data[key] = [];
+              }
+              data[key].push(value);
+            } else {
+              data[key] = value;
+            }
+          });
+
+          if (data.volunteerInterest && data.volunteerInterest.includes('Other')) {
+            data.volunteerInterest = data.volunteerInterest.filter(item => item !== 'Other');
+            if (data.otherText) {
+              data.volunteerInterest.push(`Other: ${data.otherText}`);
+            }
+          }
+          delete data.otherText;
+
+          
+
+        });
+      });
+    </script>
+
+    <style>
+      .new-signup-form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+      .new-signup-form label {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: bold;
+      }
+      .new-signup-form input[type="text"],
+      .new-signup-form input[type="email"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .new-signup-form input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      .new-signup-form div {
+        margin-bottom: 5px;
+      }
+      .new-signup-form button {
+        background-color: #dc3545;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+      .new-signup-form button:hover {
+        background-color: #c82333;
+      }
+      #formMessage {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </div>
+{{ end }} 
