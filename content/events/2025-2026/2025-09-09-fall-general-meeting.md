@@ -16,3 +16,6 @@ publishdate: 2025-08-25
 tags:
 - weekofawesome2025
 ---
+Learn about everything we do, the various events and initiatives we have coming up, and how you can get involved as a volunteer!
+
+We will also be **voting on some constitution changes. Link -> [Proposed CCSS Constitution Changes September 2025](https://docs.google.com/document/d/1ldVO-X6CbfAIrGiw_hBmNdgItNP6VQ7vjrDvjx1smgQ/edit?usp=sharing)**
