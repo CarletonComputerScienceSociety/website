@@ -12,7 +12,7 @@ layout: volunteer
 
 We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/xsYLJobBfPVx28vu5).
 
-Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [info@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
+Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [bod@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
 
 We understand that university life can be hectic, so we've tailored our volunteer program to offer flexibility. Whether you prefer to contribute at your own pace, help out during events, or take on a leadership role, we have something for everyone.
 
@@ -85,19 +85,19 @@ For the following roles, you can submit a proposal and contribute in a way that 
 
 ### 🥳 Event Proposal
 
-Do you have an idea for a new event? Whether it's a social gathering, a study group, or something entirely different, we’d love to hear your suggestions. Reach out to us at info@ccss.carleton.ca with your event ideas!
+Do you have an idea for a new event? Whether it's a social gathering, a study group, or something entirely different, we’d love to hear your suggestions. Reach out to us at bod@ccss.carleton.ca with your event ideas!
 
 _*A dedicated event proposal form with requirements and a template will be made available in the future._
 
 ### ✍️ Article / Resource Proposal
 
-Interested in writing an article or creating a resource to help fellow students? Whether it’s a tutorial, a career guide, or an opinion piece, we welcome submissions that offer value to the community. Send your article or resource ideas to info@ccss.carleton.ca.
+Interested in writing an article or creating a resource to help fellow students? Whether it’s a tutorial, a career guide, or an opinion piece, we welcome submissions that offer value to the community. Send your article or resource ideas to bod@ccss.carleton.ca.
 
 _*A dedicated article proposal form with requirements and a template will be made available in the future._
 
 ### 🎤 Talk / Workshop Proposal
 
-We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [info@ccss.carleton.ca](#email).
+We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [bod@ccss.carleton.ca](#email).
 
 _*A dedicated talk / workshop proposal form with requirements and a template will be made available in the future._
 

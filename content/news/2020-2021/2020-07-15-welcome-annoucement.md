@@ -42,7 +42,7 @@ We use a variety of online platforms to keep society members informed about the 
 *   [Join our Slack workspace](https://app.slack.com/client/T031C65PT/G6U984M6J)
 *   [Join our Discord server](https://discord.gg/fvdmVyZbJx)
 
-If you have any questions, suggestions, or concerns about the CCSS or anything CS-related, you can always reach us by email via [info@ccss.carleton.ca](mailto:info@ccss.carleton.ca). We are here to support you and we're happy to hear your input! That's all for now. This upcoming year will be a unique experience for us all, but we wish you every success!
+If you have any questions, suggestions, or concerns about the CCSS or anything CS-related, you can always reach us by email via [bod@ccss.carleton.ca](mailto:bod@ccss.carleton.ca). We are here to support you and we're happy to hear your input! That's all for now. This upcoming year will be a unique experience for us all, but we wish you every success!
 
 Until next time,
 

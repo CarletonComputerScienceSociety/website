@@ -22,5 +22,5 @@ The first-year rep positions are a chance for freshmen to take part in our gover
 
 You can find the full election timeline and further details on our policies in our [Writ of Election](https://drive.google.com/file/d/1lD_DS8SeCMdcpRU_GH9N31Q1ObCK7-Qj/view?usp=sharing).
 
-If you have any questions or concerns, please email info@ccss.carleton.ca
+If you have any questions or concerns, please email bod@ccss.carleton.ca
 

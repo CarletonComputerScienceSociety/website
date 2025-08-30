@@ -49,6 +49,6 @@ If you're in your first year of CS at Carleton and looking for a way to get invo
 
 Do you have ideas for personal coding projects but aren't sure how to get started? Do you want to practice skills that you've learned in class in fun ways with your peers? Are you interested in learning more about tech and its real-world applications? If so, check out CCSS's Dev Club! Starting on Wednesday, September 23, Dev Club will run weekly at 6:00 PM Eastern Time on the [CCSS Discord server](https://discord.com/invite/VdxStVE). Meetings will alternate between group discussion sessions (where students will have the opportunity to share their ideas, make progress on their own side projects, and participate in fun coding activities), and tech talks hosted by knowledgeable student volunteers. -- All this and even more to come for the rest of the year!
 
-As always, you can reach us by email via [info@ccss.carleton.ca](mailto:info@ccss.carleton.ca) if you have any questions, suggestions, or concerns. We wish you all the best in the Fall semester. See you at Academic Orientation!
+As always, you can reach us by email via [bod@ccss.carleton.ca](mailto:bod@ccss.carleton.ca) if you have any questions, suggestions, or concerns. We wish you all the best in the Fall semester. See you at Academic Orientation!
 
 Cheers, The CCSS Team

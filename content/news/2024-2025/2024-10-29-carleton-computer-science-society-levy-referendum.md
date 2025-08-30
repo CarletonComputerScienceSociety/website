@@ -132,7 +132,7 @@ Increased funding would give our team the opportunity to explore new possibiliti
 
 To support this levy, please vote on **November 12-13, 2024**, via the online ballot sent to your cMail account. Voting only takes a moment, but your involvement will make a lasting difference for the Computer Science community at Carleton.
 
-If you have any questions feel free to contact us at [info@ccss.carleton.ca](mailto:info@ccss.carleton.ca).
+If you have any questions feel free to contact us at [bod@ccss.carleton.ca](mailto:bod@ccss.carleton.ca).
 
 <br/>
 

@@ -26,4 +26,4 @@ Please note that all questions are optional, and you are free to share or omit a
 
 **Link to the survey: [https://forms.gle/89JEvRF2QEQAnFGKA](https://forms.gle/89JEvRF2QEQAnFGKA).**
 
-If you have any questions or concerns, please do not hesitate to reach out to us via email at info@ccss.carleton.ca.
+If you have any questions or concerns, please do not hesitate to reach out to us via email at bod@ccss.carleton.ca.
