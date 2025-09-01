@@ -264,5 +264,6 @@ document.addEventListener("DOMContentLoaded", function () {
     { threshold: 0.3 }
   );
 
-  observer.observe(document.getElementById("partnerships-front"));
+  const target = document.getElementById("partnerships-front");
+  if (target) observer.observe(target);
 });
