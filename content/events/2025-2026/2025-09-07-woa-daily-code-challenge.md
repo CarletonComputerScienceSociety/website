@@ -16,3 +16,4 @@ publishdate: 2025-08-25
 tags:
 - weekofawesome2025
 ---
+From September 7th - 13th, new code challenges will be releasing every day at midnight! Check them out here -> **[CCSS Code Challenges](https://challenge.carletoncomputersciencesociety.ca/)**

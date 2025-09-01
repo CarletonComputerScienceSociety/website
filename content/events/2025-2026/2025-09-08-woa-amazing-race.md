@@ -16,3 +16,6 @@ publishdate: 2025-08-25
 tags:
 - weekofawesome2025
 ---
+Take on our Amazing Race challenges in **teams of up to 5** as you explore Carleton's campus! 
+
+We’ll be using **Discord for communication and challenge submissions** — make sure to **join our server** before the event -> **[CCSS Discord Server](https://discord.gg/fvdmVyZbJx)**

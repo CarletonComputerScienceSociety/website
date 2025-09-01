@@ -16,6 +16,8 @@ publishdate: 2025-08-25
 tags:
 - weekofawesome2025
 ---
-**Purchase a ticket for the event here: [Board Games Night Tickets](https://carletoncss.myshopify.com/products/board-games-night-ticket)**
+**Purchase a ticket for the event for $12.25 here: [Board Games Night Tickets](https://carletoncss.myshopify.com/products/board-games-night-ticket)**
 
-We cannot accommodate walk-ins, so make sure to secure your spot before tickets run out! 
+We cannot accommodate walk-ins, so make sure to secure your spot before tickets run out! Also **keep the confirmation email for your ticket purchase on hand** for the event.  
+
+**Meet us in the CCSS Lounge - Herzberg 4135 - by 4:45 PM if you would like to bus over with a group, or you can meet us there.**
