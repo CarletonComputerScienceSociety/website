@@ -18,7 +18,11 @@
       <a href="http://discord.carletoncomputersciencesociety.ca"
         >{{- partial "button.html" (dict "label" "Discord") -}}</a
       >
-      <a style="text-decoration: none" href="/mailing-list">
+      <a
+        style="text-decoration: none"
+        data-eo-form-toggle-id="dd836c44-8774-11f0-9c6d-8b19c0f8937b"
+        href="#"
+      >
         <div class="home-header-discord">
           <div
             class="far fa-bell home-header-discord-arrow small-external-link-arrow"
@@ -56,3 +60,39 @@
     </div>
   </div>
 </div>
+<script>
+  window.addEventListener("load", () => {
+    const observer = new MutationObserver(() => {
+      const form = document.querySelector("form.emailoctopus-form");
+      if (form) {
+        observer.disconnect();
+
+        const emailInput = form.querySelector('input[type="email"]');
+        const submitButton = form.querySelector('input[type="submit"]');
+
+        if (!emailInput || !submitButton) return;
+
+        submitButton.addEventListener("click", (e) => {
+          const email = emailInput.value.trim();
+          if (/@cmail\.carleton\.ca$/i.test(email)) {
+            e.preventDefault();
+            alert(
+              "Sorry, emails from cmail.carleton.ca are not allowed. We already sends emails to all Computer Science students with a cmail address."
+            );
+          } else {
+            alert(
+              "Thank you for subscribing! You will receive an email to confirm your subscription."
+            );
+          }
+        });
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
+<script
+  async
+  src="https://eocampaign1.com/form/dd836c44-8774-11f0-9c6d-8b19c0f8937b.js"
+  data-form="dd836c44-8774-11f0-9c6d-8b19c0f8937b"
+></script>
