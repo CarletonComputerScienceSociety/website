@@ -50,4 +50,4 @@ Some ways students can contribute are:
 
 ## Feedback
 
-We hope you're as excited about the new website as we are! If you have any feedback, feel free to direct it to info@ccss.carleton.ca or reach out to us on the [CCSS Discord](http://discord.carletoncomputersciencesociety.ca/).
+We hope you're as excited about the new website as we are! If you have any feedback, feel free to direct it to bod@ccss.carleton.ca or reach out to us on the [CCSS Discord](http://discord.carletoncomputersciencesociety.ca/).

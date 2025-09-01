@@ -24,6 +24,6 @@ These data and testimonials were compiled into this report and was sent to the D
 
 The password for this PDF will be sent out to all undergraduate CS students studying at Carleton University under the School of Computer Science.
 
-If you have any questions or concerns, please do not hesitate to reach out to us via email at info@ccss.carleton.ca.
+If you have any questions or concerns, please do not hesitate to reach out to us via email at bod@ccss.carleton.ca.
 
 View the attached survey report [here](/pdfs/2020-2021/winter_feedback_survey.pdf).
