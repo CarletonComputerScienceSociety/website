@@ -14,4 +14,8 @@ location_link: "https://carleton.ca/campus/map/#HP"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-08-25
 ---
-**Registrations open on September 2nd!**
+### ✅ Register Now! 
+To sign up for the event, **please fill out both of the following forms:**
+- [AWS YouthTech Bootcamp Pre-event Survey](https://pulse.aws/survey/UOMIPDOM?p=0)
+
+- [AWS YouthTech Bootcamp Sign-up Form](https://forms.gle/guFBw8Lytwy2k2JL8)
