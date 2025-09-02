@@ -10,7 +10,7 @@ layout: volunteer
 
 <h1>Getting Involved</h1>
 
-We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/N7CZzKfWQAhdywEX6).
+We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/pcZDc6MnPmd6X3tZ6).
 
 Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [bod@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
 
