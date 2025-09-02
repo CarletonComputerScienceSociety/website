@@ -16,5 +16,23 @@ publishdate: 2025-08-25
 tags:
 - weekofawesome2025
 ---
-**Registrations open on September 2nd!**
+### ✅ Register Now!
+Sign up for the event using this form: **[CCSS Battlesnake Hackathon Registration Form](https://forms.gle/49fBBy1UF1jmYxWb9)**
+
+**Deadline - Sept 10th @ 11:59 PM**
+
+<br/>
+
+### 🐍 What is Battlesnake? 
+Battlesnake is a **twist on the classic Snake game** - instead of playing directly, you **write code to control your snake** as it competes against others on the board. It’s a fun way to practice developing algorithms and sharpen your problem-solving skills. 
+
+This event is designed to be **beginner-friendly**, while still offering a fun challenge for those with more experience. 
+
+**Even if you have little to no programming experience, we encourage you to join in!**
+
+Inspired by: [play.battlesnake.com](https://play.battlesnake.com/)
+
+![img](/images/battlesnake-board.png)
+
+
 
