@@ -10,7 +10,7 @@ layout: volunteer
 
 <h1>Getting Involved</h1>
 
-We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/xsYLJobBfPVx28vu5).
+We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/N7CZzKfWQAhdywEX6).
 
 Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [bod@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
 
@@ -19,20 +19,18 @@ We understand that university life can be hectic, so we've tailored our voluntee
 <br/>
 <hr/>
 
-## Fall 2024 Open Positions
+## Fall 2025 Open Positions
 
-We are currently looking for the following roles for the Fall 2024 semester.
+We are currently looking for the following roles for the Fall 2025 semester.
 
 ### 🌟 First Year Representatives
 
-We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2024 Nomination Form](https://forms.gle/XJU9p1yST5xBG2ni9).
+We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2025 Nomination Form](https://forms.gle/1zSHkwBnyRfU7JVf7).
 
 ### 📋 Coordinator Positions
-We are currently looking for two (2) coordinator roles:
-- ❤️ Volunteer Experience Coordinator
-- 👕 Merchandise Coordinator
+We are currently looking for a Merchandise Coordinator 👕 
 
-To apply to be a coordinator, please complete the [Fall 2024 Application Form](https://forms.gle/knRGmMjx6C51UWjeA).
+To apply to be a coordinator, please complete the [Fall 2025 Application Form](https://forms.gle/iD9DAEtLbyn3YK7R6).
 
 <br>
 <hr>
@@ -49,13 +47,14 @@ Provide creative input and suggestions inside our Discord workspace to those cre
 
 Share your feedback and suggestions on logistics proposals in our Discord workspace to help us organize successful events and services.
 
-### ❓ FAQ Contributor (Coming Soon - 2024)
+### ❓ Resources and FAQ Contributor
 
-Contribute answers to frequently asked questions to our website. Stay tuned for more details on how you can get involved!
+Create articles or contribute answers to frequently asked questions for the [resources page](https://ccss.carleton.ca/resources/) on our website.
 
-### 💻 Development: Questions Repository Contributor
+### 💻 Open Source Development
+We often have open-source development opportunities where students can contribute to tech projects to gain some dev experience. Check out our [GitHub](https://github.com/CarletonComputerScienceSociety) for examples of past projects, such as the [Computer Science Questions Repository](https://questions.carletoncomputerscience.ca/comp2804).
 
-Contribute to the [Computer Science Question Repository](https://questions.carletoncomputerscience.ca/comp2804), a project that helps students practice previous midterm and exam questions from Carleton computer science courses. It's a great way to make your first open-source contribution! Check out the [contributing guide](https://github.com/CarletonComputerScienceSociety/questions) to get started.
+While we don’t have any active projects right now, you can sign up to be notified when new opportunities become available.
 
 <br/>
 <hr/>
@@ -83,23 +82,19 @@ We often run tech talk and workshop events, if you enjoy presenting and would li
 
 For the following roles, you can submit a proposal and contribute in a way that fits your interests. All proposal-based initatives must be overseen by atleast one leadership team member.
 
+#### 👉 Submit your ideas through our [Volunteer Proposals Form](https://forms.gle/mUNp93kQgRR4kkQ6A)
+
 ### 🥳 Event Proposal
 
-Do you have an idea for a new event? Whether it's a social gathering, a study group, or something entirely different, we’d love to hear your suggestions. Reach out to us at bod@ccss.carleton.ca with your event ideas!
-
-_*A dedicated event proposal form with requirements and a template will be made available in the future._
+Do you have an idea for a new event? Whether it's a social gathering, a study group, or something entirely different, we’d love to hear your suggestions! Please fill out the form above to submit your event idea.
 
 ### ✍️ Article / Resource Proposal
 
-Interested in writing an article or creating a resource to help fellow students? Whether it’s a tutorial, a career guide, or an opinion piece, we welcome submissions that offer value to the community. Send your article or resource ideas to bod@ccss.carleton.ca.
-
-_*A dedicated article proposal form with requirements and a template will be made available in the future._
+Interested in writing an article or creating a resource to help fellow students? Whether it’s a tutorial, a career guide, or an opinion piece, we welcome submissions that offer value to the community. Please fill out the form above to share your resource topic idea.
 
 ### 🎤 Talk / Workshop Proposal
 
-We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. If you're interested in giving a presentation, reach out to us at [bod@ccss.carleton.ca](#email).
-
-_*A dedicated talk / workshop proposal form with requirements and a template will be made available in the future._
+We’re always excited to feature student speakers! We also welcome past TAs and anyone interested in hosting or presenting study sessions. Please fill out the form above if you're interested in giving a presentation.
 
 <br/>
 <hr/>
@@ -119,6 +114,10 @@ Keep our office open and accessible, manage the POS system, and maintain a clean
 
 These positions require a commitment of a full semester. Coordinator positions change depending on the needs determined by the leadership team.
 
+### 👕 Merchandise Coordinator
+
+Handle the design and distribution of merchandise including clothing, stickers, pins, and anything else you feel would interest the student body.
+
 ### 🛋️ Lounge Coordinator
 
 Oversee the operation of the CCSS lounge, ensuring it's a welcoming space for all students, that our office schedule is maintained, and that our lounge services are running smoothly.
@@ -126,10 +125,6 @@ Oversee the operation of the CCSS lounge, ensuring it's a welcoming space for al
 ### ❤️ Volunteer Experience Coordinator
 
 Coordinate with our leadership team to delegate tasks to volunteers, document common procedures, and serve as a point of contact for volunteers seeking to get involved.
-
-### 👕 Merchandise Coordinator
-
-Handle the design and distribution of merchandise including clothing, stickers, pins, and anything else you feel would interest the student body.
 
 <br/>
 <hr/>
