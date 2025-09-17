@@ -56,14 +56,14 @@
         ></span>
       </h1>
       <div class="home-events">
-          {{ $today := time.AsTime (now.Format "2006-01-02") }}
-          {{ $futureEvents := first 4 (where (where .Site.RegularPages "Section" "events") ".Date" "ge" $today).ByDate }}
-          {{ $eventsToShow := $futureEvents }}
-          {{ if lt (len $futureEvents) 4 }}
-            {{ $pastEvents := first (sub 4 (len $futureEvents)) (where (where .Site.RegularPages "Section" "events") ".Date" "lt" $today).ByDate.Reverse }}
-            {{ $eventsToShow = sort (append $futureEvents $pastEvents) "Date" }}
-          {{ end }}
-          {{ range $eventsToShow }}
+        {{ $today := time.AsTime (now.Format "2006-01-02") }}
+        {{ $futureEvents := first 4 (where (where .Site.RegularPages "Section" "events") ".Date" "ge" $today).ByDate }}
+        {{ $eventsToShow := $futureEvents }}
+        {{ if lt (len $futureEvents) 4 }}
+          {{ $pastEvents := first (sub 4 (len $futureEvents)) (where (where .Site.RegularPages "Section" "events") ".Date" "lt" $today).ByDate.Reverse }}
+          {{ $eventsToShow = sort (append $futureEvents $pastEvents) "Date" }}
+        {{ end }}
+        {{ range $eventsToShow }}
           <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
             >{{- partial "event_card.html" . -}}</a
           >
