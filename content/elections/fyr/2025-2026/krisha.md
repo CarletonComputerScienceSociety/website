@@ -29,7 +29,7 @@ All of this would help make the workload a little easier, and by sharing updates
 These roles have taught me all the skills I need to represent your voices, plan fun and useful events, and foster community here at Carleton. 
 
 ### CONTACT: 
-I am always willing to hear feedback and new ideas from you! Feel free to email me at **[krishapatel3@cmail.carleton.ca](mailto:krishapatel3@cmail.carleton.ca**)** or dm **[@kri5ha_](https://www.instagram.com/kri5ha_/)** on Instagram.
+I am always willing to hear feedback and new ideas from you! Feel free to email me at **[krishapatel3@cmail.carleton.ca](mailto:krishapatel3@cmail.carleton.ca)** or dm **[@kri5ha_](https://www.instagram.com/kri5ha_/)** on Instagram.
 
 
 
