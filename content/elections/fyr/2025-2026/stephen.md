@@ -7,6 +7,8 @@ position: "First Year Representative"
 year: "2025-2026"
 ---
 
+![Stephen](/images/first_year_reps/2025/stephen.jpg)
+
 Hi, I’m Stephen.
 
 As your representative, I will help organize events featuring math-based coding challenges. These will be similar to Math Olympiad questions but less difficult, making them very interesting for anyone who enjoys coding and mathematics.
