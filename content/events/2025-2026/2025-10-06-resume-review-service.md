@@ -10,11 +10,11 @@ poster_position: "center"
 short_description: "Submit your resume online for some personalized feedback!"
 start_time: "Oct 6th - 13th"
 location: "Submit via Google Form"
-location_link: "https://carleton.ca/campus/map/#HP"
+location_link: "https://forms.gle/kGZSwTX4NKmqxS4D6"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2025-09-30
 ---
-**Resume submissions will open up on Monday, October 6th.** Check back soon for the link to the Google Form! 
+## [Submit your Resume Here](https://forms.gle/kGZSwTX4NKmqxS4D6)
 
 Please ensure you share a valid email address along with your resume. We'll email you any feedback for improving your resume. 
 
