@@ -16,3 +16,5 @@ publishdate: 2025-10-14
 ---
 
 Based on popular vote, we will be playing **Among Us!**  
+- [Steam Download Link](https://store.steampowered.com/app/945360/Among_Us/)
+- **Free** on Android and iOS App Store
