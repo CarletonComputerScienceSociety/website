@@ -16,4 +16,6 @@ publishdate: 2025-11-03
 ---
 We are meeting in the **CCSS Lounge (HP 4135)** to start our walk.
 
+The trail for this event is the [**Rideau Canal Waterway and Dows Lake Loop**](https://www.alltrails.com/trail/canada/ontario/rideau-canal-waterway-and-dows-lake-loop).
+
 The date and time for this event are subject to change due to weather conditions.
