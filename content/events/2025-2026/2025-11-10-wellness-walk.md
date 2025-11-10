@@ -1,7 +1,7 @@
 ---
 display_title: "Wellness Walk"
 title: "Wellness Walk"
-date: 2025-11-10T00:00:00Z
+date: 2025-11-13T00:00:00Z
 draft: false
 layout: event
 poster: "/images/event_posters/2025-2026/wellness-walk.png"
