@@ -5,7 +5,6 @@ draft: false
 layout: overlaypost
 preview: "images/news/2020-2021/outside_hp.jpg"
 background: "images/orientation2018-min.jpeg"
-background: "images/orientation2018-min.jpeg"
 excerpt: "The general election period for the CCSS Board of Directors of the 2021-2022 term begins today!"
 hideBanner: false
 featured: false
