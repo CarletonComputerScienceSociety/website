@@ -2,7 +2,7 @@
 display_title: "Life of a Software Engineer"
 title: "Life of a Software Engineer"
 date: 2025-11-12T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "/images/event_posters/2025-2026/networking_engineering_skills.png"
 poster_cover: "contain"
