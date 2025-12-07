@@ -16,9 +16,9 @@ publishdate: 2025-12-07
 ---
 Online sessions will be recorded and posted here afterwards.
 ### <u>COMP 1405</u> - Dec 7th @ 5:00 - 6:30 PM, Online (Zoom)
-**[Zoom Link](https://carleton-ca.zoom.us/j/91506607959?pwd=S2w94A7NJe2v1jrWnxBPlVzg5xb6xj.1)** <br/>
-**Meeting ID:** 915 0660 7959 <br/>
-**Passcode:** 166334
+- **[Recording](https://mediaspace.carleton.ca/media/CCSS+COMP+1405+Review+Session/1_2ovaj3q6)**
+- **[Slides](https://www.canva.com/design/DAG621ogBSg/FGkjs8Z5yKEL4vcXBisDmA/edit?utm_content=DAG621ogBSg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+- **[Practice Quiz](https://docs.google.com/forms/d/e/1FAIpQLScsKXBh9xbcP6bHk6yuwjeoWR2wP95vZKdBrGLXAejrJMlCBg/viewform)**
 ### <u>COMP 3000</u> - Tuesday, Dec 9th @ 6:00 - 7:30 PM, Herzberg 5345
 This session is in-person (Herzberg 5345)
 ### <u>COMP 2402</u> - Friday, Dec 12th @ 7:00 - 8:30 PM, Online (Zoom)
