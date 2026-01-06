@@ -9,7 +9,7 @@
   description: "Interactive content for COMP 1805 and COMP 2804."
   active: true
 - title: "CCSS Magazine"
-  link: "http://magazine.carletoncomputersciencesociety.ca/"
+  link: "https://magazine.carletoncomputersciencesociety.ca/"
   color: "#000000"
   description: "The latest Issue of the CCSS magazine."
   active: true
