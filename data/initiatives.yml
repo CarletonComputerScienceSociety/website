@@ -3,16 +3,16 @@
   color: "#e62828"
   description: "A webpage with practice questions for COMP courses."
   active: true
-- title: "DiscreteMath.ca"
-  link: "https://discretemath.ca/"
-  color: "#ffab40"
-  description: "Interactive content for COMP 1805 and COMP 2804."
-  active: true
 - title: "CCSS Magazine"
   link: "https://magazine.carletoncomputersciencesociety.ca/"
   color: "#000000"
   description: "The latest Issue of the CCSS magazine."
   active: true
+- title: "DiscreteMath.ca"
+  link: "https://questions.carletoncomputerscience.ca/comp2804"
+  color: "#ffab40"
+  description: "Interactive content for COMP 1805 and COMP 2804. Replaced by Questions Repository."
+  active: false
 
 # - title: "Carleton Merged"
 #   link: "https://merged.carletoncomputerscience.ca/"
