@@ -12,6 +12,9 @@ start_time: "6:30 - 7:30 PM"
 location: "Herzberg 5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-18
+tags:
+- jobuary2026
+- week4
 ---
 
 We will also be voting on some constitution changes -> [Proposed CCSS Constitution (January 2026](https://docs.google.com/document/d/1lyxKYycbnYEx5YhW8zKJyju_Z6hYMBZ1ZoxzdQmqURg/edit?usp=sharing)

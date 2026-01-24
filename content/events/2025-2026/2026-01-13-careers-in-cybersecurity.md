@@ -12,4 +12,9 @@ start_time: "6:00 - 7:00 PM"
 location: "Herzberg 5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-11
+tags:
+- jobuary2026
+- week2
 ---
+## Recording Link
+Didn't have the chance to make it to the event? No worries, you can give it a watch **[here](https://www.youtube.com/watch?v=yt0Ni_25HXI)**!
