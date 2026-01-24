@@ -18,3 +18,6 @@ tags:
 ---
 ## Registration Form
 Please register for the event here: **[Interview Prep Strategies with Ciena - RSVP Form](https://forms.gle/ip7qK1rYpbx7vv2V7)**
+
+## Recording Link
+Didn't have the chance to make it to the event? No worries, you can give it a watch **[here](https://www.youtube.com/watch?v=hsgTe-zP63Q)**!

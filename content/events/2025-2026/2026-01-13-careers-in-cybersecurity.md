@@ -16,3 +16,5 @@ tags:
 - jobuary2026
 - week2
 ---
+## Recording Link
+Didn't have the chance to make it to the event? No worries, you can give it a watch **[here](https://www.youtube.com/watch?v=yt0Ni_25HXI)**!
