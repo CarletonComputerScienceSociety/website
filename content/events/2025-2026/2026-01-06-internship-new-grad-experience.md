@@ -12,6 +12,9 @@ start_time: "1:00 - 2:00 PM"
 location: "Herzberg 5345"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-11
+tags:
+- jobuary2026
+- week1
 ---
 ## Recording and Slides
 - [Recording Link](https://mediaspace.carleton.ca/media/Nguyen-Hanh+Nongs+Zoom+Meeting/1_ihi5c9iy)

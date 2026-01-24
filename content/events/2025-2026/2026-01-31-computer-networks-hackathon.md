@@ -12,6 +12,9 @@ start_time: "10:00 AM - 5:00 PM"
 location: "Herzberg 4155"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-19
+tags:
+- jobuary2026
+- week4
 ---
 
 ## Registration Deadline - Jan 28th by Midnight

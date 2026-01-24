@@ -13,6 +13,9 @@ location: "Submit via Google Form"
 location_link: "https://forms.gle/bTsp8e75q1rpWjZQ6"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-11
+tags:
+- jobuary2026
+- week1
 ---
 ## [Submit your Resume Here](https://forms.gle/bTsp8e75q1rpWjZQ6)
 *Submissions are now closed*

@@ -12,4 +12,7 @@ start_time: "1:00 - 3:00 PM"
 location: "Online (Zoom)"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-11
+tags:
+- jobuary2026
+- week2
 ---

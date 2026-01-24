@@ -12,6 +12,9 @@ start_time: "7:00 - 8:00 PM"
 location: "Online (Zoom)"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-11
+tags:
+- jobuary2026
+- week1
 ---
 ## Recording and Slides
 - [Recording Link](https://carleton-ca.zoom.us/rec/share/w_xQj2jgqAG40yJQPuY6Ede3fbI6BtpPcYuRTk1s4yzTfQehXLroZN7jbbk1p5uV.l0V9E2ZHHci7DFWi?startTime=1767659715000)
