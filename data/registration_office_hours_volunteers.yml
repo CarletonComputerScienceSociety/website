@@ -3,7 +3,7 @@
   year_standing: Fourth
   stream: Game Development stream
   minors: Minor in Film
-  additional_info: 
+  additional_info:
   image: images/executives/riley.jpg
   link: "https://calendly.com/riley-lutz-ccss/registration-office-hours"
 
@@ -27,7 +27,7 @@
 
 - name: Ryan Chung
   first_name: Ryan
-  year_standing: Fourth 
+  year_standing: Fourth
   stream: AI and ML stream
   minors: Minor in Business Entrepreneurship
   additional_info: Took the Z section
@@ -35,7 +35,7 @@
   link: "https://calendly.com/ryan-chung-ccss/30min"
 
 - name: Nguyen-Hanh Nong
-  first_name: Nguyen 
+  first_name: Nguyen
   year_standing: Fourth
   stream: AI and ML stream
   minors: Minors in Math and Psychology
@@ -66,8 +66,6 @@
   year_standing: Third
   stream: AI and ML stream
   minors: Minor in Economics
-  additional_info: 
+  additional_info:
   image: images/executives/eros.jpg
   link: "https://calendly.com/eros-mcguire-ccss/registration-office-hours"
-
-
