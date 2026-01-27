@@ -1,7 +1,7 @@
 ---
 display_title: "Q&A with QNX"
 title: "Q&A with QNX"
-date: 2026-01-22T00:00:01Z
+date: 2026-01-15T00:00:02Z
 draft: false
 layout: event
 poster: "/images/event_posters/2025-2026/jobuary-qnx.png"
@@ -14,5 +14,5 @@ background: "images/orientation2018-min.jpeg"
 publishdate: 2026-01-25
 tags:
 - jobuary2026
-- week3
+- week2
 ---
