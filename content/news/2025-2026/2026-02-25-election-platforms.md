@@ -15,4 +15,4 @@ categories:
   - announcement
 ---
 
-The CCSS Elections for 2026-2027 have begun! We're excited to announce that we have candidates running for positions on the Board of Directors.
+The CCSS Elections for 2026-2027 have begun! We're excited to announce that we have 16 candidates running for positions on the Board of Directors.
