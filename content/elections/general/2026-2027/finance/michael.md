@@ -14,7 +14,7 @@ With this year's introduction of the levy, we over budget for new costs like ins
 ### Increase funding for events
 With increased funding, we can host larger, more exciting events. Additionally, it’s no secret that the word "free" could make university students scale mountains. That’s why every CCSS event offers free food, ranging from snacks and coffee, to pizza, to veggie and fruit platters.
 
-If elected, I will ensure that our budgetIf elected, I will ensure that our budget is revised to better support large events like company **networking events** and **hackathons** through increased funding for **food**, **prizes**, and whatever else may be required.
+If elected, I will ensure that our budget is revised to better support large events like company **networking events** and **hackathons** through increased funding for **food**, **prizes**, and whatever else may be required.
 
 ### Offer funding for other clubs
 Computer Science is a wide field, with many clubs catering to particular specializations. Some of these you may recognize include the Carleton Cybersecurity Club, the Carleton Game Development Club, Carleton Blueprint, and the Carleton AI Society. These clubs are extremely valuable to our community, but don’t have access to all the funding opportunities available to the CCSS.
