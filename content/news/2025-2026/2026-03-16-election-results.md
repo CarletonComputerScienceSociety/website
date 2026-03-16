@@ -7,7 +7,7 @@ preview: "images/news/2020-2021/vote.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Congratulations to our upcoming Board of Director members, and thank you to all candidates for getting involved with the CCSS!"
 hideBanner: false
-featured: false
+featured: true
 author: Ryan Chung
 url: "election-results-2026-2027"
 categories:
