@@ -1,40 +1,36 @@
-- name: Veronica Mordvinova
+- name: Aditya “Jacc” Padmakar
   role: President
-  email: veronica.mordvinova@ccss.carleton.ca
-  intro: "I'm Veronica and I'm going into my third year in the AI/ML stream with minors in math and neuroscience. I'll be your President this year (for the second year in a row!), and I was previously a First Year Rep as well. Excited to get a chance to chat with you all!"
-  image: images/executives/veronica_mordvinova2.jpg
+  email: jacc.padmakar@ccss.carleton.ca
+  intro: “Hey, I’m Jacc. I’ve been involved with the CCSS throughout my time here at Carleton and this year I’m serving as President. I’m an international student heading into my 4th year of CS. Feel free to reach out about anything!"
+  image: images/executives/jacc2.jpg
 - name: Kimia Khorram-Roudi
   role: Director of Operations
   email: kimia.khorramroudi@ccss.carleton.ca
-  intro: "My name is Kimia. I’m in the Cybersecurity stream and I will be your Director of Operations for this upcoming academic year so if you have any questions or would simply like to chat, feel free to let me know!"
+  intro: "My name is Kimia and I'm your Director of Operations for the coming year (two years in a row now!). It's my third year here at Carleton and I am in the Cybersecurity Stream. I am always open to chat so feel free to reach out no matter what!"
   image: images/executives/kimia.png
-- name: Cameron Stirrup
-  role: Director of Finance
-  email: cameron.stirrup@ccss.carleton.ca
-  intro: "I'm Cameron, and I'm a 4th year in the cybersecurity stream. Let me know if you have questions or comments, I'm always available for a chat!"
-  image: images/executives/cameron.jpg
-- name: Eros McGuire 
+- name: Afaq Virk 
   role: Director of Industry Initiatives
-  email: eros.mcguire@ccss.carleton.ca
-  intro: "My name is Eros, I am your director of Industry Initiatives and a 3rd year in the AI and Machine Learning stream. Please reach out if you have any questions, or if you have anyone you'd like for us to partner with."
-  image: images/executives/eros.jpg
-- name: Riley Lutz
-  role: Director of Social
-  email: riley.lutz@ccss.carleton.ca
-  intro: "I'm Riley and I'm your Director of Social for the academic year! I'm currently in my fourth year at Carleton and I am planning to graduate with co-op designation and a minor in Film Studies! Feel free to reach out if there's any kind of event you'd like to see us run, want to hit the gym or just chat!"
-  image: images/executives/riley.jpg
-- name: Landon MacDonald
-  role: Director of Publications
-  email: landon.macdonald@ccss.carleton.ca
-  intro: "I am Landon and am a 3rd year in the cybersecurity stream. I will be your Director of Publications for the 25/26 academic year. I look forward to working with everyone, and feel free to reach out for any reason."
-  image: images/executives/landon.jpg
-- name: Aditya “Jacc” Padmakar
+  email: afaq.virk@ccss.carleton.ca
+  intro: "Hey! I'm Afaq - serving as the Director of Industry Initiatives. 4th year @ Carleton (Industrial Applications Stream), happy to chat about ideas to help students succeed in the industry. Did I mention the word industry yet?"
+  image: images/executives/afaq.jpg
+- name: Rieley Hunt
   role: Director of Academics 
-  email: jacc.padmakar@ccss.carleton.ca
-  intro: "I'm Jacc, your co-director of academics. I'm an international student heading into my 3rd year of CS, and I'm also about to complete a minor in film studies. Feel free to reach out about anything!"
-  image: images/executives/jacc2.jpg
-- name: Nguyen-Hanh Nong
-  role: Director of Academics
-  email: nguyenhanh.nong@ccss.carleton.ca
-  intro: "My name is Nguyen and I'm a 4th year CS student and your co-director of Academics for the upcoming year. Feel free to reach out with any questions or suggestions!"
-  image: images/executives/nguyen.jpg
+  email: rieley.hunt@ccss.carleton.ca
+  intro: "Hey, I'm Rieley and I'm your Director of Academics for this school year. I'm heading into my 4th year here at Carleton. Please feel free to reach out to me about any topic! "
+  image: images/executives/rieley.jpg
+- name: Rudraksh Sharma
+  role: Director of Social
+  email: rudraksh.sharma@ccss.carleton.ca
+  intro: "Hey! I'm Rudraksh, your Director of Social, and a fellow second year student. I am very excited to have this opportunity and would love to share it with the whole community! If you guys have any questions or ideas, just hit me up!"
+  image: images/executives/rudraksh.jpg
+- name: Karthi Kanthavel
+  role: Director of Content Creation
+  email: karthi.kanthavel@ccss.carleton.ca
+  intro: "Hey! I’m Karthi, a 2nd year Computer Science student and your Director of Content Creation for CCSS this year. I love meeting new people and talking with students, so feel free to reach out anytime. I’d love to chat!"
+  image: images/executives/karthi.jpg
+- name: Michael Pfaff
+  role: Director of Finance
+  email: michael.p@ccss.carleton.ca
+  intro: "Hey there! My name is Michael and I'm serving as your Director of Finance for the coming year. I'm in the cybersecurity stream and this will be my 3rd year here at Carleton. Feel free to reach out to chat or ask questions at any time!"
+  image: images/executives/unknown_id.jpg
+  

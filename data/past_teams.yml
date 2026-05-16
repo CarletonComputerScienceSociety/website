@@ -1,3 +1,46 @@
+- year: 2025-2026
+  members:
+    - name: Veronica Mordvinova
+      role: President
+      email: veronica.mordvinova@ccss.carleton.ca
+      intro: "I'm Veronica and I'm going into my third year in the AI/ML stream with minors in math and neuroscience. I'll be your President this year (for the second year in a row!), and I was previously a First Year Rep as well. Excited to get a chance to chat with you all!"
+      image: images/executives/veronica_mordvinova2.jpg
+    - name: Kimia Khorram-Roudi
+      role: Director of Operations
+      email: kimia.khorramroudi@ccss.carleton.ca
+      intro: "My name is Kimia. I’m in the Cybersecurity stream and I will be your Director of Operations for this upcoming academic year so if you have any questions or would simply like to chat, feel free to let me know!"
+      image: images/executives/kimia.png
+    - name: Cameron Stirrup
+      role: Director of Finance
+      email: cameron.stirrup@ccss.carleton.ca
+      intro: "I'm Cameron, and I'm a 4th year in the cybersecurity stream. Let me know if you have questions or comments, I'm always available for a chat!"
+      image: images/executives/cameron.jpg
+    - name: Eros McGuire 
+      role: Director of Industry Initiatives
+      email: eros.mcguire@ccss.carleton.ca
+      intro: "My name is Eros, I am your director of Industry Initiatives and a 3rd year in the AI and Machine Learning stream. Please reach out if you have any questions, or if you have anyone you'd like for us to partner with."
+      image: images/executives/eros.jpg
+    - name: Riley Lutz
+      role: Director of Social
+      email: riley.lutz@ccss.carleton.ca
+      intro: "I'm Riley and I'm your Director of Social for the academic year! I'm currently in my fourth year at Carleton and I am planning to graduate with co-op designation and a minor in Film Studies! Feel free to reach out if there's any kind of event you'd like to see us run, want to hit the gym or just chat!"
+      image: images/executives/riley.jpg
+    - name: Landon MacDonald
+      role: Director of Publications
+      email: landon.macdonald@ccss.carleton.ca
+      intro: "I am Landon and am a 3rd year in the cybersecurity stream. I will be your Director of Publications for the 25/26 academic year. I look forward to working with everyone, and feel free to reach out for any reason."
+      image: images/executives/landon.jpg
+    - name: Aditya “Jacc” Padmakar
+      role: Director of Academics 
+      email: jacc.padmakar@ccss.carleton.ca
+      intro: "I'm Jacc, your co-director of academics. I'm an international student heading into my 3rd year of CS, and I'm also about to complete a minor in film studies. Feel free to reach out about anything!"
+      image: images/executives/jacc2.jpg
+    - name: Nguyen-Hanh Nong
+      role: Director of Academics
+      email: nguyenhanh.nong@ccss.carleton.ca
+      intro: "My name is Nguyen and I'm a 4th year CS student and your co-director of Academics for the upcoming year. Feel free to reach out with any questions or suggestions!"
+      image: images/executives/nguyen.jpg
+
 - year: 2024-2025
   members:
     - name: Veronica Mordvinova
