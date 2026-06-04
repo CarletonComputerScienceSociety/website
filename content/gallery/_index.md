@@ -1,0 +1,2 @@
+title: Gallery
+layout:gallery
