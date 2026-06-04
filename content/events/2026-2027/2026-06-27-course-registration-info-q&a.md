@@ -10,7 +10,7 @@ poster_position: "center"
 short_description: "Learn all about course registration and how to build your ideal schedule!"
 start_time: "12:00 - 1:30 PM EST"
 location: "ZOOM"
-location_link:
+location_link: "https://carleton-ca.zoom.us/j/92699765701?pwd=tX36QIjTQMo1iLhbzOQl541tAUlYFZ.1"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-06-04
 ---
@@ -23,4 +23,7 @@ This session will feature a **short presentation** followed by a **Q&A session w
 - Q&A Session with upper years
 - ... and much much more!
 
-The Zoom invite will be posted closer to the event.
+**Zoom Invite:**
+- [Meeting Link](https://carleton-ca.zoom.us/j/92699765701?pwd=tX36QIjTQMo1iLhbzOQl541tAUlYFZ.1)
+- Meeting ID: 926 9976 5701
+- Passcode: 026794
