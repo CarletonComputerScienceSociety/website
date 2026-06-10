@@ -514,7 +514,7 @@ $navNumOfItemBlocks: 4;
 
 .header .menu-btn:checked ~ .menu {
   // if adding list items from menu, update below
-  max-height: 600px;
+  max-height: 1400px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -549,6 +549,54 @@ $navNumOfItemBlocks: 4;
 
   .header {
     display: block;
+  }
+}
+
+// Mobile dropdown styles
+.header details {
+  summary {
+    display: block;
+    padding: 20px 20px;
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: "▾";
+      float: right;
+    }
+  }
+
+  &[open] summary::after {
+    content: "▴";
+  }
+
+  &:hover > summary,
+  summary:hover {
+    background-color: #c40729;
+    color: white;
+  }
+}
+
+.mobile-submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #f0f0f0;
+
+  li a {
+    padding: 14px 20px 14px 36px;
+    font-size: 0.9rem;
+
+    &:hover {
+      background-color: #c40729;
+      color: white;
+    }
   }
 }
 
