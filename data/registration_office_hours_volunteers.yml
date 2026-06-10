@@ -10,10 +10,10 @@
 - name: Jacc Padmakar
   first_name: Jacc
   year_standing: Fourth
-  stream: Cybersecurity stream
-  minors:
+  stream: AI and ML stream
+  minors: Minor in Film
   additional_info: International student, Took the Z section
-  image: images/executives/jacc.jpg
+  image: images/executives/jacc2.jpg
   link: "https://calendly.com/jacc-padmakar-ccss/registration-office-hours"
 
 - name: Omar Dahman
