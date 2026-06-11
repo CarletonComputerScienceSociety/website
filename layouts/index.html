@@ -63,6 +63,7 @@
           {{ $pastEvents := first (sub 4 (len $futureEvents)) (where (where .Site.RegularPages "Section" "events") ".Date" "lt" $today).ByDate.Reverse }}
           {{ $eventsToShow = sort (append $futureEvents $pastEvents) "Date" }}
         {{ end }}
+        {{ $eventsToShow = sort $eventsToShow "Date" "desc" }}
         {{ range $eventsToShow }}
           <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
             >{{- partial "event_card.html" . -}}</a
