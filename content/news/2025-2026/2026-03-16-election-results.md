@@ -3,7 +3,7 @@ title: "CCSS General Election Results 2026-2027"
 date: 2026-03-16T00:00:00Z
 draft: false
 layout: overlaypost
-preview: "images/news/2020-2021/vote.jpg"
+preview: "images/news/2025-2026/vote.jpeg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Congratulations to our upcoming Board of Director members, and thank you to all candidates for getting involved with the CCSS!"
 hideBanner: false
