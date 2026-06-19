@@ -19,7 +19,7 @@
 - name: Omar Dahman
   first_name: Omar
   year_standing: Second
-  stream: Cybersecurity stream
+  stream: Bachelor of Cybersecurity
   minors:
   additional_info:
   image: images/executives/omar.jpg
@@ -30,7 +30,7 @@
   year_standing: Third
   stream: Cybersecurity stream
   minors: Minor in Film
-  additional_info: "TA experience, Minor in Film"
+  additional_info: "TA experience"
   image: images/executives/kimia.png
   link: "https://calendly.com/kimia-khorramroudi-ccss/new-meeting"
 
