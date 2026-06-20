@@ -1,7 +1,7 @@
 ---
 display_title: "Speed Friending"
 title: "Week of Awesome: Speed Friending"
-date: 2029-09-18T00:00:00Z
+date: 2020-09-18T00:00:00Z
 draft: false
 layout: event
 poster: "images/event_posters/2020-2021/speed_friending.jpg"
