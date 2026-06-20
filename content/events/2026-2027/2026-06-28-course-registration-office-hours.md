@@ -12,6 +12,7 @@ start_time: "Book a Slot"
 location: "Book a Slot"
 location_link: "/registration-office-hours/"
 background: "images/orientation2018-min.jpeg"
-publishdate: 2026-06-28
+publishdate: 2026-06-19
 ---
- Book a call with one of our volunteers [here!](/registration-office-hours/)
+
+Book a call with one of our volunteers [here!](/registration-office-hours/)
