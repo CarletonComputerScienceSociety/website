@@ -5,4 +5,5 @@ draft: false
 url: "/jobuary"
 layout: jobuary-2026
 preview: "images/event_posters/2023-2024/jobuary.jpg"
+params.jobuary_tag: "jobuary2026"
 ---
