@@ -1,10 +1,10 @@
 ---
 title: "Who should I contact if I need help with registration?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
-summary: "Contact the academic advisors at scs.ug.advisor@carleton.ca"
+summary: "Contact the academic advisors at scs.ug.advisor@carleton.ca or bcyber.ug.advisor@carleton.ca"
 contributors: 
 - Riley Lutz
 - Jacc Padmakar
@@ -14,6 +14,6 @@ sources:
 related:
 - 
 ---
-Academic Advisors with the School of Computer Science are your main point of contact for questions about course selection, your degree requirements, reduced course loads, and more. You can reach them at **scs.ug.advisor@carleton.ca.**
+Academic Advisors with the School of Computer Science are your main point of contact for questions about course selection, your degree requirements, reduced course loads, and more. You can reach them at **scs.ug.advisor@carleton.ca.** If you're a **Bachelor of Cybersecurity** student, reach out to **bcyber.ug.advisor@carleton.ca** instead.
 
 For help with the registration process, check out [this guide](https://carleton.ca/registration/). You can also contact the Registrar’s Office at **registrar@carleton.ca**, or call 613-520-3500 during business hours.

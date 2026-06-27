@@ -1,7 +1,7 @@
 ---
 title: "What is an override request?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "An override request is used to request permission to register in a course that you aren't eligible to take."

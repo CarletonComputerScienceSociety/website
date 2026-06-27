@@ -1,7 +1,7 @@
 ---
 title: "Ways to Reduce Your Second Year Workload"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: article-question
 summary: "Strategically selecting courses in your first year can help reduce your second-year workload and set you up for academic success."
@@ -12,6 +12,8 @@ sources:
 related:
 - should-you-take-z-section
 ---
+
+**NOTE:** _These suggestions are primarily for **Bachelor of Computer Science** students. If you're a **Bachelor of Cybersecurity** student, you are encouraged to follow the course pattern for your admit year found [here](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/#:~:text=a%20payment.-,Course%20Patterns,-It%20is%20recommended), and to consult with an academic advisor (bcyber.ug.advisor@carleton.ca) to plan any changes you'd like to make to that pattern._
 
 Strategically selecting courses in your first year can significantly lighten your second-year workload. One popular option is taking the COMP 1405/1406-Z section, and we've put together a [full guide](/resources/articles/should-you-take-z-section/) to help you decide if it's the right fit for you.
 

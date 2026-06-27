@@ -1,7 +1,7 @@
 ---
 title: "Should You Take COMP 1405/1406-Z?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: article-question
 summary: "Taking the accelerated COMP 1405 Z section enables you to take 2000-level COMP courses earlier, but it’s not necessarily the right choice for everyone."
@@ -14,6 +14,8 @@ sources:
 related:
 - reducing-second-year-workload
 ---
+
+**NOTE:** _This article is primarily to help **Bachelor of Computer Science** students decide whether they should take the Z section. **Bachelor of Cybersecurity** students are expected to take it as part of their [course patterns](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/#:~:text=a%20payment.-,Course%20Patterns,-It%20is%20recommended), and should consult with an academic advisor (bcyber.ug.advisor@carleton.ca) to discuss any changes._
 
 Enrolling in the accelerated COMP 1405/1406-Z section allows you to receive credit for both COMP 1405 and COMP 1406 by the **end of your first-year fall term.**
 

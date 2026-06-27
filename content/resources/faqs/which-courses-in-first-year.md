@@ -1,7 +1,7 @@
 ---
 title: "Which courses should I take in first year?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-16T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "There are 5 courses all Computer Science students should take in their first year. Depending on your stream, there may be a few more."
@@ -17,6 +17,8 @@ sources:
 related:
 - first-year-courses-order
 ---
+**NOTE:** _These are the requirements for **Bachelor of Computer Science** students. If you're a **Bachelor of Cybersecurity** student, refer to your [course pattern](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/#:~:text=a%20payment.-,Course%20Patterns,-It%20is%20recommended) instead._
+
 All Computer Science students should complete the following required courses in their first year [1], in addition to any elective courses:
 
 - COMP 1405: Introduction to Computer Science I

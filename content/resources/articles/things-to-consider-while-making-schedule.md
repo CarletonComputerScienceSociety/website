@@ -1,7 +1,7 @@
 ---
 title: "Making a Balanced Course Schedule"
 date: 2025-06-20T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z 
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: article-question
 summary: "Careful planning can help you create a timetable that supports your academic goals, fits your lifestyle, and keeps your workload manageable."
@@ -37,6 +37,8 @@ If you are going into your first year, classes that you will (likely) need to ad
 - MATH 1104
 
 You can visit [this](https://carleton.ca/registration/course-selection-guide/bcs/) SCS page to view suggested course sequences for first-year students, if you’re curious about when students typically take the courses mentioned above.
+
+**NOTE:** _The courses listed above are for **Bachelor of Computer Science** students. If you're a **Bachelor of Cybersecurity** student, refer to your [course pattern](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/#:~:text=a%20payment.-,Course%20Patterns,-It%20is%20recommended) instead._
 
 <br/>
 

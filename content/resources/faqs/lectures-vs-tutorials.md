@@ -1,7 +1,7 @@
 ---
 title: "What is the difference between a lecture and tutorial?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-16T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Lectures are where instructors cover course content, while tutorials provide extra practice and support."

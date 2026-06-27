@@ -1,7 +1,7 @@
 ---
 title: "Do we register for both fall and winter courses now?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Yes, you should register for both terms as soon as your time ticket opens to secure the classes you want."

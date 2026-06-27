@@ -1,7 +1,7 @@
 ---
 title: "What is a Breadth elective vs a Free elective?"
 date: 2024-05-31T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Breadth Electives cannot be under COMP, MATH, STAT, CSEC, DATA or Engineering. Free Electives can be from any department."
@@ -24,4 +24,6 @@ related:
 
 "Free Electives are all courses in Approved Arts, Social Sciences, Science, Business, Computer Science, Cybersecurity, Data Science, Math and Statistics, excluding all prohibited courses (see below). Engineering courses can also count as Free Electives, but never Breadth." [2]
 
-**NOTE:** *Computer Science students cannot register for CSEC or DATA courses. However, if you took these courses before transferring into Computer Science, they will be considered free electives.*
+**NOTE:** *Bachelor of Computer Science students cannot register for CSEC or DATA courses. However, if you took these courses before transferring into Computer Science, they will be considered free electives.*
+
+*Bachelor of Cybersecurity students only have free electives, not breadth elective credits.*

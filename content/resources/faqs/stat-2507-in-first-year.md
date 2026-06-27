@@ -1,7 +1,7 @@
 ---
 title: "Should I take STAT 2507 in first year?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Taking STAT 2507 in your first year can help ease the workload of your second year, due to the large number of required 2000 level courses."

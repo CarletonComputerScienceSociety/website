@@ -1,7 +1,7 @@
 ---
 title: "What is the COMP 1405/1406-Z section?"
 date: 2024-10-06T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "The Z section is an accelerated course that combines the content of COMP 1405 and COMP 1406 into a single term."

@@ -1,7 +1,7 @@
 ---
 title: "What is the difference between scheduled and unscheduled courses?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Scheduled courses have lectures at specific times. Unscheduled courses provide lecture recordings instead of having live lectures."
@@ -10,7 +10,7 @@ contributors:
 - Jacc Padmakar
 sources:
   - name: Course Delivery Types
-    link: https://carleton.ca/registration/course-delivery-types/#fall-2025-winter-2026-course-registration-labels
+    link: https://carleton.ca/registration/course-delivery-types
 related:
 - things-to-consider-while-making-schedule
 ---
@@ -26,4 +26,4 @@ In-person activities could include tutorials or tests. Online activities could i
 
 Make sure to always check the course outline to see how different parts of the course, like lectures, tutorials and tests will be structured.
 
-For the full list of different section types, check out [this page](https://carleton.ca/registration/course-delivery-types/#fall-2025-winter-2026-course-registration-labels).
+For the full list of different section types, check out [this page](https://carleton.ca/registration/course-delivery-types).

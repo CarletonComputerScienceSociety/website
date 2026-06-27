@@ -1,7 +1,7 @@
 ---
 title: "Why You Should Consider a Minor as a CS Student"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-16T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: article-question
 summary: "Instead of just filling elective credits with bird courses, using them toward a minor can help you stand out, deepen your skills, and explore a second area of interest."
@@ -24,7 +24,7 @@ sources:
   - name: Minor in Cognitive Psychology
     link: https://calendar.carleton.ca/undergrad/undergradprograms/psychology/#Minor_in_Cognitive_Psychology
   - name: How many first year courses can I take?
-    link: https://carleton.ca/cuknowhow/my-degree/#:~:text=you%20can%20only%20count%20a%20maximum%20of%207.0%20credits%20in%20first%2Dyear%20courses
+    link: https://carleton.ca/registration/course-selection-guide/bcs/#:~:text=with%20identical%20specs.-,Notes%20for%20First%2DYear%20Students,-Students%20may%20only
 related:
 - which-electives-should-I-take
 ---
