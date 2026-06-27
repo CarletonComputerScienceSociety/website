@@ -1,7 +1,7 @@
 ---
 title: "Can I switch courses after registering?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "You can switch courses until the first few weeks of the term"

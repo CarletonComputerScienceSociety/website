@@ -1,7 +1,7 @@
 ---
 title: "How many courses should I take in a semester?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "Full-time students generally take 2.5 credits per term, but it’s also common to take fewer courses for a lighter workload."
@@ -12,7 +12,7 @@ sources:
   - name: Academic advisor
     link: https://carleton.ca/academicadvising/
   - name: Reduced course load
-    link: https://carleton.ca/academicadvising/reduced-course-load-2/
+    link: https://carleton.ca/academicadvising/reduced-course-load/
 related:
 - 
 ---
@@ -27,4 +27,4 @@ We recommend that you **reach out to an [academic advisor](https://carleton.ca/a
 - Co-op eligibility
 - Visas and study permits (for international students) 
 
-For more information, check out Carleton’s webpage about considering a [reduced course load](https://carleton.ca/academicadvising/reduced-course-load-2/). 
+For more information, check out Carleton’s webpage about considering a [reduced course load](https://carleton.ca/academicadvising/reduced-course-load/). 

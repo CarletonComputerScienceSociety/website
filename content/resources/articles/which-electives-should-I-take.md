@@ -1,7 +1,7 @@
 ---
 title: "Which Electives Should You Take?"
 date: 2025-06-20T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: article-question
 summary: "There are a lot of options for Computer Science students to explore electives that match their interests, fulfill degree requirements, and even help complete a minor."
@@ -21,6 +21,8 @@ related:
 - free-vs-breadth-electives
 ---
 When trying to figure out which electives might be best for you - there are a few things that you might want to consider. Whether that might be making the best use of your breadth and free electives, getting a minor, or strategically planning your electives to be able to take online courses during the summer, there are a lot of options for Computer Science students!
+
+Note that **Bachelor of Cybersecurity** students do not have any breadth elective credits — only free electives. You can review the [B.Cyber program requirements](https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#Cybersecurity__BCyber_Honours) for details.
 
 Before we get started - you can find the complete list of course offerings [here](https://calendar.carleton.ca/undergrad/courses/). Also be sure to check the list of [prohibited courses](https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/#text:~:text=Course%20Categories%20(B.C.S.)) that cannot be used for credit in the Computer Science program.
 

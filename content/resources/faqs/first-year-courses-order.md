@@ -1,7 +1,7 @@
 ---
 title: "Do I have to take first year courses in a specific order?"
 date: 2025-06-16T00:00:00Z
-last_updated: 2025-06-20T00:00:00Z
+last_updated: 2026-06-27T00:00:00Z
 draft: false
 layout: faq-question
 summary: "COMP 1405 and 1406 should be taken in Fall and Winter respectively. Other first-year core courses can be taken in either term."
@@ -14,6 +14,8 @@ related:
 - can-I-take-2000-level-courses-in-first-year
 - reducing-second-year-workload
 ---
+**NOTE:** _These are the requirements for **Bachelor of Computer Science** students. If you're a **Bachelor of Cybersecurity** student, refer to your [course pattern](https://carleton.ca/scs/current-students/bachelor-of-cybersecurity/bcyber-courses-and-registration/#:~:text=a%20payment.-,Course%20Patterns,-It%20is%20recommended) instead._
+
 The First-Year Course Selection Guide [1] recommends taking COMP 1405 and MATH 1007 in the Fall, followed by COMP 1406, COMP 1805, and MATH 1104 in the Winter.
 
 **COMP 1405 must be taken in the Fall** since it’s a prerequisite for COMP 1406, which should be completed in the Winter.
