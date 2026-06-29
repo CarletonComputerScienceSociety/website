@@ -5,8 +5,8 @@
       <div class="home-section">
         <div class="home-events">
           {{ $today := time.AsTime (now.Format "2006-01-02") }}
-          {{ $paginator := .Paginate (where (where .Site.RegularPages "Section" "events") ".Date" "ge" $today).ByDate.Reverse 12 }}
-          {{ range $paginator.Pages }}
+          {{ $upcoming := (where (where .Site.RegularPages "Section" "events") ".Date" "ge" $today).ByDate.Reverse }}
+          {{ range $upcoming }}
             <a
               data-date="{{ .Date.Format "2006-01-02" }}"
               class="event_card_link hvr-float"
@@ -17,13 +17,18 @@
         </div>
 
         <div style="display: none" class="no-events-fallback">
-          <h2 id="title">There are currently no upcoming events.</h2>
-          <a href="/events">View all events</a>.
+          <div class="no-events-card">
+            <h2>No upcoming events right now</h2>
+            <p>
+              Check back soon, or take a look at everything we've run so far.
+            </p>
+            <a href="/events"
+              >{{- partial "button.html" (dict "label" "View all Events") -}}</a
+            >
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="see-more">{{- partial "paginator.html" . -}}</div>
   </div>
 
   <script>
@@ -41,7 +46,7 @@
       const events = document.querySelector(".home-events");
       const fallback = document.querySelector(".no-events-fallback");
 
-      if (events.children.length === 0) fallback.style.display = "block";
+      if (events.children.length === 0) fallback.style.display = "flex";
     });
   </script>
 {{ end }}

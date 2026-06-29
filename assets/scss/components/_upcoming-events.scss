@@ -1,12 +1,29 @@
 .no-events-fallback {
   min-height: 60vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  padding: 2rem 1rem;
 }
 
-.no-events-fallback a {
-  font-size: 1.25rem;
+.no-events-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 3rem 2.5rem;
+  max-width: 32rem;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.75rem;
+  }
+
+  p {
+    margin: 0 0 1.75rem;
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
 }
