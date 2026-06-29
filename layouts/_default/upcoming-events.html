@@ -1,0 +1,52 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="about-page page">
+    <div class="home-section-grid home-section-dark">
+      <div class="home-section">
+        <div class="home-events">
+          {{ $today := time.AsTime (now.Format "2006-01-02") }}
+          {{ $upcoming := (where (where .Site.RegularPages "Section" "events") ".Date" "ge" $today).ByDate.Reverse }}
+          {{ range $upcoming }}
+            <a
+              data-date="{{ .Date.Format "2006-01-02" }}"
+              class="event_card_link hvr-float"
+              href="{{ .RelPermalink }}"
+              >{{- partial "event_card.html" . -}}</a
+            >
+          {{ end }}
+        </div>
+
+        <div style="display: none" class="no-events-fallback">
+          <div class="no-events-card">
+            <h2>No upcoming events right now</h2>
+            <p>
+              Check back soon, or take a look at everything we've run so far.
+            </p>
+            <a href="/events"
+              >{{- partial "button.html" (dict "label" "View all Events") -}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+
+      document.querySelectorAll(".event_card_link").forEach((card) => {
+        const [year, month, day] = card.dataset.date.split("-").map(Number);
+        const date = new Date(year, month - 1, day);
+
+        if (today > date) card.remove();
+      });
+
+      const events = document.querySelector(".home-events");
+      const fallback = document.querySelector(".no-events-fallback");
+
+      if (events.children.length === 0) fallback.style.display = "flex";
+    });
+  </script>
+{{ end }}
