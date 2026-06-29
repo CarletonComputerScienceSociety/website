@@ -31,34 +31,42 @@
   <div class="jobuary-content" id="about">
     <h1>Week 1</h1>
     <div class="jobuary-events">
-      {{ range sort (where (.Site.Taxonomies.tags.jobuary2025) ".Params.tags" "intersect" (slice "week1")) "Date" }}
+      {{ range sort (where (index .Site.Taxonomies.tags .Params.jobuary_tag) ".Params.tags" "intersect" (slice "week1")) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
+        {{ else }}
+        <p>Coming Soon</p>
       {{ end }}
     </div>
     <h1>Week 2</h1>
     <div class="jobuary-events">
-      {{ range sort (where (.Site.Taxonomies.tags.jobuary2025) ".Params.tags" "intersect" (slice "week2")) "Date" }}
+      {{ range sort (where (index .Site.Taxonomies.tags .Params.jobuary_tag) ".Params.tags" "intersect" (slice "week2")) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
+        {{ else }}
+        <p>Coming Soon</p>
       {{ end }}
     </div>
     <h1>Week 3</h1>
     <div class="jobuary-events">
-      {{ range sort (where (.Site.Taxonomies.tags.jobuary2025) ".Params.tags" "intersect" (slice "week3")) "Date" }}
+      {{ range sort (where (index .Site.Taxonomies.tags .Params.jobuary_tag) ".Params.tags" "intersect" (slice "week3")) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
+        {{ else }}
+        <p>Coming Soon</p>
       {{ end }}
     </div>
     <h1>Week 4</h1>
     <div class="jobuary-events">
-      {{ range sort (where (.Site.Taxonomies.tags.jobuary2025) ".Params.tags" "intersect" (slice "week4")) "Date" }}
+      {{ range sort (where (index .Site.Taxonomies.tags .Params.jobuary_tag) ".Params.tags" "intersect" (slice "week4")) "Date" }}
         <a class="event_card_link hvr-float" href="{{ .RelPermalink }}"
           >{{- partial "event_card.html" . -}}</a
         >
+        {{ else }}
+        <p>Coming Soon</p>
       {{ end }}
     </div>
   </div>
