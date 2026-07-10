@@ -18,27 +18,23 @@
     <!-- First page. -->
     <!-- If we aren't on page 1 add a button to go to the first page -->
     {{ if ne $paginator.PageNumber 1 }}
-      <li class="pagination__item pagination__item--first">
-        <a
-          class="pagination__link pagination__link--first"
-          href="{{ $paginator.First.URL }}"
-        >
-          ««
-        </a>
-      </li>
+      <a
+        class="pagination__link pagination__link--first"
+        href="{{ $paginator.First.URL }}"
+      >
+        <li class="pagination__item pagination__item--first">««</li>
+      </a>
     {{ end }}
 
     <!-- Previous page. -->
     <!-- If a previous page exists, add a button to go to the previous page -->
     {{ if $paginator.HasPrev }}
-      <li class="pagination__item pagination__item--previous">
-        <a
-          href="{{ $paginator.Prev.URL }}"
-          class="pagination__link pagination__link--previous"
-        >
-          «
-        </a>
-      </li>
+      <a
+        href="{{ $paginator.Prev.URL }}"
+        class="pagination__link pagination__link--previous"
+      >
+        <li class="pagination__item pagination__item--previous">«</li>
+      </a>
     {{ end }}
 
     <!-- Page numbers. -->
@@ -80,38 +76,34 @@
 
       <!-- Output page numbers. -->
       {{ if eq ($.Scratch.Get "page_number_flag") true }}
-        <li
-          class="pagination__item{{ if eq . $paginator }} pagination__item--current{{ end }}"
-        >
-          <a href="{{ .URL }}" class="pagination__link">
+        <a href="{{ .URL }}" class="pagination__link">
+          <li
+            class="pagination__item{{ if eq . $paginator }} pagination__item--current{{ end }}"
+          >
             {{ .PageNumber }}
-          </a>
-        </li>
+          </li>
+        </a>
       {{ end }}
     {{ end }}
 
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
-      <li class="pagination__item pagination__item--next">
-        <a
-          href="{{ $paginator.Next.URL }}"
-          class="pagination__link pagination__link--next"
-        >
-          »
-        </a>
-      </li>
+      <a
+        href="{{ $paginator.Next.URL }}"
+        class="pagination__link pagination__link--next"
+      >
+        <li class="pagination__item pagination__item--next">»</li>
+      </a>
     {{ end }}
 
     <!-- Last page. -->
     {{ if ne $paginator.PageNumber $paginator.TotalPages }}
-      <li class="pagination__item pagination__item--last">
-        <a
-          class="pagination__link pagination__link--last"
-          href="{{ $paginator.Last.URL }}"
-        >
-          »»
-        </a>
-      </li>
+      <a
+        class="pagination__link pagination__link--last"
+        href="{{ $paginator.Last.URL }}"
+      >
+        <li class="pagination__item pagination__item--last">»»</li>
+      </a>
     {{ end }}
   </ul>
   <!-- .pagination -->
