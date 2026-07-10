@@ -7,7 +7,7 @@ preview: "images/blog/2022-2023/autumn-of-rust.jpeg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "An intro to the Autumn Rust course"
 hideBanner: false
-featured: true
+featured: false
 author: Forest Anderson
 categories:
 - news
