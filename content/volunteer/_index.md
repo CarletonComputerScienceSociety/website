@@ -10,27 +10,27 @@ layout: volunteer
 
 <h1>Getting Involved</h1>
 
-We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/pcZDc6MnPmd6X3tZ6).
+We're thrilled that you're considering volunteering with the Carleton Computer Science Society! The best way to get involved and stay up to date is to join our [volunteer mailing list](https://forms.gle/tQCXzB8Nsd7zLza8A).
 
-Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [bod@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in progress work, and stay up to date with all our upcoming initatives.
+Additionally, our team works out of a Discord workspace that all students are welcome to join upon asking via [bod@ccss.carleton.ca](#email) or asking any member of our leadership team. By joining our workspace, you gain access to our meeting schedule, can provide feedback on any in-progress work, and stay up to date with all our upcoming initiatives.
 
 We understand that university life can be hectic, so we've tailored our volunteer program to offer flexibility. Whether you prefer to contribute at your own pace, help out during events, or take on a leadership role, we have something for everyone.
 
 <br/>
 <hr/>
 
-## Fall 2025 Open Positions
+## Fall 2026 Open Positions
 
-We are currently looking for the following roles for the Fall 2025 semester.
+We are currently looking for the following roles for the Fall 2026 semester.
 
 ### 🌟 First Year Representatives
 
-We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the  [Fall 2025 Nomination Form](https://forms.gle/1zSHkwBnyRfU7JVf7).
+We are currently looking for two (2) First Year Representatives! To nominate yourself as First Year Representative, please complete the [Fall 2026 Nomination Form](https://forms.gle/CoeK4vGMy8e1AwaW9). **Nominations are open until 11:59 PM EST on September 20th, 2026.**
 
 ### 📋 Coordinator Positions
 We are currently looking for a Merchandise Coordinator 👕 
 
-To apply to be a coordinator, please complete the [Fall 2025 Application Form](https://forms.gle/iD9DAEtLbyn3YK7R6).
+To apply to be a coordinator, please complete the [Fall 2026 Application Form](https://forms.gle/S6W1ENfQPbnNibrW8).
 
 <br>
 <hr>
@@ -61,26 +61,26 @@ While we don’t have any active projects right now, you can sign up to be notif
 
 ## On-Call Volunteering
 
-For the following roles, we will reach out to our volunteer mailing list and Discord Workspace as needed. These roles require volunteers to commit to attending a specific time and location.
+For the following roles, we will reach out to our volunteer mailing list and Discord workspace as needed. These roles require volunteers to commit to attending a specific time and location.
 
 ### 📅 "Day Of" Events Volunteer
 
-Help ensure the success of our events by assisting with setup, cleanup, event registration, and any other tasks that may arise. We commonly need volunteers for large events like hackathons, our End Of Year BBQ, and more.
+Help ensure the success of our events by assisting with setup, cleanup, event registration, and any other tasks that may arise. We commonly need volunteers for large events like hackathons, our End of Year BBQ, and more.
 
 ### 📷 Photographers
 
-Capture the energy and excitement of our events by taking photos that will be shared on our social media channels and website. Photographer volunteers preferably should own their own camera.
+Capture the energy and excitement of our events by taking photos that will be shared on our social media channels and website. Photographer volunteers should preferably own their own camera.
 
 ### 🗣️ Talk / Workshop Presenter
 
-We often run tech talk and workshop events, if you enjoy presenting and would like to be contacted when we are looking for presenters, add this option when joining our mailling list.
+We often run tech talk and workshop events. If you enjoy presenting and would like to be contacted when we are looking for presenters, add this option when joining our mailing list.
 
 <br/>
 <hr/>
 
 ## Proposal-Based Volunteering
 
-For the following roles, you can submit a proposal and contribute in a way that fits your interests. All proposal-based initatives must be overseen by atleast one leadership team member.
+For the following roles, you can submit a proposal and contribute in a way that fits your interests. All proposal-based initiatives must be overseen by at least one leadership team member.
 
 #### 👉 Submit your ideas through our [Volunteer Proposals Form](https://forms.gle/mUNp93kQgRR4kkQ6A)
 
@@ -101,7 +101,7 @@ We’re always excited to feature student speakers! We also welcome past TAs and
 
 ## Recurring Volunteer Roles
 
-These roles involve commiting to helping weekly or biweekly for likely 1-2 hours.
+These roles involve committing to helping weekly for likely 1-3 hours.
 
 ### 🗄️ Lounge Office Volunteer
 
@@ -131,7 +131,7 @@ Coordinate with our leadership team to delegate tasks to volunteers, document co
 
 ## Leadership Team Positions
 
-For those who those interested in being involved for the entire year and are interesting in molding the direction of the organization, these roles are perfect for you.
+For those who are interested in being involved for the entire year and in shaping the direction of the organization, these roles are perfect for you.
 
 ### 📢 Director Positions
 
@@ -139,6 +139,6 @@ Join the [Board of Directors](../about/team/) and help steer the direction of th
 
 ### 🌟 First-Year Representatives
 
-Represent the interests of first-year students on the CCSS Board of Directors. We elect two (2) first year representatives each September.
+Represent the interests of first-year students on the CCSS Board of Directors. We elect two (2) first-year representatives each September.
 
 <br/>
