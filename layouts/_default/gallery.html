@@ -1,0 +1,41 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="gallery-page page">
+    <div class="home-section-grid home-section-dark">
+      <div class="home-section">
+
+        <div class="gallery-collections">
+          {{ range .Pages }}
+            {{ $page := . }}
+            {{ $images := .Resources.Match "*.{jpg,jpeg,png,webp}" }}
+            {{ $cover := .Resources.GetMatch "cover.*" }}
+            {{ if not $cover }}
+              {{ $cover = index $images 0 }}
+            {{ end }}
+            {{ with $cover }}
+              {{ $thumb := $cover.Fill "500x500 webp q85" }}
+              <a class="gallery-card" href="{{ $page.RelPermalink }}">
+                <img
+                  src="{{ $thumb.RelPermalink }}"
+                  width="{{ $thumb.Width }}"
+                  height="{{ $thumb.Height }}"
+                  loading="lazy"
+                  alt="{{ $page.Title }}"
+                />
+                <div class="gallery-card-title">{{ $page.Title }}</div>
+                <div class="gallery-card-count">{{ len $images }} photos</div>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+
+        {{ $loosePhotos := .Resources.Match "*.{jpg,jpeg,png,webp}" }}
+        {{ with $loosePhotos }}
+          <h2>Latest Photos</h2>
+          {{- partial "gallery-photo-grid.html" (dict "images" .) -}}
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+{{ end }}
