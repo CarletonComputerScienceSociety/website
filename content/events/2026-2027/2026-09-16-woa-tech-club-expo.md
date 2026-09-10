@@ -30,6 +30,8 @@ Featuring:
 - [cuHacking](https://cuhacking.ca/)
 
 - [CU InSpace](https://www.cuinspace.ca/)
+  
+- [Carleton AI Society](https://carletonai.com/)
 
 - [CU Math and Stat Society](https://cumathsoc.ca/)
 
