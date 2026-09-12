@@ -2,7 +2,7 @@
 display_title: "Vincent Massey Picnic"
 title: "Vincent Massey Picnic"
 date: 2026-09-13T00:00:00Z
-draft: false
+draft: true
 layout: event
 poster: "/images/event_posters/2026-2027/woa-vincent-massey-picnic.png"
 poster_cover: "contain"
