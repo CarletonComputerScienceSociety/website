@@ -16,3 +16,5 @@ publishdate: 2026-09-03
 tags:
 - weekofawesome2026
 ---
+
+**[Link to Slides](https://docs.google.com/presentation/d/1DQPKzGlR38iue5_dPdPMGZFb1teEOL93dP7mfvYV_T4/edit?usp=sharing)**
