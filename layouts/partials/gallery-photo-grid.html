@@ -1,0 +1,16 @@
+{{ $images := .images }}
+<div class="photo-grid">
+  {{ range $images }}
+    {{ $thumb := .Fill "500x500 webp q85" }}
+    {{ $full := .Resize "1600x webp q82" }}
+    <a href="{{ $full.RelPermalink }}">
+      <img
+        src="{{ $thumb.RelPermalink }}"
+        width="{{ $thumb.Width }}"
+        height="{{ $thumb.Height }}"
+        loading="lazy"
+        alt="{{ .Name }}"
+      />
+    </a>
+  {{ end }}
+</div>

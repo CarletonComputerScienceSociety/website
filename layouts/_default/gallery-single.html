@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{- partial "navbar_temp.html" . -}}
+  <div class="gallery-single-page page">
+    <div class="home-section-grid home-section-dark">
+      <div class="home-section">
+
+        <h1>{{ .Title }}</h1>
+
+        {{ $images := .Resources.Match "*.{jpg,jpeg,png,webp}" }}
+        {{- partial "gallery-photo-grid.html" (dict "images" $images) -}}
+
+        <a href="/gallery">Back to Gallery</a>
+
+      </div>
+    </div>
+  </div>
+{{ end }}
