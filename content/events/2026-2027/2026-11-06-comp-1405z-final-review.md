@@ -14,3 +14,4 @@ location_link: "https://carleton.ca/campus-map/#HP"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-11-02
 ---
+Recording Link --> [YouTube](https://youtu.be/j4o2cK7FlFI?si=bRU0grRsIExIw6ir)
