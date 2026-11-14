@@ -8,6 +8,8 @@ on:
 
 jobs:
   deploy:
+    # Skip PR runs triggered by the image compression bot's commits; always deploy pushes to master
+    if: github.event_name != 'pull_request' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

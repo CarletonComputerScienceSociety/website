@@ -5,6 +5,7 @@ on:
 
 jobs:
   build_preview:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v3
