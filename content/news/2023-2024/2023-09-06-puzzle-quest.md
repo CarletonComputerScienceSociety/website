@@ -7,7 +7,7 @@ preview: "images/event_posters/2023-2024/puzzle_quest.jpg"
 background: "images/orientation2018-min.jpeg"
 excerpt: "Instructions for the CCSS Puzzle Quest"
 hideBanner: false
-featured: true
+featured: false
 author: Victor Li
 categories:
 - news
