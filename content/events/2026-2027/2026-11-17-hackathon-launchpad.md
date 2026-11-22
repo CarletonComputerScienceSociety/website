@@ -14,3 +14,4 @@ location_link: "https://carleton.ca/campus-map/#HP"
 background: "images/orientation2018-min.jpeg"
 publishdate: 2026-11-14
 ---
+Find the event summary, project inspiration, and upcoming hackathons [here](https://docs.google.com/document/d/1BsRi9JCIpHlgkE6HgWWCs4jxKZgGy4iJns4SZ-idXJg/edit?tab=t.0#heading=h.496dtabklfpg).
