@@ -13,6 +13,7 @@ jobs:
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.170.1'
+        dart-sass-version: '1.108.2'
         extended: true
 
     - name: Setup base URL env var
