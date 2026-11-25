@@ -1,14 +1,20 @@
 {{ define "main" }}
   {{- partial "navbar_temp.html" . -}}
   <div class="not-found-page">
-    <h1>404 Not Found</h1>
-    <p>
-      You have reached a page which does not exist. It may have been deleted, or
-      never existed in the first place.
-    </p>
-    <p>
-      You may wish to navigate to the <a href="/">home page</a> to get your
-      bearings.
-    </p>
+    <div class="home-section-grid home-section-dark page-heading">
+      <div class="home-section">
+        <h1 class="page-section-text">404 Not Found</h1>
+        <div class="page-section-body">
+          <p>
+            You have reached a page which does not exist. It may have been
+            deleted, or never existed in the first place.
+          </p>
+          <p>
+            You may wish to navigate to the <a href="/">home page</a> to get
+            your bearings.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 {{ end }}
