@@ -5,14 +5,15 @@ on:
 
 jobs:
   build_preview:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.128.0'
+        hugo-version: '0.170.1'
+        dart-sass-version: '1.108.2'
         extended: true
 
     - name: Setup base URL env var
