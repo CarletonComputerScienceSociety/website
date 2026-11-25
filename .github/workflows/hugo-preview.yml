@@ -7,10 +7,10 @@ jobs:
   build_preview:
     runs-on: ubuntu-26.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.128.0'
         extended: true
